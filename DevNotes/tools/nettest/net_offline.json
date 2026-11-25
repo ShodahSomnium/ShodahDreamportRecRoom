@@ -1,0 +1,8 @@
+{"name": "net_offline", "boot_timeout": 240,
+ "steps": [
+  {"log": "net offline self-test"},
+  {"wait": 2},
+  {"call": "SomniumSpace.Worlds.SomniumRecRoom.Net.RrNetSelfTest.Run"},
+  {"expect_log": "Net self-test: all", "timeout": 10},
+  {"wait": 1}
+ ]}

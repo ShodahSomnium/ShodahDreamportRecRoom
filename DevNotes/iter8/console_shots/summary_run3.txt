@@ -1,0 +1,358 @@
+RrScenario 'console_test'  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\scenarios\console_test.json
+started 2026-09-25 00:24:06, total 24.1 s; Unity 6000.3.5f2, Direct3D11 'NVIDIA GeForce RTX 3080 Ti', rp UniversalRender, Linear
+environment: RrSceneSetup.BuildEnvironment (the world scene's light, Arrival floor and render settings)
+output: C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test
+
+== Result: booted; 0 step failure(s), 0 skipped, of 32
+
+== Timings
+  RrMain.Ready: +0.78 s
+  +   0.07 s  first Main: Iteration 7 (2026-09-24): Paintball rebuilt from Rec Room's own levels: the 2025 lobby and all 7 final maps
+  +   0.07 s  first Status: Iteration 7 (2026-09-24) - starting...
+  +   0.07 s  first Access: editor: the whitelist (1 name(s)) is not applied
+  +   0.69 s  first Look: maker-pen material from the bundles (AG/MakerPenShape)
+  +   0.70 s  first Text: title font legacy_FUTURA-T-OT-BOLD-CONDENSED (rr), body font Jost-500-Medium (rr)
+  +   0.71 s  first Player: view camera 'Harness Camera' (Camera.main)
+  +   0.71 s  first Net: started (waiting for the room; offline until then)
+  +   0.71 s  first Grab: ready: VR reach 0.12 m, screen reach 2.5 m, held props kinematic + triggers, layer 7 excluded
+  +   0.73 s  first Watch: started (desktop: H opens the menu, Backspace goes back)
+  +   0.73 s  first Travel: in the arrival room, waiting for the network (up to 15 s)
+  +   0.74 s  first Hand: screen mode: right hand = virtual hand at (0.220, -0.200, 0.450) m in the view of camera 'Harness Camera' (ScreenFirstPerson); left hand unused
+  +   0.76 s  first Isolation: up: players not in your place are hidden (after 0.5 s apart, shown after 0.35 s together; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 1 scene(s) 0.87 ms, 0 avatar/item root(s)
+  +   0.80 s  first Loading: card built (screen overlay, sorting 900)
+  +   1.74 s  first Portal: door template from (Charades_InkSpace_MainHull_Sandbox)Variant/[ActivityDoor]: 9 renderers, 729 ms
+  +   1.79 s  first Dodgeball: court physics: DodgeballCourt_phys (0.6 / 0.6 / bounce 0.6, Average) on 24 gym colliders; barriers 0.5 m high at z +-8.9, 10 m wide
+  +   3.85 s  first Tools: hold poses: (DodgeballBall) uses the full-body pose (right (-0.108, 0.006, 0.010) (0.0, 0.0, 0.0)) - the tool's pose in Rec Room's hand frame (logged once per kind)
+  +   3.88 s  first Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +   3.93 s  first PostFx: built the "Rr Post" Volume (global, priority 100, layer 0, its own runtime profile; the client's default profile has no tonemapping and no bloom, so Rec Room's grading is ours to add)
+  +   3.93 s  first Env: the sun is the world scene's 'Directional Light': colour RGBA(1.000, 0.957, 0.894, 1.000), intensity 1.3, shadows Soft
+  +   3.96 s  first Combat: started (friendly fire off, local id 0)
+  +   4.34 s  first HitVolumes: 3 player volume set(s) (1 member(s) in this instance, 2 target(s))
+  +  10.13 s  first Heartbeat: bundles open 81, assets loaded 156 (156 loads, 51 found resident), failed 0, repeated warnings 0, fps 1645
+  +  13.46 s  first Assets: 368 of 2787 bundles hold audio, video, shaders or fonts and stay open once opened
+  +  13.51 s  first Materials: shader not supported here, using URP Lit: Hidden/InternalErrorShader
+  +  13.55 s  first Paddleball: court built: tube 3 x 3 x 12 m, 4 paddles ((Paddleball_Paddle)), ball (TennisBall) r 0.1 m, zero gravity, first to 5
+  +  18.32 s  first Charades: building The Ink Space at (0.00, 0.00, 0.00)
+  longest frame of the run: 411.6 ms
+
+== Steps
+  #1 goto Dodgeball -> ok (3704 ms, 3667 frames, max frame 411.6 ms)
+      arrived in 3.7 s
+  #2 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Arrival -> ok (2624 ms, 2 frames, max frame 45.2 ms)
+      coroutine finished
+  #3 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Report -> ok (2001 ms, 2 frames, max frame 2.1 ms)
+      coroutine finished
+  #4 shot console_showcase -> ok (71 ms, 2 frames, max frame 70.9 ms)
+      room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase.png rendered in 33.5 ms; mean luma 86, sd 59
+  #5 shot console_showcase_close -> ok (32 ms, 2 frames, max frame 31.6 ms)
+      room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase_close.png rendered in 2.5 ms; mean luma 131, sd 57
+  #6 shot console_dodgeball_arrival -> ok (30 ms, 2 frames, max frame 29.8 ms)
+      room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_arrival.png rendered in 3.2 ms; mean luma 57, sd 47
+  #7 shot console_dodgeball_wide -> ok (69 ms, 2 frames, max frame 69.5 ms)
+      room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_wide.png rendered in 2.0 ms; mean luma 57, sd 45
+  #8 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressModeAndMap -> ok (4 ms, 2 frames, max frame 4.6 ms)
+      coroutine finished
+  #9 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressStart -> ok (1200 ms, 2 frames, max frame 1.4 ms)
+      coroutine finished
+  #10 wait 1 -> ok (1001 ms, 1606 frames, max frame 1.6 ms)
+  #11 shot console_showcase_teams -> ok (31 ms, 2 frames, max frame 30.7 ms)
+      room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase_teams.png rendered in 2.9 ms; mean luma 82, sd 55
+  #12 shot console_dodgeball_practice -> ok (28 ms, 2 frames, max frame 28.0 ms)
+      room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_practice.png rendered in 1.6 ms; mean luma 56, sd 46
+  #13 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.CloseArrival -> ok (1500 ms, 2 frames, max frame 1.0 ms)
+      coroutine finished
+  #14 goto Paddleball -> ok (2801 ms, 4134 frames, max frame 56.4 ms)
+      arrived in 2.8 s
+  #15 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Report -> ok (2000 ms, 2 frames, max frame 1.2 ms)
+      coroutine finished
+  #16 shot console_paddleball_arrival -> ok (34 ms, 2 frames, max frame 34.1 ms)
+      room frame (Paddleball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_paddleball_arrival.png rendered in 3.3 ms; mean luma 51, sd 54
+  #17 shot console_paddleball_wide -> ok (32 ms, 2 frames, max frame 32.0 ms)
+      room frame (Paddleball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_paddleball_wide.png rendered in 2.4 ms; mean luma 46, sd 46
+  #18 goto Charades -> ok (2802 ms, 4038 frames, max frame 77.3 ms)
+      arrived in 2.8 s
+  #19 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Report -> ok (2000 ms, 2 frames, max frame 1.5 ms)
+      coroutine finished
+  #20 shot console_charades_arrival -> ok (43 ms, 2 frames, max frame 43.4 ms)
+      room frame (Charades origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival.png rendered in 4.6 ms; mean luma 46, sd 51
+  #21 shot console_charades_arrival_left -> ok (45 ms, 2 frames, max frame 44.6 ms)
+      room frame (Charades origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival_left.png rendered in 1.8 ms; mean luma 32, sd 34
+  #22 shot console_charades_arrival_right -> ok (46 ms, 2 frames, max frame 46.3 ms)
+      room frame (Charades origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival_right.png rendered in 1.7 ms; mean luma 41, sd 47
+  #23 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressModeAndMap -> ok (3 ms, 2 frames, max frame 3.4 ms)
+      coroutine finished
+  #24 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressStart -> ok (1201 ms, 2 frames, max frame 1.2 ms)
+      coroutine finished
+  #25 expect_log Console: fonts: -> ok (1 ms, 1 frames, max frame 2.4 ms)
+      seen at +3.88 s: [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  #26 expect_log ConsoleTest: arrival -> ok (0 ms, 1 frames, max frame 1.9 ms)
+      seen at +7.11 s: [SomniumRecRoom] Console: ConsoleTest: arrival Paintball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-0.01, 2.52, 2.46)), up 1.00, reads +Z 1.00, players 4 (rows 4), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'CAPTURE THE FLAG'
+  #27 expect_log Rec Room's hologram: -> ok (0 ms, 1 frames, max frame 1.7 ms)
+      seen at +5.92 s: [SomniumRecRoom] Console: Rec Room's hologram: projected panel 4.36 x 3.27 m, centre (0.01, 2.52, 0.54) (marker-local), up 1.00, reads toward +Z 1.00, view root scale (0.3914, 0.3918, 0.3918), opened in 1.5 s
+  #28 expect_log ConsoleTest: arrival START callback 1 -> ok (0 ms, 1 frames, max frame 1.6 ms)
+      seen at +9.33 s: [SomniumRecRoom] Console: ConsoleTest: arrival START callback 1 by 0
+  #29 expect_log Dodgeball: start pressed -> ok (0 ms, 1 frames, max frame 1.6 ms)
+      seen at +9.33 s: [SomniumRecRoom] Dodgeball: start pressed
+  #30 expect_log ConsoleTest: after START Dodgeball -> ok (0 ms, 1 frames, max frame 1.3 ms)
+      seen at +10.53 s: [SomniumRecRoom] Console: ConsoleTest: after START Dodgeball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (5.84, 2.52, -8.67)), up 1.00, reads +Z 1.00, players 1 (rows 3), START 'STARTING' greyed, status '1 MORE PLAYER NEEDED', subtitle 'GET READY'
+  #31 expect_log Charades: game hologram at -> ok (1 ms, 1 frames, max frame 1.9 ms)
+      seen at +18.68 s: [SomniumRecRoom] Charades: game hologram at (-1.00, 0.64, 0.50), yaw 307: spot (-1.00, 0.64, 0.50) (candidate 8 of 315; before it 1 met walls (first: the hologram meets Collision/Post (7)), 6 out of sight, 0 refused)
+  #32 expect_log Charades: player 0 starts Team Lightning -> ok (1 ms, 1 frames, max frame 1.7 ms)
+      seen at +22.91 s: [SomniumRecRoom] Charades: player 0 starts Team Lightning (4 x 90 s, 45 s per performer)
+
+== PNG (11)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase.png  (1280x720, mean luma 86, sd 59)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase_close.png  (1280x720, mean luma 131, sd 57)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_arrival.png  (1280x720, mean luma 57, sd 47)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_wide.png  (1280x720, mean luma 57, sd 45)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase_teams.png  (1280x720, mean luma 82, sd 55)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_practice.png  (1280x720, mean luma 56, sd 46)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_paddleball_arrival.png  (1280x720, mean luma 51, sd 54)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_paddleball_wide.png  (1280x720, mean luma 46, sd 46)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival.png  (1280x720, mean luma 46, sd 51)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival_left.png  (1280x720, mean luma 32, sd 34)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival_right.png  (1280x720, mean luma 41, sd 47)
+
+== Systems
+  assets: bundles open 85, assets loaded 28 (185 loads, 59 found resident), failed 0, bundles unloaded on leaving rooms 4
+  materials checked 125, queue fixes 56, shader swaps 1; spawned 26
+
+== Errors and exceptions (2)
+  +3.97 s Error: Host type is not matching any asset type at Path Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph.
+      UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper:Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes (bool&)
+  +3.97 s Error: Host type is not matching any asset type at Path Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader.
+      UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper:Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes (bool&)
+
+== Other warnings (not [SomniumRecRoom]): 5417 'referenced script is missing' (Rec Room's inert scripts, expected) + 43 others, first 25 distinct:
+  (x3) Please remove the CanvasRenderer component from the [Text] GameObject as this component is no longer necessary.
+  (x40) BoxCollider does not support negative scale or size.
+
+== [SomniumRecRoom] log (162 lines, with [RrHarness] markers)
+  +   0.00   [RrHarness] scenario C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\scenarios\console_test.json -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test
+  +   0.07   [SomniumRecRoom] Main: Iteration 7 (2026-09-24): Paintball rebuilt from Rec Room's own levels: the 2025 lobby and all 7 final maps
+  +   0.07   [SomniumRecRoom] Main: starting; worker threaded, Unity 6000.3.5f2
+  +   0.07   [SomniumRecRoom] Status: Iteration 7 (2026-09-24) - starting...
+  +   0.07   [SomniumRecRoom] Access: editor: the whitelist (1 name(s)) is not applied
+  +   0.14   [SomniumRecRoom] Status: Iteration 7 (2026-09-24) - looking for Rec Room...
+  +   0.15   [SomniumRecRoom] Main: Rec Room at E:\SteamLibrary\steamapps\common\RecRoom
+  +   0.15   [SomniumRecRoom] Status: Reading Rec Room...
+  +   0.29   [SomniumRecRoom] Main: catalog: 2787 bundles, 24564 entries from cache in 78 ms
+  +   0.29   [SomniumRecRoom] Status: Starting...
+  +   0.69   [SomniumRecRoom] Look: maker-pen material from the bundles (AG/MakerPenShape)
+  +   0.70   [SomniumRecRoom] Text: title font legacy_FUTURA-T-OT-BOLD-CONDENSED (rr), body font Jost-500-Medium (rr)
+  +   0.71   [SomniumRecRoom] Player: view camera 'Harness Camera' (Camera.main)
+  +   0.71   [SomniumRecRoom] Player: up: desktop, client absent, camera 'Harness Camera'
+  +   0.71   [SomniumRecRoom] Net: started (waiting for the room; offline until then)
+  +   0.71   [SomniumRecRoom] Grab: ready: VR reach 0.12 m, screen reach 2.5 m, held props kinematic + triggers, layer 7 excluded
+  +   0.73   [SomniumRecRoom] Watch: started (desktop: H opens the menu, Backspace goes back)
+  +   0.73   [SomniumRecRoom] Travel: in the arrival room, waiting for the network (up to 15 s)
+  +   0.73   [SomniumRecRoom] Status: Joining the room...
+  +   0.74   [SomniumRecRoom] Hand: screen mode: right hand = virtual hand at (0.220, -0.200, 0.450) m in the view of camera 'Harness Camera' (ScreenFirstPerson); left hand unused
+  +   0.76   [SomniumRecRoom] Isolation: up: players not in your place are hidden (after 0.5 s apart, shown after 0.35 s together; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 1 scene(s) 0.87 ms, 0 avatar/item root(s)
+  +   0.78   [SomniumRecRoom] Grab: screen mode: aim within 2.5 m, grab/use/throw from RrInput
+  +   0.78   [RrHarness] RrMain.Ready after 0.8 s
+  +   0.78   [RrHarness] step 1 goto Dodgeball
+  +   0.78   [SomniumRecRoom] Travel: trip 1: arrival room -> Dodgeball
+  +   0.78   [SomniumRecRoom] Player: movement x0, no jump
+  +   0.80   [SomniumRecRoom] Loading: card built (screen overlay, sorting 900)
+  +   1.01   [SomniumRecRoom] Travel: arrival room: "Arrival" at (0, -0.3, 0) with 1 renderers and 1 colliders
+  +   1.01   [SomniumRecRoom] Travel: building Dodgeball #0 at (0, 0, 0) (offline instance object 6)
+  +   1.22   [SomniumRecRoom] Player: no Somnium client after 0.5 s (editor): making the fallback rig
+  +   1.22   [SomniumRecRoom] Player: fallback rig at (0.000, 0.000, -3.000) yaw 0 (placed by camera 'Harness Camera'), driving camera 'Harness Camera'; WASD walk, Shift run, Space jump, right mouse look
+  +   1.24   [SomniumRecRoom] Watch: fonts: body Roboto-Regular (watch), headings Jost-500-Medium (rr)
+  +   1.41   [SomniumRecRoom] Watch: menu built: 6 pages, 205 graphics, 640 ms (layout desktop)
+  +   1.74   [SomniumRecRoom] Portal: door template from (Charades_InkSpace_MainHull_Sandbox)Variant/[ActivityDoor]: 9 renderers, 729 ms
+  +   1.74   [SomniumRecRoom] Portal: recolourable frame material ActivityDoor_Recolorable_Mat (AG/Standard-Opaque)
+  +   1.75   [SomniumRecRoom] Watch: wrist watch: mesh Wrist_Watch (1163 verts), material Watch_Wrist_mat (AG/Avatar)
+  +   1.79   [SomniumRecRoom] Dodgeball: court physics: DodgeballCourt_phys (0.6 / 0.6 / bounce 0.6, Average) on 24 gym colliders; barriers 0.5 m high at z +-8.9, 10 m wide
+  +   1.79 W [SomniumRecRoom] Portal: the door glow's material has no _TintColor: glow off
+  +   3.85   [SomniumRecRoom] Tools: hold poses: (DodgeballBall) uses the full-body pose (right (-0.108, 0.006, 0.010) (0.0, 0.0, 0.0)) - the tool's pose in Rec Room's hand frame (logged once per kind)
+  +   3.86   [SomniumRecRoom] Tools: screen hand: (DodgeballBall) from its IdleAnimation (bundle): (0.221, -0.092, 0.338) in the view, (337.6, 50.1, 293.5) (logged once per source)
+  +   3.87   [SomniumRecRoom] Tools: (DodgeballBall): grip (full-body), throw x1 max 15 m/s, 3 hover renderers, screen ThrowDodgeballToolBehaviorConfig 14 m/s + CollisionSound(1) + AnimateInOut + Respawnable
+  +   3.87   [SomniumRecRoom] Dodgeball: ball collider SphereCollider material DodgeballBall_phys: friction 0.6 / 0.6 (Maximum), bounce 0.6 (Minimum)
+  +   3.88   [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +   3.92   [SomniumRecRoom] Dodgeball: gym built: court 9 x 16 m, 3 balls ((DodgeballBall), screen throw 14 m/s at any charge / 15 m/s max), first to 3 rounds, final rules: catch = dead ball, catch outs thrower False
+  +   3.92   [SomniumRecRoom] Travel: built Dodgeball in 2909 ms
+  +   3.92   [SomniumRecRoom] Travel: Dodgeball: lowest floor y = -0.2 (24 environment colliders); a player 10 m below it is put back
+  +   3.92   [SomniumRecRoom] Player: teleport to (-1.800, 0.050, -9.700) yaw 80 (fallback rig)
+  +   3.92   [SomniumRecRoom] Travel: arrival room hidden, colliders off (in Dodgeball)
+  +   3.92   [SomniumRecRoom] Player: movement x1
+  +   3.93   [SomniumRecRoom] PostFx: built the "Rr Post" Volume (global, priority 100, layer 0, its own runtime profile; the client's default profile has no tonemapping and no bloom, so Rec Room's grading is ours to add)
+  +   3.93   [SomniumRecRoom] PostFx: Dodgeball: APPPLESARCHIVE-Testing-PostProcessingProfile (REF2 .unity files/APPPLESARCHIVE/APPPLESARCHIVE-Testing-PostProcessingProfile.asset): Bloom threshold 1.04 intensity 0.15 scatter 0.6 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.1 contrast 10; LiftGammaGain lift (0.922,0.942,1,0) gamma (1,0.982,0.96,0) gain (1,0.99,0.956,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +   3.93   [SomniumRecRoom] Env: the sun is the world scene's 'Directional Light': colour RGBA(1.000, 0.957, 0.894, 1.000), intensity 1.3, shadows Soft
+  +   3.94   [SomniumRecRoom] Env: Rec Room lighting table: 69 scenes
+  +   3.94   [SomniumRecRoom] Env: applied Dodgeball (apk level11): sun #FFC6BE x3.45 Soft shadows 0.84 at (22, 12, 6), ambient Trilight #423636/#1D2022/#0C0B09, fog Linear #FA7585 5-200 m, reflections x0.65, sky gradient #795CA7/#FA7585/#DAB99F, 22 realtime lights (0 with shadows); sky unchanged (no sky material yet)
+  +   3.95   [SomniumRecRoom] Env: Dodgeball: realtime reflection probe rendered once at (-1.8, 1.6, -9.7) over (200, 80, 200) m (Environment layer, 128 px, faces over frames), intensity 0.65
+  +   3.95   [SomniumRecRoom] Env: Dodgeball: default Dodgeball, 0 kit scene(s) registered; applied Dodgeball (apk level11): sun #FFC6BE x3.45 Soft shadows 0.84 at (22, 12, 6), ambient Trilight #423636/#1D2022/#0C0B09, fog Linear #FA7585 5-200 m, reflections x0.65, sky gradient #795CA7/#FA7585/#DAB99F, 22 realtime lights (0 with shadows)
+  +   3.96   [SomniumRecRoom] Combat: started (friendly fire off, local id 0)
+  +   3.96   [SomniumRecRoom] Travel: census at Dodgeball (visit 1): 1 room, nothing outside it; room Dodgeball at (0, 0, 0), feet (-1.8, 0.1, -9.7), arrival hidden, world root 672 objects (327 in the room, 345 outside), scene roots 8, memory 539.7 MB (managed 416.5 MB), bundles open 78, assets loaded 144 (151 loads, 44 found resident), failed 0
+  +   4.34   [SomniumRecRoom] HitVolumes: 3 player volume set(s) (1 member(s) in this instance, 2 target(s))
+  +   4.34   [SomniumRecRoom] Dodgeball: phase 255 -> Lobby (round 1, blue 0 - red 0)
+  +   4.35   [SomniumRecRoom] Env: sky material ready: a copy of the install's ComfortModeSkybox (AG/Skybox/Simple Gradient, supported True)
+  +   4.35   [SomniumRecRoom] Env: applied Dodgeball (apk level11): sun #FFC6BE x3.45 Soft shadows 0.84 at (22, 12, 6), ambient Trilight #423636/#1D2022/#0C0B09, fog Linear #FA7585 5-200 m, reflections x0.65, sky gradient #795CA7/#FA7585/#DAB99F, 22 realtime lights (0 with shadows); sky material AG/Skybox/Simple Gradient
+  +   4.40   [SomniumRecRoom] Console: game console: Rec Room's (ScoreboardProjector) carries the panel; opens within 20 m
+  +   4.48   [SomniumRecRoom] Travel: arrived in Dodgeball #0 at (0, 0, 0), spawn 0 after 3.70 s
+  +   4.48   [RrHarness] step 1 ok (3704 ms) arrived in 3.7 s
+  +   4.48   [RrHarness] step 2 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Arrival
+  +   5.92   [SomniumRecRoom] Console: Rec Room's hologram: projected panel 4.36 x 3.27 m, centre (0.01, 2.52, 0.54) (marker-local), up 1.00, reads toward +Z 1.00, view root scale (0.3914, 0.3918, 0.3918), opened in 1.5 s
+  +   7.11   [SomniumRecRoom] Console: ConsoleTest: arrival Paintball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-0.01, 2.52, 2.46)), up 1.00, reads +Z 1.00, players 4 (rows 4), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'CAPTURE THE FLAG'
+  +   7.11   [RrHarness] step 2 ok (2624 ms) coroutine finished
+  +   7.11   [RrHarness] step 3 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Report
+  +   9.11   [SomniumRecRoom] Console: ConsoleTest: 2 console(s)
+  +   9.11   [SomniumRecRoom] Console: ConsoleTest: report Dodgeball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (5.84, 2.52, -8.67)), up 1.00, reads +Z 1.00, players 1 (rows 1), START 'PRACTICE' enabled, status '1 MORE PLAYER NEEDED - START TO PRACTISE', subtitle 'FIRST TO 3 ROUNDS'; Dodgeball: ray from 2.5 m meets StartGameButton
+  +   9.11   [SomniumRecRoom] Console: ConsoleTest: report Paintball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-0.01, 2.52, 2.46)), up 1.00, reads +Z 1.00, players 4 (rows 4), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'CAPTURE THE FLAG'; Paintball: ray from 2.5 m meets StartGameButton
+  +   9.11   [RrHarness] step 3 ok (2001 ms) coroutine finished
+  +   9.11   [RrHarness] step 4 shot console_showcase
+  +   9.19   [RrHarness] step 4 ok (71 ms) room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase.png rendered in 33.5 ms; mean luma 86, sd 59
+  +   9.19   [RrHarness] step 5 shot console_showcase_close
+  +   9.22   [RrHarness] step 5 ok (32 ms) room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase_close.png rendered in 2.5 ms; mean luma 131, sd 57
+  +   9.22   [RrHarness] step 6 shot console_dodgeball_arrival
+  +   9.25   [RrHarness] step 6 ok (30 ms) room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_arrival.png rendered in 3.2 ms; mean luma 57, sd 47
+  +   9.25   [RrHarness] step 7 shot console_dodgeball_wide
+  +   9.32   [RrHarness] step 7 ok (69 ms) room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_wide.png rendered in 2.0 ms; mean luma 57, sd 45
+  +   9.32   [RrHarness] step 8 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressModeAndMap
+  +   9.32   [SomniumRecRoom] Console: ConsoleTest: after mode/map Dodgeball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (5.84, 2.52, -8.67)), up 1.00, reads +Z 1.00, players 1 (rows 1), START 'PRACTICE' enabled, status '1 MORE PLAYER NEEDED - START TO PRACTISE', subtitle 'FIRST TO 3 ROUNDS'
+  +   9.32   [SomniumRecRoom] Console: mode toggle on Paintball: Capture the Flag -> Team Battle
+  +   9.32   [SomniumRecRoom] Console: map button on Paintball: Spillway -> River
+  +   9.32   [SomniumRecRoom] Console: ConsoleTest: after mode/map Paintball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-0.01, 2.52, 2.46)), up 1.00, reads +Z 1.00, players 4 (rows 4), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'TEAM BATTLE'
+  +   9.33   [RrHarness] step 8 ok (4 ms) coroutine finished
+  +   9.33   [RrHarness] step 9 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressStart
+  +   9.33   [SomniumRecRoom] Console: START pressed on Dodgeball (harness, 1 players, label PRACTICE)
+  +   9.33   [SomniumRecRoom] Dodgeball: start pressed
+  +   9.33   [SomniumRecRoom] Console: ConsoleTest: press START -> pressed; Dodgeball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (5.84, 2.52, -8.67)), up 1.00, reads +Z 1.00, players 1 (rows 1), START 'PRACTICE' enabled, status '1 MORE PLAYER NEEDED - START TO PRACTISE', subtitle 'FIRST TO 3 ROUNDS'
+  +   9.33   [SomniumRecRoom] Console: START pressed on Paintball (harness, 4 players, label START)
+  +   9.33   [SomniumRecRoom] Console: ConsoleTest: arrival START callback 1 by 0
+  +   9.33   [SomniumRecRoom] Console: ConsoleTest: press START -> pressed; Paintball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-0.01, 2.52, 2.46)), up 1.00, reads +Z 1.00, players 4 (rows 4), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'TEAM BATTLE'
+  +   9.33   [SomniumRecRoom] Player: teleport to (0.000, 0.050, -6.000) yaw 0 (fallback rig)
+  +   9.33   [SomniumRecRoom] Player: teleport to (0.000, 0.050, -6.000) yaw 0 (fallback rig)
+  +   9.34   [SomniumRecRoom] Player: movement x0, no jump
+  +   9.34   [SomniumRecRoom] Dodgeball: phase Lobby -> Countdown (round 1, blue 0 - red 0)
+  +   9.34   [SomniumRecRoom] HitVolumes: 1 player volume set(s) (1 member(s) in this instance, 0 target(s))
+  +  10.13   [SomniumRecRoom] Heartbeat: bundles open 81, assets loaded 156 (156 loads, 51 found resident), failed 0, repeated warnings 0, fps 1645
+  +  10.53   [SomniumRecRoom] Console: ConsoleTest: after START Dodgeball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (5.84, 2.52, -8.67)), up 1.00, reads +Z 1.00, players 1 (rows 3), START 'STARTING' greyed, status '1 MORE PLAYER NEEDED', subtitle 'GET READY'
+  +  10.53   [SomniumRecRoom] Console: ConsoleTest: after START Paintball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-0.01, 2.52, 2.46)), up 1.00, reads +Z 1.00, players 4 (rows 6), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'TEAM BATTLE'
+  +  10.53   [RrHarness] step 9 ok (1200 ms) coroutine finished
+  +  10.53   [RrHarness] step 10 wait 1
+  +  11.53   [RrHarness] step 10 ok (1001 ms) 
+  +  11.53   [RrHarness] step 11 shot console_showcase_teams
+  +  11.56   [RrHarness] step 11 ok (31 ms) room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_showcase_teams.png rendered in 2.9 ms; mean luma 82, sd 55
+  +  11.56   [RrHarness] step 12 shot console_dodgeball_practice
+  +  11.59   [RrHarness] step 12 ok (28 ms) room frame (Dodgeball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_dodgeball_practice.png rendered in 1.6 ms; mean luma 56, sd 46
+  +  11.59   [RrHarness] step 13 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.CloseArrival
+  +  12.33   [SomniumRecRoom] Dodgeball: round 1 playing: 1 players (solo practice: no round end)
+  +  12.33   [SomniumRecRoom] Player: movement x1
+  +  12.33   [SomniumRecRoom] Dodgeball: phase Countdown -> Playing (round 1, blue 0 - red 0)
+  +  12.33   [SomniumRecRoom] HitVolumes: 3 player volume set(s) (1 member(s) in this instance, 2 target(s))
+  +  13.09   [SomniumRecRoom] Console: ConsoleTest: after close, 1 console(s)
+  +  13.09   [RrHarness] step 13 ok (1500 ms) coroutine finished
+  +  13.09   [RrHarness] step 14 goto Paddleball
+  +  13.09   [SomniumRecRoom] Travel: trip 2: Dodgeball -> Paddleball
+  +  13.09   [SomniumRecRoom] Player: movement x0, no jump
+  +  13.10   [SomniumRecRoom] Player: teleport to (-1.800, 0.050, -9.700) yaw 80 (fallback rig)
+  +  13.10   [SomniumRecRoom] Dodgeball: phase Playing -> Lobby (round 1, blue 0 - red 0)
+  +  13.39   [SomniumRecRoom] Travel: arrival room shown, colliders on (trip 2 to Paddleball)
+  +  13.39   [SomniumRecRoom] PostFx: left Dodgeball: back to the client's own post-processing in 0.25 s
+  +  13.40   [SomniumRecRoom] Env: left Dodgeball: the world scene's own lighting is back
+  +  13.40   [SomniumRecRoom] Player: teleport to (0.000, 0.050, 0.000) yaw 0 (fallback rig)
+  +  13.40   [SomniumRecRoom] Travel: cleared what Dodgeball left outside its root: 0 effects, 0 sounds, 0 splats, shots in flight and given tools
+  +  13.41   [SomniumRecRoom] Travel: left Dodgeball
+  +  13.46   [SomniumRecRoom] Assets: 368 of 2787 bundles hold audio, video, shaders or fonts and stay open once opened
+  +  13.46   [SomniumRecRoom] Travel: freed Dodgeball in 53 ms: memory 544.9 -> 542.6 MB, managed 376.7 -> 376.7 MB; released 147 assets, 7 prefab data, 0 replacement materials; UnloadUnusedAssets 47 ms; bundles only this room opened: 26, unloaded 4, kept 9 (audio/video/shader/font) + 13 (an asset still in use); open now 79
+  +  13.46   [SomniumRecRoom] Travel: census after leaving Dodgeball (visit 1): no room, nothing of it left; room none (arrival room), feet (0, 0, 0), arrival shown, world root 385 objects (0 in the room, 385 outside), scene roots 7, memory 542.6 MB (managed 376.8 MB), bundles open 79, assets loaded 12 (159 loads, 52 found resident), failed 0, bundles unloaded on leaving rooms 4
+  +  13.47   [SomniumRecRoom] Travel: building Paddleball #0 at (0, 0, 0) (offline instance object 11)
+  +  13.48   [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +  13.51 W [SomniumRecRoom] Materials: shader not supported here, using URP Lit: Hidden/InternalErrorShader
+  +  13.51   [SomniumRecRoom] Tools: hold poses: (Paddleball_Paddle) uses the legacy pose (right (0.000, 0.027, 0.045) (326.2, 0.4, 359.3)) - the tool's pose in Rec Room's hand frame (logged once per kind)
+  +  13.51   [SomniumRecRoom] Tools: (Paddleball_Paddle): grip (legacy), throw x1 unclamped, lock on pickup, 3 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  13.55   [SomniumRecRoom] Paddleball: court built: tube 3 x 3 x 12 m, 4 paddles ((Paddleball_Paddle)), ball (TennisBall) r 0.1 m, zero gravity, first to 5
+  +  13.55   [SomniumRecRoom] Travel: built Paddleball in 88 ms
+  +  13.55   [SomniumRecRoom] Travel: Paddleball: lowest floor y = -0.2 (21 environment colliders); a player 10 m below it is put back
+  +  13.55   [SomniumRecRoom] Player: teleport to (4.300, 0.050, -1.500) yaw 225 (fallback rig)
+  +  13.55   [SomniumRecRoom] Travel: arrival room hidden, colliders off (in Paddleball)
+  +  13.55   [SomniumRecRoom] Player: movement x1
+  +  13.55   [SomniumRecRoom] PostFx: Paddleball: APPPLESARCHIVE-Testing-PostProcessingProfile (REF2 .unity files/APPPLESARCHIVE/APPPLESARCHIVE-Testing-PostProcessingProfile.asset): Bloom threshold 1.04 intensity 0.15 scatter 0.6 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.1 contrast 10; LiftGammaGain lift (0.922,0.942,1,0) gamma (1,0.982,0.96,0) gain (1,0.99,0.956,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +  13.55   [SomniumRecRoom] Env: applied Paddleball (apk level13): sun #FDCA6F x2.5 Soft shadows 1 at (24, 340, 2), ambient Trilight #217E80/#9C523F/#3C5080, fog Linear #E2A22C 5-230.7 m, reflections x0, sky gradient #567896/#E2A22C/#CD9850, 27 realtime lights (0 with shadows); sky material AG/Skybox/Simple Gradient
+  +  13.55   [SomniumRecRoom] Env: Paddleball: default Paddleball, 0 kit scene(s) registered; applied Paddleball (apk level13): sun #FDCA6F x2.5 Soft shadows 1 at (24, 340, 2), ambient Trilight #217E80/#9C523F/#3C5080, fog Linear #E2A22C 5-230.7 m, reflections x0, sky gradient #567896/#E2A22C/#CD9850, 27 realtime lights (0 with shadows)
+  +  13.56   [SomniumRecRoom] Travel: census at Paddleball (visit 1): 1 room, nothing outside it; room Paddleball at (0, 0, 0), feet (4.3, 0.1, -1.5), arrival hidden, world root 687 objects (302 in the room, 385 outside), scene roots 9, memory 545.3 MB (managed 397.3 MB), bundles open 79, assets loaded 18 (168 loads, 52 found resident), failed 0, bundles unloaded on leaving rooms 4
+  +  13.56   [SomniumRecRoom] Paddleball: phase 255 -> Lobby (blue 0 - red 0)
+  +  15.89   [SomniumRecRoom] Travel: arrived in Paddleball #0 at (0, 0, 0), spawn 0 after 2.80 s
+  +  15.90   [RrHarness] step 14 ok (2801 ms) arrived in 2.8 s
+  +  15.90   [RrHarness] step 15 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Report
+  +  17.90   [SomniumRecRoom] Console: ConsoleTest: 1 console(s)
+  +  17.90   [SomniumRecRoom] Console: ConsoleTest: report Paddleball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (4.01, 2.52, -5.96)), up 1.00, reads +Z 1.00, players 1 (rows 1), START 'PRACTICE' enabled, status '1 MORE PLAYER NEEDED - START TO PRACTISE', subtitle 'FIRST TO 5 GOALS'; Paddleball: ray from 2.5 m meets StartGameButton
+  +  17.90   [RrHarness] step 15 ok (2000 ms) coroutine finished
+  +  17.90   [RrHarness] step 16 shot console_paddleball_arrival
+  +  17.93   [RrHarness] step 16 ok (34 ms) room frame (Paddleball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_paddleball_arrival.png rendered in 3.3 ms; mean luma 51, sd 54
+  +  17.93   [RrHarness] step 17 shot console_paddleball_wide
+  +  17.97   [RrHarness] step 17 ok (32 ms) room frame (Paddleball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_paddleball_wide.png rendered in 2.4 ms; mean luma 46, sd 46
+  +  17.97   [RrHarness] step 18 goto Charades
+  +  17.97   [SomniumRecRoom] Travel: trip 3: Paddleball -> Charades
+  +  17.97   [SomniumRecRoom] Player: movement x0, no jump
+  +  18.24   [SomniumRecRoom] Travel: arrival room shown, colliders on (trip 3 to Charades)
+  +  18.24   [SomniumRecRoom] PostFx: left Paddleball: back to the client's own post-processing in 0.25 s
+  +  18.24   [SomniumRecRoom] Env: left Paddleball: the world scene's own lighting is back
+  +  18.24   [SomniumRecRoom] Player: teleport to (0.000, 0.050, 0.000) yaw 0 (fallback rig)
+  +  18.24   [SomniumRecRoom] Travel: cleared what Paddleball left outside its root: 0 effects, 0 sounds, 0 splats, shots in flight and given tools
+  +  18.24   [SomniumRecRoom] Travel: left Paddleball
+  +  18.32   [SomniumRecRoom] Travel: freed Paddleball in 72 ms: memory 543.6 -> 433.4 MB, managed 284.8 -> 284.8 MB; released 10 assets, 4 prefab data, 1 replacement materials; UnloadUnusedAssets 72 ms; bundles only this room opened: 22, unloaded 0, kept 10 (audio/video/shader/font) + 12 (an asset still in use); open now 80
+  +  18.32   [SomniumRecRoom] Travel: census after leaving Paddleball (visit 1): no room, nothing of it left; room none (arrival room), feet (0, 0, 0), arrival shown, world root 385 objects (0 in the room, 385 outside), scene roots 7, memory 432.0 MB (managed 284.9 MB), bundles open 80, assets loaded 13 (170 loads, 54 found resident), failed 0, bundles unloaded on leaving rooms 4
+  +  18.32   [SomniumRecRoom] Travel: building Charades #0 at (0, 0, 0) (offline instance object 2)
+  +  18.32   [SomniumRecRoom] Charades: building The Ink Space at (0.00, 0.00, 0.00)
+  +  18.54   [SomniumRecRoom] Charades: Ink Space hull spawned: bounds (21.48, 7.07, 23.91) centre (-0.07, 3.15, 0.51), 26 lights (shadows off)
+  +  18.56   [SomniumRecRoom] Charades: stage spawned: (3.71, 0.39, 10.02), top at 0.62
+  +  18.59   [SomniumRecRoom] Charades: podium at (1.75, 0.64, 5.35) facing the performer
+  +  18.67   [SomniumRecRoom] Tools: (CharadesPen): grip (legacy), throw x1 unclamped, lock on pickup, 7 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  18.68   [SomniumRecRoom] Charades: Charades Pen ready: tip ExtrusionPoint, lock on pickup True
+  +  18.68   [SomniumRecRoom] Charades: game hologram at (-1.00, 0.64, 0.50), yaw 307: spot (-1.00, 0.64, 0.50) (candidate 8 of 315; before it 1 met walls (first: the hologram meets Collision/Post (7)), 6 out of sight, 0 refused)
+  +  18.68   [SomniumRecRoom] Charades: The Ink Space built: stage mark (2.00, 0.64, 4.00), pen ready, 275 words
+  +  18.68   [SomniumRecRoom] Travel: built Charades in 365 ms
+  +  18.68   [SomniumRecRoom] Travel: Charades: lowest floor y = -0.9 (324 environment colliders); a player 10 m below it is put back
+  +  18.68   [SomniumRecRoom] Player: teleport to (-6.200, 0.800, 2.200) yaw 90 (fallback rig)
+  +  18.68   [SomniumRecRoom] Travel: arrival room hidden, colliders off (in Charades)
+  +  18.68   [SomniumRecRoom] Player: movement x1
+  +  18.68   [SomniumRecRoom] PostFx: Charades: APPPLESARCHIVE-Testing-PostProcessingProfile (REF2 .unity files/APPPLESARCHIVE/APPPLESARCHIVE-Testing-PostProcessingProfile.asset): Bloom threshold 1.04 intensity 0.15 scatter 0.6 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.1 contrast 10; LiftGammaGain lift (0.922,0.942,1,0) gamma (1,0.982,0.96,0) gain (1,0.99,0.956,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +  18.69   [SomniumRecRoom] Env: Skybox/Procedural is available: the quests' procedural skies draw with their own parameters
+  +  18.69   [SomniumRecRoom] Env: applied Charades (apk level8): no sun, ambient Trilight #552B1A/#762C12/#933025, fog Linear #FFDDAD 6.2-250 m, reflections x1, sky procedural (exposure 0.12), 43 realtime lights (1 with shadows); sky material Skybox/Procedural
+  +  18.69   [SomniumRecRoom] Env: Charades: realtime reflection probe rendered once at (-6.2, 2.4, 2.2) over (200, 80, 200) m (Environment layer, 128 px, faces over frames), intensity 1
+  +  18.69   [SomniumRecRoom] Env: Charades: default Charades, 0 kit scene(s) registered; applied Charades (apk level8): no sun, ambient Trilight #552B1A/#762C12/#933025, fog Linear #FFDDAD 6.2-250 m, reflections x1, sky procedural (exposure 0.12), 43 realtime lights (1 with shadows)
+  +  18.69   [SomniumRecRoom] Travel: census at Charades (visit 1): 1 room, nothing outside it; room Charades at (0, 0, 0), feet (-6.2, 0.8, 2.2), arrival hidden, world root 1383 objects (998 in the room, 385 outside), scene roots 7, memory 525.0 MB (managed 327.7 MB), bundles open 84, assets loaded 17 (176 loads, 54 found resident), failed 0, bundles unloaded on leaving rooms 4
+  +  18.71   [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +  20.13   [SomniumRecRoom] Heartbeat: bundles open 85, assets loaded 24 (181 loads, 57 found resident), failed 0, bundles unloaded on leaving rooms 4, repeated warnings 2, fps 1715
+  +  20.77   [SomniumRecRoom] Travel: arrived in Charades #0 at (0, 0, 0), spawn 0 after 2.80 s
+  +  20.77   [RrHarness] step 18 ok (2802 ms) arrived in 2.8 s
+  +  20.77   [RrHarness] step 19 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.Report
+  +  22.77   [SomniumRecRoom] Console: ConsoleTest: 1 console(s)
+  +  22.77   [SomniumRecRoom] Console: ConsoleTest: report 3D Charades: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-1.42, 3.16, 0.83)), up 1.00, reads +Z 1.00, players 1 (rows 1), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'CO-OP CLASSIC'; 3D Charades: ray from 2.5 m meets nothing
+  +  22.77   [RrHarness] step 19 ok (2000 ms) coroutine finished
+  +  22.77   [RrHarness] step 20 shot console_charades_arrival
+  +  22.81   [RrHarness] step 20 ok (43 ms) room frame (Charades origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival.png rendered in 4.6 ms; mean luma 46, sd 51
+  +  22.82   [RrHarness] step 21 shot console_charades_arrival_left
+  +  22.86   [RrHarness] step 21 ok (45 ms) room frame (Charades origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival_left.png rendered in 1.8 ms; mean luma 32, sd 34
+  +  22.86   [RrHarness] step 22 shot console_charades_arrival_right
+  +  22.91   [RrHarness] step 22 ok (46 ms) room frame (Charades origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\console_test\console_charades_arrival_right.png rendered in 1.7 ms; mean luma 41, sd 47
+  +  22.91   [RrHarness] step 23 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressModeAndMap
+  +  22.91   [SomniumRecRoom] Console: mode toggle on 3D Charades: Co-op Classic -> Team Lightning
+  +  22.91   [SomniumRecRoom] Console: ConsoleTest: after mode/map 3D Charades: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-1.42, 3.16, 0.83)), up 1.00, reads +Z 1.00, players 1 (rows 1), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'TEAM LIGHTNING'
+  +  22.91   [RrHarness] step 23 ok (3 ms) coroutine finished
+  +  22.91   [RrHarness] step 24 call SomniumSpace.Worlds.SomniumRecRoom.Games.RrGameConsoleTest.PressStart
+  +  22.91   [SomniumRecRoom] Console: START pressed on 3D Charades (harness, 1 players, label START)
+  +  22.91   [SomniumRecRoom] Charades: player 0 starts Team Lightning (4 x 90 s, 45 s per performer)
+  +  22.92   [SomniumRecRoom] Console: ConsoleTest: press START -> pressed; 3D Charades: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-1.42, 3.16, 0.83)), up 1.00, reads +Z 1.00, players 1 (rows 1), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'TEAM LIGHTNING'
+  +  24.11   [SomniumRecRoom] Console: ConsoleTest: after START 3D Charades: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-1.42, 3.16, 0.83)), up 1.00, reads +Z 1.00, players 1 (rows 3), START 'STARTING' greyed, status '', subtitle 'TEAM LIGHTNING'
+  +  24.11   [RrHarness] step 24 ok (1201 ms) coroutine finished
+  +  24.11   [RrHarness] step 25 expect_log Console: fonts:
+  +  24.12   [RrHarness] step 25 ok (1 ms) seen at +3.88 s: [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +  24.12   [RrHarness] step 26 expect_log ConsoleTest: arrival
+  +  24.12   [RrHarness] step 26 ok (0 ms) seen at +7.11 s: [SomniumRecRoom] Console: ConsoleTest: arrival Paintball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (-0.01, 2.52, 2.46)), up 1.00, reads +Z 1.00, players 4 (rows 4), START 'START' enabled, status 'PRESS START WHEN READY', subtitle 'CAPTURE THE FLAG'
+  +  24.12   [RrHarness] step 27 expect_log Rec Room's hologram:
+  +  24.12   [RrHarness] step 27 ok (0 ms) seen at +5.92 s: [SomniumRecRoom] Console: Rec Room's hologram: projected panel 4.36 x 3.27 m, centre (0.01, 2.52, 0.54) (marker-local), up 1.00, reads toward +Z 1.00, view root scale (0.3914, 0.3918, 0.3918), opened in 1.5 s
+  +  24.12   [RrHarness] step 28 expect_log ConsoleTest: arrival START callback 1
+  +  24.12   [RrHarness] step 28 ok (0 ms) seen at +9.33 s: [SomniumRecRoom] Console: ConsoleTest: arrival START callback 1 by 0
+  +  24.12   [RrHarness] step 29 expect_log Dodgeball: start pressed
+  +  24.12   [RrHarness] step 29 ok (0 ms) seen at +9.33 s: [SomniumRecRoom] Dodgeball: start pressed
+  +  24.12   [RrHarness] step 30 expect_log ConsoleTest: after START Dodgeball
+  +  24.13   [RrHarness] step 30 ok (0 ms) seen at +10.53 s: [SomniumRecRoom] Console: ConsoleTest: after START Dodgeball: mount projector, open True, 4.36 x 3.27 m at (0.01, 2.52, 0.54) (world (5.84, 2.52, -8.67)), up 1.00, reads +Z 1.00, players 1 (rows 3), START 'STARTING' greyed, status '1 MORE PLAYER NEEDED', subtitle 'GET READY'
+  +  24.13   [RrHarness] step 31 expect_log Charades: game hologram at
+  +  24.13   [RrHarness] step 31 ok (1 ms) seen at +18.68 s: [SomniumRecRoom] Charades: game hologram at (-1.00, 0.64, 0.50), yaw 307: spot (-1.00, 0.64, 0.50) (candidate 8 of 315; before it 1 met walls (first: the hologram meets Collision/Post (7)), 6 out of sight, 0 refused)
+  +  24.13   [RrHarness] step 32 expect_log Charades: player 0 starts Team Lightning
+  +  24.13   [RrHarness] step 32 ok (1 ms) seen at +22.91 s: [SomniumRecRoom] Charades: player 0 starts Team Lightning (4 x 90 s, 45 s per performer)

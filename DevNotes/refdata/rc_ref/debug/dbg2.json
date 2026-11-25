@@ -1,0 +1,4 @@
+{"poses": [
+ {"name": "top_grid", "pos": [-3, 55, -6], "look": [-3, 0, -6.001], "fov": 50, "w": 1600, "h": 1200, "ymax": 2.5, "grid": 5, "src": "debug"},
+ {"name": "top_grid_up", "pos": [-3, 55, -6], "look": [-3, 0, -6.001], "fov": 50, "w": 1600, "h": 1200, "ymax": 6.5, "grid": 5, "src": "debug"}
+]}

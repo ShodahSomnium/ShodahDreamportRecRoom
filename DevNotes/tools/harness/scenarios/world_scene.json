@@ -1,0 +1,16 @@
+// Boots the saved world scene itself (Assets/Rec Room Scene.unity, synced from the real project or made by
+// make_scene.sh): its Uploader, light, Arrival floor, status label, RrMain and network objects, offline.
+{
+  "name": "world_scene",
+  "arrival": true,
+  "scene": "Assets/Rec Room Scene.unity",
+  "steps": [
+    {"expect_log": "Rec Room at"},
+    {"spawn": "(Basketball)", "pos": [-0.6, 0, 1.5]},
+    {"spawn": "(Consumables_RootBeer_PixelPop_Bottle)", "pos": [0, 0, 1.5], "yaw": 180},
+    {"wait": 1},
+    {"shot": "world_scene_spawn_view", "pos": [0, 1.6, -1], "look": [0, 0.6, 3], "fov": 70, "w": 1280, "h": 720},
+    {"shot": "world_scene_arrival_top", "pos": [0, 18, -14], "look": [0, 0, 0], "fov": 55, "w": 1280, "h": 720},
+    {"dump": "scene_world_root"}
+  ]
+}

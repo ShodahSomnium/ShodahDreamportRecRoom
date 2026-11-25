@@ -1,0 +1,564 @@
+guid	count	label	scenes	fields	topGameObjectNames
+3cf990b09ea6f820ec7550379ef5f477	4335	-	29	(none)	Cube x2759 | Collision x1321 | Quest_FlatTree1 x52 | Quest_FlatTree3 x52 | Quest_FlatTree2 x52 | Cylinder x27
+c486ea243f33f74a2f9110aa1b66eb14	2841	-	19	(none)	FatPot_Chunk7 x337 | FatPot_Chunk1 x337 | FatPot_Chunk2 x337 | FatPot_Chunk6 x337 | FatPot_Chunk4 x337 | FatPot_Chunk5 x337
+34e2b77925c15b4b97f068ee04f5e7ed	2817	-	23	(none)	Cube x1024 | Cylinder x144 | NavBlocker x143 | Arch x132 | Wall x107 | NavHelper x107
+7033f03d09d1bd0032d912463ac99743	2670	-	24	(none)	HandleTool x356 | [Seat_NoUGC] Center x350 | [Chair_stackable] x333 | [Quest_Dracula1_CollectablesChest] x198 | [Quest_Dracula1_Collectable_Wall] x165 | [Quest_Pirate1_CollectablesChest] x158
+5a87a9966e9b3cd10dd1db8d09c44a97	2323	-	1	(none)	Cube x553 | [Cliff_01_Instanced] Variant x163 | [Tree_Bush_Mobile] x139 | [Tree_Bush_Desktop] x139 | [Sign_TurnArrow] x107 | [Tire_Car] x94
+474bcb49853aa07438625e644c072ee6	1810	-	38	m_Version,m_UsePipelineSettings,m_AdditionalLightsShadowResolutionTier,m_LightLayerMask,m_RenderingLayers,m_CustomShadowLayers,m_ShadowLayerMask,m_ShadowRenderingLayers,m_LightCookieSize,m_LightCookieOffset,m_SoftShadowQuality,m_RRLightVersion,m_SpecularContribution	Point Light x517 | Candle Prefab Light x140 | Torch Light x75 | PointLight x58 | WarmEmit x54 | Torch Hot Spot x45
+c88ab7b37c4f350242674d2efd621c19	1643	-	24	(none)	Point Light x573 | Candle Prefab Light x295 | PointLight x58 | EmitCubeCandle x57 | WarmEmit x54 | PointLIght x33
+16fa4f5170b4f6e84326a4e9a0917172	1571	-	31	(none)	HandleTool x380 | Mesh x380 | [Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39
+8cb5c8c426c57bf793eb0987b7335d7a	1549	-	15	(none)	Cube x1508 | Seagull_Root_Jnt x23 | Collision x6 | [Quest_Dracula1_ShipBeams_Long] x4 | Lock x3 | [Bookshelf_Tall] x2
+6ff31c811a3c702453ec0ac77acff7a3	1499	-	30	(none)	HandleTool x380 | [Chair_stackable] x333 | [Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Quest_Dracula1_Collectable_Large] x28
+9d1631b596a84a8a9d06ab4a816796a1	1412	-	31	(none)	HandleTool x380 | [Quest_Dracula1_CollectablesChest] x222 | [Quest_Dracula1_Collectable_Wall] x165 | [Quest_Pirate1_CollectablesChest] x158 | [FatPot] x79 | [FatPot_Large] x59
+c938b8fbe7b5dc95e3a5807a6ffcb625	1237	-	31	(none)	AnimateInOutBounds x419 | HandleTool x380 | Mesh x380 | [ScoreboardProjector] x21 | AnimateInOutVolume x18 | AnimateInOut x17
+a581621acef2b69693bf250f6d346db7	1153	-	31	(none)	HandleTool x380 | [Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Quest_Dracula1_Collectable_Large] x28
+ace611b963c64abf8fbaed65cd1fe850	1097	-	31	(none)	HandleTool x380 | [Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Quest_Dracula1_Collectable_Large] x28
+9987f75e35963a347b4ea12bbedf25dc	1075	-	1	forceSkipOptimization,customMeshColliderMesh,m_MeshFormatVersion,m_Faces,- m_Indexes,m_SharedVertices,- m_Vertices,m_SharedTextures,m_Positions,- {x,m_Textures0,m_Textures2,m_Textures3,m_Tangents,m_Colors,- {r,m_UnwrapParameters	Cube x648 | Tent_Support x109 | Cylinder x55 | Post x40 | Plywood x27 | Sign3&4 x17
+8e14a749c66fafd193b302d761efb705	1065	-	31	(none)	HandleTool x380 | [Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Sandbox_Book_Green] x33
+3e6bb8f4170f8484db609d5b835ce78d	963	-	1	(none)	RecRoyale_Rock_Wall_fbx x359 | Quest_Rock04_fbx x186 | RecRoyale_Rock_Wedge_fbx x114 | RecRoyale_Rock_Stump_fbx x91 | RecRoyale_Rock_Cliff_fbx x79 | RecRoyale_Rock_Plateau_fbx x55
+efe38740d416ae17540bb4de0b4345c5	889	-	30	(none)	StaticBatchStaticBatch_Plaster_White_Mat x9 | StaticBatchStaticBatch_Rope_Faded_Mat x6 | StaticBatchStaticBatch_Rope_Small_Mat x6 | StaticBatchStaticBatch_ChairHighback_OrganBench_Mat x6 | StaticBatchStaticBatch_Carpet_Mat x6 | Room GeoStaticBatch_LockerFountainStageLight_mat x6
+a3825d626d49b4e8366365dfd9c12e64	847	-	21	(none)	Cube x234 | NavBlocker x143 | NavHelper x107 | Quest_Pirate1_Fern_Mobile x83 | Quest_Pirate1_Fern_Desktop x83 | [Quest_Pirate1_Plank] x32
+879e8d98e99a7d8d2cf3e16b68406cac	683	-	30	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Quest_Dracula1_Collectable_Large] x28 | [Sandbox_Book_Green] x28
+be42a4227b5f2dd71c25cf038da599e1	635	-	16	(none)	MeleeCollider x325 | Center x138 | BroomShaftMeleeCollider x60 | BladeMeleeCollider x52 | OarShaftMeleeCollider x12 | LegsMeleeCollider x12
+d9f374c90cd8c33d0ae058ea36827aac	620	-	7	(none)	Cube x433 | Crenulations x52 | Archway x19 | Archway Back x17 | Pillar x8 | Castle pillar x7
+29b502fddd5c06dc6cce7fa3c4a62e1a	609	-	30	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Quest_Dracula1_Collectable_Large] x28 | [Sandbox_Book_Green] x28
+d0d5233d95d868cf81141b7a5c11be2f	609	-	30	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Quest_Dracula1_Collectable_Large] x28 | [Sandbox_Book_Green] x28
+3182a6669398e52e581f313cc633e9f5	600	-	5	(none)	Plant_Fern_Desktop x109 | Plant_Fern_Mobile x109 | Quest_Pirate1_Fern_Mobile x83 | Quest_Pirate1_Fern_Desktop x83 | Tree_Palm_Bent_Mobile x66 | Tree_Palm_Bent_Desktop x66
+16631fb4b40fa24035451e9b39093e84	597	-	29	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Quest_Dracula1_Collectable_Large] x28 | [Sandbox_Book_Green] x28 | [Quest_Pirate1_BeerBottle] x25
+9efac8cc66e96b724f6977ba2854b458	577	-	29	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Quest_Dracula1_Collectable_Large] x28 | [Sandbox_Book_Green] x28 | [Quest_Pirate1_BeerBottle] x25
+66d1db0700f1051fe19fd72a967ad61b	514	-	24	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Quest_Dracula1_Collectable_Large] x28 | [Quest_Pirate1_BeerBottle] x25 | [Quest_Pirate1_RumJug] x20
+a79c7704ae1cdbb4ce0920cba1753780	497	-	11	(none)	[Quest_Pirate1_Seaweed] x53 | [Plant_Fern] x47 | [Quest_Goblin_Chains] x42 | [Quest_Pirate1_FishingLine] x27 | [Quest_Pirate1_CoralPlane1] x27 | [Book_Single] x22
+acace13888a445549a606dab8e153cb7	471	-	3	(none)	Cube x319 | NavBlockerTreeTrunk x16 | Beam x14 | Poster x13 | BrickWall x12 | BalloonWeight x10
+614d341c6dc678940983a89763200253	461	pickup	1	(none)	Chest x455 | GameObject x3 | Chest1 x3
+65f6bf54a0180d568d2598109d9ab86f	444	-	30	(none)	[FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Quest_Dracula1_Collectable_Large] x28 | [Sandbox_Book_Green] x28 | [Quest_Pirate1_BeerBottle] x25
+afa4ef979312be6838e9cc75572cfa13	444	-	30	(none)	[FatPot] x79 | [FatPot_Large] x59 | [Sandbox_Glowstick_Blue] x39 | [Quest_Dracula1_Collectable_Large] x28 | [Sandbox_Book_Green] x28 | [Quest_Pirate1_BeerBottle] x25
+e30809be9b553aaf3a1d2791f212e276	410	-	7	(none)	Point Light x158 | Torch Light x65 | Torch Hot Spot x48 | Candle Light x19 | Fill Light x18 | Window Light x15
+c3618bb60beb5dac56cbf449d5cfa70f	402	-	20	(none)	Mesh x380 | [Quest_Pirate1_CoinStack_Small] x18 | Pirate_Puzzle_Piece_4 x1 | Pirate_Puzzle_Piece_1 x1 | Pirate_Puzzle_Piece_3 x1 | Pirate_Puzzle_Piece_2 x1
+a268ebbab3b4251d2c2d0c7fdf6b7f79	388	-	7	(none)	[Book_Single] x175 | [Book_Stack_Red] Variant x50 | [Book_Single_Green] Variant x45 | LightArchShaft x43 | [Book_Single_Red] Variant x21 | [Book_Stack] x20
+2ae103e670d0db8818cd5b6c9d1d35a2	382	-	20	(none)	HandleTool x380 | BowString x2
+0a52532c65315815d002d9e218626fe2	380	pickup	19	(none)	[Quest_Dracula1_CollectablesChest] x222 | [Quest_Pirate1_CollectablesChest] x158
+558915e43556f3733409b83c4aac18d3	380	pickup	19	(none)	[Quest_Dracula1_CollectablesChest] x222 | [Quest_Pirate1_CollectablesChest] x158
+12c5c65a23ad10feb2519d26487eb107	378	-	5	(none)	[Seat_NoUGC] Center x350 | [Seat_NoUGC] FrontRight x7 | [Seat_NoUGC] BackRight x7 | [Seat_NoUGC] BackLeft x7 | [Seat_NoUGC] FrontLeft x7
+057773f33b15d6be0187ceb2870114b5	378	-	5	(none)	[Seat_NoUGC] Center x350 | [Seat_NoUGC] FrontRight x7 | [Seat_NoUGC] BackRight x7 | [Seat_NoUGC] BackLeft x7 | [Seat_NoUGC] FrontLeft x7
+f61d129c86125fdc89602c91de807d4f	353	-	15	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Quest_Dracula1_Collectable_Large] x28 | [Quest_Dracula1_CollectablePumpkin_Small] x11 | [Quest_Dracula1_Collectable_Small] x11
+0616a409e3ea1d854ad4abe459d1539d	353	-	15	(none)	[Quest_Dracula1_Collectable_Wall] x165 | [FatPot] x79 | [FatPot_Large] x59 | [Quest_Dracula1_Collectable_Large] x28 | [Quest_Dracula1_CollectablePumpkin_Small] x11 | [Quest_Dracula1_Collectable_Small] x11
+dbc57f5a7a2407cb7f003832c688bfd8	317	-	7	(none)	[FatPot] x78 | [FatPot_Large] x59 | Player7SpawnPoint x24 | HandleTool x24 | [Quest_Dracula1_CollectablesChest] x24 | [Quest_Dracula1_CollectablePumpkin_Small] x8
+db80c968c3790c22c706667126d15c6a	312	-	22	(none)	LightArchShaft x94 | [VFX_Flame] x50 | [Quest_Pirate1_PortalCard] x48 | LightGlow x35 | [Quest_Dracula1_PortalCard] x32 | [SciFi_Garage_Drips] x22
+8cd729508605180834bdf8b1ab16edd9	296	-	15	(none)	Cube x260 | GameObject x32 | Door2 x2 | Cinematic Blocker x1 | AreaBlockingGeo x1
+0f47ce664cca78bb30f1e9689420e651	291	-	16	(none)	[FatPot] x79 | [FatPot_Large] x59 | [Quest_Dracula1_Collectable_Large] x28 | [Quest_Pirate1_BeerBottle] x25 | [Quest_Pirate1_RumJug] x20 | [Quest_Pirate1_BreakableFish] x17
+1e1bc1afbabbee047939477f983a2d68	291	-	1	(none)	FatPot_Chunk6 x41 | FatPot_Chunk3 x41 | FatPot_Chunk2 x41 | FatPot_Chunk4 x41 | FatPot_Chunk7 x41 | FatPot_Chunk1 x41
+f89af916f1d6dcbab61fa1286d963179	278	-	22	(none)	[VFX_Flame] x122 | Particle System x52 | [VFX_CampfireFlame] x33 | Sparks Crit x11 | [Quest_Dracula1_PumpkinCollectableSmash_VFX] x11 | Glow x11
+e24dcdf076f5c3846ac9b7c8ada6ecc0	275	teleport	1	(none)	TeleportTargetTop x77 | TeleportTargetBot x77 | TeleportBlocker x63 | TeleportVolume x26 | TeleportTarget x21 | TeleportBlockVolume x9
+664c18561969b454d9acc7d0903142d1	273	-	23	(none)	Spawn Region x54 | Patrol Region x13 | Deck x5 | Flyers x4 | ArenaSpawn x4 | BehindPlayerSpawn x3
+1ce8d0624530e3319b07d06108ce2078	267	-	23	(none)	Encounter3 x27 | Encounter2 x20 | Encounter1 x19 | Encounter4 x16 | WaveEncounter x13 | DecoyBatAdds x10
+390a383a4ad233a49943799018ea6bb7	249	-	1	(none)	FatPot_Chunk1 x29 | FatPot_Chunk2 x29 | FatPot_Chunk6 x29 | FatPot_Chunk3 x29 | FatPot_Chunk5 x29 | FatPot_Chunk4 x29
+340ce960ce93987c569f08fedf0827d5	241	-	1	(none)	Cube x209 | [Sandbox_Glowstick_Blue] x29 | [RecRally_GameConfiguration] Variant x1 | [ScoreboardProjector] x1 | [RecRally_GameRuleWrapperCircuit] Variant x1
+b68369d75be8061ad20eb9c581063296	232	-	23	(none)	Spawn Region x52 | Flyers x4 | ArenaSpawn x4 | Deck x3 | BehindPlayerSpawn x3 | ScaffoldingSpawn x3
+1c9cb6875bc6f02cf8e52c1395348be2	205	-	26	(none)	Encounter3 x11 | Encounter2 x11 | Encounter1 x11 | [Quest_Dracula1_MidLevelGate] x11 | Encounter4 x9 | Checkpoint x7
+96c1e8b194c39fa42a642ad03cd6b273	205	-	3	(none)	[Balloon] x156 | [Ottoman_Rectangle] x15 | [Ottoman_Cube] x8 | [Car_80sSportsCar] x4 | [Ottoman_Chair] x4 | [Vase_TallThin_Fig] x3
+8a35d0b67c241ac4b8ff1cde2a434c44	197	-	1	(none)	Arch x28 | Pillar x26 | Wall x25 | ArchWall x25 | Banner x12 | Ceiling x11
+e68e4afe3ef372c2529cca25af3f464a	196	-	15	(none)	KillZ x94 | Cube x67 | Killzones x13 | KillZone x12 | killzone x7 | [QuestLavaFloor] x1
+da44474f17c91a11c2c7de9f879f06e3	195	-	1	(none)	[Sandbox_Glowstick_Blue] x29 | Collision x19 | VisualRoot x18 | Quest_Pirate1_BoxSquare_fbx x17 | Quest_Pirate_BoxSquare_LOD2 x17 | [PropBox_Wood_Square_Dynamic] Variant x17
+f3a8dbf0a776ba747976976edb0fddc3	184	-	2	(none)	[Tree_Oak_Mobile] x18 | CypressTree_Desktop_fbx x18 | [Tree_Oak_Desktop] x18 | [Tree_Pine_Desktop] x16 | [Tree_Pine_Mobile] x16 | [Tree_Bush_Mobile] x12
+976f80a1b272cb89dfe73835874a416a	153	-	15	(none)	[Quest_Pirate1_BeerBottle] x25 | [Quest_Pirate1_RumJug] x20 | [Quest_Pirate1_MovableBox] x19 | [Quest_Pirate1_BreakableFish] x17 | [PropBox_Wood_Square_Dynamic] Variant x17 | [QuestSword] x7
+7ff6b2b586d2e75a180d1c068b6e835c	150	-	1	(none)	RotationGroup x75 | VisualRoot x75
+1d163971fb53cf781a702df5ac70849e	140	-	11	(none)	[Sandbox_Glowstick_Blue] x29 | [Quest_Pirate1_BeerBottle] x25 | [Quest_Pirate1_RumJug] x20 | [Quest_Pirate1_MovableBox] x19 | [PropBox_Wood_Square_Dynamic] Variant x17 | [Whip] x15
+8f2af8edab61461860be8cad1887d388	138	-	23	(none)	Overlap Volume x138
+102eccb4f6e9b49d0b7e4e4929ac204e	138	spawn	30	(none)	Player7SpawnPoint x64 | PlayerSpawnPoint3 x12 | PlayerSpawnPoint x10 | PlayerSpawnPoint2 x6 | PlayerSpawnPoint4 x6 | Player3SpawnPoint x5
+5dc1d1c023494ea44fad41b4898bef15	136	-	29	(none)	[StageLight] x98 | [StageLight_Standing] x22 | [StageLight_Standing_Skinned] LEGACY x16
+d0b1e50480545674384ab847ed9de96e	132	-	1	(none)	Cube x132
+2f74dc4684384b1012a77e78992303cf	127	-	30	(none)	[PulsingBeam] x127
+6ff65d077036909708e2b4e3c61507d2	127	-	7	(none)	RecRoyale_Rock_Cliff_fbx x60 | Quest_Rock04_fbx x24 | RecRoyale_Rock_Plateau_fbx x21 | Quest_Rock01_fbx x10 | RecRoyale_Rock_Tall_fbx x7 | RecRoyale_Rock_Wall_fbx x3
+b1a313e8daf41639bd23e49ac3d42684	125	-	22	(none)	Encounter3 x10 | Encounter2 x10 | Encounter4 x9 | [Quest_Dracula1_MidLevelGate] x9 | Encounter1 x8 | [Quest_Pirate1_MidLevelGate] x7
+e94c8e598ed7ef944b936bdf22336f34	108	-	1	(none)	[SciFatPot] x29 | [Arena_WeaponVendingMachine] x12 | [PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9 | SpawnPoint x8 | SciFi_Heavy_Head x6
+772d40a9ef992044e9b1623eada850d9	99	spawn	1	(none)	SpawnPoint x98 | PlayerSpawnPoint x1
+e140de22ed5f42941a4dfb3fceef0f9b	97	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_CollectablesChest] x17 | HandleTool x17 | [Quest_Dracula1_Collectable_Large] x13 | [Quest_Dracula1_Hookshot] x6 | [Whip] x3
+5449d98aae4cd4f47ad827102dc1b257	95	-	1	(none)	Collision x42 | Leg x24 | TeleportTargetBot x7 | TeleportTargetTop x7 | ArmR x3 | Seat x3
+e350dca7871065b4ab1e2369008b7460	95	spawn	1	(none)	SpawnPoint x66 | [Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Park_SMores] x3 | [SoloCup] x2
+30ac76d5c958184d09bab5d0901acb79	93	-	18	(none)	HelpGlowVisual-new x70 | [Quest_Pirate1_FishingLine] x23
+85292c76c77abb04a8441009f7f61ff1	91	-	1	(none)	Point Light x39 | Candle Prefab Light x25 | Chandelier Light x8 | Moon Light Bounce x4 | Room Fill x3 | Boss Eyes Light x2
+5c92ff3b57223b4429d4ded52f084936	90	-	1	(none)	Top x10 | Left x10 | Right x10 | Bottom x10 | Collider x10 | Center x10
+3bec68ff1ac8c4cf8738a3b913b4ebd8	83	-	1	(none)	[Sandbox_Glowstick_Blue] x29 | [Chair_Lawn] x22 | [PropBox_Wood_Square_Dynamic] Variant x17 | [RecRoyale_Frontier_PicnicTable] x7 | [BarrelCone_Dynamic] Variant x5 | [RecRally_GameConfiguration] Variant x1
+7c8d19ea3bba7f94f954fde7decc4f64	82	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | HandleTool x17 | Mesh x17 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3
+52d56a01162a2434f9aeb919859febb8	82	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_CollectablesChest] x17 | HandleTool x17 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3
+7d15e91268870d4e696286e0d2298c40	81	teleport	15	(none)	TeleportVolume x27 | TeleportBlocker x18 | TeleportTargetTop x14 | TeleportTargetBot x14 | Door.000 x3 | DoorMesh x3
+8a77aee538c20db48a0883fa827e579c	81	-	1	(none)	AnimateInOutBounds x46 | HandleTool x17 | Mesh x17 | AnimateInOutVolume x1
+6689154aec39bde1b2f2947d34063ce0	78	-	11	(none)	[Quest_Dracula1_Hookshot] x59 | [Quest_Dracula1_ShipBeams_Long] x15 | [Quest_Dracula1_CollectablesChest] x1 | [Barrel_Wine_Pullable] x1 | [Quest_Pirate1_Platform] x1 | [Quest_Pirate1_Scaffold] x1
+e6c442a8994d524507a88b0365021749	76	-	9	(none)	ActVBeginCheckpoint x12 | ActIVBeginCheckpoint x12 | ActIIIBeginCheckpoint x9 | ActIIBeginCheckpoint x9 | Boss Intro x4 | Enable Dart Traps 1 x4
+1553e693c780009355f75ed8d9d248e9	75	-	21	(none)	ScoreboardProjector_BeamBase x20 | ScoreboardProjector_Quad x20 | ScoreboardProjector_BeamTop x20 | Beam mesh x15
+7a30c573217857b23d2b6394524067b5	75	-	6	(none)	[VFX_Flame] x72 | [AreaFog] x3
+378a7670526858448b9a961cd3d2291c	75	-	6	(none)	[Sandbox_Glowstick_Blue] x29 | Collision x19 | Whip_handle x15 | [BarrelCone_Dynamic] Variant x5 | R_ISlot x1 | ScoreboardProjector_Geo x1
+8cb3a9c9339586842b5b2b4aabdd1038	75	teleport	1	(none)	TeleportTargetTop x19 | TeleportTargetBot x19 | TeleportVolume x13 | Door.007 x3 | Door.000 x3 | Door.002 x3
+a179aeb89ebb96dab899308ea5edf190	75	pickup	1	(none)	[RecRally_Pickup] x75
+b7cb245f987084ddb3daae9eafd31373	74	-	9	(none)	Offset x49 | Bobber x6 | Bobbing x4 | [Quest_Pirate1_Driftwood] x4 | [Quest_Pirate1_BoxRectangle] x4 | [Quest_Dracula1_Horse_Butt_Front] x2
+d648834bc8d8e314da164848cb76a64b	65	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | HandleTool x17 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2
+9ecfbcf47ae9a5f42a30397665871691	65	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | HandleTool x17 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2
+fdd63d964f636654c8ac34ac5d66d54e	65	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | HandleTool x17 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2
+fd4b57d5084d2a16a2b5a665fed67bba	64	-	20	(none)	[Quest_Dracula1_MidLevelGate] x11 | Checkpoint x7 | [GhostBeardEncounter] x7 | [Quest_Pirate1_MidLevelGate] x6 | Boss Intro x3 | ActIIIBeginCheckpoint x3
+fb1abca9a4d3e4e4d9b18018f713e1aa	64	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | HandleTool x17 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2
+1444b661c0fa1844e83efbe7b71d77dd	63	-	1	(none)	Bottle_Chunk1_jnt x5 | Bottle_Chunk4_jnt x5 | Bottle_Chunk2_jnt x5 | Bottle_Neck_jnt x5 | Bottle_Chunk3_jnt x5 | Fracture_03_Jnt x4
+49c41db3043b3b44289ffebaea2091b4	61	-	3	(none)	EntryStaticBatch_Rubber_Mat x3 | EntryStaticBatch_Wall_Vertcolor_mat x3 | EntryStaticBatch_DormRoom_MetalWalls_Gray_mat x2 | EntryStaticBatch_Wood_Floor_ThinBoards_Mat x2 | ArrivalStaticBatch_Glass_ExteriorOpaque_mat x2 | ArrivalStaticBatch_Concrete_VertColor_Mat x2
+6d72b181b7990d9fced7b81e501eec65	61	spawn	6	(none)	Respawn Point x15 | RespawnPoint x6 | Player6SpawnPoint x5 | Player3SpawnPoint x5 | Player8SpawnPoint x5 | Player5SpawnPoint x5
+c278e16e06de97b4496b984ee1536ae8	61	-	1	(none)	Cube x52 | Collision x9
+292f5c0aeab0317940f896cda8815a01	59	-	18	(none)	[Quest_Dracula1_MidLevelGate] x9 | [Quest_Pirate1_MidLevelGate] x8 | MidLevelGateStoryStateIncrement x7 | StoryStateIncrement x2 | LeftTunnelFlank x1 | RightTunnelFlank x1
+fc275f8cc209f17ac37c2097dd03c772	59	-	10	(none)	[Quest_Dracula1_Hookshot] x59
+890ec47d57d23324496d989d9146957f	59	-	1	(none)	[SciFatPot] x29 | [PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9 | SciFi_Heavy_Head x6 | [Quest_SciFi_LaserTrap] x4
+08e22c1500e62c64aac41300a2ad3f6f	58	-	1	(none)	MeleeCollider x31 | GameObject x13 | BroomShaftMeleeCollider x10 | ShovelShaftMeleeCollider x4
+84e49fbc4010dfbf3b74dac15d604005	56	door	27	(none)	[Quest_Door_Active] x16 | LockableDoor x13 | Door2 x7 | Exit x6 | [Quest_Dracula1_Boss_Door] x3 | Door x3
+0d22bfaba7193164b971fb044c345a58	56	-	3	(none)	Can Light x5 | Building Bounce Light x4 | Car Bounce Light x3 | Room Bounce x2 | Room Fill x2 | Exit Fill x2
+3eba0a7c50e0d4c86d42b33a958be109	55	-	4	(none)	[Quest_Pirate1_BeerBottle] x25 | [Quest_Pirate1_RumJug] x20 | [Quest_Pirate1_Plate] x7 | [Quest_Pirate1_Mug] x3
+9ed24519bce40d9c56fcfb247311e6b2	54	-	8	(none)	Trail x52 | BladeTrail x2
+251b7bf8f7dfcbf4fa238fa9d0ee9d9c	53	-	1	(none)	[SciFatPot] x29 | [PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9 | [Quest_SciFi_LaserTrap] x4
+e1f84c70a44fbb14f92ab17e15ba8378	52	-	14	(none)	[Whip] x15 | [QuestSword] x7 | [Quest_Dracula1_BlunderBuss] x6 | [Crossbow] x4 | [QuestShield] x4 | [Quest_Pirate1_PushBroom] x4
+ebcb992fe3d9bdb4e84cd60a7eb4f0ac	50	-	3	(none)	Player7SpawnPoint x9 | [Clipboard] x5 | [Ottoman_Chair] x4 | [RecCenter_Chair] x3 | [Consumables_Donut_Glazed] x2 | [LaserFan_Mag] x2
+e161fae64b898bc22624d03ed611378f	49	-	23	(none)	[PerfCam] x26 | [Quest_Dracula1_Default_SSFX] x12 | [PirateQuest_SSFX] x5 | SSFX x5 | [PirateQuest_Outdoors_SSFX] x1
+06bbf72a2f8c0aa4296bae2aabda2797	49	-	1	(none)	[SciFatPot] x29 | [PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9
+b1e64692a22571e49b89d7f2bfff6c7a	49	-	1	(none)	[SciFatPot] x29 | [PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9
+6a3b1cb3cdca5f7c8cc4516228cea20b	48	-	10	(none)	Particle System x48
+3fd84022eedd3814ba062103f88249a8	48	-	1	(none)	Collider x48
+573d1912055aaa0a1ce24cb2afc920a3	47	-	12	(none)	[QuestSword] x7 | [Quest_Pirate1_Plate] x7 | [Quest_Dracula1_BlunderBuss] x6 | [Crossbow] x4 | [QuestShield] x4 | [Quest_Pirate1_PushBroom] x4
+54ad0bfe567be5d4fb5fc6385f4501ac	47	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1
+df8570b558e01b04ea2ae9be12b298c5	47	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1
+4ba95b28603fdcb488a35974c6979fd3	47	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1
+05c062d95f53ed143b359ad40239962d	47	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1
+bb3fccb061eea8e46ab9688845e5b0ed	47	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1
+e0d6497bce8ed374fa70128d93b252e2	47	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1
+a6df9e11ec04301226a39128b179457f	45	-	10	(none)	HelpGlowVisual-new x45
+acfd86e3b7aff39478f292943465d7f4	43	-	43	prefabs,prefabsAsset	PrefabRegistry x43
+929f40bff435ba5418381c436856b70a	43	-	43	version,music,ambience,sounds,studioMixer	AudioMixerRegistry x43
+fd8f48d81b0040cfada7d50640d96801	43	-	43	PostProcessingProfile	VisualPostProcessing x43
+099c2f3fede4dce4ba882fff8be92137	43	-	43	entries,entriesAsset	MaterialMap x43
+be0cf09202afd8a40a7e68f4c2ebf48d	43	-	43	entriesAsset	AudioClipRegistry x43
+172515602e62fb746b5d573b38a5fe58	43	-	43	m_IsGlobal,priority,blendDistance,weight,sharedProfile	Post Processing Volume x43
+f91c2b2555217ef0a7f70d40cf389f4d	43	-	15	(none)	DecoyBatAdds x10 | Checkpoint x7 | EnemyWaves x5 | Outro Cinematic x3 | [Quest_Dracula1_MidLevelGate] x2 | Encounter5-Ritual x2
+7d1eac5513a42f17ad110869ef66a850	41	-	14	(none)	Patrol Region x13 | Deck x2 | Spawn Region x2 | Upper Back x1 | Platform x1 | Upper x1
+a620cf820979dea418356cc67499b916	41	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2
+544d9fe80ee1a3240938d33146caa019	41	-	1	(none)	[Quest_Dracula1_Collectable_Wall] x23 | [Quest_Dracula1_Collectable_Large] x13 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2
+34db5623a51e0d724861acc13dca5cb8	41	-	2	(none)	ResetPoint x39 | InitialResetPoint x2
+eb08d33ec14376067c8743678010ca8e	40	-	20	(none)	Checkpoint x7 | AnimatedBramble x4 | ActIIIBeginCheckpoint x3 | ActVBeginCheckpoint x3 | ActIIBeginCheckpoint x3 | ActIVBeginCheckpoint x3
+0cd44c1031e13a943bb63640046fad76	39	-	11	m_UiScaleMode,m_ReferencePixelsPerUnit,m_ScaleFactor,m_ReferenceResolution,m_ScreenMatchMode,m_MatchWidthOrHeight,m_PhysicalUnit,m_FallbackScreenDPI,m_DefaultSpriteDPI,m_DynamicPixelsPerUnit,m_PresetInfoIsWorld	Canvas x33 | Label x6
+d52eaeacf4ed3283b16f0e570f4bce17	38	-	12	(none)	[WallClock] x38
+6a907fe66e03396c23fe15732b4ad910	37	-	28	(none)	[PerfCam] x31 | PreviewLight x2 | PreviewLight TurnOFF x2 | PreviewLight Disabled on playback x1 | PreviewLight_TURNOFF x1
+7e51865c7ae3111be3617338211ccacf	37	-	8	(none)	EnemyWaves x6 | PanningTreesLeft x6 | AnimatedBramble x4 | HighFiveEncounter x2 | 1-Reception x2 | E3: Midtown Madness x2
+387ef62085a5f3845bb702f95ed63926	36	-	1	(none)	LocalesStaticBatch x20 | RocksStaticBatch x9 | CommonStructuresStaticBatch x6 | Burnt ForestStaticBatch x1
+dfe97f1c942ccc0082d891aea6c033d1	35	door	24	(none)	Doors x16 | ExitDoor x5 | ParkDoorUnlock x3 | DungeonDoorUnlock x3 | LibraryDoorUnlock x3 | DraculaDoorUnlock x3
+85fffd818357dd254d379dc1d6e82b26	35	door	26	(none)	[DoorTrigger] x34 | Trigger x1
+ec294cb77622163551b277b261243e0e	35	-	8	(none)	AnimatedBramble x4 | BeamFallingParent x4 | Cinematic x2 | TreeHolderNear x2 | TreeHolderMid x2 | TreeHolderFar x2
+5f7201a12d95ffc409449d95f23cf332	35	-	8	m_Material,m_Color,m_RaycastTarget,m_RaycastPadding,m_Maskable,m_OnCullStateChanged,m_FontData,m_Text	Text x26 | Label x7 | Text (Legacy) x2
+f150d8ff460aa05136f67718ba9a1b35	32	pickup	3	(none)	Chest x32
+19d493ba134ac71e5273c930c24ed10f	32	-	1	(none)	[Sandbox_Glowstick_Blue] x29 | [RecRally_GameConfiguration] Variant x1 | [ScoreboardProjector] x1 | [RecRally_GameRuleWrapperCircuit] Variant x1
+7d9c05a182faa544c95c194bfdaa058d	32	spawn	1	(none)	SpawnPoint x32
+9425d1022748ec2a7443e8ac35b8ebb7	31	-	30	(none)	Room Geo x5 | Static x5 | StaticBatch x3 | Foyer x3 | Library x2 | Hallway1 x1
+82bd5cde6147712aad489a4304b76eb6	31	-	31	(none)	[Debug Auto Load Current Activity] x31
+6c25c32c432e23d83ceaa702f719f3eb	31	-	31	(none)	[Debug Auto Load Current Activity] x31
+9b8714bde2e96deb1b601eb7ebd314e3	31	-	1	(none)	[Sandbox_Glowstick_Blue] x29 | [ScoreboardProjector] x1 | [RecRally_GameRuleWrapperCircuit] Variant x1
+e9906ecf780da8e4135e575a16c3512a	31	-	1	(none)	VFX_Smoke x10 | VFX_Wand_Sparks x10 | VFX_Wand_ShootSpread x10 | [RecRally_Chaparral_SceneManager] x1
+a3ec644c8e44690e117391dbdfd57348	30	-	4	(none)	[Quest_Pirate1_Seagull] x23 | Lock x3 | [Bookshelf_Tall] x2 | [Quest_Pirate1_Scaffold] x1 | [Paintball_Target] x1
+5073cc54353f3484c9502b50a1aac01c	30	-	1	(none)	StaticBatchStaticBatch_Plaster_White_Mat x3 | StaticBatchStaticBatch_Carpet_Mat x2 | StaticBatchStaticBatch_Rope_Small_Mat x2 | StaticBatchStaticBatch_ChairHighback_OrganBench_Mat x2 | StaticBatchStaticBatch_Rope_Faded_Mat x2 | StaticBatchStaticBatch_legacy_Candle_Emit_Mat x1
+1c82a1a3c857c6b46b6b3e7948ecd996	30	-	1	(none)	[SciFatPot] x29 | [Scifi_Terminal] x1
+20041a4acf5a1c149ba9c563ec926d2c	29	-	1	(none)	Center x29
+8cb23e8a3409cc54ca997c222836a80b	29	-	1	(none)	[PracticeMale_Cutout] x18 | [PracticeFemale_Cutout] x11
+73bf19a9263bece4c9d94e9c82673afa	29	-	1	(none)	[SciFatPot] x29
+ca1691f31b3a78a41b1dadd0cac2acfc	29	-	1	(none)	[SciFatPot] x29
+dfe398b8f28a0a04a9f0de54fae1e97a	29	-	1	(none)	[VFX_CampfireFlame] x19 | BaseFoam x4 | Particle System x2 | TopSpray x2 | BaseSpray x2
+7f2b3035dfd08847359447239db8f036	28	-	15	(none)	[Quest_Dracula1_MidLevelGate] x11 | [Quest_Pirate1_MidLevelGate] x7 | [BreakableLockEncounter] x3 | BookshelfSecret x2 | Boss Intro x1 | [Quest_Pirate1_CurtainGate] x1
+58fb0dfd75158024e958180108539c86	28	-	1	(none)	[RecRoyale_PlayerCountDisplay] x5 | [Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Park_SMores] x3 | [SoloCup] x2
+dd3c1df642c1e1e4abf629cbb4ec7f78	27	-	1	(none)	MeleeCollider x27
+f56f40d635718f24a92beb9096296eea	27	-	1	(none)	Desk x12 | Gap Filler x3 | Cylinder x3 | Cube x3 | Divider x2 | Floor x1
+c1cc13b60f931e24897faa3fc66da8a7	27	-	1	(none)	Desk x12 | Gap Filler x3 | Cylinder x3 | Cube x3 | Divider x2 | Floor x1
+7670f2d907c29b687697942d8ae5407c	26	-	26	(none)	MainFoyer x3 | Hallway1 x2 | Hallway2 x2 | Library x2 | DeadIsland x1 | BossRoom x1
+c59008718677bf67cbd4756eef77bb3b	26	-	7	(none)	[Quest_Pirate1_Flintlock] x12 | [Quest_Pirate1_Cannon] x8 | [Quest_Dracula1_BlunderBuss] x6
+6f8a02510a70f984824a77aedad100b6	25	-	23	(none)	[ScoreboardProjector] x21 | [LeaderboardProjector] x2 | [Chair_Moveable] x2
+d58d9a20958474f91a731d809dd72fad	25	-	6	(none)	HelpGlowVisual-new x25
+d7fb1dc047e714a4eb5c15b054d21631	24	-	1	(none)	[Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1
+731e27e221710614ab3b4b02d4bbd381	24	-	1	(none)	[Quest_Dracula1_Collectable_Large] x13 | [Whip] x3 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1
+4c86ef1ef6399500da16bd07617e8158	24	-	1	(none)	Sparks Crit x8 | [Quest_Dracula1_PumpkinCollectableSmash_VFX] x8 | Center Crit x8
+d29e6d2fd5c829bd86cf6abf0d482881	23	-	23	(none)	[ScoreboardProjector] x21 | [LeaderboardProjector] x2
+5abfc71845d3f6b4592ecda55d6fc653	23	-	2	(none)	[Clipboard] x5 | [Ottoman_Chair] x4 | [RecCenter_Chair] x3 | [Consumables_Donut_Glazed] x2 | [LaserFan_Mag] x2 | [RecCenter_Couch] x1
+dc0b7ceaf632edcb11a10edcc4221b0a	23	-	23	(none)	Foyer x4 | MainFoyer x3 | BossRoom x1 | BossArena x1 | CarriageRide x1 | ShipDeck x1
+a97fa1f91663b07c6fc98f8f5dddc3cc	23	-	23	(none)	Foyer x4 | MainFoyer x3 | BossRoom x1 | BossArena x1 | CarriageRide x1 | ShipDeck x1
+6c0be6f51dbba11fbafa3292e6a580ff	23	-	3	(none)	[Quest_Pirate1_Seagull] x23
+9e9f1596f41f6a642b98e2e8a09193b4	23	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Park_SMores] x3 | [SoloCup] x2 | [DiscGolfDisc] x2
+160e7bc5e4d88bc448ea80c0d30b8981	23	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Park_SMores] x3 | [SoloCup] x2 | [DiscGolfDisc] x2
+b862652f74121c742894b88b993d757f	23	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Park_SMores] x3 | [SoloCup] x2 | [DiscGolfDisc] x2
+9d7bec1b8acbbaddb3c3a40f73d4faba	21	-	14	(none)	MidLevelGateStoryStateIncrement x7 | StoryStateIncrement x2 | Room Load x1 | Encounter2-DefendIsland x1 | Encounter3-aApproachGazebo x1 | StoryStateIncrement Mid level gate x1
+56e0d42db75e4d23309392a58d59de6b	21	-	2	(none)	[Quest_Pirate1_Naval_Mine] x15 | [NavalMine] x5 | Trap x1
+ddaa1030c5ce94842b90d8a978f214c5	21	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Park_SMores] x3 | [SoloCup] x2 | [Quest_Pirate1_RumJug] x1
+103aa95bbfd1281488a2007af3b43be2	21	-	1	(none)	Region x10 | GliderSpawner x4 | AnimateInOutBounds x3 | [DiscGolfDisc] x2 | [RecRoyale_Frontier_Gondola] x1 | [RecRoyale_VisitorCenter_AudioRolloffVolume] x1
+9f0fde9343dc1301c99fa1566433e597	20	-	3	(none)	[Quest_Pirate1_RumJug] x20
+c649cef021fd6df40b835bc998de3414	20	-	1	(none)	[Quest_Dracula1_Collectable_Large] x13 | [Quest_Dracula1_Collectable_Small] x3 | [Quest_Dracula1_CollectablePumpkin_Small] x2 | [Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1
+1214454a634285f4784092556935a124	20	-	1	(none)	MineMesh x20
+83a45011209510e43a1507043b39d1bb	20	-	1	(none)	[PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9
+2372e35659ddc384fb54b58bb8548145	20	-	1	(none)	[PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9
+7943055f46be59b4693919a3cf14f36c	20	-	1	(none)	[PracticeFemale_Cutout] x11 | [PracticeMale_Cutout] x9
+5338786de5abe4f4d9d10290794a124a	20	-	1	(none)	RaisedGround x5 | CourtFloor x3 | Pillar x3 | BaseGeo x2 | NavFloor x2 | SecondFloor x1
+f921b2365b55de841b4f8a47b0a7cf35	20	-	1	(none)	RaisedGround x5 | CourtFloor x3 | Pillar x3 | BaseGeo x2 | NavFloor x2 | SecondFloor x1
+3b6a46f8b879cdffc0ca4844731ef9c3	19	-	6	(none)	[QuestSword] x7 | [Crossbow] x4 | [QuestShield] x4 | [Longbow] x2 | [Quest_Pirate1_Cutlass] x2
+c99bdecd5318d6b71232b5f13d806509	19	-	19	(none)	MainFoyer x3 | BossRoom x1 | BossArena x1 | CarriageRide x1 | ShipDeck x1 | Graveyard x1
+c55672b7f20b010d418bf37abbc179f7	19	checkpoint	10	(none)	Checkpoint x7 | ActIIIBeginCheckpoint x3 | ActVBeginCheckpoint x3 | ActIIBeginCheckpoint x3 | ActIVBeginCheckpoint x3
+da7419a7afe73e2ec97c318b8420cd08	19	-	1	(none)	[Quest_Pirate1_MovableBox] x19
+da5dfebbdfc427343b6fc34e232ea774	19	-	1	(none)	DiscGolfMode x1 | DodgeballMode x1 | BowlingMode x1 | TeamEliminationMode x1 | CaptureTheFlagMode x1 | TwoTeamSandboxMode x1
+a1a567c80d93f0b2c2cbe8d207b70f32	18	-	11	(none)	Encounter1 x6 | Encounter2 x3 | Encounter3 x1 | Encounter4 x1 | TitleDrop x1 | Encounter5-aFinaleSetup x1
+337196e2d685a8f3f2988872f4016807	18	-	9	(none)	[QuestShield] x4 | [Quest_Pirate1_PushBroom] x4 | [Quest_Dracula1_Shovel] x3 | [Quest_Pirate1_Oar] x3 | [Quest_Pirate1_BarStool] x2 | [Quest_Dracula1_PitchFork] x1
+2de98c159bb782218b8eb4dcd1f66754	18	-	18	(none)	MainFoyer x3 | BossRoom x1 | BossArena x1 | ShipDeck x1 | Graveyard x1 | Ballroom x1
+466e424c3f7f012324a632c33c369f95	18	pickup	2	(none)	[Quest_Pirate1_CoinStack_Small] x18
+b68e66567e93e716b6d096bc9b214853	18	-	6	(none)	Patrol Path x4 | Ground2 x2 | Ground1 x2 | Left2Path x2 | Right2Path x2 | Left1Path x2
+a00e3eecef2b796af4da1b221ef0d911	18	-	3	(none)	[Quest_Pirate1_Flintlock] x12 | [Quest_Dracula1_BlunderBuss] x6
+563f6a18ca0fd7406108cb8144cfd035	18	-	3	(none)	[Quest_Pirate1_Flintlock_InvisibleReloader] x18
+ed6c7f1886dfd862adf890cebf0afe16	18	-	3	(none)	[Quest_Pirate1_Flintlock_InvisibleReloader] x18
+395829e247298e44eb4da96b1b583233	18	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [SoloCup] x2 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1
+2d6dbfecb6ae26f4e9a8e8a6f27a8cfe	18	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [SoloCup] x2 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1
+3d495e8681e89ab4b868c3fc2c9df752	18	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [SoloCup] x2 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1
+4ea05724b7f9b7e46b97fd7dc9f3ab4b	18	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [SoloCup] x2 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1
+dc85c6e2941efd44885e0aed766ce959	18	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [SoloCup] x2 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1
+1ac80185760ecae41880a03ec3b190c8	18	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [SoloCup] x2 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1
+5b0d81b21426b854eb76444cefa0f6fb	17	pickup	1	(none)	[Quest_Dracula1_CollectablesChest] x17
+08751b9cb4d18284a905f8f3bdc645c8	17	pickup	1	(none)	[Quest_Dracula1_CollectablesChest] x17
+9c87268accf1d7346ba070935ecc1dd8	17	-	1	(none)	HandleTool x17
+66a9f701842743e47ad45faf926872d6	17	-	1	(none)	Mesh x17
+f053fa70df063b842a1ba0cafd765b7e	17	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1 | [WaterJug] x1
+2b05460ccdc95d3b9a2d2ea4e93e75c6	16	trigger_zone	10	(none)	TriggerCollider x16
+c170d03d2f93b631e43fcc818bd7f75d	16	-	10	(none)	[DrinkingFountain] x16
+7fe658f58a6b8f74cb95e05217fe3dd9	16	-	2	(none)	donut_glazed_03 x5 | donut_glazed_01 x5 | donut_glazed_02 x5 | ScreensHandleCollider x1
+d58f397e30b47f64ca66dfdf21f2cdeb	16	-	1	(none)	NavBlockerTreeTrunk x16
+9419766dfa1a694dc45137a319cf6045	16	-	4	(none)	[Quest_Dracula1_PumpkinCollectableSmash_VFX] x3 | Sparks Crit x3 | Center Crit x3 | [Quest_Dracula1_BillowingSmoke_VFX] x3 | [Sandbox_Wind_Wavy_VFX] x2 | VFX_WeaponImpactCenter x1
+e945064b62fb61a2d09c8988f16a21a0	16	spawn	4	(none)	Player6SpawnPoint x4 | Player8SpawnPoint x4 | Player5SpawnPoint x4 | Player7SpawnPoint x4
+b7ba078e8a7a7dd5497c35427e761677	16	trigger_zone	1	(none)	LapTriggerCollider8 x1 | LapFinishTriggerCollider x1 | LapTriggerCollider10 x1 | LapTriggerCollider4b x1 | LapTriggerCollider3a x1 | LapTriggerCollider7 x1
+66dae98f7894e774e96c60f66e825822	15	-	15	entriesAsset	ProjectileRegistry x15
+cfb628331a4c7c645a1ed97cf589269c	15	-	15	entriesAsset	ParticleVfxRegistry x15
+c39e9588cc8ee6142b16f36c7cc63935	15	-	1	(none)	donut_glazed_03 x5 | donut_glazed_01 x5 | donut_glazed_02 x5
+d59b22325b8f9438b1e04f991229e50b	15	-	4	(none)	[Quest_Pirate1_Seagull_Mobile] x6 | [Quest_Dracula1_WagonWheel] x4 | Spinner.001 x3 | Dracula_Carriage_BackWheels x1 | Dracula_Carriage_FrontWheels x1
+76c7f85abfb5bfa3091b8ec369ae4334	15	-	5	(none)	[Whip] x15
+bc5d54966aae92bb534c19144d63ce2b	15	-	5	(none)	[Whip] x15
+c26396cb1cb9f7ba8faec442fd808042	15	-	5	(none)	[WhipPopper] x15
+cbc675ff29210014d985f8bf4299aa69	15	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [DiscGolfDisc] x2 | [Quest_Pirate1_RumJug] x1
+e68b09949d24c284eab4a7db8c5d1874	14	-	2	(none)	[Clipboard] x5 | [Consumables_Donut_Glazed] x2 | [LaserFan_Mag] x2 | [Consumables_Donut_BostonCreme] x1 | [Consumables_Donut_PinkSprinkles] x1 | [Consumables_Donut_ChocolateSprinkles] x1
+7044859d8c95c5d43bdfd1e33dd9d040	14	-	2	(none)	[Clipboard] x5 | [Consumables_Donut_Glazed] x2 | [LaserFan_Mag] x2 | [Consumables_Donut_BostonCreme] x1 | [Consumables_Donut_PinkSprinkles] x1 | [Consumables_Donut_ChocolateSprinkles] x1
+c3aff0d69ff41b4e65a1edb565d1b923	14	-	2	(none)	DraculaBossFight x8 | [GhostBeardEncounter] x6
+4bf872aa7ed05ad7abf511d572b8ee99	14	checkpoint	4	(none)	ActIIIBeginCheckpoint x3 | ActVBeginCheckpoint x3 | ActIIBeginCheckpoint x3 | ActIVBeginCheckpoint x3 | [Quest_Dracula1_MidLevelGate] x1 | Encounter x1
+5cd78cb9aa3e440439ae68b72f480dc5	14	checkpoint	1	(none)	ActVBeginCheckpoint x4 | ActIVBeginCheckpoint x4 | ActIIBeginCheckpoint x3 | ActIIIBeginCheckpoint x3
+233c6b53736feb09d5c7b7a8be792673	13	-	13	(none)	[PerfCam] x13
+4605b926caae3384585133b3066b4dbe	13	-	2	(none)	[Clipboard] x5 | [Consumables_Donut_Glazed] x2 | [LaserFan_Mag] x2 | [Consumables_Donut_BostonCreme] x1 | [Consumables_Donut_PinkSprinkles] x1 | [Consumables_Donut_ChocolateSprinkles] x1
+3596db75e232d344ebe9bb49de9e14fc	13	-	2	(none)	[Clipboard] x5 | [Consumables_Donut_Glazed] x2 | [LaserFan_Mag] x2 | [Consumables_Donut_BostonCreme] x1 | [Consumables_Donut_PinkSprinkles] x1 | [Consumables_Donut_ChocolateSprinkles] x1
+75f8d6b75aef7b74aa6c700357c5e2b2	13	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Quest_Pirate1_RumJug] x1
+a2a132155ef04974cbac2d3e327706e3	13	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_FryingPan] x3 | [Quest_Pirate1_RumJug] x1
+7fd2a050548af32449b476f19f431f6a	12	-	3	(none)	OpeningVO x1 | Lookin' Good! x1 | WaveByMirrorEncounter x1 | WaveByWindowEncounter x1 | MiniQuad_TriggeredWave x1 | Look Prompt x1
+ec1e4b5a6e46f0d4cac3b41f523b1182	12	-	2	(none)	[Clipboard] x5 | [Consumables_Donut_Glazed] x2 | [LaserFan_Mag] x2 | [Consumables_Donut_BostonCreme] x1 | [Consumables_Donut_PinkSprinkles] x1 | [Consumables_Donut_ChocolateSprinkles] x1
+3937a5753e6fd2d419a94fc32e27374b	12	spawn	3	(none)	Player7SpawnPoint x9 | Player5SpawnPoint x1 | Player8SpawnPoint x1 | Player6SpawnPoint x1
+553a920aea832a14a84b0deaf188dd85	12	-	2	(none)	PickupDormKey x5 | Initial VO x3 | MiniQuad_TriggeredWave x2 | OpenGiftBox x2
+2e2870f5086d25d5ab91b250d94ea515	12	-	8	(none)	Checkpoint x7 | BookshelfSecret x2 | Button2Triggered x1 | Button3Triggered x1 | Button1Triggered x1
+d1af8e89f3d4eebd9a637aad48cf45d7	12	-	4	(none)	CurtainTrundle x1 | BridgeSqueak x1 | BridgeLands x1 | TitleStinger x1 | CinematicAudio x1 | CreakingAudio x1
+acd7d2995d7cfa342beacc3d5e08049c	12	-	1	(none)	[Quest_Dracula_Fire_Trap] x12
+eb09f495bd70d4a41a16bb58760d74d3	12	spawn	1	(none)	SpawnPoint x8 | Player7SpawnPoint x4
+7252ceefaf6df594982be059dfcbd57e	12	-	1	(none)	[Arena_WeaponVendingMachine] x12
+dd2365674d0feab74f185ed7531bf6b9	12	-	1	(none)	[Quest_Pirate1_Flintlock] x12
+e0f33ea4303953d5c8fe878b3cbf44e7	12	-	1	(none)	[Quest_Pirate1_Flintlock] x12
+dc80cd406e420d2468a37ef051dd3125	11	-	3	(none)	Level Start VO x3 | OpeningVO x2 | Initial VO x2 | PickupDormKey x2 | Lookin' Good! x1 | OpenGiftBox x1
+50c520022d5206e600b69566ce55bf05	11	-	5	(none)	[CannonHandle] x11
+a2df67efd93205a3df11b81b85193013	11	-	5	(none)	[CannonHandle] x11
+8b7b79e5fd6230b7557c4f981a020bf3	11	-	5	(none)	[Quest_Pirate1_Cannon] x8 | [Quest_Dracula1_MirrorCannon] x3
+8c4a79aa7715dc80c005f8289ef0e774	11	-	8	(none)	[GhostBeardEncounter] x4 | Outro Cinematic x1 | Encounter5-GraveyardBattle x1 | Encounter2-Ballroom x1 | DoorCollapse x1 | Encounter5-Ritual x1
+b44163cfe702a492907c822afddb1a74	11	-	11	(none)	BossArena x1 | ShipDeck x1 | Foyer x1 | Dungeon x1 | Beach2 x1 | SunkenShip x1
+e31299302a5f515b2612418cc6441d41	11	-	1	(none)	LoopingTransform x7 | FireCannons x4
+eb207fb5522e81e50966907530bbe522	11	-	2	(none)	Whole x11
+a79441f348de89743a2939f4d699eac1	10	-	10	m_RenderShadows,m_RequiresDepthTextureOption,m_RequiresOpaqueTextureOption,m_CameraType,m_Cameras,m_RendererIndex,m_VolumeLayerMask,m_VolumeTrigger,m_VolumeFrameworkUpdateModeOption,m_RenderPostProcessing,m_Antialiasing,m_AntialiasingQuality,m_StopNaN,m_Dithering,m_ClearDepth,m_AllowXRRendering,m_AllowHDROutput,m_UseScreenCoordOverride,m_ScreenSizeOverride,m_ScreenCoordScaleBias	[PerfCam] x10
+67dfb1fdfb2b407222eda8e23ac8b724	10	-	7	(none)	Text x7 | BoardName x1 | Name x1 | R_ISlotName x1
+9f5c656c918c523479bb10403aeb3d82	10	-	1	(none)	[PulsingBeam] x10
+d5eec92751500f1bb9b3ee1c7e2d6048	10	-	1	(none)	[RecCenter_Chair] x8 | [RecCenter_Couch] x2
+238cd33b48f9fbb4b8d1d579b9a90e59	10	-	1	(none)	SciFi_Heavy_Head x6 | [Quest_SciFi_LaserTrap] x4
+f2f7f03a8d6b2a657bbc6168a3548df3	10	-	1	(none)	[StuntRunner_Firework_VFX] x10
+01236e4ad2ef39a418556b121edccda6	10	-	1	(none)	[Quest_Pirate1_BeerBottle] x5 | [Quest_Pirate1_Plate] x4 | [Quest_Pirate1_RumJug] x1
+66d84a5bb98101e4aa14c1fee1c308fd	9	-	1	(none)	[VFX_Fog_Vent] x9
+dc42784cf147c0c48a680349fa168899	8	-	6	m_IgnoreReversedGraphics,m_BlockingObjects,m_BlockingMask	Canvas x8
+992bc9b1741383991a4b79d5a1fabc95	8	-	1	(none)	CinematicRoot x8
+5de1a6c6f6ccbeda66bf8c39e4a50888	8	-	4	(none)	[Quest_Pirate1_Cannon] x8
+00e0d8628eb1f9de573e9f7ba62a2262	8	-	7	(none)	Finale x2 | [GhostBeardEncounter] x1 | Encounter5-GraveyardBattle x1 | Encounter2-Ballroom x1 | Miniboss-Wolf x1 | Encounter5-Ritual x1
+1f207454b3edc9f45919f7c8c1d99411	8	-	1	(none)	Sparks Crit x2 | Glow x2 | Center Crit x2 | [Quest_Dracula1_PumpkinCollectableSmash_VFX] x2
+034b6cb677094aae28a734a3f8d4a96f	8	-	1	(none)	Crossbow Trap x8
+e514981a2c798e2998f0b9057ffef0bf	8	-	1	(none)	Crossbow Trap x8
+391e48e08816be8982122fe789e7e37a	8	-	2	(none)	Overlap Volume x2 | [InBoundsVolume] x2 | FieldBounds x1 | StagingAreaRed x1 | StagingAreaBlue x1 | SpawnArea x1
+f46ee56da5e05a148a502a2abf6b9cbc	8	spawn	1	(none)	Player6SpawnPoint x1 | Player3SpawnPoint x1 | Player8SpawnPoint x1 | Player2SpawnPoint x1 | Player4SpawnPoint x1 | Player7SpawnPoint x1
+b99a21615ce0edf4c996780aac405c4f	8	spawn	1	(none)	Player6SpawnPoint x1 | Player3SpawnPoint x1 | Player8SpawnPoint x1 | Player2SpawnPoint x1 | Player4SpawnPoint x1 | Player7SpawnPoint x1
+a12bda0989a9eeb43a33b304897406a3	8	-	1	(none)	FuelCell1 x1 | FuelCell6 x1 | RedTeamMainframeEncounter x1 | FuelCell5 x1 | FuelCell4 x1 | FuelCell3 x1
+50625ba11f2fcffd56101e6d8e374fdb	7	-	7	(none)	SSFX x6 | [Quest_Dracula1_Default_SSFX] x1
+6a4d4661cf7e1e3fd1d13b316f8b8d39	7	-	7	(none)	Hallway1 x1 | DeadIsland x1 | Hallway2 x1 | Hallway3 x1 | Hallway4 x1 | CastleCourtyard x1
+4aba040dec9bf7c854d26c87d3c919a2	7	-	7	(none)	Hallway1 x1 | DeadIsland x1 | Hallway2 x1 | Hallway3 x1 | Hallway4 x1 | CastleCourtyard x1
+0ef6c79687011404581e4b3c666c30eb	7	-	3	(none)	Overlap Volume x7
+a78275a7f92a26c4c946a2f4790e9dc6	7	-	1	(none)	[RoomatarPlayer] Orientation_MiniQuad_Moving3 x1 | [RoomatarPlayer] Orientation_Greeter_TriggeredWave1 x1 | [RoomatarPlayer] Orientation_MiniQuad_TriggeredWave1 x1 | [RoomatarPlayer] Orientation_MiniQuad_StationaryPrimary2 x1 | [RoomatarPlayer] Orientation_MiniQuad_StationarySupplementary1 x1 | [RoomatarPlayer] Orientation_Greeter_Idle1 x1
+083ad4633d8d4c44ab16d5ba97e370a6	7	-	1	(none)	Confetti x7
+52fbaf3603540634facc017a59598fa3	7	-	1	(none)	LightArchShaft x4 | LightGlow x3
+4c70366c2be54bdbde2e50c106809f0d	7	trigger_zone	1	(none)	Trigger Trap x7
+d71b4b0f811739b4999a5651cc775e3a	6	-	2	(none)	OpeningVO x1 | Lookin' Good! x1 | WaveByMirrorEncounter x1 | WaveByWindowEncounter x1 | MiniQuad_TriggeredWave x1 | Initial VO x1
+b319384682e5af74982b82b4e76f0aa8	6	-	3	(none)	Initial VO x2 | OpeningVO x1 | Lookin' Good! x1 | Walk Prompt x1 | Level Start VO x1
+5e2c92ac1f22bbf418901b7d5a24350c	6	-	1	(none)	[Car_80sSportsCar] x4 | [Truck] x2
+308e6f73722223c3ac62e147129a9336	6	-	1	(none)	Bow_LOD1 x2 | Bow_LOD0 x2 | Bow_LOD2 x2
+4f231c4fb786f3946a6b90b886c48677	6	-	6	m_SendPointerHoverToParent,m_HorizontalAxis,m_VerticalAxis,m_SubmitButton,m_CancelButton,m_InputActionsPerSecond,m_RepeatDelay,m_ForceModuleActive	EventSystem x6
+76c392e42b5098c458856cdf6ecaaaa1	6	-	6	m_FirstSelected,m_sendNavigationEvents,m_DragThreshold	EventSystem x6
+f230c1d767bca50e12e1ec4c319eef28	6	spawn	2	(none)	GiftBoxSpawnPoint x6
+18f6dd3503d356ec343d32d6e58e934e	6	-	4	(none)	[Quest_Dracula1_Shovel] x3 | [Quest_Pirate1_Cutlass] x2 | [Quest_Dracula1_PitchFork] x1
+37ee7d0b2cb4b86c9c81558fe06878b7	6	-	3	(none)	[BreakableLockEncounter] x3 | Blast Target to Drop Bridge x2 | Encounter5-bDrawBridge x1
+7a703f7256f60e3b0b035f762ac1e709	6	button	2	(none)	[QuestEncounterTriggerButton] MidLevelGateButton x2 | [QuestEncounterTriggerButton] Hallway Secret x1 | [QuestEncounterTriggerButton] Heavy x1 | [QuestEncounterTriggerButton] Lounge Secret x1 | [QuestEncounterTriggerButton] Fake button x1
+86028ee358016c09416fc604a67ac624	6	button	2	(none)	Button x6
+c0a8f0b9bb34bdfeb36d3f8c3e67b874	6	-	2	(none)	BookshelfSecret x2 | HighFiveEncounter x1 | Button2Triggered x1 | Button3Triggered x1 | Button1Triggered x1
+56b87ddbc88eee4448c7a2e54246a7e8	6	-	1	(none)	NavBlocker x6
+05d1fcb98ce195b4b88f2793b38d4ae9	6	-	1	(none)	[Quest_Dracula1_Hookshot] x6
+75b3daffc9de3eb41960e38e2807ba39	6	-	1	(none)	[Quest_Dracula1_Hookshot] x6
+8ac27761887d65d44b3ccb684a00c0cb	6	-	1	(none)	[Whip] x3 | [Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1 | [Quest_Dracula1_BlunderBuss] x1
+2a782f01961e4644eb018a4b32793d1e	6	-	1	(none)	Sparks Crit x2 | Center Crit x2 | [Quest_Dracula1_PumpkinCollectableSmash_VFX] x2
+98e2febbaa024304190eaa3ca9a54580	6	-	1	(none)	HelpGlowVisual-new x6
+920e64b20477c8746af80a279ac339a1	6	-	1	(none)	HelpGlowVisual-new x6
+67a718743d155b893861cddb6d3cd150	6	-	3	(none)	[Quest_Dracula1_BlunderBuss] x6
+65cf43711f7b8091b7357245e87e8ca5	6	-	3	(none)	[Quest_Dracula1_ShipBeams_Long] x4 | [Barrel_Wine_Pullable] x1 | [Quest_Pirate1_Scaffold] x1
+b6e3da80522454c44921e08d6b36a7ed	6	-	1	(none)	SciFi_Heavy_Eyes x6
+0e6dc39a8f5653043b80b4ba9d5652c8	6	-	1	(none)	SciFi_Heavy_Head x6
+7d7cd371d6efeb04bbc300893d8812de	6	-	1	(none)	SciFi_Heavy_Head x6
+6b11d15dce143a84893025dbdc74f811	6	-	1	(none)	FuelCellSlot x6
+02f3a4983dd5f1649bc835c02df69b9f	6	-	1	(none)	FuelCellSlot x6
+6c2f11c33c103b94ea1ffeb3597129be	6	-	1	(none)	SciFi_Heavy_Body x6
+d71e743f49398e60ab6aada57807bd49	6	-	1	(none)	[InBoundsVolume] x2 | FieldBounds x1 | StagingAreaRed x1 | StagingAreaBlue x1 | SpawnArea x1
+a89c2df50ff2b6341bb1934082d61364	6	-	1	(none)	Trail x6
+41ae6368cbe58642d8713a3fb52a4b98	5	-	5	(none)	[PerfCam] x5
+0caf26e5fdc57f7428bd4ef74750a5f2	5	-	1	(none)	Leg x4 | Table x1
+9686f164a9c728f43b1885afa34956d8	5	-	1	(none)	[Consumables_Donut_Glazed] x2 | [Consumables_Donut_BostonCreme] x1 | [Consumables_Donut_PinkSprinkles] x1 | [Consumables_Donut_ChocolateSprinkles] x1
+a5e675edd4a081a49a140cdf7b0cc671	5	-	1	(none)	[Consumables_Donut_Glazed] x2 | [Consumables_Donut_BostonCreme] x1 | [Consumables_Donut_PinkSprinkles] x1 | [Consumables_Donut_ChocolateSprinkles] x1
+8fe57704ede4ab54aa651108527cb9e8	5	-	2	(none)	PickupDormKey x2 | Level Start VO x1 | Initial VO x1 | OpenGiftBox x1
+edb045b9d6e2f9eb72e8697d37aa408f	5	boss	1	(none)	DraculaBoss_Head_Jnt x1 | DraculaBoss_Body_Jnt x1 | DraculaBoss_Elbow_Jnt x1 | DraculaBoss_Wrist_Jnt x1 | DraculaBoss_BodyCloth_Jnt x1
+none	5	-	2	(none)	Scifi_Ground_Roomba_Mesh x3 | Disable Second Fire Traps x1 | Enable Second Fire Traps x1
+b8e87aa2defebab69b8905ef0e9bc30b	5	-	3	(none)	[Quest_Dracula1_ShipBeams_Long] x4 | [Quest_Pirate1_Scaffold] x1
+42b7bfe13a645a1458543f3c20fd92bf	5	-	1	(none)	Cube x4 | [Scifi_Terminal] x1
+247da08d502f38842940a35853169069	5	-	1	(none)	[Quest_Pirate1_FryingPan] x3 | [DiscGolfDisc] x2
+36c307653ab6e8145af52f65d27c903e	5	-	1	(none)	[RecRoyale_PlayerCountDisplay] x5
+46e54fd180d112141b071459d194c187	4	-	2	(none)	WaveByMirrorEncounter x1 | WaveByWindowEncounter x1 | Look Prompt x1 | Walk Prompt x1
+ed5c68842f1381441a7b3b4403e642bc	4	door	3	(none)	[Quest_Door_Active] x2 | SchoolEntranceDoor_fbx x2
+d579d5bab30dd9730d74d7eeaeb648b2	4	-	3	(none)	[Crossbow] x4
+f4688fdb7df04437aeb418b961361dc5	4	-	4	m_Material,m_Color,m_RaycastTarget,m_RaycastPadding,m_Maskable,m_OnCullStateChanged,m_text,m_isRightToLeft,m_fontAsset,m_sharedMaterial,m_fontSharedMaterials,m_fontMaterial,m_fontMaterials,m_fontColor32,m_fontColor,m_enableVertexGradient,m_colorMode,m_fontColorGradient,m_fontColorGradientPreset,m_spriteAsset	Text (TMP) x4
+10f570d94f134ae25da7ccf5f5561d90	4	-	3	(none)	[CannonLighter] x4
+9b45b6aba7a3038ea2e7682efd009b92	4	-	3	(none)	Torch_FlamePlane x4
+d328abdcfa266d5f3c558e210ae84e00	4	-	3	(none)	CameraShake x3 | DrawbridgeDoor x1
+a548b1e88bc9703b376364ef23dc6fe9	4	-	4	(none)	Foyer x4
+dbdfd51f5d1f52846ab5dbeb3feff999	4	door	1	(none)	[DoorTrigger] x4
+a89fe31472c37334686bd99c0376991d	4	door	1	(none)	[Quest_Door_Active] x3 | [Quest_Dracula1_Boss_Door] x1
+914e122d24c991042a1241fe3b026ccb	4	-	1	(none)	[StageLight_Standing] x3 | [StageLight] x1
+7d98ae6c6341bc74fac0331e3141e250	4	checkpoint	1	(none)	ActIIBeginCheckpoint x1 | ActVBeginCheckpoint x1 | ActIIIBeginCheckpoint x1 | ActIVBeginCheckpoint x1
+6720d85e055344a46b8c98a7c4d52ef8	4	checkpoint	1	(none)	ActIIBeginCheckpoint x1 | ActVBeginCheckpoint x1 | ActIIIBeginCheckpoint x1 | ActIVBeginCheckpoint x1
+6ce3aa6f9799d514da6c18104d90255b	4	checkpoint	1	(none)	ActIIBeginCheckpoint x1 | ActVBeginCheckpoint x1 | ActIIIBeginCheckpoint x1 | ActIVBeginCheckpoint x1
+89bf2536210e7a843b6f56fe842a87ea	4	checkpoint	1	(none)	ActIIBeginCheckpoint x1 | ActVBeginCheckpoint x1 | ActIIIBeginCheckpoint x1 | ActIVBeginCheckpoint x1
+358abef7fc65fcf48a7be5c999dad2a6	4	checkpoint	1	(none)	ActIIBeginCheckpoint x1 | ActVBeginCheckpoint x1 | ActIIIBeginCheckpoint x1 | ActIVBeginCheckpoint x1
+d1fe34b62b95b4e4ea10a651991fd1db	4	spawn	1	(none)	PlayerSpawnPoint3 x1 | PlayerSpawnPoint x1 | PlayerSpawnPoint2 x1 | PlayerSpawnPoint4 x1
+3d261b62409394e4a939722c9e3ed540	4	door	1	(none)	DungeonDoorUnlock x1 | ParkDoorUnlock x1 | DraculaDoorUnlock x1 | LibraryDoorUnlock x1
+95509baf4c25ad797393e1a0987b9c5e	4	-	1	(none)	Pirate_Puzzle_Piece_4 x1 | Pirate_Puzzle_Piece_1 x1 | Pirate_Puzzle_Piece_3 x1 | Pirate_Puzzle_Piece_2 x1
+c189a07487042e74aaa79f5ef9b45cf3	4	-	1	(none)	[Quest_SciFi_LaserTrap] x4
+5b0097faf01c7664085dd1c9e1b15536	4	-	1	(none)	[StageLight_Standing] x4
+6ae14e8bcff6b9f459c981801b72e832	4	spawn	1	(none)	Player2GiftBoxSpawnPoint x1 | Player1GiftBoxSpawnPoint x1 | Player3GiftBoxSpawnPoint x1 | Player4GiftBoxSpawnPoint x1
+9acd4b80bd097e341a805c1f952404c3	4	-	1	(none)	R_OSlot x1 | B_OSlot x1 | G_OSlot x1 | C_OSlot x1
+72e06eabe7f3fff4ebdb934169ade48e	4	door	1	(none)	Door x4
+9fabd571a1c82a6449a22e4307928291	4	-	1	(none)	RimCollisionBottom x2 | RimCollisionTop x2
+243b061ef5fba1843b4e337d0fde9a4a	4	-	1	(none)	Trail x2 | LaserTrail x2
+193497197fb1be94a89e4c21dbb8a44a	4	enemy_spawner	1	(none)	GliderSpawner x4
+29e757c24a853bf41806e7dddaf19252	3	-	3	(none)	Entry x1 | Arrival x1 | RewardsRoom x1
+fa4e1e1a38495b848a4ead5684926183	3	-	3	(none)	Entry x1 | Arrival x1 | RewardsRoom x1
+f5138ec8887618a4e97bb85f1aa22696	3	-	3	(none)	Entry x1 | Arrival x1 | RewardsRoom x1
+92207564432e5fc4b9375d402780e2eb	3	-	3	(none)	Entry x1 | Arrival x1 | RewardsRoom x1
+c2c46419cd0d4534aa8cb63de824a082	3	-	1	(none)	Prompt Volume x3
+fa0451200d0858341b5fe097feadf5fd	3	-	2	(none)	Car_Truck_Glass_LOD0 x2 | WindowGlass x1
+7c3c939863faafd41af5cd1a333d9d22	3	-	1	(none)	Drop Prompt Trigger x1 | WaveByMirror x1 | WaveByWindow x1
+65a8eb9d8ce716d4baf223dc6e0fc99c	3	-	3	(none)	[Debug Auto Load Current Activity] x3
+e96e8c0930e96dc4aae68253e035c55b	3	-	3	(none)	[Debug Auto Load Current Activity] x3
+2913384ccc8ce544298b71d99ea94445	3	-	3	(none)	SSFX x3
+1bfecbc31ddcb2144bcf2afd7ff00fa7	3	-	3	(none)	[PerfCam] x3
+a96f758d4d42ae74c9fcf67311212a5b	3	-	3	(none)	[PerfCam] x3
+cd40f0ecad3ea9e44aeb5e7fcb5b957a	3	-	3	(none)	[PerfCam] x3
+44e5395fd4968ec44ab2ffdc9accd30b	3	-	3	(none)	[PerfCam] x3
+ae0d4cd8e74f82d4ba254ba28397f42d	3	-	1	(none)	Walk Prompt x1 | LookAtHands x1 | Level Start VO x1
+873135ea30bd4e847896ab27fe5bbc8c	3	-	1	(none)	Text x1 | MessageText x1 | NameText x1
+307d3756599b04133bfcb6a1d86e2e2e	3	-	1	(none)	[Quest_Dracula1_MirrorCannon] x3
+82e40c5f2f898cbaacd39251155fd9c7	3	-	3	(none)	Outro Cinematic x1 | DoorCollapse x1 | Outro x1
+23054f1844d7f37bd4bc55297dc76de2	3	-	3	(none)	[PerfCam] x3
+8b642da2af75a1fde94d467473fc1f13	3	-	3	(none)	ExteriorCollider x3
+d6af3013b34e4304698b177a74c6fe05	3	-	1	(none)	Whip_handle x3
+cfbcfc49195a8384691b242a5ecef122	3	-	1	(none)	[Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1 | [Quest_Dracula1_BlunderBuss] x1
+fe8c18ba63db9854c8fceda65f434f51	3	-	1	(none)	[WhipPopper] x3
+2a224a67637a30c48aea986ce06f7ba9	3	-	1	(none)	[Whip] x3
+4af0a5e96dd923f4fa58d3dc7b236a6d	3	-	1	(none)	[Whip] x3
+24fc0b16dd8e8774caabc0d63863566b	3	-	1	(none)	[Whip] x3
+6fae71173e14aa319edea3f1bb934855	3	-	1	(none)	WaterTopPSVR x1 | WaterTop x1 | WaterBotPSVR x1
+e8d44e46f55e314944b3fe751d60eff8	3	-	1	(none)	ScoreboardProjector_BeamBase x1 | ScoreboardProjector_BeamTop x1 | ScoreboardProjector_Quad x1
+49ccde584cc97f442b69b9b0dbfa6280	3	-	1	(none)	[Quest_Pirate1_FryingPan] x3
+ba8113a79313c3a47b36349186e1681e	3	-	1	(none)	Map x3
+6d999eb28305e014c97e75e8a7f5c394	3	-	1	(none)	[PulsingBeam] x3
+686990e018613f545b7793bd5216ce45	2	-	1	(none)	MirrorRear x2
+4600a31a28c1bcb429ab4d38710da690	2	-	2	(none)	SunLight x1 | KeyLight x1
+6019b584fdf97bd40b0334479895454a	2	-	2	(none)	Entry x1 | Arrival x1
+d3702aa37c5efe94db06b1001a3eee74	2	-	1	(none)	[WallClock] x2
+685c70391e0f5c0323b03c0c9e328a67	2	-	1	(none)	BowString x2
+441f95367fe6658005b9e09247ebd1bb	2	-	1	(none)	StringRenderer x2
+73cebd67f1d04ca2db1eb70c20b96927	2	-	2	(none)	DeadIsland x1 | CastleCourtyard x1
+797ca0e734245bdfc33088d805a9a0a6	2	-	1	(none)	[Longbow] x2
+5080dd4e870722182714389848e29b21	2	-	1	(none)	[Longbow] x2
+9a8468fc3e10ae8468803edbdd3ebabf	2	-	1	(none)	[VFX_Confetti_Orientation] x1 | [VFX_ObjectSpawn] x1
+8fb63d369aa7beecf12bdd0bc7e71356	2	-	2	(none)	DraculaBossFight x1 | [GhostBeardEncounter] x1
+d81db70f5e9194d4eebff2244ea483c2	2	-	2	(none)	DraculaBossFight x1 | [GhostBeardEncounter] x1
+3dce2b91f1f267542b48562b415c308f	2	-	1	(none)	[Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1
+4343f36380382f8419e5da290a19fefb	2	-	1	(none)	[Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1
+725e8c4617ba1064fb4fe55c49365621	2	-	1	(none)	[Quest_Dracula1_Shovel] x1 | [Quest_Dracula1_PitchFork] x1
+eac8c208d6365b34ab760001631507a7	2	-	1	(none)	Whole x2
+17ed40bf72c28c83a82900922856641d	2	-	2	(none)	[LeaderboardProjector] x2
+74ff5c19f5d71774499efb401c5c31c3	2	-	2	(none)	TorchGrabBats x2
+bda05c4b25147439b0ea5f521a059339	2	-	2	(none)	Terrain x2
+bdefe227fb55ad321b6b8440e87ffc8e	2	-	1	(none)	Underwater Reverb x1 | None Reverb x1
+525c127320e1f40d7e6bb9feabe6fb90	2	-	1	(none)	Particle System x2
+90383b35958659a74b4f9cd410ab467b	2	-	1	(none)	[WaterBottle] x2
+12166eba350f5494fc49e9eb0f7c7b74	2	-	1	(none)	[WaterBottle] x2
+1c2c4f637f979b449b19bc33f3322ba6	2	-	1	(none)	FuelRunMode x1 | MainframeAssault x1
+09c83015e470d074da6a45081d12b82a	2	-	1	(none)	[WallClock] x2
+afc0d2f138be3db43be32d3c58e3ec77	2	-	1	(none)	InitialPatrols x1 | Spawn Region x1
+7ece645855f8a8d4f973afa70792aee0	2	-	1	(none)	EndingSpotlight x1 | LootSpotlight x1
+60b6d1c13e8cba34c996ec7cf606b15a	2	-	1	(none)	[Portal_Card] x2
+58101205676f633418e57e23afa57f4f	2	-	1	(none)	ReferenceCamera x2
+ca87d42782457e4ff01b6b57d00d637e	2	-	1	(none)	Mud-Transparent x1 | Mud-Opaque x1
+1b0d40361cf6fe81d9026d86b8ddd11d	2	-	1	(none)	JobSystems x2
+de9a111c7db503413f9c7eaf5a16275c	2	-	1	(none)	[RecRally_GameConfiguration] Variant x1 | [RecRally_GameRuleWrapperCircuit] Variant x1
+28ec7bfc2a14873375dec49cfc12cb7b	2	-	1	(none)	[RecRally_KartGate] Front x1 | [RecRally_KartGate] Rear x1
+2c565ca6f1bf33246b836e33cc8bcb1e	2	-	1	(none)	[Trashcan_Hoop] x1 | Rim x1
+2ef90281174ed8b4baf8521a1192735b	2	-	1	(none)	[WallClock] x2
+05beba34f35316a4e99c93ddc1179305	2	-	1	(none)	Text x2
+f9019754c03d10c469eb9568192daca1	2	-	1	(none)	[DiscGolfDisc] x2
+4a90e148ce815ad42861696b099bb7db	2	-	1	(none)	[DiscGolfDisc] x2
+5f5dcb8086dd2bb488b61911684694ff	2	-	1	(none)	[DiscGolfDisc] x2
+2147609ae85ac85468cda8537d136732	2	-	1	(none)	[DiscGolfDisc] x2
+fe87c0e1cc204ed48ad3b37840f39efc	2	-	1	m_Material,m_Color,m_RaycastTarget,m_RaycastPadding,m_Maskable,m_OnCullStateChanged,m_Sprite,m_Type,m_PreserveAspect,m_FillCenter,m_FillMethod,m_FillAmount,m_FillClockwise,m_FillOrigin,m_UseSpriteMesh,m_PixelsPerUnitMultiplier	Background x1 | NameCanvas x1
+ac2c80e2204de8c408dbef148800f032	2	-	1	(none)	TeleportFloor x1 | Colliders x1
+05afe4015ad30b340a75017e735c0925	2	-	1	(none)	[Rope] x2
+c7ff8b962b7db9744b7309e307d88316	1	-	1	(none)	[OrientationIntroduction] x1
+928795fa553101f4b874e4ed64e94ff6	1	-	1	(none)	Look Prompt x1
+bb1aa279128c00d46b01ceaf514dffb1	1	-	1	(none)	LookAtHands x1
+869a228d43574374494b72de407f46be	1	-	1	(none)	PackageGlow x1
+4ca214b0532d00a4497c61943d6b06b0	1	-	1	(none)	PickupDormKey x1
+8e30d7d91ce133a4d85f161686ac4761	1	-	1	(none)	PickupDormKey x1
+9d591754f8fc66946ae2db0d7fd29cbe	1	-	1	(none)	PickupDormKey x1
+4b7398594effc7149b72b232f3dc54d0	1	-	1	(none)	PickupDormKey x1
+ed844162ce9ab7540a3e47c7deeed092	1	-	1	(none)	OpenGiftBox x1
+395a959a4bbdc4047895445d3b03026a	1	-	1	(none)	[Orientation_TearStripBox] x1
+177ece58ce5413e45ab6ed79c2def1fb	1	-	1	(none)	[Orientation_TearStripBox] x1
+138e210c1adda2b498daccbfffc75d94	1	-	1	(none)	[Orientation_TearStripBox] x1
+e53eeeb00ada7994ca34921178e24134	1	-	1	(none)	[VFX_Confetti_Orientation] x1
+0792d1a48f90a7748b955a62c68ca782	1	-	1	(none)	Mesh x1
+9f99237a95615454b98779e605c59d6c	1	-	1	(none)	[PulsingBeam] x1
+9d6d74de09582a24e92e46a5415deb5a	1	-	1	(none)	PullTab x1
+5fcccc763a0df6c4d833a4d70291806f	1	-	1	(none)	PullTab x1
+b0f87529ce406c24e82708fd1a00eb0c	1	-	1	(none)	ToolAnchor x1
+2ef28ffa9494e304183f157fed26efcd	1	-	1	(none)	StampCanvas x1
+3a835e3a2734704459b550266f94fc91	1	-	1	(none)	[VFX_ObjectSpawn] x1
+ea52245a30cad147f6ec75a0591be8ad	1	-	1	(none)	DraculaBossFight x1
+a426e708690e853f3c012701e5ca2b8e	1	-	1	(none)	Cinematic Animator x1
+9ee81e0f3c2aec5f3b442495d82ab60f	1	-	1	(none)	GhostBeard Relocate Points x1
+890d2731aa2eae65901c7c0b9702f389	1	-	1	(none)	[Quest_Boulder] x1
+84be672d41f447ad1751f8c7e824a967	1	-	1	(none)	Speaker Audio x1
+464a161979151d6459ee7850f62b5107	1	-	1	(none)	[Debug Auto Load Current Activity] x1
+82aeb1dbdf1f9b243a07e8cbf5fe20fb	1	-	1	(none)	[Debug Auto Load Current Activity] x1
+d3d3ec4856d19024aa39cc66aa6241eb	1	-	1	(none)	[Quest_Pirate1_Flintlock_InvisibleReloader] x1
+f069e622e8d9bc644a0962417a00bfb1	1	-	1	(none)	[Quest_Pirate1_Flintlock_InvisibleReloader] x1
+65263ff8d0a4a954693419232b9cf16b	1	-	1	(none)	[PerfCam] x1
+ebc31a08031fb8e42910ac60fcfa70de	1	-	1	(none)	[PerfCam] x1
+79fb3d59aabe7504794ca2869b1e1b47	1	-	1	(none)	[PerfCam] x1
+5c2f7be52c5b47e469c161e798c0b2f0	1	-	1	(none)	StaticBatch x1
+5a41dd53c4a693441b2f78e8f7501802	1	-	1	(none)	[Quest_Dracula1_Default_SSFX] x1
+7fc82428799b15445818eccee2ae9793	1	-	1	(none)	[Quest_Dracula1_BlunderBuss] x1
+fe5f5ba36ac221145a8c20ad414e8168	1	-	1	(none)	[Quest_Dracula1_BlunderBuss] x1
+8dc05fbd853493d4eb6eafd826c05b46	1	-	1	(none)	[Quest_Dracula1_BlunderBuss] x1
+3272437331042f345aaf86b0a68a8b69	1	-	1	(none)	MainFoyer x1
+7acabbda1d283644780e186b38d9b3f6	1	-	1	(none)	MainFoyer x1
+d8edbdce80022a2489348c4e61c944b2	1	-	1	(none)	MainFoyer x1
+f0fadaa75a539ad4faa7feb3468ca1a2	1	-	1	(none)	MainFoyer x1
+0ffd96e6fb1e6c649b508fed131bbd44	1	-	1	(none)	MainFoyer x1
+9541d86e2fd84c1d9990edf0852d74ab	1	-	1	m_Material,m_Color,m_RaycastTarget,m_RaycastPadding,m_Maskable,m_OnCullStateChanged,m_text,m_isRightToLeft,m_fontAsset,m_sharedMaterial,m_fontSharedMaterials,m_fontMaterial,m_fontMaterials,m_fontColor32,m_fontColor,m_enableVertexGradient,m_colorMode,m_fontColorGradient,m_fontColorGradientPreset,m_spriteAsset	Text x1
+c1f098f34a71f1ae893448abbe9041a5	1	-	1	(none)	CastleCourtyard x1
+e6b5ef3ae5ec24694f9d62ab3767681b	1	-	1	(none)	Terrain x1
+f0d2346824e7c814c3dc20740dfdfbc0	1	-	1	(none)	[Quest_Pirate1_Puzzle] x1
+f8364b27238cf0aa82f8a4c8efd53187	1	-	1	(none)	[Quest_Pirate1_MidLevelGate] x1
+13555309db68cd133370d433aadd4974	1	-	1	(none)	[CausticsLight] x1
+0be4a5c649362243933b0cd26c1fe4c8	1	-	1	(none)	[Rug] x1
+2e9aa672e4fd8af47967c56b303c0bc1	1	-	1	(none)	[Quest_SciFi_RoomDoorTrigger] x1
+a3e03220ab713cf459d03c97927dca64	1	-	1	(none)	[ArenaManager] x1
+b4b2b0acbca1d4e4d9db866e067020d0	1	-	1	(none)	Doors x1
+78677648213bac34ca98a5caa91454b2	1	-	1	(none)	InitialPatrols x1
+c606c8786214a6a4d90b190c4464dc85	1	-	1	(none)	[Quest_SciFi_RoomExitDoor] x1
+445cce3ff88a2e343ad607461ada4007	1	-	1	(none)	ReferenceCamera x1
+05b57f84456e4b44ba1fe6e420f4d08c	1	-	1	(none)	[Scifi_Terminal] x1
+71d29ad9e90a6fc41bb2d0e7c84ace02	1	-	1	(none)	UI x1
+a5fea91bb3b9297479f937f3b46f77d7	1	-	1	(none)	[Debug Auto Load Current Activity] x1
+ebe6549bb9df45f43897dfbd7eba00ab	1	-	1	(none)	[Debug Auto Load Current Activity] x1
+37d3ec60e9800774da9c9544d57bcb7f	1	-	1	(none)	[FuelCellSpawner] x1
+712421f3a9b36904bbdf48a7f6ca9623	1	-	1	(none)	Spawn Region x1
+1ed4f6e6a5067b74980961d89462d73c	1	-	1	(none)	[Arena_SceneManager] x1
+59ea0a1206abdc944a3b53fcf47da651	1	-	1	(none)	[Arena_SceneManager] x1
+fa0ead5f99f8ec34bb7b16aa9333c9a4	1	-	1	(none)	[Arena_SceneManager] x1
+938df1b149f070d4a92b2a02a8c6df93	1	-	1	(none)	[Arena_SceneManager] x1
+2b88d060cb8bdf6429aa56eda7a387cf	1	-	1	(none)	[Arena_SceneManager] x1
+6d3d61d3c6b94b0e50115e96ea9f0352	1	-	1	(none)	[Shipping_Container] x1
+d5b37d87852ad2ee0b0bd2f3466c3f1e	1	-	1	(none)	[ReceptionBell] x1
+9f24b38b31d82710ecbe2718fa76a5f5	1	-	1	(none)	UGCSubtitleManager x1
+dcd4a1514bd7979873718a55bf1b7d77	1	-	1	(none)	RecRally_LapManager x1
+8232530f9aa5769a5ff27e6d92310adc	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+f0c03f6f0a14e46dfe45f904bf43d022	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+edc69a620950330358e3b44485920d59	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+0a8e1956a116a3870f8af7f281a136c9	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+f80ca4ab0e61ee896849a2d6cba5d22d	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+3aefceadea7abacd91101c902a4dc384	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+aa2df353b50c5bcbdcee4d392b2f0c28	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+d655ff2b09814b1473934a632270c2ac	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+ef327c45e5659c25160b2f29c0a69c90	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+b9f2e0950857c26c2a2f118bfde114d6	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+508a84f591ae274491c98e4008ef2b21	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+38693a49c054b375921b0647490b1196	1	-	1	(none)	[RecRally_Chaparral_SceneManager] x1
+e6ffad7915b0b067969e2162921f0779	1	-	1	(none)	[GameManager] x1
+acbee3395dec3966af9a3a6f18ec1313	1	-	1	(none)	[GameManager] x1
+013f26f8f9d57067037f0b34ba57ac60	1	-	1	(none)	[GameManager] x1
+ca32803bff5e60bcc680ed7d12f9b191	1	-	1	(none)	[GameManager] x1
+9d2f8a507b0f3ecb9e42556b1e19ce71	1	-	1	(none)	[GameManager] x1
+fcccde2888ae8255987117b9e23224ca	1	-	1	(none)	[GameManager] x1
+4e6f4989f337a22da5facab365d4e1c2	1	-	1	(none)	[GameManager] x1
+fa3f1a2d47bf9479853f992a9cd99dc9	1	-	1	(none)	[GameManager] x1
+eb534d8d636ffec1d098b21546072800	1	-	1	(none)	R_ISlot x1
+7f2fe474edab2504cf3d64ed16fbd862	1	-	1	(none)	[VehicleTerrainMarkup] x1
+ac3f88836fae6df84948ec5c9d0825b1	1	-	1	(none)	[CommonSceneSystems] x1
+f651db9d505d798cc64a4f9c1998b9d2	1	-	1	(none)	Permissions x1
+88b2cd53502f5ed4d6860c7582936ca9	1	-	1	(none)	[RecRally_GameConfiguration] Variant x1
+e21d03140e68e8d385266f41226bd76e	1	-	1	(none)	[RecRally_GameConfiguration] Variant x1
+5c1c78cfe777a6ddf6daaed1efb16356	1	-	1	(none)	[RecRally_GameConfiguration] Variant x1
+b735a1d0409f33b36be3128e9d90f6e0	1	-	1	(none)	[RecRally_StartFinishVisuals] x1
+5c370d9d04e60737c5042e041e3119b5	1	-	1	(none)	Roles x1
+739aa2fc513953bf3454450f622aaf68	1	-	1	(none)	CircuitManagerV2 x1
+559f0aae150a49d816df73f40348f9fc	1	-	1	(none)	[RecRally_GameRuleWrapperCircuit] Variant x1
+c899df78ea543b88a0e592d638c16c67	1	-	1	(none)	[RecRally_GameRuleWrapperCircuit] Variant x1
+0ad343eebb414d1f248b81e208de2823	1	-	1	(none)	[RecRally_WinnersPodiumVisuals] x1
+9cd22f52748166a754c7960ec46426c9	1	-	1	(none)	[AstarNavMeshManager] x1
+68b8365f0ec5d2db6960de3513e78a81	1	-	1	(none)	DebugSingleton x1
+57c9a3e5193e26c4b968cc86e528416d	1	-	1	(none)	SSFX x1
+5497ee2e8ea74d9ccbe1bbf6c203de14	1	-	1	(none)	InventionManager x1
+7dbcb3dde0f9f0f3d632ccdbc5bb9459	1	-	1	(none)	TrialInventionManager x1
+3c04a00eeefbbbe4fbebc6b2b4541fca	1	-	1	(none)	[Frontier_SceneManager] x1
+9a257829811d4e947abf6cdc40bc94b0	1	-	1	(none)	[Frontier_SceneManager] x1
+43d02b8b983953543b8dde30144ad7d4	1	-	1	(none)	[Frontier_SceneManager] x1
+f0d46c458f05bfb4698bf77c88879d8b	1	-	1	(none)	[Frontier_SceneManager] x1
+417899c19855a8a4083f8243b202f6e6	1	-	1	(none)	[Frontier_SceneManager] x1
+f6bdd4708105bed42a1b7a69fda02fab	1	-	1	(none)	[Frontier_SceneManager] x1
+ece781590fe598c47bfba918b2a6df5d	1	-	1	(none)	[Frontier_SceneManager] x1
+9f4e0943e4b65424ca90b9ced7cd7bad	1	-	1	(none)	[Frontier_SceneManager] x1
+2c3e30ba1aee0ac42ad12d421f53cac0	1	-	1	(none)	[Frontier_SceneManager] x1
+201299d1cb62734479424cf8841b02a7	1	-	1	(none)	[GameManager] x1
+52ee2388366d03945a24d7be90f00277	1	-	1	(none)	[RecRoyale_Frontier_DisplayScreen] x1
+3c2d9b53843be6342accd984bd69119b	1	-	1	(none)	[Quest_Pirate1_RumJug] x1
+c6094ed2ae36d5c448ae365a2e04d672	1	-	1	(none)	[Debug Auto Load Current Activity] x1
+f8a070275a79e264d9e6d04a05490e27	1	-	1	(none)	[Debug Auto Load Current Activity] x1
+c4c7472e02e0dd048adc938a5978fa4d	1	-	1	(none)	Permissions x1
+96c1429711d2ebb449487cf4834e4f16	1	-	1	(none)	SSFX x1
+dffe6b1f02a214643805f68a5ee10e37	1	-	1	(none)	SSFX x1
+cc371226c8b7b4747bf4117ab2faf590	1	-	1	(none)	[WaterBottle] x1
+da73a85749328614b8d23eb47f492424	1	-	1	(none)	[WaterBottle] x1
+615f37707f8ef3544b9ea206c3fa3aa6	1	-	1	(none)	Burnt Forest x1
+2523c166eeb1b8b4c9684554ad5a592a	1	-	1	(none)	Particle System x1
+8233d90336aea43098adf6dbabd606a2	1	-	1	m_MeshFormatVersion,m_Faces,- m_Indexes,m_SharedVertices,- m_Vertices,m_SharedTextures,m_Positions,- {x,m_Textures0,m_Textures2,m_Textures3,m_Tangents,m_Colors,- {r,m_UnwrapParameters,m_PreserveMeshAssetOnDestroy,assetGuid,m_Mesh,m_VersionIndex,m_IsSelectable	LocalesStaticBatch x1
+d94575a56f9d5114c97d23bce9ad2401	1	-	1	(none)	Roles x1
+fbcf6f8360b0aa340af4c7ef99c028ff	1	-	1	(none)	PerfCamera x1
+91bd0b95d057d5f43891da1645ee3b7d	1	-	1	(none)	[RecRoyale_VisitorCenter_AudioRolloffVolume] x1

@@ -1,0 +1,23 @@
+// 3D Charades, Team Lightning: start from the podium, draw, score for the team (new word, same performer), skip.
+{
+  "name": "charades_lightning",
+  "steps": [
+    {"goto": "Charades", "timeout": 150},
+    {"expect_log": "The Ink Space built", "timeout": 5},
+    {"wait": 1.0},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.StartLightning"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Draw"},
+    {"wait": 0.3},
+    {"shot": "chl_drawing", "pos": [-3.2, 2, 4], "look": [0.9, 1.9, 4], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "chl_performer_view", "pos": [2, 2.19, 4], "look": [-3, 1.85, 4], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "chl_podium", "pos": [2, 2.1, 3.9], "look": [1.75, 1.3, 5.35], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "chl_board", "pos": [-4, 2.5, 4], "look": [3.3, 3.2, 4], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Correct"},
+    {"shot": "chl_board_scored", "pos": [-4, 2.5, 4], "look": [3.3, 3.2, 4], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Skip"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Report"},
+    {"expect_log": "starts Team Lightning"},
+    {"expect_log": "solved"},
+    {"expect_log": "skipped"}
+  ]
+}

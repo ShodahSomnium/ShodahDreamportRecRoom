@@ -1,0 +1,8 @@
+{"poses": [
+ {"name": "rc_ref_corner_ne", "pos": [7.0, 6.0, -10.3], "look": [-7.0, 1.0, -1.0], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner +x,-z at 6 m"},
+ {"name": "rc_ref_corner_nw", "pos": [-19.5, 6.0, -10.3], "look": [-5.0, 1.0, 1.0], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner -x,-z (gym side) at 6 m"},
+ {"name": "rc_ref_corner_se", "pos": [6.5, 6.0, 6.0], "look": [-9.0, 1.0, -4.0], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner +x,+z at 6 m"},
+ {"name": "rc_ref_corner_sw", "pos": [-20.0, 6.0, 5.5], "look": [-5.0, 1.0, -5.0], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner -x,+z (curved window wall) at 6 m"},
+ {"name": "rc_ref_balcony_w", "pos": [-14.0, 5.0, -13.8], "look": [0.0, 1.0, 2.0], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: upstairs balcony, west end, eye height, over the hall"},
+ {"name": "rc_ref_balcony_e", "pos": [6.0, 5.0, -13.8], "look": [-10.0, 1.0, 3.0], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: upstairs balcony, east end, eye height, over the hall"}
+]}

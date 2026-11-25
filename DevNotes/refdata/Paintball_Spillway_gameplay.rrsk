@@ -1,0 +1,257 @@
+# RRSK 1 Paintball_Spillway_gameplay
+B -38.378 10.4 -85.033 31.629 32.946 35.963
+# source: REF1 room export paintballtroll1, subroom 7826316113283465612 (Spillway); frame = the official Paintball Spillway scene (geometry not included).
+# G kinds: flag_base, flag, weapon_pickup, standee, game_config, game_rule, role, role_map, scoreboard, leaderboard, door = official-looking layer; extra = player additions.
+P (Grenade) 15.917 17.174 15.185 0 0 0 1 1 1 1
+P (ScoreboardProjector) -21.141 11.693 -27.2 0 0.8449 0 -0.535 1 1 1
+P (PaintballGrenadeLauncher) 29.333 13.427 -42.306 0.0688 0.1126 0.3768 0.9168 1 1 1
+P (PaintballGrenadeLauncher) 16.792 13.412 -22.944 0.5624 0.233 0.733 0.3036 1 1 1
+P (PaintballShield) 29.239 16.427 -45.927 -0.7071 0 0 0.7071 1 1 1
+P (PaintballShield) 8.682 17.13 2.47 -0.7071 0 0 0.7071 1 1 1
+P (LeaderboardProjector) -25.241 11.686 -32.149 0 1 -0.0002 0 1 1 1
+P (PaintballGun) 26.123 17.156 -12.457 0.5988 0.5989 0.376 0.376 1 1 1
+P (Grenade) 5.484 12.841 -54.141 0 0 0 1 1 1 1
+P (FlagTool) 7.36 14.843 14.77 0 0 0 1 1 1 1
+P (PaintballRifleScoped) 27.832 17.169 -22.646 0.2586 0.3308 -0.5589 -0.715 1 1 1
+P (FlagTool) 1.6 14.37 -73.99 0 0 0 1 1 1 1
+P (PaintballShield) -3.243 12.208 -17.61 -0.4587 -0.5388 -0.4612 0.5354 1 1 1
+P (PaintballGrenadeLauncher) 19.909 17.319 -3.341 0.8924 0.3696 -0.2391 -0.099 1 1 1
+P (PaintballShield) 1.855 15.845 -84.439 -0.7071 0 0 0.7071 1 1 1
+P (PaintballShotgun) 1.207 11.001 -35.863 -0.699 0.7088 0.01 0.0945 1 1 1
+P (Standee_Male01) -20.084 11.641 -29.594 -0.0332 -0.7076 -0.0097 0.7057 1 1 1
+P (Standee_Male01) -13.229 15.801 -45.045 0.0018 -0.155 -0.0003 -0.9879 1 1 1
+P (Grenade) 31.194 14.172 7.94 0 0 0 1 1 1 1
+P (Standee_Female01) -6.541 12.482 7.393 0 0.9695 -0.0001 -0.2452 1 1 1
+P (PaintballRifleScoped) 10.213 16.101 -54.228 -0.3695 -0.3536 -0.6491 0.5631 1 1 1
+P (PaintballShotgun) 21.186 16.474 -18.388 0.1223 -0.1222 -0.6965 0.6964 1 1 1
+P (PaintballShotgun) 8.486 17.396 -63.009 0.5 -0.5 0.5 -0.5 1 1 1
+P (Standee_Female01) -27.297 11.682 -36.811 0 0.202 0 -0.9794 1 1 1
+P (Grenade) 5.883 12.841 -54.232 0 0.341 0 -0.9401 1 1 1
+P (PaintballGrenadeLauncher) 0.458 17.744 -14.055 0.201 -0.5299 0.3261 -0.7566 1 1 1
+P (FlagGoal) 7.36 13.56 14.77 0 0.7071 0 0.7071 1 1 1
+P (FlagGoal) 1.6 13.087 -73.99 0 0.7071 0 -0.7071 1 1 1
+P (Grenade) -8.576 13.319 -6.635 0 0.0308 0 -0.9995 1 1 1
+P (Grenade) -11.777 13.113 -18.56 0 0 0 1 1 1 1
+P (Grenade) -8.187 13.319 -6.611 0 0.0308 0 -0.9995 1 1 1
+P (Grenade) 8.642 17.322 -75.398 0 0 0 1 1 1 1
+P (Grenade) 16.223 17.174 15.255 0 0 0 1 1 1 1
+P (Grenade) 12.125 13.811 8.979 0 0.0996 0 -0.995 1 1 1
+P (PaintballRifleScoped) -9.514 16.889 -45.002 -0.3958 -0.3944 -0.5957 0.577 1 1 1
+P (PaintballGun) 31.629 14.122 7.93 0.3761 0.3761 -0.5988 -0.5988 1 1 1
+P (PaintballGrenadeLauncher) 7.277 16.738 -51.932 0.0692 0.1135 0.3764 0.9169 1 1 1
+P (Grenade) -7.907 13.319 -6.887 0.0002 -0.0309 -0.0009 0.9995 1 1 1
+P (PaintballShotgun) 8.789 12.115 -39.99 0.6124 -0.6123 -0.3536 0.3535 1 1 1
+P (Grenade) 8.812 17.322 -75.728 0 0.9088 0 -0.4172 1 1 1
+P (PaintballShotgun) 18.403 10.773 -1.406 -0.6775 0.2111 -0.1423 0.6901 1 1 1
+P (LeaderboardProjector) -21.911 11.674 -36.446 0 0.457 0 -0.8895 1 1 1
+P (PaintballGun) -24.96 12.58 -37.232 0.4315 0.4318 -0.5603 -0.5599 1 1 1
+P (Standee_Male01) 4.302 16.453 -22.493 -0.0013 -0.7934 -0.0017 0.6087 1 1 1
+P (Grenade) 19.488 17.149 -17.97 0 0 0 1 1 1 1
+P (PaintballGun) -25.371 12.57 -37.336 0.4201 0.4198 -0.5691 -0.5687 1 1 1
+P (Grenade) 12.31 13.384 -14.528 0 0.0308 0 -0.9995 1 1 1
+P (PaintballGun) -26.183 12.57 -37.548 0.4384 0.4381 -0.5551 -0.5547 1 1 1
+P (PaintballGun) 19.572 17.122 -18.41 0.5988 0.5989 0.376 0.376 1 1 1
+P (PaintballShotgun) -8.852 13.078 11.25 0.4305 -0.4304 0.561 -0.5609 1 1 1
+P (Grenade) 26.86 17.182 -41.21 0 0 0 1 1 1 1
+P (Grenade) 5.651 12.841 -54.477 0 0.9088 0 -0.4172 1 1 1
+P (Grenade) 16.11 17.174 15.443 0 0 0 1 1 1 1
+P (Grenade) 12.59 13.384 -14.808 0 0.0308 0 -0.9995 1 1 1
+P (PaintballGun) -11.477 13.076 -18.707 0.5922 0.5923 0.3863 0.3864 1 1 1
+P (Grenade) 11.852 13.811 9.484 0 0.0257 0 0.9997 1 1 1
+P (PaintballGun) -25.789 12.57 -37.438 0.4194 0.4191 -0.5696 -0.5692 1 1 1
+P (Grenade) 11.65 13.811 9.003 0 0 0 1 1 1 1
+G weapon_pickup (Grenade) 15.917 17.174 15.185 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G role (GameRoleNode) -4.931 13.418 34.981 -0.0378 -0.1016 0.0057 0.9941 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Aimbot%20|%20role_guid=a2f3b1cb-0b06-455d-95d3-1fb9d68ead9c
+G scoreboard (ScoreboardProjector) -21.141 11.693 -27.2 0 0.8449 0 -0.535 type=SCOREBOARD_PROJECTOR prefab=(ScoreboardProjector)
+G weapon_pickup (PaintballGrenadeLauncher) 29.333 13.427 -42.306 0.0688 0.1126 0.3768 0.9168 type=PAINTBALL_GRENADE_LAUNCHER prefab=(PaintballGrenadeLauncher)
+G weapon_pickup (PaintballGrenadeLauncher) 16.792 13.412 -22.944 0.5624 0.233 0.733 0.3036 type=PAINTBALL_GRENADE_LAUNCHER prefab=(PaintballGrenadeLauncher)
+G weapon_pickup (PaintballShield) 29.239 16.427 -45.927 -0.7071 0 0 0.7071 type=PAINTBALL_SHIELD prefab=(PaintballShield)
+G weapon_pickup (PaintballShield) 8.682 17.13 2.47 -0.7071 0 0 0.7071 type=PAINTBALL_SHIELD prefab=(PaintballShield)
+G leaderboard (LeaderboardProjector) -25.241 11.686 -32.149 0 1 -0.0002 0 type=LEADERBOARD_PROJECTOR prefab=(LeaderboardProjector) stat_full_name=Time%20|%20stat_short_name=Minutes%20|%20stat_full_name=Stat%202%20|%20stat_short_name=Stat%202%20|%20stat_full_name=Stat%203%20|%20stat_short_name=Stat%203%20|%20stat_full_name...
+G role (GameRoleNode) -20.28 13.61 -26.011 0 0.5246 0 0.8514 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Eliminated%20|%20role_guid=0b9ec39e-2cc9-4825-8321-da11561f1c4f
+G weapon_pickup (PaintballGun) 26.123 17.156 -12.457 0.5988 0.5989 0.376 0.376 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (Grenade) 5.484 12.841 -54.141 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G flag (FlagTool) 7.36 14.843 14.77 0 0 0 1 type=DEPRECATED_FLAG_RED prefab=(FlagTool)
+G weapon_pickup (PaintballRifleScoped) 27.832 17.169 -22.646 0.2586 0.3308 -0.5589 -0.715 type=PAINTBALL_SNIPER_RIFLE prefab=(PaintballRifleScoped)
+G flag (FlagTool) 1.6 14.37 -73.99 0 0 0 1 type=DEPRECATED_FLAG_RED prefab=(FlagTool)
+G weapon_pickup (PaintballShield) -3.243 12.208 -17.61 -0.4587 -0.5388 -0.4612 0.5354 type=PAINTBALL_SHIELD prefab=(PaintballShield)
+G role_map (PlayerRoleMappingNode) -27.931 13.604 -27.611 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G role (GameRoleNode) -3.56 13.445 35.264 -0.0378 -0.1016 0.0057 0.9941 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Flag%20Carrier%20|%20role_guid=c78343dc-d1eb-4436-8c9c-c1a9bf0af388
+G role_map (PlayerRoleMappingNode) -27.592 13.682 -25.389 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G game_config (GameConfiguration) -20.89 12.439 -25.04 0 0.3347 0 0.9423 type=GAME_CONFIGURATION prefab=(GameConfiguration) name=Paintball%20Team%20Battle%20|%20stat_name=Hits%20|%20stat_name=Outs
+G game_rule (PaintballCaptureTheFlag_GameRuleWrapperCircuit)Variant -21.723 12.34 -24.668 0 0.1594 0 0.9872 type=PAINTBALL_CAPTURE_THE_FLAG_GAME_RULE_CIRCUIT prefab=(PaintballCaptureTheFlag_GameRuleWrapperCircuit)Variant
+G role (GameRoleNode) -20.19 13.61 -26.19 0 0.5246 0 0.8514 type=GAME_ROLE_NODE prefab=(GameRoleNode)
+G weapon_pickup (PaintballGrenadeLauncher) 19.909 17.319 -3.341 0.8924 0.3696 -0.2391 -0.099 type=PAINTBALL_GRENADE_LAUNCHER prefab=(PaintballGrenadeLauncher)
+G weapon_pickup (PaintballShield) 1.855 15.845 -84.439 -0.7071 0 0 0.7071 type=PAINTBALL_SHIELD prefab=(PaintballShield)
+G role_map (PlayerRoleMappingNode) -26.28 13.596 -29.482 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G role (GameRoleNode) -20.37 13.61 -25.833 0 0.5246 0 0.8514 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=In-Game%20|%20role_guid=2c721342-c7ed-49fe-b8f0-93f8d282a6df
+G weapon_pickup (PaintballShotgun) 1.207 11.001 -35.863 -0.699 0.7088 0.01 0.0945 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G standee (Standee_Male01) -20.084 11.641 -29.594 -0.0332 -0.7076 -0.0097 0.7057 type=STANDEE_MALE_01 prefab=(Standee_Male01)
+G standee (Standee_Male01) -13.229 15.801 -45.045 0.0018 -0.155 -0.0003 -0.9879 type=STANDEE_MALE_01 prefab=(Standee_Male01)
+G weapon_pickup (Grenade) 31.194 14.172 7.94 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G standee (Standee_Female01) -6.541 12.482 7.393 0 0.9695 -0.0001 -0.2452 type=STANDEE_FEMALE_01 prefab=(Standee_Female01)
+G weapon_pickup (PaintballRifleScoped) 10.213 16.101 -54.228 -0.3695 -0.3536 -0.6491 0.5631 type=PAINTBALL_SNIPER_RIFLE prefab=(PaintballRifleScoped)
+G weapon_pickup (PaintballShotgun) 21.186 16.474 -18.388 0.1223 -0.1222 -0.6965 0.6964 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G weapon_pickup (PaintballShotgun) 8.486 17.396 -63.009 0.5 -0.5 0.5 -0.5 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G game_rule (PaintballTeamBattle_GameRuleWrapperCircuit)Variant -20.46 12.61 -25.654 0 0.5246 0 0.8514 type=PAINTBALL_TEAM_BATTLE_GAME_RULE_CIRCUIT prefab=(PaintballTeamBattle_GameRuleWrapperCircuit)Variant
+G standee (Standee_Female01) -27.297 11.682 -36.811 0 0.202 0 -0.9794 type=STANDEE_FEMALE_01 prefab=(Standee_Female01)
+G weapon_pickup (Grenade) 5.883 12.841 -54.232 0 0.341 0 -0.9401 type=PAINTBALL_GRENADE prefab=(Grenade)
+G role (GameRoleNode) -13.054 17.767 -83.184 0 0.7123 0 -0.7019 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Aimbot%20|%20role_guid=c464d05d-53d4-47fc-91f1-b89b99d549dc
+G role (GameRoleNode) -34.081 13.592 -29.604 0 0 0 1 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=New%20Role%20|%20role_guid=916da137-f410-48db-b8d9-75dd8cbf062a
+G role_map (PlayerRoleMappingNode) -28.406 13.596 -30.785 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G role_map (PlayerRoleMappingNode) -25.735 13.715 -24.503 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G role_map (PlayerRoleMappingNode) -27.41 13.606 -27.672 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (PaintballGrenadeLauncher) 0.458 17.744 -14.055 0.201 -0.5299 0.3261 -0.7566 type=PAINTBALL_GRENADE_LAUNCHER prefab=(PaintballGrenadeLauncher)
+G flag_base (FlagGoal) 7.36 13.56 14.77 0 0.7071 0 0.7071 type=FLAG_GOAL prefab=(FlagGoal)
+G flag_base (FlagGoal) 1.6 13.087 -73.99 0 0.7071 0 -0.7071 type=FLAG_GOAL prefab=(FlagGoal)
+G weapon_pickup (Grenade) -8.576 13.319 -6.635 0 0.0308 0 -0.9995 type=PAINTBALL_GRENADE prefab=(Grenade)
+G role_map (PlayerRoleMappingNode) -29.217 13.233 -28.114 -0.036 -0.1541 0.0379 -0.9867 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (Grenade) -11.777 13.113 -18.56 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (Grenade) -8.187 13.319 -6.611 0 0.0308 0 -0.9995 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (Grenade) 8.642 17.322 -75.398 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (Grenade) 16.223 17.174 15.255 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (Grenade) 12.125 13.811 8.979 0 0.0996 0 -0.995 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballRifleScoped) -9.514 16.889 -45.002 -0.3958 -0.3944 -0.5957 0.577 type=PAINTBALL_SNIPER_RIFLE prefab=(PaintballRifleScoped)
+G weapon_pickup (PaintballGun) 31.629 14.122 7.93 0.3761 0.3761 -0.5988 -0.5988 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (PaintballGrenadeLauncher) 7.277 16.738 -51.932 0.0692 0.1135 0.3764 0.9169 type=PAINTBALL_GRENADE_LAUNCHER prefab=(PaintballGrenadeLauncher)
+G game_config (GameConfiguration) -22.45 12.439 -24.56 0 0 0 1 type=GAME_CONFIGURATION prefab=(GameConfiguration) name=Paintball%20Capture%20The%20Flag%20|%20stat_name=Hits%20|%20stat_name=Outs%20|%20stat_name=Flags
+G weapon_pickup (Grenade) -7.907 13.319 -6.887 0.0002 -0.0309 -0.0009 0.9995 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballShotgun) 8.789 12.115 -39.99 0.6124 -0.6123 -0.3536 0.3535 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G weapon_pickup (Grenade) 8.812 17.322 -75.728 0 0.9088 0 -0.4172 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballShotgun) 18.403 10.773 -1.406 -0.6775 0.2111 -0.1423 0.6901 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G leaderboard (LeaderboardProjector) -21.911 11.674 -36.446 0 0.457 0 -0.8895 type=LEADERBOARD_PROJECTOR prefab=(LeaderboardProjector) stat_full_name=Paintball%20Wins%20|%20stat_short_name=Wins%20|%20stat_full_name=Paintball%20Hits%20|%20stat_short_name=Hits%20|%20stat_full_name=Capture%20The%20Flag%20Wins%20|%20stat_short_...
+G weapon_pickup (PaintballGun) -24.96 12.58 -37.232 0.4315 0.4318 -0.5603 -0.5599 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G standee (Standee_Male01) 4.302 16.453 -22.493 -0.0013 -0.7934 -0.0017 0.6087 type=STANDEE_MALE_01 prefab=(Standee_Male01)
+G role_map (PlayerRoleMappingNode) -4.582 13.315 34.283 -0.0392 -0.0669 0.0346 -0.9964 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (Grenade) 19.488 17.149 -17.97 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G role_map (PlayerRoleMappingNode) -30.729 13.665 -26.067 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (PaintballGun) -25.371 12.57 -37.336 0.4201 0.4198 -0.5691 -0.5687 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (Grenade) 12.31 13.384 -14.528 0 0.0308 0 -0.9995 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballGun) -26.183 12.57 -37.548 0.4384 0.4381 -0.5551 -0.5547 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (PaintballGun) 19.572 17.122 -18.41 0.5988 0.5989 0.376 0.376 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (PaintballShotgun) -8.852 13.078 11.25 0.4305 -0.4304 0.561 -0.5609 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G weapon_pickup (Grenade) 26.86 17.182 -41.21 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G role_map (PlayerRoleMappingNode) -34.341 13.586 -29.58 0 0 0 1 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G role (GameRoleNode) -20.46 13.61 -25.654 0 0.5246 0 0.8514 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Spillway%20|%20inner_value=paintpistol%20|%20inner_value=paintshotgun%20|%20inner_value=paintscoperifle%20|%20inner_value=paintburstgun%20|%20inner_value=paintgrenade%20|%20i...
+G role_map (PlayerRoleMappingNode) -28.976 13.597 -28.272 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (Grenade) 5.651 12.841 -54.477 0 0.9088 0 -0.4172 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (Grenade) 16.11 17.174 15.443 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (Grenade) 12.59 13.384 -14.808 0 0.0308 0 -0.9995 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballGun) -11.477 13.076 -18.707 0.5922 0.5923 0.3863 0.3864 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G role_map (PlayerRoleMappingNode) -33.193 13.596 -29.073 0 0.1224 0 0.9925 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (Grenade) 11.852 13.811 9.484 0 0.0257 0 0.9997 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballGun) -25.789 12.57 -37.438 0.4194 0.4191 -0.5696 -0.5692 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (Grenade) 11.65 13.811 9.003 0 0 0 1 type=PAINTBALL_GRENADE prefab=(Grenade)
+G extra (Sandbox_Audio_Sampler) -0.803 11.936 -31.939 0.7071 0 0 0.7071 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=eacf709ba1fc424cba2928f300d40ec9.htr
+G extra (Sandbox_Projectile_Launcher) 10.994 13.779 33.103 0 0.9155 0 -0.4024 type=SANDBOX_PROJECTILE_LAUNCHER prefab=(Sandbox_Projectile_Launcher) scale=0.303
+G extra (CostumeDummyPlus) -33.518 12.211 -29.798 0 0.9969 0 -0.0785 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (Polaroid) 11.936 32.851 -13.659 0 0.0006 0 1 type=POLAROID prefab=(Polaroid) scale=3.153 image_name=bwse652mx20ntdp14ycvbke9d.jpg
+G extra (AnimationGizmo_V2) 11.81 31.847 -14.135 -0.0007 -0.0897 0.0002 0.996 type=ANIMATIONGIZMO_V2 prefab=(AnimationGizmo_V2)
+G extra (Sandbox_Text_V3) 11.693 32.366 -13.67 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.255 message=Normal
+G extra (LookAtGizmo_CV1) 0.392 12.654 -34.007 0.0732 0.134 0.7033 -0.6943 type=SMOOTH_LOOK_AT prefab=(LookAtGizmo_CV1) role_guid=c464d05d-53d4-47fc-91f1-b89b99d549dc
+G extra (StandaloneShapeContainer) 12.105 32.024 -13.696 -0.0011 0.0004 -0.7067 0.7075 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.812
+G extra (InteractionVolume) 11.682 32.044 -13.677 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (InteractionVolume) 11.651 32.157 -13.674 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (InteractionVolume) 11.731 32.225 -13.677 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (InteractionVolume) 11.736 32.157 -13.674 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (InteractionVolume) 12.022 32.044 -13.677 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (InteractionVolume) 11.654 32.225 -13.677 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (InteractionVolume) 11.694 32.3 -13.672 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.033
+G extra (Sandbox_Projectile_Launcher) -0.34 12.295 -32.112 0.0001 0.673 -0.0001 0.7396 type=SANDBOX_PROJECTILE_LAUNCHER prefab=(Sandbox_Projectile_Launcher) scale=0.303
+G extra (Sandbox_Text_V3) -0.606 12.277 -32.137 -0.7058 0.0426 0.0426 0.7058 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (Sandbox_Text_V3) -0.606 12.291 -32.137 -0.7058 0.0426 0.0426 0.7058 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (Sandbox_Button_CV2) -0.547 12.41 -32.96 0.7071 -0.0052 0.0052 0.7071 type=SANDBOX_BUTTON_CV2 prefab=(Sandbox_Button_CV2) messages=Start%20Aimbot!
+G extra (LookAtGizmo_CV1) -0.575 12.294 -32.134 0.0333 -0.0333 -0.7063 0.7063 type=SMOOTH_LOOK_AT prefab=(LookAtGizmo_CV1) role_guid=c464d05d-53d4-47fc-91f1-b89b99d549dc
+G extra (StandaloneShapeContainer) -1.694 12.019 -32.16 0 0.0423 0 0.9991 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer)
+G extra (Sandbox_Audio_Sampler) -1.888 12.704 -31.579 0.7071 0 0 0.7071 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=c513a9a8f810411eb135bcc3f195fa37.htr
+G extra (Sandbox_Button) -1.396 12.668 -31.582 0.0221 -0.7068 0.7068 0.0221 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=Wombo%20Combo
+G extra (Sandbox_Audio_Sampler) -1.904 12.249 -31.597 0.7016 -0.0877 0.0877 0.7016 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=d6e13d87da66435b87332b5ca65f204e.htr
+G extra (AnimationGizmo) -2.546 13.355 -37.156 0 0.9103 0 0.414 type=ANIMATIONGIZMO prefab=(AnimationGizmo)
+G extra (Sandbox_Button) -1.401 12.224 -31.582 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=Boom%20Bam
+G extra (Sandbox_Audio_Sampler) -1.911 11.692 -31.754 0.7071 0 0 0.7071 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=b0a81143a572491489852efa1898296b.htr
+G extra (Sandbox_Text_V3) 12.068 32.332 -13.674 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.542
+G extra (Sandbox_Text_V3) 12.067 32.272 -13.673 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.65 message=Play%20To%20Start
+G extra (WaterBottle) -11.846 17.092 -44.523 0.0002 0.2183 0.0016 -0.9759 type=WATERBOTTLE prefab=(WaterBottle)
+G extra (CostumeDummyPlus) -27.186 12.229 -28.023 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (CostumeDummyPlus) -26.847 12.307 -25.8 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (StandaloneShapeContainer) -29.129 11.826 -34.945 0.3291 -0.6258 0.6258 0.3291 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.318
+G extra (Sandbox_Audio_Sampler) -0.815 11.516 -32.013 0.0439 -0.7056 0.7059 0.0439 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=efa4e4e07e4242778b4030f2ce4195ae.htr
+G extra (CostumeDummyPlus) -28.231 12.222 -28.684 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (Sandbox_Projectile_Launcher) 0.627 12.655 -33.987 0.099 -0.6684 0.1082 -0.7292 type=SANDBOX_PROJECTILE_LAUNCHER prefab=(Sandbox_Projectile_Launcher) scale=0.303
+G extra (Sandbox_Text_V3) -12.267 16.873 -84.766 -0.7071 -0.003 -0.003 0.7071 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (WaterBottle) -11.522 15.817 -44.966 0.572 -0.1258 -0.3989 0.7056 type=WATERBOTTLE prefab=(WaterBottle)
+G extra (WaterBottle) -12.597 17.092 -44.522 -0.0001 0.216 0 -0.9764 type=WATERBOTTLE prefab=(WaterBottle)
+G extra (LookAtGizmo_CV1) 11.168 13.777 33.263 0.6589 -0.6589 0.2565 -0.2565 type=SMOOTH_LOOK_AT prefab=(LookAtGizmo_CV1) role_guid=c464d05d-53d4-47fc-91f1-b89b99d549dc
+G extra (CostumeDummyPlus) -26.665 12.23 -28.083 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (CostumeDummyPlus) -27.661 12.221 -31.197 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (Sandbox_Audio_Sampler) 0.173 12.768 -31.922 -0.0635 0.7042 -0.7042 -0.0635 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=846922a6937748239569e826e4399994.htr
+G extra (Sandbox_Button) -0.155 12.22 -31.688 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=Go%20CrAyZ%20
+G extra (AnimationGizmo) -1.064 12.134 -32.004 0 0.9989 0 0.0471 type=ANIMATIONGIZMO prefab=(AnimationGizmo)
+G extra (Sandbox_Glass) 11.948 32.573 -13.656 0 1 -0.001 -0.0006 type=SANDBOX_GLASS prefab=(Sandbox_Glass) scale=0.05
+G extra (Sandbox_Text_V3) 11.191 13.773 33.284 -0.645 0.2897 0.29 0.6449 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (Sandbox_Text_V3) 11.191 13.76 33.284 -0.645 0.2897 0.29 0.6449 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (ClampGizmo_CV1) 12.494 32.523 -13.762 0.0007 0.9961 -0.0013 -0.0883 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1)
+G extra (Sandbox_Text_V3) 12.067 32.161 -13.673 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.624 message=Tyler%20The%20Creator
+G extra (Sandbox_Text_V3) 11.65 32.223 -13.67 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.176 message=-15%20%20seconds%20
+G extra (LookAtGizmo_CV1) -2.101 13.515 -36.914 0.2927 -0.2927 -0.6437 0.6437 type=SMOOTH_LOOK_AT prefab=(LookAtGizmo_CV1) role_guid=c464d05d-53d4-47fc-91f1-b89b99d549dc
+G extra (InteractionVolume) 11.693 32.366 -13.672 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.033 interaction_string=Use
+G extra (Sandbox_Button) -0.153 11.759 -31.688 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=MemeCraft
+G extra (AnimationGizmo) 11.637 13.617 33.454 0 0.3628 0 -0.9319 type=ANIMATIONGIZMO prefab=(AnimationGizmo)
+G extra (Sandbox_TriggerHandle) 11.263 13.693 33.35 0 0.9155 0 -0.4024 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (Sandbox_Button) -0.155 12.669 -31.688 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=Tortinos
+G extra (StandaloneShapeContainer) 12.542 32.448 -13.689 0.0377 -0.9993 0.0001 -0.0015 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.986
+G extra (Sandbox_TriggerHandle) -0.704 12.211 -32.146 0 0.673 0 0.7396 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (Sandbox_TriggerHandle) -2.186 13.431 -37.011 0 0.3509 0 0.9364 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (ClampGizmo_CV1) 0.105 12.624 -33.237 -0.1465 -0.0429 -0.0064 0.9883 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1)
+G extra (Sandbox_Projectile_Launcher) -12.263 16.877 -85.033 0 1 0 0.0074 type=SANDBOX_PROJECTILE_LAUNCHER prefab=(Sandbox_Projectile_Launcher) scale=0.303
+G extra (Sandbox_Audio_Sampler) 0.278 12.239 -31.892 0.7071 0 0 0.7071 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=46f40740be144a678d9183f53c1281c2.htr
+G extra (Sandbox_Button) -1.401 11.759 -31.582 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=Add%20then%20multiply
+G extra (InteractionVolume) 11.865 32.044 -13.677 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (Sandbox_Button) -32.111 13.104 -26.686 0.3058 -0.1688 -0.1218 0.9291 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=fly
+G extra (Sandbox_Button_CV2) 10.647 13.893 33.904 -0.1605 -0.6887 0.6887 -0.1605 type=SANDBOX_BUTTON_CV2 prefab=(Sandbox_Button_CV2) messages=Start%20Aimbot!
+G extra (Sandbox_Button_CV2) -1.512 13.631 -37.493 0.6015 -0.3717 0.3717 0.6015 type=SANDBOX_BUTTON_CV2 prefab=(Sandbox_Button_CV2) messages=Start%20Aimbot!
+G extra (DynamicPointLightGadget_CV2) 11.942 32.534 -14.036 0.0751 -0.941 0.0651 -0.3235 type=DYNAMIC_POINTLIGHT_V2 prefab=(DynamicPointLightGadget_CV2)
+G extra (Sandbox_TriggerHandle) 0.261 12.574 -33.995 0.0991 -0.6684 0.1081 -0.7292 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (CostumeDummyPlus) -32.448 12.221 -29.484 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (InteractionVolume) 12.221 32.044 -13.678 0 1 -0.001 -0.0006 type=INTERACTION_VOLUME prefab=(InteractionVolume) scale=0.05 interaction_string=Use
+G extra (Sandbox_Text_V3) 11.693 32.265 -13.67 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.471 message=Skip%20Time
+G extra (Sandbox_Button_CV2) -13.092 16.992 -84.759 0.4563 0.5402 -0.5402 0.4563 type=SANDBOX_BUTTON_CV2 prefab=(Sandbox_Button_CV2) messages=Start%20Aimbot!
+G extra (Sandbox_Button_CV2) 0.413 12.525 -34.832 -0.5952 0.0349 -0.0259 -0.8024 type=SANDBOX_BUTTON_CV2 prefab=(Sandbox_Button_CV2) messages=Start%20Aimbot!
+G extra (Sandbox_Projectile_Launcher) -1.946 13.516 -36.736 0 0.3509 0 0.9364 type=SANDBOX_PROJECTILE_LAUNCHER prefab=(Sandbox_Projectile_Launcher) scale=0.303
+G extra (Sandbox_Text_V3) 11.693 32.334 -13.67 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.471 message=Autoplay
+G extra (Sandbox_Text_V3) 0.36 12.651 -34.009 -0.5491 -0.5857 -0.4455 0.3962 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (ClampGizmo_CV1) -0.863 12.035 -31.408 0 0.0471 0 -0.9989 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1)
+G extra (Sandbox_Button) -6.034 13.03 35.963 -0.0013 0.9837 -0.0842 -0.159 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=fly
+G extra (Sandbox_TriggerHandle) -12.269 16.792 -84.668 0 1 0 0.0074 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (AnimationGizmo) -12.098 16.715 -84.319 0 0.7123 0 -0.7019 type=ANIMATIONGIZMO prefab=(AnimationGizmo)
+G extra (AudioPlayerNodeVisualization_CV2) 12.071 32.946 -14.045 0 0.0006 0.001 1 type=AUDIO_PLAYER prefab=(AudioPlayerNodeVisualization_CV2)
+G extra (AnimationGizmo) -0.1 12.552 -33.835 0.0064 0.9883 -0.1465 0.0429 type=ANIMATIONGIZMO prefab=(AnimationGizmo)
+G extra (Sandbox_Text_V3) 11.73 32.223 -13.67 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.176 message=+15%20seconds%20
+G extra (AnimationGizmo) -26.252 12.244 -35.383 0 0.4977 0 -0.8674 type=ANIMATIONGIZMO prefab=(AnimationGizmo)
+G extra (HolotarProjector_CV1) -25.822 11.394 -34.874 -0.0217 0.8666 0.0337 0.4973 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=0.985 blob_name=157xt7t6tuwkrjmx7n5utb9ag.htr
+G extra (AnimationGizmo) 12.084 11.245 -36.1 0 0.9386 0 0.345 type=ANIMATIONGIZMO prefab=(AnimationGizmo)
+G extra (HolotarProjector_CV1) 11.493 10.4 -36.419 0.1141 0.3426 0.0441 -0.9315 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=0.985 blob_name=157xt7t6tuwkrjmx7n5utb9ag.htr
+G extra (Polaroid) -27.01 12.197 -35.004 0.6895 -0.393 0.2643 0.548 type=POLAROID prefab=(Polaroid) scale=17.083 image_name=5qxpmbq8xgqhsu0z3crgm52ks.jpg
+G extra (VariableNodeVisualization) -31.986 13.344 -34.184 0.1528 -0.5007 -0.0109 0.852 type=VARIABLE_NODE prefab=(VariableNodeVisualization)
+G extra (ClampGizmo_CV1) -38.123 13.18 -20.335 0.0047 -0.7994 0.0899 -0.594 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1) scale=0.647
+G extra (StandaloneShapeContainer) -38.261 13.453 -20.86 0.0263 0.9544 -0.0861 0.2848 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.647
+G extra (HolotarProjector_CV1) -38.378 12.703 -20.688 0.0263 0.9544 -0.0861 0.2848 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=0.647 blob_name=7f8039om5f2rp2yzqbwy43wda.htr
+G extra (Sandbox_Button) -0.733 12.669 -31.639 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=Okay
+G extra (CostumeDummyPlus) -24.99 12.34 -24.914 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (Sandbox_Audio_Sampler) -0.841 12.855 -32.019 0.0439 -0.7056 0.7059 0.0439 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=d6af0348601d4974b876c45373a01c26.htr
+G extra (CostumeDummyPlus) -29.984 12.29 -26.478 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (ClampGizmo_CV1) 11.837 13.518 32.858 0 0.9319 0 0.3628 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1)
+G extra (Sandbox_Text_V3) 0.36 12.637 -34.005 -0.5491 -0.5857 -0.4455 0.3962 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (ClampGizmo_CV1) -11.52 16.617 -84.567 0 0.7019 0 0.7123 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1)
+G extra (Sandbox_Text_V3) -2.122 13.512 -36.937 0.2248 0.6704 0.6704 -0.2248 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (Sandbox_Text_V3) -2.122 13.497 -36.937 0.2248 0.6704 0.6704 -0.2248 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (CostumeDummyPlus) -25.535 12.22 -29.894 0 0.9798 0 -0.1999 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (ClampGizmo_CV1) -2.81 13.256 -36.586 0 0.414 0 -0.9103 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1)
+G extra (Sandbox_Audio_Sampler) -0.018 11.58 -32.008 -0.2979 0.6413 -0.6413 -0.2979 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=062ed8e379e94ee2b634b2df355b2bef.htr
+G extra (Sandbox_Text_V3) -12.267 16.858 -84.766 -0.7071 -0.003 -0.003 0.7071 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=3.044 message=|
+G extra (Sandbox_Link_Button) 11.956 32.524 -13.657 0.0004 0.7064 -0.7078 -0.0003 type=LINK_BUTTON prefab=(Sandbox_Link_Button) scale=0.434
+G extra (LookAtGizmo_CV1) -12.267 16.876 -84.797 0.4963 -0.4963 0.5037 -0.5037 type=SMOOTH_LOOK_AT prefab=(LookAtGizmo_CV1) role_guid=c464d05d-53d4-47fc-91f1-b89b99d549dc
+G extra (Sandbox_Text_V3) 11.693 32.402 -13.67 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.471 message=Set%20Speed
+G extra (Sandbox_Button) -0.726 11.759 -31.639 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=Sad%20violin
+G extra (Sandbox_Button) -0.738 12.219 -31.638 0.7071 0 0 0.7071 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=5Gum
+G extra (Sandbox_Text_V3) 11.693 32.3 -13.67 -0.002 1 0.0068 -0.0005 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=0.255 message=Off

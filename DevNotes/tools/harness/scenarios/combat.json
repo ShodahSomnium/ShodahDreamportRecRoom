@@ -1,0 +1,19 @@
+// Games/Shared combat kit: paintball rifle in the screen-mode hand firing at a wall, one sword goblin (quest AI).
+// The harness camera (0, 1.6, -3) looks down +z; the wall is at z = 5, the goblin at (1.8, 0, 2).
+{
+  "name": "combat",
+  "arrival": true,
+  "steps": [
+    {"log": "combat: setup"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.RrCombatTest.Setup"},
+    {"wait": 0.3},
+    {"shot": "combat_overview", "pos": [0.35, 1.85, -4.3], "look": [0.6, 1.1, 4.5], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "combat_wall", "pos": [-0.5, 1.5, 1.2], "look": [-0.5, 1.3, 5], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "combat_goblin", "pos": [1.2, 1.1, 0.4], "look": [1.8, 0.65, 2], "fov": 50, "w": 1280, "h": 720},
+    {"dump": "enemy", "root": "Rr Enemy (QuestAIController)GoblinBasicGroundMelee2020"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.RrCombatTest.Unleash"},
+    {"shot": "combat_after", "pos": [0.35, 1.85, -4.3], "look": [0.6, 1.1, 4.5], "fov": 60, "w": 1280, "h": 720},
+    {"expect_log": "CombatTest: fired"},
+    {"expect_log": "CombatTest: goblin"}
+  ]
+}

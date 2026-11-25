@@ -1,0 +1,16 @@
+// Re-check of the watch fixes: settings slider knobs, dwell ring centring, clock hands clockwise.
+{
+  "name": "watch_fix",
+  "arrival": true,
+  "steps": [
+    {"expect_log": "menu built", "timeout": 120},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.OpenDesktop"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowSettings"},
+    {"wait": 1},
+    {"shot": "watch_settings", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.CloseMenu"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowWatch"},
+    {"log": "watch clock shot"},
+    {"shot": "watch_model", "pos": [0.6, 1.5, -3.0], "look": [0.6, 1.5, -2.75], "fov": 30, "w": 1000, "h": 800}
+  ]
+}

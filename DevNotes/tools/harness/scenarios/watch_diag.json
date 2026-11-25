@@ -1,0 +1,8 @@
+{
+  "name": "watch_diag",
+  "arrival": true,
+  "steps": [
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.LogAssetLoaders"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.LogAssetLoadTimes"}
+  ]
+}

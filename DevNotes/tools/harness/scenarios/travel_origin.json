@@ -1,0 +1,55 @@
+// Every room at the world origin, only the current room exists (phase 1 "place", 2026-09-24).
+// Dorm -> Rec Center -> Paintball (paint fired on the River) -> Dorm. Every arrival and every leave logs a census:
+// room and origin, feet, objects under the world root in and outside the room, RrRoom components, scene roots and
+// memory; every leave also logs what was cleared outside the room and what was freed (assets, bundles, MB).
+// "nothing of it left" / "1 room, nothing outside it" only appear when no RrRoom and no active renderer of a left
+// room remain. The Rec Center stop also drops the body out of the room and moves it to the scene spawn the way the
+// client's respawn does: travel must bring it back both times. Shots are in the room frame.
+{
+  "name": "travel_origin",
+  "steps": [
+    {"goto": "Dorm", "timeout": 180},
+    {"expect_log": "census at Dorm (visit 1): 1 room, nothing outside it; room Dorm at (0, 0, 0)", "timeout": 5},
+    {"expect_log": "arrival room hidden, colliders off (in Dorm)", "timeout": 1},
+    {"wait": 1.5},
+    {"shot": "to_dorm_1", "pos": [0.3, 1.6, 0.6], "look": [-0.4, 1.3, -2.9], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"shot": "to_dorm_1_above", "pos": [0, 45, -70], "look": [0, 0, 0], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+
+    {"goto": "RecCenter", "timeout": 240},
+    {"expect_log": "arrival room shown, colliders on (trip", "timeout": 1},
+    {"expect_log": "census after leaving Dorm (visit 1): no room, nothing of it left", "timeout": 1},
+    {"expect_log": "freed Dorm in", "timeout": 1},
+    {"expect_log": "census at RecCenter (visit 1): 1 room, nothing outside it; room RecCenter at (0, 0, 0)", "timeout": 5},
+    {"wait": 1.5},
+    {"shot": "to_reccenter", "pos": [0, 1.6, -24.4], "look": [0, 1.8, 0], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "to_reccenter_above", "pos": [0, 70, -110], "look": [0, 0, 0], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"shot": "to_reccenter_board", "pos": [2.5, 1.7, -21.8], "look": [-6, 1.6, -21.5], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Rooms.RrTravelTest.SimulateFall"},
+    {"expect_log": "TravelTest: fall: rescued in RecCenter", "timeout": 1},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Rooms.RrTravelTest.SimulateClientRespawn"},
+    {"expect_log": "TravelTest: respawn: rescued in RecCenter", "timeout": 1},
+    {"expect_log": "the client respawned the player", "timeout": 1},
+
+    {"goto": "Paintball", "timeout": 300},
+    {"expect_log": "census after leaving RecCenter (visit 1): no room, nothing of it left", "timeout": 1},
+    {"expect_log": "freed RecCenter in", "timeout": 1},
+    {"expect_log": "census at Paintball (visit 1): 1 room, nothing outside it; room Paintball at (0, 0, 0)", "timeout": 5},
+    {"wait": 2},
+    {"shot": "to_paintball", "pos": [0, 6.5, -15], "look": [0, 1.5, 4], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "to_paintball_above", "pos": [0, 120, -160], "look": [0, 0, 0], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Paintball.RrPaintballTest.StartCtfRiver"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Paintball.RrPaintballTest.Fire"},
+    {"shot": "to_paintball_splats", "pos": [-2, 1.6, 405], "look": [-2, 0.6, 410.6], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Rooms.RrTravelTest.Report"},
+
+    {"goto": "Dorm", "timeout": 180},
+    {"expect_log": "cleared what Paintball left outside its root", "timeout": 1},
+    {"expect_log": "census after leaving Paintball (visit 1): no room, nothing of it left", "timeout": 1},
+    {"expect_log": "freed Paintball in", "timeout": 1},
+    {"expect_log": "census at Dorm (visit 2): 1 room, nothing outside it; room Dorm at (0, 0, 0)", "timeout": 5},
+    {"wait": 1.5},
+    {"shot": "to_dorm_2", "pos": [0.3, 1.6, 0.6], "look": [-0.4, 1.3, -2.9], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"shot": "to_dorm_2_above", "pos": [0, 45, -70], "look": [0, 0, 0], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"shot": "to_dorm_2_river", "pos": [-2, 1.6, 405], "look": [-2, 0.6, 410.6], "frame": "room", "fov": 70, "w": 1280, "h": 720}
+  ]
+}

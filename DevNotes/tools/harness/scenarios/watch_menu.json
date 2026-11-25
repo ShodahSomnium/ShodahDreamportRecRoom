@@ -1,0 +1,33 @@
+// Watch menu: open it with the desktop layout (every page), then the VR layout, then the wrist watch model.
+// The menu is pinned by RrWatchTest at (0, 1.6, -2.2) facing -Z, 0.9 m wide; shots from (0, 1.6, -3).
+{
+  "name": "watch_menu",
+  "arrival": true,
+  "steps": [
+    {"expect_log": "menu built", "timeout": 120},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.OpenDesktop"},
+    {"wait": 1.5},
+    {"shot": "watch_desktop_home", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowPlay"},
+    {"wait": 1.5},
+    {"shot": "watch_desktop_play", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowRoomPaintball"},
+    {"wait": 1},
+    {"shot": "watch_desktop_room", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.Back"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowPeople"},
+    {"shot": "watch_desktop_people", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowThisRoom"},
+    {"shot": "watch_desktop_thisroom", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowSettings"},
+    {"shot": "watch_desktop_settings", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.OpenVr"},
+    {"shot": "watch_vr_home", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowPlay"},
+    {"shot": "watch_vr_play", "pos": [0, 1.6, -3], "look": [0, 1.6, -2.2], "fov": 60, "w": 1600, "h": 900},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.CloseMenu"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchTest.ShowWatch"},
+    {"shot": "watch_model", "pos": [0.6, 1.5, -3.0], "look": [0.6, 1.5, -2.75], "fov": 30, "w": 1000, "h": 800},
+    {"expect_log": "wrist watch: mesh", "timeout": 20}
+  ]
+}

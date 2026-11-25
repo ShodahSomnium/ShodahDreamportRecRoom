@@ -1,0 +1,63 @@
+// Iteration 9, light9: Rec Room's own light grid (Core/RrLightGrid) for Rec Room's shaders, URPLight emulation, torches.
+// Pairs are the same camera with post-processing on: "_before" = RrLightGrid off (iteration 8: Rec Room's shaders lit by
+// the sun and ambient only, Unity lights at the records' own numbers), "_after" = on. RrLightTest.Pair* take both shots.
+{
+  "name": "light9_tour",
+  "steps": [
+    {"goto": "GoldenTrophy", "timeout": 300},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.ProbeFoyer"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairFoyer"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairFoyerHall"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Start"},
+    {"wait": 1.5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestDressingRoom"},
+    {"wait": 1},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairArmory"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestAct1"},
+    {"wait": 1.5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairAct1Torch"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairAct1"},
+
+    {"goto": "Jumbotron", "timeout": 300},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairJumboFoyer"},
+
+    {"goto": "Paintball", "timeout": 240},
+    {"wait": 2},
+    {"expect_log": "built the lobby", "timeout": 30},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairPbInterior"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff"},
+    {"shot": "light9_pb_lobby_before", "pos": [0, 1.7, 0.5], "look": [3.1, 1.4, -9.5], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn"},
+    {"wait": 0.3},
+    {"shot": "light9_pb_lobby_after", "pos": [0, 1.7, 0.5], "look": [3.1, 1.4, -9.5], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+
+    {"goto": "RecCenter", "timeout": 240},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff"},
+    {"shot": "light9_rc_before", "pos": [-0.65, 1.7, -15.2], "look": [-0.4, 4.2, 6], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn"},
+    {"wait": 0.3},
+    {"shot": "light9_rc_after", "pos": [-0.65, 1.7, -15.2], "look": [-0.4, 4.2, 6], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom"},
+
+    {"goto": "Dorm", "timeout": 240},
+    {"wait": 2},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff"},
+    {"shot": "light9_dorm_before", "pos": [0.3, 1.6, 1.9], "look": [0.3, 1.3, -2.9], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn"},
+    {"wait": 0.3},
+    {"shot": "light9_dorm_after", "pos": [0.3, 1.6, 1.9], "look": [0.3, 1.3, -2.9], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.Report"}
+  ]
+}

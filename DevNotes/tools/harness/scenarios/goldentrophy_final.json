@@ -1,0 +1,45 @@
+// Quest for the Golden Trophy, the whole way (iteration 8, Rec Room's own Android levels): START on the lobby hologram, the
+// dressing room, every act left by its door (RrQuestTest.NextAct), the boulder, the Goblin King and the victory.
+// The same flow as goldentrophy_acts without the second run and the fail path.
+{
+  "name": "goldentrophy_final",
+  "steps": [
+    {"goto": "GoldenTrophy", "timeout": 300},
+    {"expect_log": "Quest for the Golden Trophy built", "timeout": 10},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestPressStart"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Start"},
+    {"expect_log": "shown area GoldenTrophy_Armory", "timeout": 5},
+    {"wait": 4},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Hallway1", "timeout": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestClearAct"},
+    {"wait": 2},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Hallway2", "timeout": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Hallway3", "timeout": 3},
+    {"wait": 4},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestPushBoulder"},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Report"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_DeadIsland", "timeout": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Hallway4", "timeout": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Library", "timeout": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Hallway5", "timeout": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Battlefield", "timeout": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.NextAct"},
+    {"expect_log": "shown area GoldenTrophy_Cafeteria", "timeout": 3},
+    {"wait": 4},
+    {"expect_log": "the Goblin King rises", "timeout": 6},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.KillBoss"},
+    {"wait": 4},
+    {"expect_log": "VICTORY", "timeout": 8},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Report"}
+  ]
+}

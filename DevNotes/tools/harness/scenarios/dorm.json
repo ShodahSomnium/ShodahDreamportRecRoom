@@ -1,0 +1,12 @@
+// Travel to the dorm (built at the world origin; shots in the room frame, the old slot-0 origin was (-1125, 0, -2000)) and look around.
+// Needs the Rooms module's RrTravel.GoTo; with the skeleton the goto step fails "not arrived" and the shots show the void.
+{
+  "name": "dorm",
+  "steps": [
+    {"goto": "Dorm", "timeout": 120},
+    {"wait": 2},
+    {"shot": "dorm_front", "pos": [0, 1.6, -3], "look": [0, 1.2, 0], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"shot": "dorm_back", "pos": [0, 1.6, 3], "look": [0, 1.2, 0], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"dump": "dorm", "root": "Rec Room World"}
+  ]
+}

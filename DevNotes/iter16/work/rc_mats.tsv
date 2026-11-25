@@ -1,0 +1,71 @@
+Banner_Mat	inst=0	col=1,1,1,1	tex=Banners_Tex 10:1024x1024m11 x1,1	mean=0.495,0.389,0.382	glow=-	q-1
+Campfire_Mat	inst=1	col=1,1,1,1	tex=Campfire_Tex 10:1024x1024m11 x1,1	mean=0.507,0.424,0.353	glow=-	q-1
+Carpet_Trim	inst=0	col=0,0,0,1	tex=Metal_Tex 12:1024x1024m11 x1,1	mean=0.806,0.81,0.806	glow=-	q2000
+Chair_Stackable_White_Mat	inst=0	col=1,1,1,1	tex=Chair_Stackable_white_tex 12:512x512m10 x1,1	mean=0.593,0.655,0.662	glow=-	q-1
+Cloud_Locker_Mat	inst=0	col=1.305,1.265,0.801,1	tex=Clouds 12:1024x1024m11 x1,1	mean=0.947,0.947,0.947	glow=-	clear q3000
+CodeOfConduct_Mat	inst=1	col=0.902,0.902,0.902,1	tex=CodeOfConduct_Tex 12:1024x1024m11 x0.85,1	mean=0.849,0.811,0.802	glow=-	q-1
+Concrete_Blue_50x_Mat	inst=1	col=0.325,0.62,0.914,1	tex=Concrete_Tex 10:512x512m10 x50,50	mean=0.732,0.736,0.735	glow=-	q-1
+Consumable_Cake_Chocolate_Mat	inst=1	col=1,1,1,1	tex=Consumable_Cake_Chocolate_Tex 10:1024x1024m11 x1,1	mean=0.246,0.112,0.08	glow=-	q-1
+Consumable_Cake_RedVelvet_Mat	inst=1	col=1,1,1,1	tex=Consumable_Cake_RedVelvet_Tex 10:1024x1024m11 x1,1	mean=0.442,0.268,0.255	glow=-	q-1
+Consumable_Donut_Chocolate_mat	inst=1	col=1,1,1,1	tex=Consumable_Donuts_Chocolate_Tex 10:1024x1024m11 x1,1	mean=0.421,0.232,0.244	glow=-	q-1
+Consumable_Donut_Regular_mat	inst=1	col=1,1,1,1	tex=Consumable_Donuts_Tex 10:1024x1024m11 x1,1	mean=0.62,0.41,0.275	glow=-	q-1
+Consumable_DonutBox_Mat	inst=1	col=1,1,1,1	tex=Consumable_Donuts_Box_Tex 10:1024x1024m11 x1,1	mean=0.662,0.499,0.56	glow=-	q-1
+Consumable_Pizza_Mat	inst=1	col=1,1,1,1	tex=Consumable_Pizza_Tex 10:1024x1024m11 x1,1	mean=0.696,0.477,0.259	glow=-	q-1
+Consumable_PizzaBox_Mat	inst=1	col=1,1,1,1	tex=Consumable_PizzaBox_Tex 10:1024x1024m11 x1,1	mean=0.648,0.55,0.491	glow=-	q-1
+Consumable_Sarsaparilla_mat	inst=1	col=1,1,1,1	tex=Consumable_Sarsaparilla_tex 10:1024x1024m11 x1,1	mean=0.287,0.211,0.123	glow=-	q-1
+Couch_Minimalist_Brown_Instanced_Mat	inst=1	col=1,1,1,1	tex=Couch_Minimalist_Brown_tex 12:1024x1024m11 x1,1	mean=0.712,0.616,0.536	glow=-	q-1
+Curtain_Red_Mat	inst=1	col=0.509,0.094,0.094,1	tex=Curtains_Tex 12:1024x1024m11 x1,1	mean=0.934,0.909,0.873	glow=-	q-1
+Default-Material	inst=1	col=1,1,1,1	tex=-  x1,1	mean=-	glow=-	q-1
+Doorframe	inst=0	col=0.925,0.486,0.414,1	tex=Wood_painted_Tex 10:1024x1024m11 x1,1	mean=0.837,0.832,0.837	glow=-	q2000
+DoorSign_mat	inst=1	col=0.991,0.897,0.808,1	tex=DoorSign_Tex 12:256x256m9 x1,1	mean=0.285,0.28,0.269	glow=1.004,0.994,0.985,1.05	q-1
+DormRoom_BulletinBoard_mat	inst=1	col=1,1,1,1	tex=DormRoom_BulletinBoard_tex 10:1024x1024m11 x1,1	mean=0.65,0.465,0.27	glow=-	q-1
+EventRoom_BookShelf_Mat	inst=1	col=1,0.767,0.007,1	tex=Concrete_Tex 10:512x512m10 x50,50	mean=0.732,0.736,0.735	glow=-	q-1
+EventRoom_MeetingBulbs_Emit_Mat	inst=0	col=1,0.995,0.958,1	tex=-  x1,1	mean=-	glow=1.039,1.038,1.035,1	q-1
+Fence_Brick_Mat	inst=0	col=1,1,1,1	tex=Fence_Brick_tex 12:1024x1024m11 x1,1	mean=0.5,0.405,0.388	glow=-	q-1
+FUTURA-T-OT-BOLD-CONDENSED SDF (World Space)	inst=1	col=1,1,1,1	tex=legacy_FUTURA-T-OT-BOLD-CONDENSED SDF Atlas 1:512x512m1 x1,1	mean=1,1,1	glow=-	q-1
+Glass_Clear_mat	inst=1	col=0,0.621,1,0.239	tex=Glass_Spec 12:1024x1024m11 x4,4	mean=0.483,0.482,0.483	glow=-	clear q3000
+Glass_Teal_mat	inst=1	col=0.319,0.558,0.608,0.11	tex=Glass_Tex 12:1024x1024m11 x1,1	mean=0.873,0.873,0.873	glow=-	clear q3000
+Glowstick_Cyan_Mat	inst=1	col=0.19,0.856,1,1	tex=Glowstick_Purple_Tex 12:512x512m10 x1,1	mean=0.465,0.468,0.465	glow=0,2.463,2.463,7	q-1
+Glowstick_Cyan_Mat 1	inst=0	col=0.871,0.188,1,1	tex=Glowstick_Purple_Tex 12:512x512m10 x1,1	mean=0.465,0.468,0.465	glow=2.025,0,2.463,7	q-1
+Glowstick_Cyan_Mat 2	inst=0	col=1,0.304,0.188,1	tex=Glowstick_Purple_Tex 12:512x512m10 x1,1	mean=0.465,0.468,0.465	glow=2.463,0.722,0,7	q-1
+Grass_Distance_Mat	inst=0	col=1,1,1,1	tex=Park_Grass_T 10:512x512m10 x1,1	mean=0.161,0.243,0	glow=-	q-1
+HousePlants_mat	inst=1	col=1,1,1,1	tex=HousePlants_tex 12:512x512m10 x1,1	mean=0.195,0.305,0.116	glow=-	q-1
+HousePlants_Pot_mat	inst=1	col=0.117,0.42,0.838,1	tex=HousePlant_Pot_tex 10:512x512m10 x1,1	mean=0.709,0.699,0.694	glow=-	q-1
+LanternPost_Mat	inst=1	col=1,0.466,0.118,1	tex=Wall_Torch_Lantern_Post_Tex 12:512x512m10 x1,1	mean=0.299,0.237,0.159	glow=0.975,0.907,0.797,0.76	q-1
+LaternFlame_Mat	inst=1	col=1,0.339,0,1	tex=CandleFlame 10:128x128m8 x1,1	mean=0.255,0.256,0.255	glow=1,0.089,0,1	two clear q3000
+Light_Fluorescent_mat	inst=1	col=0.575,0.575,0.575,1	tex=Light_Fluorescent_Tex 12:256x256m9 x1,1	mean=0.299,0.289,0.262	glow=1.068,1.068,1.068,3.51	q-1
+Lit	inst=1	col=0.5,0.5,0.5,1	tex=-  x1,1	mean=-	glow=-	q2000
+LockerFountainStageLight_mat	inst=1	col=1,1,1,1	tex=Locker_Fountain_Spotlight_Tex 12:1024x1024m11 x1,1	mean=0.411,0.47,0.544	glow=-	q-1
+LockerRoom_FloorTile_mat	inst=0	col=1,1,1,1	tex=Tile_Linoleum_Flecked_Tex 10:1024x1024m11 x25,25	mean=0.512,0.509,0.512	glow=-	q-1
+LockerRoom_Metal_Mat	inst=0	col=0.07,0.171,0.382,1	tex=Paint_Tex 10:512x512m10 x4,4	mean=0.806,0.81,0.806	glow=-	q-1
+Orientation_Carpet	inst=0	col=0.339,0.509,0.465,1	tex=Carpet_Tileable_Diamond_Tex 10:1024x1024m11 x5,5	mean=0.881,0.884,0.881	glow=-	q-1
+Plastic_White_Mat	inst=0	col=1,1,1,1	tex=Plastic_Tex 10:1024x1024m11 x1,1	mean=0.882,0.883,0.882	glow=-	q-1
+PunchingBag_mat	inst=1	col=1,1,1,1	tex=PunchingBag_tex 10:1024x1024m11 x1,1	mean=0.484,0.351,0.263	glow=-	q-1
+Quest_Pirate1_Poster_Mat	inst=0	col=1,1,1,1	tex=Quest_Pirate1_Poster 10:512x512m10 x1,1	mean=0.61,0.568,0.501	glow=-	q-1
+Quest_Poster_Case_Mat	inst=0	col=1,0.854,0.517,1	tex=Quest_Poster_Case_Tex 12:1024x1024m11 x1,1	mean=0.442,0.375,0.33	glow=1.139,1.122,1.071,4	q-1
+Quest_Poster_CCC_Mat	inst=0	col=1,1,1,1	tex=Crimson Cualdron in game poster 10:1024x1024m11 x1,1	mean=0.354,0.23,0.21	glow=-	q-1
+Quest_Poster_Mat	inst=0	col=1,1,1,1	tex=QUEST POSTER 10:512x512m10 x1,1	mean=0.486,0.381,0.235	glow=-	q-1
+Quest_Scifi_Poster_Mat	inst=0	col=1,1,1,1	tex=Poster_Jumbotron_Tex 10:512x512m10 x1,1	mean=0.479,0.413,0.575	glow=-	q-1
+RecCenter_Brick_Red	inst=0	col=1,1,1,1	tex=Brick_Grout_tex 12:512x512m10 x3,3	mean=0.464,0.315,0.301	glow=-	q-1
+RecCenter_CafeAssets_Mat	inst=1	col=1,1,1,1	tex=RecCenter_CafeAssets_tex 10:1024x1024m11 x1,1	mean=0.351,0.435,0.432	glow=-	q-1
+RecCenter_Carpet_mat	inst=0	col=1,1,1,1	tex=Carpet_LowPile_Navy_tex 10:512x512m10 x5,5	mean=0.177,0.226,0.29	glow=-	q-1
+RecCenter_Carpet_Taupe_Mat	inst=0	col=0.396,0.379,0.341,1	tex=Carpet_Burber_tex 10:512x512m10 x10,10	mean=0.891,0.898,0.881	glow=-	q-1
+RecCenter_CarpetBorder_Mat	inst=0	col=0.858,0.614,0.336,1	tex=-  x1,1	mean=-	glow=-	q-1
+RecCenter_Marquee_Mat	inst=0	col=1,1,1,1	tex=RecCenter_Marquee_tex 12:1024x1024m11 x1,1	mean=0.4,0.353,0.258	glow=2.09,2.09,2.09,5.06	q-1
+RecCenter_Posters_Mat	inst=0	col=1,1,1,1	tex=RecCenter_Posters_Tex 10:1024x1024m1 x1,1	mean=0.8,0.772,0.714	glow=-	q-1
+RecCenter_ProjectionScreen_Mat	inst=0	col=1,1,1,1	tex=RecCenter_ProjectionScreen_tex 10:1024x1024m11 x1,1	mean=0.864,0.886,0.917	glow=-	q-1
+RecCenter_SubwayTile_VertColor_mat	inst=0	col=1,1,1,1	tex=Brick_DarkGrout_tex 10:512x512m10 x30,30	mean=0.7,0.697,0.7	glow=-	q-1
+RecRoyale_Tree_Bush_Mobile_mat	inst=0	col=0.849,0.849,0.849,1	tex=RecRoyale_Frontier_Tree_Bush_Mobile_tex 10:512x512m10 x1,1	mean=0.394,0.462,0.158	glow=-	two q-1
+RecRoyale_Tree_Oak_Yellow_mat	inst=0	col=1,1,1,1	tex=RecRoyale_Frontier_Tree_Oak_Yellow_Tex 12:512x512m10 x1,1	mean=0.329,0.364,0.216	glow=-	two q-1
+Scifi_Rug_Mat	inst=1	col=1,1,1,1	tex=Scifi_Rug_Tex 10:512x512m10 x1,1	mean=0.231,0.246,0.275	glow=-	q-1
+ScuffMarks_TEMP_mat	inst=0	col=0,0,0,1	tex=Decals_ScuffMarks_TEMP_tex 12:512x512m10 x1,1	mean=0.987,0.987,0.987	glow=-	clear q3000
+Sign	inst=0	col=0.29,0.674,0.706,1	tex=Cloth_Tex 12:1024x1024m11 x1,1	mean=0.914,0.92,0.913	glow=-	q2000
+Tree_Aspen_Gold_Mobile_mat	inst=0	col=1,1,1,1	tex=Tree_Aspen_Gold_Mobile_tex 10:512x512m10 x1,1	mean=0.588,0.576,0.325	glow=-	two q-1
+Tree_Pine_Mobile_Double_Sided_Mat	inst=0	col=1,1,1,1	tex=Tree_Pine_Mobile_Tex 10:512x512m10 x1,1	mean=0.214,0.301,0.181	glow=-	two q-1
+VendingMachine_Mat	inst=1	col=1,1,1,1	tex=VendingMachine_tex 12:1024x1024m11 x1,1	mean=0.244,0.228,0.215	glow=20,20,20,20	q-1
+Wall_Vertcolor_mat	inst=0	col=1,1,1,1	tex=Concrete_Tex 10:512x512m10 x25,25	mean=0.732,0.736,0.735	glow=-	q-1
+WaterBottle_Mat	inst=1	col=0.02,0.224,0.502,1	tex=WaterBottle_Tex 12:512x512m10 x1,1	mean=0.572,0.679,0.731	glow=-	q-1
+Wood_Floor_Mat	inst=0	col=0.972,0.633,0.327,1	tex=Wood FloorTiled_tex 12:1024x1024m11 x5.2,31.95	mean=0.722,0.719,0.722	glow=-	q-1
+Wood_Horizontal_DarkBrown_3x_Mat	inst=0	col=0.345,0.197,0.13,1	tex=wood_diffuse_horiz_desat 10:512x512m10 x3,3	mean=0.722,0.718,0.722	glow=-	q-1
+Wood_Horizontal_DarkOrange_5x_Mat	inst=1	col=0.51,0.345,0.271,1	tex=wood_grain_Tex 10:1024x1024m11 x5,5	mean=0.799,0.795,0.799	glow=-	q-1
+Wood_Table_Mat	inst=1	col=0.686,0.455,0.231,1	tex=wood_grain_Tex 10:1024x1024m11 x2,3	mean=0.799,0.795,0.799	glow=-	q-1

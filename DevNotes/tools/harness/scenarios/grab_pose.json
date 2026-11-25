@@ -1,0 +1,53 @@
+// Grab task: held items follow the hand (DN/phase1/grab.md). VR: both hands in RrHand's test mode on fake client
+// anchors (right one scaled 0.889 with a calibration offset) whose grips are upright fists pointing forward at
+// (+-0.2, 1.25, -2.2); Rec Room's root beer bottle + paintball pistol, then basketball + paddleball paddle, given with
+// RrGrab.Give; each object's world axes against expectations, the exact code path, and the wire pose rebuilt on the
+// anchor. Screen: the bottle, then the pistol, in the screen hand with the view pinned at (0, 1.55, -2.6) looking +Z
+// (the grab_screen_* shots are that view, FOV 60 like RrScreenCamera).
+// Hooks: SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest (logs "GrabTest: PASS|FAIL <name> (...)").
+{
+  "name": "grab_pose",
+  "arrival": true,
+  "steps": [
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest.Vr"},
+    {"expect_log": "GrabTest: PASS test-rig"},
+    {"expect_log": "GrabTest: PASS spawn"},
+    {"expect_log": "GrabTest: PASS bottle-pose"},
+    {"expect_log": "GrabTest: PASS bottle "},
+    {"expect_log": "GrabTest: PASS pistol-pose"},
+    {"expect_log": "GrabTest: PASS pistol "},
+    {"expect_log": "GrabTest: PASS wire-Consumables_RootBeer_Bottle"},
+    {"expect_log": "GrabTest: PASS wire-PaintballGun"},
+    {"shot": "grab_vr_1_pov", "pos": [0.0, 1.62, -2.75], "look": [0.0, 1.3, -1.95], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "grab_vr_1_side", "pos": [1.1, 1.4, -2.2], "look": [0.0, 1.35, -2.2], "fov": 50, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest.VrRound2"},
+    {"expect_log": "GrabTest: PASS ball-pose"},
+    {"expect_log": "GrabTest: PASS basketball"},
+    {"expect_log": "GrabTest: PASS paddle-pose"},
+    {"expect_log": "GrabTest: PASS paddle "},
+    {"expect_log": "GrabTest: PASS wire-Basketball"},
+    {"expect_log": "GrabTest: PASS wire-Paddleball_Paddle"},
+    {"shot": "grab_vr_2_pov", "pos": [0.0, 1.62, -2.75], "look": [0.0, 1.3, -1.95], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "grab_vr_2_side", "pos": [1.1, 1.4, -2.2], "look": [0.0, 1.35, -2.2], "fov": 50, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest.VrEnd"},
+    {"expect_log": "GrabTest: PASS vr-nopose-where"},
+    {"expect_log": "GrabTest: PASS vr-nopose-given"},
+    {"expect_log": "GrabTest: PASS test-mode-off"},
+    {"expect_log": "GrabTest: VR ALL PASS"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest.Screen"},
+    {"expect_log": "GrabTest: PASS screen-hand"},
+    {"expect_log": "GrabTest: PASS screen-bottle"},
+    {"expect_log": "GrabTest: PASS screen-wire-Consumables_RootBeer_Bottle"},
+    {"shot": "grab_screen_bottle", "pos": [0.0, 1.55, -2.6], "look": [0.0, 1.55, -1.6], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest.ScreenPistol"},
+    {"expect_log": "GrabTest: PASS screen-pistol"},
+    {"expect_log": "GrabTest: PASS screen-wire-PaintballGun"},
+    {"expect_log": "GrabTest: PASS screen-hand-data"},
+    {"shot": "grab_screen_pistol", "pos": [0.0, 1.55, -2.6], "look": [0.0, 1.55, -1.6], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest.ScreenEnd"},
+    {"expect_log": "GrabTest: PASS screen-nopose"},
+    {"expect_log": "GrabTest: screen ALL PASS"},
+    {"dump": "grab_scene", "root": "Rr Grab Test"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrGrabTest.Clear"}
+  ]
+}

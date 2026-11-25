@@ -1,0 +1,20 @@
+// light9: CPU cost of the grid's property blocks (renderers out of the SRP Batcher), per room, grids off vs on.
+{
+  "name": "light9_perf",
+  "steps": [
+    {"goto": "RecCenter", "timeout": 240},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.Report"},
+    {"goto": "GoldenTrophy", "timeout": 300},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairFoyer"},
+    {"goto": "Dorm", "timeout": 240},
+    {"wait": 2},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom"}
+  ]
+}

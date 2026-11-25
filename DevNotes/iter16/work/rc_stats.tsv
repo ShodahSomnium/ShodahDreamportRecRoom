@@ -1,0 +1,520 @@
+inst	[PunchingBag]/Visual/PunchingBag_Base_LOD0	PunchingBag_Base_LOD0	PunchingBag_mat
+plates	SciFi_Glowstick2	Glowstick_Cyan_Mat 1	0.05	6
+plates	SciFi_Glowstick3	Glowstick_Cyan_Mat 1	0.06	6
+plates	SciFi_Glowstick4	Glowstick_Cyan_Mat 2	0.06	6
+plates	SciFi_Glowstick5	Glowstick_Cyan_Mat 2	0.06	6
+plates	SciFi_Glowstick1	Glowstick_Cyan_Mat	0.06	6
+plates	SciFi_Glowstick	Glowstick_Cyan_Mat	0.05	7
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	265	117
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	386	209
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	265	117
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	386	209
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	265	117
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	386	209
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	265	117
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	386	209
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	265	117
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	386	209
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	265	117
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	386	209
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	265	117
+foliage	LOD0	RecRoyale_Tree_Oak_Yellow_mat	386	209
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Tree_Bush_Mobile_LOD0	RecRoyale_Tree_Bush_Mobile_mat	1469	300
+foliage	Aspen_Tree_LOD0	Tree_Aspen_Gold_Mobile_mat	2388	300
+foliage	Aspen_Tree_LOD0	Tree_Aspen_Gold_Mobile_mat	2388	300
+foliage	Aspen_Tree_LOD0	Tree_Aspen_Gold_Mobile_mat	2388	300
+foliage	Aspen_Tree_LOD0	Tree_Aspen_Gold_Mobile_mat	2388	300
+foliage	Aspen_Tree_LOD0	Tree_Aspen_Gold_Mobile_mat	2388	300
+foliage	Aspen_Tree_LOD0	Tree_Aspen_Gold_Mobile_mat	2388	300
+foliage	Aspen_Tree_LOD0	Tree_Aspen_Gold_Mobile_mat	2388	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+foliage	Pine_Tree_Mobile_LOD0	Tree_Pine_Mobile_Double_Sided_Mat	1182	300
+plates	BulletinBoard	DormRoom_BulletinBoard_mat	27.17	22
+plates	RecCenter_Cafe_Table_LOD0	RecCenter_CafeAssets_Mat	6.32	439
+inst	Props/Tables/[LockerTable_Short] (2)/LockerTable_Short_fbx/LockerTable_Short_LOD0	LockerTable_Short_LOD0	Wood_Table_Mat
+inst	Props/Tables/[LockerTable_Tall] (1)/LockerTable_Tall_fbx/LockerTable_Tall_LOD0	LockerTable_Tall_LOD0	Wood_Table_Mat
+inst	Props/Tables/[LockerTable_Short] (3)/LockerTable_Short_fbx/LockerTable_Short_LOD0	LockerTable_Short_LOD0	Wood_Table_Mat
+inst	Props/Tables/[LockerTable_Short] (1)/LockerTable_Short_fbx/LockerTable_Short_LOD0	LockerTable_Short_LOD0	Wood_Table_Mat
+plates	RecCenter_Cafe_Table_LOD0	RecCenter_CafeAssets_Mat	6.32	442
+inst	Props/Tables/[LockerTable_Short] (5)/LockerTable_Short_fbx/LockerTable_Short_LOD0	LockerTable_Short_LOD0	Wood_Table_Mat
+plates	RecCenter_Cafe_Table_LOD0	RecCenter_CafeAssets_Mat	6.32	438
+inst	Props/Tables/[LockerTable_Short] (4)/LockerTable_Short_fbx/LockerTable_Short_LOD0	LockerTable_Short_LOD0	Wood_Table_Mat
+plates	RecCenter_Cafe_Table_LOD0	RecCenter_CafeAssets_Mat	6.32	439
+plates	RecCenter_Cafe_Table_LOD0	RecCenter_CafeAssets_Mat	6.32	441
+inst	Props/Tables/[LockerTable_Tall] (2)/LockerTable_Tall_fbx/LockerTable_Tall_LOD0	LockerTable_Tall_LOD0	Wood_Table_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static]/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static]/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (12)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (10)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (11)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (9)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (3)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (4)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (5)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (6)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (7)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (8)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (13)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (14)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Plates/[RecCenter_Cafe_Plate_Static] (15)/RecCenter_Cafe_Plate_fbx/RecCenter_Cafe_Plate_LOD0	RecCenter_Cafe_Plate_LOD0	RecCenter_CafeAssets_Mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Frosted_Static] (3)/Visual Root/donut_frosted_01	donut_frosted_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Frosted_Static] (5)/Visual Root/donut_frosted_01	donut_frosted_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_ChocSprinkles_Static] (4)/VisualRoot/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Frosted_Static] (6)/Visual Root/donut_frosted_01	donut_frosted_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (2)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (4)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static]/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Frosted_Static]/Visual Root/donut_frosted_01	donut_frosted_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Frosted_Static] (4)/Visual Root/donut_frosted_01	donut_frosted_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_ChocSprinkles_Static] (1)/VisualRoot/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_ChocSprinkles_Static]/VisualRoot/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (5)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (6)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_ChocSprinkles_Static] (3)/VisualRoot/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (3)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (1)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_ChocSprinkles_Static] (6)/VisualRoot/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_ChocSprinkles_Static] (5)/VisualRoot/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Frosted_Static] (1)/Visual Root/donut_frosted_01	donut_frosted_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_ChocSprinkles_Static] (2)/VisualRoot/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_PinkSprinkles_Static]/visual root/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_PinkSprinkles_Static] (2)/visual root/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_PinkSprinkles_Static] (3)/visual root/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_PinkSprinkles_Static] (4)/visual root/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_PinkSprinkles_Static] (5)/visual root/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_PinkSprinkles_Static] (6)/visual root/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_PinkSprinkles_Static] (7)/visual root/donut_sprinkles_01	donut_sprinkles_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_BostonCreme_Static]/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_BostonCreme_Static] (1)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_BostonCreme_Static] (2)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_BostonCreme_Static] (3)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_BostonCreme_Static] (4)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_BostonCreme_Static] (5)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_BostonCreme_Static] (6)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (7)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (8)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (9)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (10)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_Glazed_Static] (11)/VisualRoot/donut_glazed_01	donut_glazed_01	Consumable_Donut_Regular_mat
+plates	donut_glazed_01_LOD0	Consumable_Donut_Chocolate_mat	0.00	0
+plates	donut_glazed_01_LOD0	Consumable_Donut_Chocolate_mat	0.00	0
+plates	donut_glazed_01_LOD0	Consumable_Donut_Chocolate_mat	0.00	0
+plates	donut_glazed_01_LOD0	Consumable_Donut_Chocolate_mat	0.00	0
+plates	donut_glazed_01_LOD0	Consumable_Donut_Chocolate_mat	0.00	0
+inst	Props/Cafe/Donuts/[RecCenter_Donut_JamFilled_Static]/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_JamFilled_Static] (1)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_JamFilled_Static] (2)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_JamFilled_Static] (3)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_JamFilled_Static] (4)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Chocolate_mat
+inst	Props/Cafe/Donuts/[RecCenter_Donut_JamFilled_Static] (5)/Visual Root/donut_filled_01	donut_filled_01	Consumable_Donut_Chocolate_mat
+plates	RecCenter_DonutBox_Closed_Static	Consumable_DonutBox_Mat	1.04	11
+plates	RecCenter_DonutBox_Closed_Static1	Consumable_DonutBox_Mat	1.04	11
+plates	RecCenter_DonutBox_Closed_Static2	Consumable_DonutBox_Mat	1.04	11
+plates	donut_glazed_01	Consumable_Pizza_Mat	0.00	0
+plates	donut_glazed_01	Consumable_Pizza_Mat	0.00	0
+plates	donut_glazed_01	Consumable_Pizza_Mat	0.00	0
+plates	donut_glazed_01	Consumable_Pizza_Mat	0.00	0
+plates	donut_glazed_01	Consumable_Pizza_Mat	0.00	0
+inst	Props/Cafe/Donuts/[Cake_RedVelvet_Slice_Static]/Cake_Slice_V1_LOD0	Cake_Slice_V1_LOD0	Consumable_Cake_RedVelvet_Mat
+inst	Props/Cafe/Donuts/[Cake_Chocolate_Slice_Static]/Cake_Slice_V1_LOD0	Cake_Slice_V1_LOD0	Consumable_Cake_Chocolate_Mat
+inst	Props/Cafe/Donuts/[Cake_Chocolate_Slice_Static] (1)/Cake_Slice_V1_LOD0	Cake_Slice_V1_LOD0	Consumable_Cake_Chocolate_Mat
+plates	donut_glazed_01	Consumable_Pizza_Mat	0.00	0
+plates	RecCenter_Cafe_ChalkBoard1	RecCenter_CafeAssets_Mat	7.62	21
+plates	RecCenter_Cafe_Shelf1	RecCenter_CafeAssets_Mat	2.44	34
+plates	RecCenter_Cafe_BackCounter	RecCenter_CafeAssets_Mat	41.31	51
+plates	RecCenter_Cafe_ChalkBoard	RecCenter_CafeAssets_Mat	7.62	21
+plates	RecCenter_CafeCounter	RecCenter_CafeAssets_Mat	48.93	125
+plates	RecCenter_Cafe_DisplayCase	RecCenter_CafeAssets_Mat	11.21	140
+plates	RecCenter_Cafe_DisplayCase	Glass_Teal_mat	9.65	38
+plates	RecCenter_Cafe_Shelf2	RecCenter_CafeAssets_Mat	2.44	34
+plates	RecCenter_Cafe_DisplayCase1	RecCenter_CafeAssets_Mat	11.21	140
+plates	RecCenter_Cafe_DisplayCase1	Glass_Teal_mat	9.65	38
+plates	RecCenter_Cafe_Shelf	RecCenter_CafeAssets_Mat	2.44	34
+plates	RecCenter_Cafe_Percolator	RecCenter_CafeAssets_Mat	1.39	21
+plates	RecCenter_Cafe_Percolator1	RecCenter_CafeAssets_Mat	1.39	21
+inst	Props/Cafe/PastryCases/[WaterBottle_Static]/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+inst	Props/Cafe/PastryCases/[WaterBottle_Static] (3)/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+inst	Props/Cafe/PastryCases/[WaterBottle_Static] (1)/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+inst	Props/Cafe/PastryCases/[WaterBottle_Static] (2)/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+inst	Props/Cafe/PastryCases/[Ham_Static]/Ham_fbx/Quest_Campfire_Ham	Quest_Campfire_Ham	Campfire_Mat
+inst	Props/Cafe/PastryCases/[WaterBottle_Static] (4)/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+inst	Props/Cafe/PastryCases/[Ham_Static] (1)/Ham_fbx/Quest_Campfire_Ham	Quest_Campfire_Ham	Campfire_Mat
+inst	Props/Cafe/PastryCases/[WaterBottle_Static] (5)/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+inst	Props/Cafe/PastryCases/[WaterBottle_Static] (6)/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+inst	Props/Cafe/PastryCases/[WaterBottle_Static] (7)/Mesh/WaterBottle_LOD0	WaterBottle_LOD0	WaterBottle_Mat
+plates	RecRoyale_Frontier_PizzaBox1	Consumable_PizzaBox_Mat	0.89	9
+plates	RecRoyale_Frontier_PizzaBox2	Consumable_PizzaBox_Mat	0.89	8
+plates	WaterBottle_LOD0	Consumable_Sarsaparilla_mat	0.00	0
+plates	WaterBottle_LOD0	Consumable_Sarsaparilla_mat	0.00	0
+plates	WaterBottle_LOD0	Consumable_Sarsaparilla_mat	0.00	0
+plates	WaterBottle_LOD0	Consumable_Sarsaparilla_mat	0.00	0
+plates	WaterBottle_LOD0	Consumable_Sarsaparilla_mat	0.00	0
+plates	WaterBottle_LOD0	Consumable_Sarsaparilla_mat	0.00	0
+plates	RecRoyale_Frontier_PizzaBox	Consumable_PizzaBox_Mat	0.89	9
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch] (1)/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch] (1)/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch] (2)/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+inst	Props/Couches/[RecCenter_Couch] (1)/Couch_Minimalist_fbx/RecCenter_Couch_LOD0	RecCenter_Couch_LOD0	Couch_Minimalist_Brown_Instanced_Mat
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	209
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	217
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	229
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	232
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	212
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	214
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	214
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	212
+plates	RecCenter_Chair_LOD0	Couch_Minimalist_Brown_Instanced_Mat	6.58	210
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.26	103
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.26	103
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.26	103
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	chair_stackable_LOD0	Chair_Stackable_White_Mat	0.00	0
+plates	Curtain_LOD0	Curtain_Red_Mat	34.52	377
+inst	Props/Curtains/[Curtain_Flat]/Curtain_flat_fbx/Curtain_Flat_LOD0	Curtain_Flat_LOD0	Curtain_Red_Mat
+plates	Curtain_LOD0	Curtain_Red_Mat	31.35	346
+inst	Props/Curtains/[Curtain_Flat] (3)/Curtain_flat_fbx/Curtain_Flat_LOD0	Curtain_Flat_LOD0	Curtain_Red_Mat
+inst	Props/Curtains/[Curtain_Flat] (2)/Curtain_flat_fbx/Curtain_Flat_LOD0	Curtain_Flat_LOD0	Curtain_Red_Mat
+plates	Curtain_LOD0	Curtain_Red_Mat	34.52	377
+plates	Curtain_LOD0	Curtain_Red_Mat	34.52	377
+plates	RecCenter_fence2	Fence_Brick_Mat	39.17	63
+plates	RecCenter_fence7	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence24	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence12	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence21	Fence_Brick_Mat	39.17	63
+plates	RecCenter_fence1	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence18	Fence_Brick_Mat	39.17	63
+plates	RecCenter_fence9	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence26	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence19	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence23	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence20	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence16	Fence_Brick_Mat	39.17	63
+plates	RecCenter_fence14	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence8	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence3	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence13	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence17	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence25	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence15	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence10	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence5	Fence_Brick_Mat	39.17	63
+plates	RecCenter_fence6	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence11	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence22	Fence_Brick_Mat	39.17	64
+plates	RecCenter_fence4	Fence_Brick_Mat	39.17	65
+plates	RecCenter_fence	Fence_Brick_Mat	39.17	65
+plates	SciFi_Garage_DottedLine	Concrete_Blue_50x_Mat	0.33	1
+plates	SciFi_Garage_CurvedLine1	Concrete_Blue_50x_Mat	0.29	9
+plates	SciFi_Garage_CurvedLine3	Concrete_Blue_50x_Mat	0.29	9
+plates	SciFi_Garage_DottedLine1	Concrete_Blue_50x_Mat	0.46	1
+plates	SciFi_Garage_DottedLine2	Concrete_Blue_50x_Mat	0.46	1
+inst	Props/Lockers/[Lockers] (2)/Lockers_fbx/Lockers_LOD0	Lockers_LOD0	LockerFountainStageLight_mat
+inst	Props/Lockers/[Lockers] (5)/Lockers_fbx/Lockers_LOD0	Lockers_LOD0	LockerFountainStageLight_mat
+inst	Props/Lockers/[Lockers] (12)/Lockers_fbx/Lockers_LOD0	Lockers_LOD0	LockerFountainStageLight_mat
+inst	Props/Lockers/[Lockers] (13)/Lockers_fbx/Lockers_LOD0	Lockers_LOD0	LockerFountainStageLight_mat
+inst	Props/Lockers/[Lockers] (9)/Lockers_fbx/Lockers_LOD0	Lockers_LOD0	LockerFountainStageLight_mat
+inst	Props/Lockers/[Lockers] (11)/Lockers_fbx/Lockers_LOD0	Lockers_LOD0	LockerFountainStageLight_mat
+inst	Props/Plants/[Plant_Dracaena] (1)/Plant_Dracaena_fbx/Dracaena_LOD0	Dracaena_LOD0	HousePlants_Pot_mat|HousePlants_mat
+plates	Fig_LOD0	HousePlants_mat	0.17	32
+plates	Fig_LOD0	HousePlants_Pot_mat	0.00	0
+plates	Fig_LOD0	HousePlants_mat	0.17	32
+plates	Fig_LOD0	HousePlants_Pot_mat	0.00	0
+inst	Props/Plants/[Plant_Snake] (1)/Plant_Snake_fbx/SnakePlant_LOD0	SnakePlant_LOD0	HousePlants_Pot_mat|HousePlants_mat
+plates	Fig_LOD0	HousePlants_mat	0.11	30
+plates	Fig_LOD0	HousePlants_Pot_mat	0.00	0
+inst	Props/Plants/[Plant_Snake]/Plant_Snake_fbx/SnakePlant_LOD0	SnakePlant_LOD0	HousePlants_Pot_mat|HousePlants_mat
+inst	Props/Plants/[Plant_Dracaena]/Plant_Dracaena_fbx/Dracaena_LOD0	Dracaena_LOD0	HousePlants_Pot_mat|HousePlants_mat
+plates	Fig_LOD0	HousePlants_mat	0.22	39
+plates	Fig_LOD0	HousePlants_Pot_mat	0.00	0
+plates	Fig_LOD0	HousePlants_mat	0.17	32
+plates	Fig_LOD0	HousePlants_Pot_mat	0.00	0
+plates	Fig_LOD0	HousePlants_mat	0.17	32
+plates	Fig_LOD0	HousePlants_Pot_mat	0.00	0
+plates	Quest_Poster_Scroll_Quad	Quest_Scifi_Poster_Mat	0.80	1
+plates	Quest_Poster_Case_LOD0	Quest_Poster_Case_Mat	3.56	22
+plates	Quest_Poster_Scroll_CRIMSONCAULDRON	Quest_Poster_CCC_Mat	0.89	1
+plates	Quest_Poster_Case_LOD0	Quest_Poster_Case_Mat	3.56	22
+plates	Quest_Poster_Scroll_Quad	Quest_Pirate1_Poster_Mat	0.80	1
+plates	Quest_Poster_Case_LOD0	Quest_Poster_Case_Mat	3.56	22
+plates	Quest_Poster_Scroll_CRIMSONCAULDRON	Quest_Poster_Mat	0.89	1
+plates	Quest_Poster_Case_LOD0	Quest_Poster_Case_Mat	3.56	22
+plates	Poster3	RecCenter_Posters_Mat	1.10	1
+plates	Poster3	RecCenter_Posters_Mat	0.62	1
+plates	Poster4	RecCenter_Posters_Mat	1.00	1
+plates	Poster3	RecCenter_Posters_Mat	1.32	1
+plates	Poster3	RecCenter_Posters_Mat	1.00	1
+plates	Poster3	RecCenter_Posters_Mat	1.62	1
+plates	Poster4	RecCenter_Posters_Mat	1.02	1
+plates	Poster6	RecCenter_Posters_Mat	1.02	1
+plates	Poster6	RecCenter_Posters_Mat	0.65	1
+plates	Poster4	RecCenter_Posters_Mat	1.02	1
+plates	SciFi_Glowstick2	Glowstick_Cyan_Mat	0.00	0
+plates	SciFi_Glowstick1	Glowstick_Cyan_Mat	0.02	7
+plates	RecCenter_ProjectionScreen	RecCenter_ProjectionScreen_Mat	67.50	152
+plates	Quad	Plastic_White_Mat	26.43	1
+plates	ButtonTable	Wood_Horizontal_DarkOrange_5x_Mat	8.76	351
+plates	ButtonTable1	Wood_Horizontal_DarkOrange_5x_Mat	8.76	382
+plates	Rug	Banner_Mat	50.05	2
+plates	Candle_Short_LOD0	LanternPost_Mat	0.00	0
+plates	Candle_Tall_LOD0	LanternPost_Mat	0.00	0
+plates	RecCenter_Marquee	RecCenter_Marquee_Mat	34.47	1369
+plates	Light_Flourescent	Light_Fluorescent_mat	2.36	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.36	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.36	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.07	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.07	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.06	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.36	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.36	53
+plates	Light_Flourescent	Light_Fluorescent_mat	2.36	53
+plates	RecCenter_MeetingLight1	EventRoom_BookShelf_Mat	4.65	115
+plates	LightBulbs	EventRoom_MeetingBulbs_Emit_Mat	0.60	212
+plates	MeetignGlass	Glass_Teal_mat	4.93	21
+plates	RecCenter_MeetingLight	EventRoom_BookShelf_Mat	5.01	119
+plates	LightBulbs	EventRoom_MeetingBulbs_Emit_Mat	0.68	225
+plates	MeetignGlass	Glass_Teal_mat	5.35	16
+inst	Systems/Storefront/MerchBooth/BuyingSpots/[Scifi_Rug]	scifi_rug	Scifi_Rug_Mat
+inst	Systems/Storefront/MerchBooth/BuyingSpots/[Scifi_Rug] (1)	scifi_rug	Scifi_Rug_Mat
+inst	Systems/Storefront/MerchBooth/BuyingSpots/[Scifi_Rug] (2)	scifi_rug	Scifi_Rug_Mat
+inst	Systems/Storefront/MerchBooth/BuyingSpots/[Scifi_Rug] (3)	scifi_rug	Scifi_Rug_Mat
+inst	Systems/Storefront/MerchBooth/BuyingSpots/[Scifi_Rug] (4)	scifi_rug	Scifi_Rug_Mat
+inst	Systems/Storefront/MerchBooth/BuyingSpots/[Scifi_Rug] (5)	scifi_rug	Scifi_Rug_Mat
+plates	Scifi_Rug1	Scifi_Rug_Mat	0.85	50
+plates	Scifi_Rug2	Scifi_Rug_Mat	0.85	50
+plates	Scifi_Rug3	Scifi_Rug_Mat	0.85	50
+plates	Scifi_Rug4	Scifi_Rug_Mat	0.85	50
+plates	RecCenter_backdrop_fbx	Grass_Distance_Mat	260203.53	94
+plates	Railing	Wood_Horizontal_DarkBrown_3x_Mat	32.51	390
+plates	Railing	Wood_Horizontal_DarkBrown_3x_Mat	8.26	62
+plates	Railing	Wood_Horizontal_DarkBrown_3x_Mat	13.58	132
+plates	Railing	Wood_Horizontal_DarkBrown_3x_Mat	5.15	82
+plates	Doorway	Wall_Vertcolor_mat	17.96	172
+plates	WindowSill	Wood_Horizontal_DarkBrown_3x_Mat	16.04	188
+plates	WindowSill	Wood_Horizontal_DarkBrown_3x_Mat	16.70	128
+plates	WindowSill	Wood_Horizontal_DarkBrown_3x_Mat	18.30	150
+plates	WindowSill	Wood_Horizontal_DarkBrown_3x_Mat	18.37	132
+plates	Doorway	Wall_Vertcolor_mat	6.83	78
+plates	BanisterBeams	LockerRoom_Metal_Mat	2.54	80
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	10.40	96
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	10.40	95
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	3.36	7
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	52.44	12
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	50.72	103
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	30.30	104
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	18.63	93
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	22.96	110
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	24.50	116
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	21.12	97
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	11.29	89
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	18.72	89
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	63.56	113
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	8.67	101
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	8.67	107
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	59.57	107
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	44.72	104
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	10.58	103
+plates	ceiling	Wall_Vertcolor_mat	1190.10	92
+plates	floor	LockerRoom_FloorTile_mat	157.81	9
+plates	floor	Wood_Floor_Mat	1140.42	52
+plates	floor	Wall_Vertcolor_mat	7.96	8
+plates	floor	RecCenter_Carpet_mat	107.72	1
+plates	floor	Wall_Vertcolor_mat	0.86	7
+plates	grating	Wall_Vertcolor_mat	5.19	156
+plates	kiosk_counter	RecCenter_CafeAssets_Mat	56.22	663
+plates	kiosk_floor	Wood_Floor_Mat	20.25	41
+plates	kiosk_floor	Wall_Vertcolor_mat	0.32	3
+plates	kiosk_walls	Wall_Vertcolor_mat	130.75	65
+plates	ShelfLong	RecCenter_CafeAssets_Mat	4.15	66
+plates	ShelfLong	RecCenter_CafeAssets_Mat	4.15	66
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	12.50	70
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	12.50	69
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	12.50	71
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	12.50	73
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	4.48	18
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	4.48	18
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	4.48	18
+plates	Beams	Wood_Horizontal_DarkBrown_3x_Mat	4.48	18
+plates	RecCenter_Shelf_Stacked	RecCenter_CafeAssets_Mat	6.46	234
+plates	Window_Small	LockerRoom_Metal_Mat	5.99	48
+plates	Window_Small_Insert	LockerRoom_Metal_Mat	3.20	74
+plates	Window_Small_Insert	Glass_Clear_mat	5.33	2
+plates	Window_Small	LockerRoom_Metal_Mat	5.99	48
+plates	Window_Small_Insert	LockerRoom_Metal_Mat	3.20	74
+plates	Window_Small_Insert	Glass_Clear_mat	5.33	2
+plates	Window_Small	LockerRoom_Metal_Mat	5.99	48
+plates	Window_Small_Insert	LockerRoom_Metal_Mat	3.20	74
+plates	Window_Small_Insert	Glass_Clear_mat	5.33	2
+plates	Window_Cafe	LockerRoom_Metal_Mat	68.21	498
+plates	Window_Cafe	Glass_Clear_mat	116.97	12
+plates	Window_Curved_Narrow	Glass_Clear_mat	49.07	4
+plates	Window_Curved_Narrow	LockerRoom_Metal_Mat	25.63	222
+plates	Window_Curved_Wide	Glass_Clear_mat	79.14	6
+plates	Window_Curved_Wide	LockerRoom_Metal_Mat	37.88	331
+plates	Window_Flat_Narrow	Glass_Clear_mat	11.96	4
+plates	Window_Flat_Narrow	LockerRoom_Metal_Mat	16.22	116
+plates	Window_Insert	LockerRoom_Metal_Mat	3.07	58
+plates	Window_Insert	Glass_Clear_mat	9.21	2
+plates	Window_Flat_Wide	LockerRoom_Metal_Mat	38.81	153
+plates	Window_Flat_Wide	Glass_Clear_mat	47.04	12
+plates	Window_Insert1	LockerRoom_Metal_Mat	2.61	58
+plates	Window_Insert1	Glass_Clear_mat	7.51	2
+plates	Window_Insert2	LockerRoom_Metal_Mat	2.58	58
+plates	Window_Insert2	Glass_Clear_mat	7.41	2
+plates	Window_Single	LockerRoom_Metal_Mat	5.92	50
+plates	Window_Insert	LockerRoom_Metal_Mat	3.29	74
+plates	Window_Insert	Glass_Clear_mat	7.62	2
+plates	Window_Single	LockerRoom_Metal_Mat	5.92	50
+plates	Window_Insert	LockerRoom_Metal_Mat	3.29	74
+plates	Window_Insert	Glass_Clear_mat	7.62	2
+plates	Window_Nook	LockerRoom_Metal_Mat	12.48	90
+plates	Window_Nook	Glass_Clear_mat	22.51	2
+plates	Window_Skylight	Glass_Clear_mat	80.08	2
+plates	Window_Skylight	LockerRoom_Metal_Mat	49.36	196
+plates	Window_Skylight	Glass_Clear_mat	80.08	2
+plates	Window_Skylight	LockerRoom_Metal_Mat	49.36	195
+plates	Window_Office	LockerRoom_Metal_Mat	24.89	144
+plates	RecRoomLogo_fbx	Wall_Vertcolor_mat	26.29	774
+plates	Rug_Entryway	RecCenter_CarpetBorder_Mat	3.12	16
+plates	Rug_Entryway	RecCenter_Carpet_Taupe_Mat	15.58	1
+plates	Rug_UpperFloor	RecCenter_CarpetBorder_Mat	7.76	16
+plates	Rug_UpperFloor	RecCenter_Carpet_mat	45.54	1
+plates	Rug_Gym	RecCenter_CarpetBorder_Mat	2.61	16
+plates	Rug_Gym	RecCenter_Carpet_mat	9.49	1
+plates	Rug_Kiosk	RecCenter_CarpetBorder_Mat	5.08	231
+plates	Rug_Kiosk	RecCenter_Carpet_Taupe_Mat	77.89	34
+plates	roof	Wall_Vertcolor_mat	1662.80	137
+plates	walls	Wall_Vertcolor_mat	43.78	66
+plates	walls	Wall_Vertcolor_mat	2510.76	2619
+plates	walls	RecCenter_Brick_Red	2084.29	1251
+plates	walls	RecCenter_SubwayTile_VertColor_mat	33.20	1
+plates	walls	Wood_Horizontal_DarkBrown_3x_Mat	3.47	8
+plates	Rug_DoorRunner	RecCenter_CarpetBorder_Mat	3.12	16
+plates	Rug_DoorRunner	RecCenter_Carpet_mat	15.58	1
+plates	upperlevel	Wood_Floor_Mat	213.29	260
+plates	upperlevel	RecCenter_Carpet_Taupe_Mat	292.62	45
+plates	upperlevel	Wall_Vertcolor_mat	20.22	36
+plates	upperlevel	Wall_Vertcolor_mat	134.41	89
+plates	upperlevel	Wall_Vertcolor_mat	39.82	69
+plates	MerchBooth_Counter	RecCenter_CafeAssets_Mat	33.26	314
+plates	Carpet	Orientation_Carpet	10.53	171
+plates	Carpet	Carpet_Trim	0.87	86
+plates	DoorFrame	Doorframe	5.39	106
+plates	Sign	Sign	3.80	38
+plates	Sign	Wall_Vertcolor_mat	0.00	0
+plates	WallStairs	Wall_Vertcolor_mat	12.05	11
+plates	WallStarisTrim	Wood_Horizontal_DarkBrown_3x_Mat	3.46	72
+matarea	Grass_Distance_Mat	260085.2
+matarea	RecRoyale_Tree_Oak_Yellow_mat	20634.1
+matarea	Tree_Pine_Mobile_Double_Sided_Mat	17180.5
+matarea	Wall_Vertcolor_mat	5822.7
+matarea	RecCenter_Brick_Red	2086.0
+matarea	Tree_Aspen_Gold_Mobile_mat	1472.9
+matarea	Wood_Floor_Mat	1375.3
+matarea	Fence_Brick_Mat	1060.9
+matarea	Wood_Horizontal_DarkBrown_3x_Mat	682.4
+matarea	Glass_Clear_mat	541.7
+matarea	RecRoyale_Tree_Bush_Mobile_mat	499.2
+matarea	RecCenter_Carpet_Taupe_Mat	386.3
+matarea	LockerRoom_Metal_Mat	379.7
+matarea	RecCenter_CafeAssets_Mat	274.9
+matarea	RecCenter_Carpet_mat	178.1
+matarea	LockerRoom_FloorTile_mat	157.8
+matarea	Curtain_Red_Mat	134.8
+matarea	RecCenter_ProjectionScreen_Mat	67.5
+matarea	Couch_Minimalist_Brown_Instanced_Mat	52.9
+matarea	Banner_Mat	50.0
+matarea	RecCenter_Marquee_Mat	34.2
+matarea	RecCenter_SubwayTile_VertColor_mat	33.2
+matarea	Glass_Teal_mat	29.8
+matarea	DormRoom_BulletinBoard_mat	27.2
+matarea	Plastic_White_Mat	26.4
+matarea	RecCenter_CarpetBorder_Mat	21.7
+matarea	Light_Fluorescent_mat	20.5
+matarea	Wood_Horizontal_DarkOrange_5x_Mat	17.5
+matarea	Quest_Poster_Case_Mat	13.7
+matarea	Orientation_Carpet	11.4
+matarea	RecCenter_Posters_Mat	10.4
+matarea	EventRoom_BookShelf_Mat	8.8
+matarea	Doorframe	5.6
+matarea	Sign	3.8
+matarea	Scifi_Rug_Mat	3.3
+matarea	Consumable_DonutBox_Mat	3.1
+matarea	Consumable_PizzaBox_Mat	2.5
+matarea	Concrete_Blue_50x_Mat	1.8
+matarea	EventRoom_MeetingBulbs_Emit_Mat	1.4
+matarea	Quest_Poster_Mat	0.9
+matarea	Quest_Poster_CCC_Mat	0.9
+matarea	HousePlants_mat	0.9
+matarea	Carpet_Trim	0.9
+matarea	Quest_Scifi_Poster_Mat	0.8
+matarea	Quest_Pirate1_Poster_Mat	0.8
+matarea	Chair_Stackable_White_Mat	0.4
+matarea	Glowstick_Cyan_Mat	0.1
+matarea	Glowstick_Cyan_Mat 2	0.1
+matarea	Glowstick_Cyan_Mat 1	0.1

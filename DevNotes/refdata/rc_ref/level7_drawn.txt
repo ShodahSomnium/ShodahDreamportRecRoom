@@ -1,0 +1,708 @@
+level7: 7871 GOs, 1830 renderers, 42 lights (0.5 s)
+  disabled ? @ Systems/TeleportBlockers/Cube (54)
+  disabled ? @ Systems/TeleportBlockers/Cube (10)
+  disabled ? @ Systems/TeleportBlockers/Cube (13)
+  disabled grating @ StaticObjects/Environment/RecCenter_fbx/kiosk/grating
+  disabled ? @ Systems/TeleportBlockers/Cube (15)
+  disabled ? @ Systems/TeleportBlockers/Cube (37)
+  disabled ? @ Systems/TeleportBlockers/Cube (100)
+  disabled ? @ Systems/TeleportBlockers/Cube (58)
+  disabled ? @ Systems/TeleportBlockers/Cube (21)
+  disabled pCube165 @ StaticObjects/Environment/RecCenter_fbx/pCube165 (1)
+  disabled ? @ Systems/TeleportBlockers/Cube (62)
+  disabled ? @ Systems/TeleportBlockers/Cube (127)
+  disabled ? @ Systems/TeleportBlockers/Cube (50)
+  disabled ? @ Systems/TeleportBlockers/Cube (74)
+  disabled ? @ Systems/TeleportBlockers/Cube (135)
+  disabled pCube85 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube85 (3)
+  disabled ? @ Systems/TeleportBlockers/Cube (110)
+  inactive ? @ StaticObjects/Environment/[MerchBooth]/Collision/Cube (7)
+  disabled pCube94 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube94 (1)
+  disabled insert @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2 (1)/frame 6/insert
+  disabled ? @ Systems/TeleportBlockers/Cube (4)
+  disabled ? @ Systems/TeleportBlockers/Cube (120)
+  disabled ? @ Systems/TeleportBlockers/Cube (32)
+  disabled ? @ Systems/TeleportBlockers/Cube (31)
+  disabled ? @ Systems/TeleportBlockers/Cube (24)
+  disabled ? @ Systems/TeleportBlockers/Cube (79)
+  disabled ? @ Systems/TeleportBlockers/Cube (103)
+  disabled ? @ Systems/TeleportBlockers/Cube (23)
+  disabled ? @ Systems/TeleportBlockers/Cube (38)
+  disabled ? @ Systems/TeleportBlockers/Cube (26)
+  disabled ? @ Systems/TeleportBlockers/Cube (14)
+  disabled ? @ Systems/TeleportBlockers/Cube (52)
+  disabled ? @ Systems/TeleportBlockers/Cube (56)
+  disabled ? @ Systems/TeleportBlockers/Cube (41)
+  disabled ? @ Systems/TeleportBlockers/Cube (53)
+  inactive MerchBooth_Roof @ StaticObjects/Environment/[MerchBooth]/MerchBooth_Roof
+  disabled pCube107 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube107 (2)
+  disabled insert @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow4 (1)/frame 7/insert 1
+  disabled ? @ Systems/TeleportBlockers/Cube (117)
+  disabled ? @ Systems/TeleportBlockers/Cube (133)
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2 (1)/frame 6
+  disabled ? @ Systems/TeleportBlockers/Cube (132)
+  disabled ? @ Systems/TeleportBlockers/Cube (64)
+  disabled ? @ Systems/TeleportBlockers/Cube (51)
+  disabled ? @ Systems/TeleportBlockers/Cube (72)
+  disabled pCube85 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube85 (1)
+  disabled ? @ Systems/TeleportBlockers/Cube (93)
+  disabled ? @ Systems/TeleportBlockers/Cube (17)
+  disabled ? @ Systems/TeleportBlockers/Cube (121)
+  disabled ? @ Systems/TeleportBlockers/Cube (43)
+  disabled ? @ Systems/TeleportBlockers/Cube (34)
+  disabled ? @ Systems/TeleportBlockers/Cube (115)
+  disabled ? @ Systems/TeleportBlockers/Cube (130)
+  disabled kiosk_walls @ StaticObjects/Environment/RecCenter_fbx/kiosk/kiosk_walls
+  disabled ? @ Systems/TeleportBlockers/Cube (112)
+  disabled ? @ Systems/TeleportBlockers/Cube (42)
+  disabled ? @ Systems/TeleportBlockers/Cube (28)
+  disabled ? @ Systems/TeleportBlockers/Cube (118)
+  disabled ? @ Systems/TeleportBlockers/Cube (131)
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/Sun Pivot/Sun
+  inactive ? @ StaticObjects/Environment/[MerchBooth]/Collision/Cube (5)
+  disabled ? @ Systems/TeleportBlockers/Cube (102)
+  disabled pCube170 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube170 (1)
+  disabled ? @ Systems/TeleportBlockers/Cube (16)
+  disabled TempOutlineBatchedMesh @ TempOutlineMeshRenderer
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow4 (1)/frame 7
+  disabled ? @ Systems/TeleportBlockers/Cube (129)
+  inactive pCube162 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube162
+  inactive ? @ StaticObjects/Environment/[MerchBooth]/Collision/Cube (9)
+  disabled ? @ Systems/TeleportBlockers/Cube (65)
+  disabled ? @ Systems/TeleportBlockers/Cube (35)
+  disabled ? @ Systems/TeleportBlockers/Cube (85)
+  disabled ? @ Systems/TeleportBlockers/Cube (55)
+  disabled ? @ Systems/TeleportBlockers/Cube (9)
+  disabled ? @ Systems/TeleportBlockers/Cube (25)
+  disabled ? @ Systems/TeleportBlockers/Cube (94)
+  inactive PunchingBag_Base_LOD0 @ DynamicObjects/Tools/Misc/[PunchingBag]/Visual/PunchingBag_Base_LOD0
+  disabled pCube169 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube169 (1)
+  disabled ? @ Systems/TeleportBlockers/Cube (48)
+  disabled pCube87 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube87 (3)
+  disabled kiosk_floor @ StaticObjects/Environment/RecCenter_fbx/kiosk/kiosk_floor
+  disabled ? @ Systems/TeleportBlockers/Cube (61)
+  disabled ? @ DynamicObjects/Tools/MirrorRear/Quad
+  disabled shelf_long @ StaticObjects/Environment/RecCenter_fbx/kiosk/shelf_long (1)
+  disabled ? @ Systems/TeleportBlockers/Cube (91)
+  disabled ? @ Systems/TeleportBlockers/Cube (124)
+  disabled ? @ Systems/TeleportBlockers/Cube (40)
+  disabled pCube168 @ StaticObjects/Environment/RecCenter_fbx/pCube168
+  disabled ? @ Systems/TeleportBlockers/Cube (104)
+  disabled ? @ Systems/TeleportBlockers/Cube (92)
+  disabled ? @ Systems/TeleportBlockers/Cube
+  disabled ? @ Systems/TeleportBlockers/Cube (113)
+  disabled ? @ Systems/TeleportBlockers/Cube (59)
+  disabled ? @ Systems/TeleportBlockers/Cube (101)
+  disabled TempSelectionBatchedMesh @ TempSelectionMeshRenderer
+  disabled ? @ Systems/TeleportBlockers/Cube (108)
+  disabled ? @ Systems/TeleportBlockers/Cube (18)
+  disabled ? @ Systems/TeleportBlockers/Cube (69)
+  disabled ? @ Systems/TeleportBlockers/Cube (22)
+  disabled ? @ Systems/TeleportBlockers/Cube (125)
+  disabled ? @ Systems/TeleportBlockers/Cube (96)
+  inactive ? @ StaticObjects/Environment/[MerchBooth]/Collision/Cube (8)
+  disabled ? @ Systems/TeleportBlockers/Cube (106)
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2 (1)/frame 6/insert/glass 6
+  inactive ? @ StaticObjects/Environment/[MerchBooth]/Collision/Cube (6)
+  disabled ? @ Systems/TeleportBlockers/Cube (95)
+  disabled ? @ Systems/TeleportBlockers/Cube (136)
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow4 (1)/frame 7/insert 1/glass 7
+  disabled ? @ Systems/TeleportBlockers/Cube (19)
+  disabled ? @ Systems/TeleportBlockers/Cube (111)
+  disabled ? @ Systems/TeleportBlockers/Cube (99)
+  disabled ? @ Systems/TeleportBlockers/Cube (88)
+  disabled ? @ Systems/TeleportBlockers/Cube (20)
+  disabled ? @ Systems/TeleportBlockers/Cube (2)
+  disabled ? @ Systems/TeleportBlockers/Cube (84)
+  disabled ? @ Systems/TeleportBlockers/Cube (122)
+  disabled ? @ Systems/TeleportBlockers/Cube (87)
+  inactive shelf_short @ StaticObjects/Environment/RecCenter_fbx/kiosk/shelf_short (2)
+  disabled kiosk_counter @ StaticObjects/Environment/RecCenter_fbx/kiosk/kiosk_counter
+  disabled ? @ Systems/TeleportBlockers/Cube (105)
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2 (2)/frame 6
+  disabled pCube107 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube107 (3)
+  disabled pCube94 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube94 (4)
+  disabled ? @ Systems/TeleportBlockers/Cube (36)
+  disabled ? @ Systems/TeleportBlockers/Cube (33)
+  disabled RecRoomLogo @ StaticObjects/Environment/RecCenter_fbx/RecRoomLogo_fbx
+  disabled ? @ Systems/TeleportBlockers/Cube (60)
+  disabled ? @ Systems/TeleportBlockers/Cube (11)
+  disabled ? @ Systems/TeleportBlockers/Cube (46)
+  disabled ? @ Systems/TeleportBlockers/Cube (29)
+  disabled ? @ Systems/TeleportBlockers/Cube (49)
+  disabled ? @ Systems/TeleportBlockers/Cube (63)
+  disabled ? @ Systems/TeleportBlockers/Cube (75)
+  disabled ? @ Systems/TeleportBlockers/Cube (6)
+  disabled ? @ Systems/TeleportBlockers/Cube (80)
+  disabled ? @ Systems/TeleportBlockers/Cube (119)
+  disabled ? @ Systems/TeleportBlockers/Cube (89)
+  disabled ? @ Systems/TeleportBlockers/Cube (77)
+  disabled ? @ Systems/TeleportBlockers/Cube (39)
+  disabled pCube171 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube171
+  disabled ? @ Systems/TeleportBlockers/Cube (47)
+  disabled ? @ Systems/TeleportBlockers/Cube (66)
+  disabled ? @ Systems/TeleportBlockers/Cube (109)
+  disabled ? @ Systems/TeleportBlockers/Cube (90)
+  disabled ? @ Systems/TeleportBlockers/Cube (107)
+  disabled ? @ Systems/TeleportBlockers/Cube (114)
+  disabled ? @ Systems/TeleportBlockers/Cube (7)
+  inactive ? @ StaticObjects/Environment/[MerchBooth]/Collision/Cube (4)
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/sidewindow/frame
+  disabled roof @ StaticObjects/Environment/RecCenter_fbx/roof
+  disabled officewindow @ StaticObjects/Environment/RecCenter_fbx/officewindow
+  disabled floor @ StaticObjects/Environment/RecCenter_fbx/floor
+  disabled ceiling @ StaticObjects/Environment/RecCenter_fbx/ceiling
+  disabled polySurface71 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface71
+  disabled polySurface70 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface70
+  disabled polySurface68 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface68
+  disabled polySurface59 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface59
+  disabled polySurface54 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface54
+  disabled polySurface27 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface27
+  disabled polySurface26 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface26
+  disabled polySurface23 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface23
+  disabled polySurface17 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface17
+  disabled polySurface15 @ StaticObjects/Environment/RecCenter_fbx/beams/polySurface15
+  disabled pCube163 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube163
+  disabled walls @ StaticObjects/Environment/RecCenter_fbx/walls
+  inactive upperlevel @ StaticObjects/Environment/RecCenter_fbx/upperlevel
+  disabled pCube150 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube150
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow4/frame 7/insert 1/glass 7
+  disabled pCube107 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube107
+  disabled pCube97 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube97
+  disabled pCube94 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube94
+  disabled pCube92 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube92
+  disabled pCube89 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube89
+  disabled pCube88 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube88
+  disabled pCube87 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube87
+  disabled pCube85 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube85
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/backwindows/nook/glass 4
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/backwindows/nook/frame 5
+  disabled window_insert_glass @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/window_insert2/window_insert_glass 2
+  disabled window_insert2 @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/window_insert2
+  disabled window_insert_glass @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/window_insert1/window_insert_glass 1
+  disabled window_insert1 @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/window_insert1
+  disabled window_insert_glass @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/window_insert/window_insert_glass
+  disabled window_insert @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/window_insert
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/frame 4/glass 5
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/backwindows/flat/frame 4
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/backwindows/curved/glass 3
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/backwindows/curved/frame 3
+  disabled pCylinder3 @ StaticObjects/Environment/RecCenter_fbx/pCylinder3
+  disabled pCube167 @ StaticObjects/Environment/RecCenter_fbx/pCube167
+  disabled pCube166 @ StaticObjects/Environment/RecCenter_fbx/pCube166
+  disabled pCube165 @ StaticObjects/Environment/RecCenter_fbx/pCube165
+  disabled insert @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow4/frame 7/insert 1
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow4/frame 7
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2/frame 6/insert/glass 6
+  disabled insert @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2/frame 6/insert
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2/frame 6
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/skylight1/glass 2
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/skylight1/frame 2
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/skylight/glass 1
+  disabled frame @ StaticObjects/Environment/RecCenter_fbx/skylight/frame 1
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/sidewindow/glass
+  disabled pCube177 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube177
+  disabled pCube176 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube176
+  disabled pCube175 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube175
+  disabled pCube174 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube174
+  disabled pCube170 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube170
+  disabled pCube169 @ StaticObjects/Environment/RecCenter_fbx/kiosk/pCube169
+  inactive shelf_short @ StaticObjects/Environment/RecCenter_fbx/kiosk/shelf_short
+  disabled shelf_long @ StaticObjects/Environment/RecCenter_fbx/kiosk/shelf_long
+  inactive pCube110 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube110
+  disabled ? @ Systems/TeleportBlockers/Cube (30)
+  disabled ? @ Systems/TeleportBlockers/Cube (76)
+  disabled ? @ Systems/TeleportBlockers/Cube (57)
+  disabled ? @ Systems/TeleportBlockers/Cube (98)
+  disabled ? @ Systems/TeleportBlockers/Cube (134)
+  disabled ? @ Systems/TeleportBlockers/Cube (82)
+  disabled ? @ Systems/TeleportBlockers/Cube (70)
+  disabled ? @ Systems/TeleportBlockers/Cube (8)
+  disabled ? @ Systems/TeleportBlockers/Cube (78)
+  disabled ? @ Systems/TeleportBlockers/Cube (126)
+  disabled ? @ Systems/TeleportBlockers/Cube (3)
+  disabled ? @ Systems/TeleportBlockers/Cube (67)
+  disabled ? @ Systems/TeleportBlockers/Cube (73)
+  disabled insert @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2 (2)/frame 6/insert
+  disabled ? @ Systems/TeleportBlockers/Cube (123)
+  disabled ? @ Systems/TeleportBlockers/Cube (81)
+  disabled ? @ Systems/TeleportBlockers/Cube (45)
+  disabled ? @ Systems/TeleportBlockers/Cube (12)
+  disabled ? @ Systems/TeleportBlockers/Cube (83)
+  disabled pCube85 @ StaticObjects/Environment/RecCenter_fbx/beams/pCube85 (2)
+  disabled ? @ Systems/TeleportBlockers/Cube (44)
+  disabled ? @ Systems/TeleportBlockers/Cube (27)
+  inactive shelf_short @ StaticObjects/Environment/RecCenter_fbx/kiosk/shelf_short (1)
+  disabled ? @ Systems/TeleportBlockers/Cube (1)
+  disabled ? @ Systems/TeleportBlockers/Cube (116)
+  disabled ? @ Systems/TeleportBlockers/Cube (68)
+  disabled ? @ Systems/TeleportBlockers/Cube (128)
+  disabled ? @ Systems/TeleportBlockers/Cube (97)
+  disabled ? @ Systems/TeleportBlockers/Cube (71)
+  disabled ? @ Systems/TeleportBlockers/Cube (5)
+  disabled glass @ StaticObjects/Environment/RecCenter_fbx/topwindows/topwindow2 (2)/frame 6/insert/glass 6
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.002 (1)
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.003 (1)
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.002
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.004 (1)
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.003
+  inactive GlowGoal @ DynamicObjects/Tools/Discs/[Frisbee] (5)/GlowDisc
+  disabled SciFi_Garage_CurvedLine @ StaticObjects/Props/Basketball/FreeThrowDecalGroup (1)/[SciFi_Garage_CurvedLine] (3)
+  inactive ? @ DynamicObjects/Tools/Balls/[Basketball] (2)/[DodgeballFireTrail]
+  inactive GlowGoal @ DynamicObjects/Tools/Discs/[Frisbee] (2)/GlowDisc
+  inactive GlowGoal @ DynamicObjects/Tools/Discs/[Frisbee] (4)/GlowDisc
+  disabled SciFi_Garage_CurvedLine @ StaticObjects/Props/Basketball/FreeThrowDecalGroup (1)/[SciFi_Garage_CurvedLine] (1)
+  inactive GlowGoal @ DynamicObjects/Tools/Discs/[Frisbee] (1)/GlowDisc
+  inactive ? @ StaticObjects/Props/Posters/[Quest_Poster_Case] (1)/Quest_Poster_Scroll_Quad
+  inactive GlowGoal @ DynamicObjects/Tools/Discs/[Frisbee] (3)/GlowDisc
+  inactive ? @ DynamicObjects/Tools/Balls/[Basketball] (3)/[DodgeballFireTrail]
+  inactive SciFi_Garage_CurvedLine @ StaticObjects/Props/Basketball/FreeThrowDecalGroup (1)/[SciFi_Garage_CurvedLine] (2)
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.001 (1)
+  inactive SciFi_Garage_CurvedLine @ StaticObjects/Props/Basketball/FreeThrowDecalGroup (1)/[SciFi_Garage_CurvedLine]
+  inactive ? @ StaticObjects/Props/Posters/[Quest_Poster_Case] (3)/Quest_Poster_Scroll_Quad
+  disabled SciFi_Garage_DottedLine @ StaticObjects/Props/Basketball/FreeThrowDecalGroup (1)/[SciFi_Garage_DottedLine] (2)
+  disabled SciFi_Garage_DottedLine @ StaticObjects/Props/Basketball/FreeThrowDecalGroup (1)/[SciFi_Garage_DottedLine]
+  inactive ? @ DynamicObjects/Tools/Balls/[Basketball] (4)/[DodgeballFireTrail]
+  disabled SciFi_Garage_DottedLine @ StaticObjects/Props/Basketball/FreeThrowDecalGroup (1)/[SciFi_Garage_DottedLine] (1)
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.001
+  inactive ? @ Systems/AGRP Lighting/Baked/Skybox Reflection Probe/[CloudPlane_Locker_fbx]/CloudPlane.004
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/CheerPhotoButton/Charades_Button/GotItText
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/VisitRoomButton/Charades_Button
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/VisitRoomButton/Charades_Button
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/[WedgeShape] (2)
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/[WedgeShape] (2)
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/Quad/Username
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/[WedgeShape]
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/VisitRoomButton/Charades_Button
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/CheerPhotoButton
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/VisitRoomButton/Charades_Button
+  inactive CachedProBuilderMesh 96x132 (7e19429e-06fa-458b-94d1-9e3b7c1fdb83) @ DynamicObjects/Blocks/[StackableBlock] (4)/Cube
+  inactive CachedProBuilderMesh 96x132 (7e19429e-06fa-458b-94d1-9e3b7c1fdb83) @ DynamicObjects/Blocks/[StackableBlock] (5)/Cube
+  inactive CachedProBuilderMesh 96x132 (08b16542-cb24-4fb4-a131-fe75785f70be) @ DynamicObjects/Blocks/(StackableBlock)/Cube
+  inactive CachedProBuilderMesh 96x132 (aa587dd2-25d8-453d-804a-2556129f5963) @ DynamicObjects/Blocks/[StackableBlock] (3)/Cube
+  inactive CachedProBuilderMesh 96x132 (6bd135f3-2589-4fd3-a6ff-c0ce7b33c933) @ DynamicObjects/Blocks/[StackableBlock] (6)/Cube
+  inactive CachedProBuilderMesh 96x132 (be7b6fcc-c916-4b6a-8248-7e7cff3049e2) @ DynamicObjects/Blocks/[StackableBlock] (2)/Cube
+  inactive CachedProBuilderMesh 96x132 (5f3f69a4-c987-48b5-b040-e88a58b5aa0e) @ DynamicObjects/Blocks/[StackableBlock] (1)/Cube
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/Quad/RoomName
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/VisitRoomButton
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/CheerPhotoButton
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/[WedgeShape] (2)
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/VisitRoomButton/Charades_Button/GotItText
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/CheerPhotoButton
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/VisitRoomButton
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/[WedgeShape]
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/VisitRoomButton/Charades_Button/GotItText
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/CheerPhotoButton/Charades_Button/GotItText
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/[WedgeShape] (2)
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/CheerPhotoButton/Charades_Button
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/CheerPhotoButton/Charades_Button/GotItText
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (2)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (26)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (6)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (11)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (17)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (5)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (16)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (9)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (12)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (10)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (18)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (14)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (23)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (20)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (25)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (1)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (21)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (15)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (3)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (19)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (7)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (24)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (22)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (4)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (13)
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence]
+  disabled reccenter_fence @ StaticObjects/Props/Fence/[RecCenter_fence] (8)
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/VisitRoomButton
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/LeftButtons/CheerPhotoButton/Charades_Button
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/[WedgeShape]
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/CheerPhotoButton/Charades_Button
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/VisitRoomButton/Charades_Button/GotItText
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable (1)/RightButtons/VisitRoomButton
+  inactive ExtrusionShape_Wedge @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/[WedgeShape]
+  inactive Charades_Button_Base @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/CheerPhotoButton
+  inactive Charades_Button @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/RightButtons/CheerPhotoButton/Charades_Button
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/VisitRoomButton/Charades_Button/GotItText
+  inactive ? @ StaticObjects/Props/[RecCenter_ProjectionScreen]/ButtonTable/LeftButtons/CheerPhotoButton/Charades_Button/GotItText
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (5)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (5)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair]/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair] (1)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair]/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (3)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (7)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (8)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (2)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (6)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair]/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair] (2)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (1)/RecCenter_Chair_fbx/RecCenter_Chair_Seat_Highlight
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (22)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (8)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (19)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (25)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (5)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (26)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (15)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (14)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (16)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (27)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (23)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (24)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (18)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (21)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (17)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (10)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (9)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Tree_Bush_Mobile_LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (20)/[Tree_Bush_Mobile]/Tree_Bush_Mobile_LOD0
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (8)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  disabled Curtain_Flat_LOD0 @ StaticObjects/Props/Curtains/[Curtain_Flat]/Curtain_flat_fbx/Curtain_Flat_LOD0
+  disabled Curtain_Flat_LOD0 @ StaticObjects/Props/Curtains/[Curtain_Flat] (2)/Curtain_flat_fbx/Curtain_Flat_LOD0
+  disabled Curtain_Flat_LOD0 @ StaticObjects/Props/Curtains/[Curtain_Flat] (3)/Curtain_flat_fbx/Curtain_Flat_LOD0
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (1)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  disabled shelf_stacked @ StaticObjects/Environment/RecCenter_fbx/kiosk/RecCenter_Shelf_Stacked
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (4)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (7)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive CuteCat_Basketball @ DynamicObjects/Tools/Balls/[Basketball] (2)/basketball_fbx/CuteCat_Gray_Basketball
+  inactive CuteCat_Basketball @ DynamicObjects/Tools/Balls/[Basketball] (3)/basketball_fbx/CuteCat_Gray_Basketball
+  inactive CuteCat_Basketball @ DynamicObjects/Tools/Balls/[Basketball] (4)/basketball_fbx/CuteCat_Gray_Basketball
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (8)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Post_LOD0 @ StaticObjects/Props/Basketball/[Backboard3] (1)/Post/Post_LOD0
+  inactive Post_LOD0 @ StaticObjects/Props/Basketball/[Backboard3]/Post/Post_LOD0
+  inactive RecCenter_Chair_LOD0 @ StaticObjects/Props/[RecCenter_Chair] (7)/RecCenter_Chair_fbx/RecCenter_Chair_LOD0
+  inactive RecCenter_Chair_LOD0 @ StaticObjects/Props/[RecCenter_Chair] (8)/RecCenter_Chair_fbx/RecCenter_Chair_LOD0
+  inactive RecCenter_Chair_LOD0 @ StaticObjects/Props/[RecCenter_Chair] (6)/RecCenter_Chair_fbx/RecCenter_Chair_LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (26)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (5)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (25)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (22)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (8)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (19)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (21)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (17)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (20)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (10)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (9)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (16)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (27)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (14)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (15)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (18)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (23)/[Tree_Bush_Desktop]/LOD0
+  inactive LOD0 @ Trees/Bushes/BushesOutsideFence/[RecRoyale_Tree_Bush] (24)/[Tree_Bush_Desktop]/LOD0
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (6)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (9)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (1)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (3)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (3)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (2)/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (1)/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch] (1)/Seats/[Seat_NoUGC] Right/HighlightRenderer
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (10)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (2)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (8)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (7)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (3)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair] (1)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (5)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (6)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair] (1)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Chair] (2)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Chair_Seat_Highlight @ StaticObjects/Props/[RecCenter_Chair]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  inactive Candle_Short @ StaticObjects/Props/[Candles] (3)/Candle_Short/Candle_Short_LOD0
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (2)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (1)/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (2)/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch] (1)/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Couch_Minimalist_fbx/RecCenter_Couch_Seat_Highlight
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (1)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive ToolBeacon @ DynamicObjects/Tools/ConfettiGuns/[PaintballGun] Confetti/[PulsingBeam]/HelpGlowVisual-new
+  inactive ToolBeacon @ DynamicObjects/Tools/ConfettiGuns/[PaintballGun] Confetti/[PulsingBeam]/HelpGlowVisual-new
+  inactive ToolBeacon @ DynamicObjects/Tools/ConfettiGuns/[PaintballGun] Confetti/[PulsingBeam]/HelpGlowVisual-new
+  inactive ToolBeacon @ DynamicObjects/Tools/ConfettiGuns/[PaintballGun] Confetti/[PulsingBeam]/HelpGlowVisual-new
+  inactive ToolBeacon @ DynamicObjects/Tools/ConfettiGuns/[PaintballGun] Confetti/[PulsingBeam]/HelpGlowVisual-new
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (1)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (2)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch] (1)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled upperlevel @ StaticObjects/Environment/RecCenter_fbx/upperlevel
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch] (1)/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (2)/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ StaticObjects/Props/[RecCenter_Couch] (1)/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  disabled RecCenter_Couch_Seat_Highlight @ DynamicObjects/TeleportationPortals/Couches/[RecCenter_Couch]/Seats/[Seat_NoUGC] Left/HighlightRenderer
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (7)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Basketball_NBA_Logoman @ DynamicObjects/Tools/Balls/[Basketball] (2)/basketball_fbx/Basketball_NBA_Logoman_fbx
+  inactive Basketball_NBA_Logoman @ DynamicObjects/Tools/Balls/[Basketball] (3)/basketball_fbx/Basketball_NBA_Logoman_fbx
+  inactive Basketball_NBA_Logoman @ DynamicObjects/Tools/Balls/[Basketball] (4)/basketball_fbx/Basketball_NBA_Logoman_fbx
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (6)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive CuteCat_Basketball @ DynamicObjects/Tools/Balls/[Basketball] (4)/basketball_fbx/CuteCat_Basketball
+  inactive CuteCat_Basketball @ DynamicObjects/Tools/Balls/[Basketball] (3)/basketball_fbx/CuteCat_Basketball
+  inactive CuteCat_Basketball @ DynamicObjects/Tools/Balls/[Basketball] (2)/basketball_fbx/CuteCat_Basketball
+  inactive Candle_Tall @ StaticObjects/Props/[Candles] (2)/Candle_Tall/Candle_Tall_LOD0
+  inactive Face @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (4)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (5)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Basketball_NBA_75 @ DynamicObjects/Tools/Balls/[Basketball] (3)/basketball_fbx/Basketball_NBA_75_fbx
+  inactive Basketball_NBA_75 @ DynamicObjects/Tools/Balls/[Basketball] (4)/basketball_fbx/Basketball_NBA_75_fbx
+  inactive Basketball_NBA_75 @ DynamicObjects/Tools/Balls/[Basketball] (2)/basketball_fbx/Basketball_NBA_75_fbx
+  disabled Curtain_LOD0 @ StaticObjects/Props/Curtains/[Curtain]/Curtain_fbx/Curtain_LOD0
+  disabled Curtain_LOD0 @ StaticObjects/Props/Curtains/[Curtain] (1)/Curtain_fbx/Curtain_LOD0
+  disabled Curtain_LOD0 @ StaticObjects/Props/Curtains/[Curtain] (3)/Curtain_fbx/Curtain_LOD0
+  disabled Curtain_LOD0 @ StaticObjects/Props/Curtains/[Curtain] (2)/Curtain_fbx/Curtain_LOD0
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (12)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (13)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (17)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (4)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (14)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (12)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (10)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (11)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (8)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary]/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (18)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (7)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (1)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (15)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (9)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (16)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (6)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (5)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (20)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (3)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (19)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  disabled chair_stackable_Seat_Highlight @ DynamicObjects/TeleportationPortals/Chairs/CafeGroup/[Chair_White_Stationary] (2)/Seats/[Seat_NoUGC] Center/HighlightRenderer
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (11)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (9)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (3)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (12)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (5)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (11)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (10)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (8)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (7)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (2)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (6)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (4)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive RecCenter_Cafe_Table_Collision1 @ StaticObjects/Props/Tables/[Table_Cafe_RecCenter]/RecCenter_Cafe_Table_fbx/RecCenter_Cafe_Table_Collision1
+  inactive RecCenter_Cafe_Table_Collision1 @ StaticObjects/Props/Tables/[Table_Cafe_RecCenter]/RecCenter_Cafe_Table_fbx/RecCenter_Cafe_Table_Collision1
+  inactive RecCenter_Cafe_Table_Collision1 @ StaticObjects/Props/Tables/[Table_Cafe_RecCenter]/RecCenter_Cafe_Table_fbx/RecCenter_Cafe_Table_Collision1
+  inactive RecCenter_Cafe_Table_Collision1 @ StaticObjects/Props/Tables/[Table_Cafe_RecCenter]/RecCenter_Cafe_Table_fbx/RecCenter_Cafe_Table_Collision1
+  inactive RecCenter_Cafe_Table_Collision1 @ StaticObjects/Props/Tables/[RecCenter_Cafe_Table] (1)/RecCenter_Cafe_Table_fbx/RecCenter_Cafe_Table_Collision1
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (2)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive DodgeBall @ DynamicObjects/Tools/Balls/[Basketball] (2)/basketball_fbx/BeachBall
+  inactive DodgeBall @ DynamicObjects/Tools/Balls/[Basketball] (3)/basketball_fbx/BeachBall
+  inactive DodgeBall @ DynamicObjects/Tools/Balls/[Basketball] (4)/basketball_fbx/BeachBall
+  inactive Face @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[SeasonPreviewSlot]/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/Head/TrackerToModelTransform/Meshes/Head.Bone/Head.Geo/Face
+  inactive PunchingBag_Dummy_LOD0 @ DynamicObjects/Tools/Misc/[PunchingBag]/Visual/PunchingBag_Dummy_LOD0
+  inactive Screen_Projection @ DynamicObjects/Tools/Misc/(Radio)/MenuAnchor/ToolMenu/VisualRoot/Screen_Projection
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (5)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (5)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (8)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (8)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (1)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (1)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (4)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (4)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (7)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (7)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (8)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (8)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (1)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (1)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (9)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (9)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (6)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (6)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (3)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (3)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (3)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (3)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (10)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (10)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (2)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (2)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (1)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (1)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (6)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (6)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (7)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (7)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (5)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (5)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (4)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/CafeMerchBooth (1)/[CafeStorefront]/CashierCanvas/Slots/[StorefrontItemSlot] (4)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (12)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (12)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (11)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (11)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (2)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/SeasonCanvas/Season Slots/[SeasonsItemSlot] (2)/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (4)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (8)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (7)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (6)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (2)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (11)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (10)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (5)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (12)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (3)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (9)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (4)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (11)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (10)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (8)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (2)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (6)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (7)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (5)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (9)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (3)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[MerchBoothItemSlot] (12)/Canvas/ItemPopulatedView/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/LeftHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[SeasonPreviewSlot]/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/RightHand/Mesh/Hand
+  disabled ? @ Systems/Storefront/MerchBooth/[RecCenterStorefront] Variant/CashierCanvas/Slots/[SeasonPreviewSlot]/StorefrontItemContainer/[PlayerPuppet_Storefront] Variant/VisualRoot/TrackingSpace/LeftHand/Mesh/Hand
+terrain RecCenterTerrain: 257x257 at -42.2 -0.84 -40.51, layers Quest_Dracula1_Grass_Tintable_Tex/4,Park_Dirt_T/5 control 512x512
+renderers 1830: drawn 496, LOD1+ 704, disabled 403, inactive 203, no mesh 24, mesh not decoded 0, hidden-shader submeshes 0; 520870 triangles, 503360 vertices; materials 93 (with texture 83); submeshes by mode fade=19 opaque=429 add=12 cutout=80 (3.2 s)
+ambient trilight sky 0.2023,0.3794,0.7218 eq 0.3642,0.2721,0.1236 ground 0.2232,0.0681,0.0249 (linear) x1; fog True mode 1 5-400 dens 0.02
+ambient irradiance (trilight integrated, linear): up 0.2563,0.3437,0.5225 side 0.2999,0.2516,0.2296 down 0.2703,0.1361,0.0578
+serialized ambient probe (amb=probe): up 0.3847,0.5369,0.7011 down 0.0622,0.1072,0.2709
+reflection cubemap ReflectionProbe_Env_Baked 128x128, 8 mips (format 51)
+sun dir-to-sun -0.8192 0.5414 0.1891 col 0.9387,0.8738,0.6779 shadow strength 0.934; 39 point/spot lights (16 hemisphere)
+sky cubemap ReflectionProbe_Skybox_Baked 256x256 (mip 2), exposure 1.13 tint 0.5 -> x1.1113
+  42 RecCenter_CafeAssets_Mat | AG/Standard-Opaque | opaque cull=2 | tex RecCenter_CafeAssets_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+  26 RecRoyale_Tree_Bush_Mobile_mat | Nature/Leaf | opaque cull=0 | tex RecRoyale_Frontier_Tree_Bush_Mobile_tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+  26 Tree_Bush_mat | Nature/Leaf | cutout cut=0.959 cull=0 | tex recroyale_tree_devilsclub_tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+  25 Consumable_Donut_Regular_mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_Donuts_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.888 spec=0.2,0.2,0.2 
+  25 Consumable_Donut_Chocolate_mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_Donuts_Chocolate_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.888 spec=0.2,0.2,0.2 
+  22 Tree_Pine_Mobile_Double_Sided_Mat | Nature/Leaf | opaque cull=0 | tex Tree_Pine_Mobile_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+  22 Tree_Pine_Double_Sided_Mat | Nature/Leaf | cutout cut=0.027 cull=0 | tex Tree_Pine_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+  21 WaterBottle_Mat | AG/Standard-Opaque | opaque cull=2 | tex WaterBottle_Tex 512x512 tile 1,1 | tint 0.0196,0.2235,0.502 a=1 vc amask blend=1/0 lit smooth=0.95 spec=0.2,0.2,0.2 
+  21 Chair_Stackable_White_Mat | AG/Standard-Opaque | opaque cull=2 | tex Chair_Stackable_white_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.61 spec=0.2,0.2,0.2 
+  21 Couch_Minimalist_Brown_Instanced_Mat | AG/Standard-Opaque-Instanced | opaque cull=2 | tex Couch_Minimalist_Brown_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.66 spec=0.2,0.2,0.2 
+  11 ActivityDoor_Mat | AG/Standard-Opaque | opaque cull=2 | tex ActivityDoor_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 
+  10 Scifi_Rug_Mat | AG/Standard-Opaque | opaque cull=2 | tex Scifi_Rug_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.283 spec=0.2,0.2,0.2 
+  10 HousePlants_Pot_mat | AG/Standard-Opaque | opaque cull=2 | tex HousePlant_Pot_tex 512x512 tile 1,1 | tint 0.1171,0.4205,0.8382 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+  10 HousePlants_mat | AG/Standard-Opaque | opaque cull=2 | tex HousePlants_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.308 spec=0.2,0.2,0.2 
+  10 Pistol_Confetti_Mat | AG/Standard-Opaque | opaque cull=2 | tex Paintball_Pistol_Default_Tex 512x512 tile 1,1 | tint 0.6985,0,0.6793 a=1 vc amask blend=1/0 lit smooth=0.177 spec=0.2,0.2,0.2 
+   9 Light_Fluorescent_mat | AG/Standard-Opaque | opaque cull=2 | tex Light_Fluorescent_Tex 512x512 tile 1,1 | tint 0.5755,0.5755,0.5755 a=1 vc amask emit glow=3.51 blend=1/0 lit smooth=0.582 spec=0.2,0.2,0.2 
+   9 Tree_Aspen_Gold_mat | Nature/Leaf | cutout cut=0.53 cull=0 | tex RecRoyale_Frontier_AspenTree_Gold_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+   9 Tree_Aspen_Trunk_mat | Nature/Leaf | cutout cut=0.53 cull=0 | tex RecRoyale_Frontier_AspenTree_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+   8 VendingMachine_Glass_Mat | AG/Standard-Transparent | fade cull=2 | tex - (flat 0.1145,0.4356,0.629) tile 1,1 | tint 0.1145,0.4356,0.629 a=0.1255 vc blend=5/10 lit smooth=0.958 spec=0.2,0.2,0.2 
+   8 VendingMachine_Mat | AG/Standard-Opaque | opaque cull=2 | tex VendingMachine_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask emit glow=20 blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   8 LockerFountainStageLight_mat | AG/Standard-Opaque | opaque cull=2 | tex Locker_Fountain_Spotlight_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   8 RecCenter_Cafe_Mug_Mat | AG/Standard-Opaque | opaque cull=2 | tex RecCenter_Cafe_Mug_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit spec=0.2,0.2,0.2 
+   7 RecRoyale_Tree_Oak_trunk_mat | Nature/Leaf | cutout cut=0.53 cull=0 | tex RecRoyale_Frontier_Tree_Oak_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+   7 RecRoyale_Tree_Oak_Yellow_mat | Nature/Leaf | cutout cut=0.53 cull=0 | tex RecRoyale_Frontier_Tree_Oak_Yellow_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+   7 Tree_Aspen_Gold_Mobile_mat | Nature/Leaf | opaque cull=0 | tex Tree_Aspen_Gold_Mobile_tex 512x512 tile 1,1 | tint 1,1,1 a=1 amask blend=1/0 lit 
+   7 Wood_Table_Mat | AG/Standard-Opaque | opaque cull=2 | tex wood_grain_Tex 512x512 tile 2,3 | tint 0.6863,0.4549,0.2314 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   6 DoorGlow_Mat | AG/Unlit-Additive-Soft | add cull=0 | tex GradientHorizontal 512x512 tile 1,1 | tint 1,1,1 a=0 vc unlit blend=5/1 
+   6 Consumable_Pizza_Mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_Pizza_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 
+   6 Consumable_Sarsaparilla_mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_Sarsaparilla_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.727 spec=0.2,0.2,0.2 
+   6 DoorSign_mat | AG/Standard-Opaque | opaque cull=2 | tex DoorSign_Tex 512x512 tile 1,1 | tint 0.9906,0.8974,0.8083 a=1 vc amask emit glow=1.05 blend=1/0 lit smooth=0.546 spec=0.2,0.2,0.2 
+   6 LightShaftLocker_Mat | AG/Unlit-Additive-Soft | add cull=0 | tex GradientHorizontal 512x512 tile 1,1 | tint 1,1,0.6394 a=0.0784 vc unlit blend=5/1 
+   5 Poster_ShakeHands_Mat | AG/Standard-Opaque | opaque cull=2 | tex Shake hands poster 256x256 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.151 spec=0.2,0.2,0.2 
+   5 SportDisc_Mat | AG/Standard-Opaque | opaque cull=2 | tex SportDisc_Tex 512x512 tile 1,1 | tint 0.898,0.5176,0.1725 a=1 vc amask blend=1/0 lit smooth=0.26 spec=0.2,0.2,0.2 
+   5 DoorEmit_Mat | AG/Standard-Opaque | opaque cull=2 | tex - (flat 1,0.9848,0.9) tile 1,1 | tint 1,0.9848,0.9 a=1 vc glow=2 blend=1/0 lit 
+   4 Wood_Horizontal_DarkBrown_3x_Mat | AG/Standard-Opaque | opaque cull=2 | tex wood_diffuse_horiz_desat 512x512 tile 3,3 | tint 0.345,0.197,0.1304 a=1 vc amask blend=1/0 lit smooth=0.068 spec=0.15,0.15,0.15 
+   4 Quest_Poster_Case_Mat | AG/Standard-Opaque | opaque cull=2 | tex Quest_Poster_Case_Tex 512x512 tile 1,1 | tint 1,0.8535,0.517 a=1 vc amask emit glow=4 blend=1/0 lit smooth=0.167 
+   4 Glass_Teal_mat | AG/Standard-Transparent | fade cull=2 | tex Glass_Tex 512x512 tile 1,1 | tint 0.3185,0.5584,0.6078 a=0.1098 vc blend=5/10 lit smooth=0.93 spec=0.653,0.8499,0.8897 
+   4 Goblet_Clock_Mat | AG/Standard-Opaque | opaque cull=2 | tex Goblet_WallClock_Tex 512x512 tile 1,1 | tint 0.794,0.794,0.794 a=1 vc amask blend=1/0 lit smooth=0.5 spec=0.2,0.2,0.2 
+   3 Basketball_Mat | AG/Standard-Opaque | opaque cull=2 | tex Basket_Ball_UV_Update_Tex 512x512 tile 1,1 | tint 0.7574,0.4392,0.1504 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   3 Poster_Paintball_Mat | AG/Standard-Opaque | opaque cull=2 | tex Paint_Ball_Poster 512x512 tile 1,1 | tint 0.9265,0.9265,0.9265 a=1 vc amask blend=1/0 lit smooth=0.1 spec=0.2,0.2,0.2 
+   3 Poster_CheckYourWatch_Mat | AG/Standard-Opaque | opaque cull=2 | tex weekly challange poster 256x256 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.1 spec=0.2,0.2,0.2 
+   3 TrafficCone_Mat | AG/Standard-Opaque | opaque cull=2 | tex TrafficCone_Tex 256x256 tile 1,1 | tint 0.9569,0.4706,0.1216 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   3 Consumable_PizzaBox_Mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_PizzaBox_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.28 spec=0.2,0.2,0.2 
+   3 Consumable_DonutBox_Mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_Donuts_Box_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.28 spec=0.2,0.2,0.2 
+   3 ReceptionBell_Mat | AG/Standard-Opaque | opaque cull=2 | tex RecCenter_ReceptionBell_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.752 spec=1,1,1 
+   2 BasketBall_Goal | AG/Standard-Opaque | opaque cull=2 | tex Basketball_Goal_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.776 spec=0.2,0.2,0.2 
+   2 Water_Jug_Orange_Mat | AG/Standard-Opaque | opaque cull=2 | tex WaterJug_Tex 512x512 tile 1,1 | tint 0.9434,0.5102,0.2447 a=1 vc amask blend=1/0 lit smooth=1.48 spec=0.2,0.2,0.2 
+   2 DormRoom_BulletinBoard_mat | AG/Standard-Opaque | opaque cull=2 | tex DormRoom_BulletinBoard_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   2 ScuffMarks_TEMP_mat | AG/Standard-Transparent | fade cull=2 | tex Decals_ScuffMarks_TEMP_tex 256x256 tile 1,1 | tint 0,0,0 a=1 vc blend=5/10 lit smooth=0.5 spec=0.2,0.2,0.2 
+   2 Glowstick_Cyan_Mat | AG/Standard-Opaque | opaque cull=2 | tex Glowstick_Purple_Tex 256x256 tile 1,1 | tint 0.19,0.8558,1 a=1 vc amask emit glow=7 blend=1/0 lit smooth=0.865 spec=0.2,0.2,0.2 
+   2 Poster_DiscGolf_Mat | AG/Standard-Opaque | opaque cull=2 | tex Poster_DiscGolf_Tex 512x512 tile 1,1 | tint 0.895,0.895,0.895 a=1 vc amask blend=1/0 lit smooth=0.1 spec=0.2,0.2,0.2 
+   2 Door_Lounge_Mat | AG/Standard-Opaque | opaque cull=2 | tex LoungeDoor_Tex 512x512 tile 1,1 | tint 1,0.6714,0.587 a=1 vc amask emit glow=4.84 blend=1/0 lit smooth=0.61 spec=0.2,0.2,0.2 
+   2 SoloCup_Mat | AG/Standard-Opaque | opaque cull=2 | tex SoloCup_Tex 512x512 tile 1,1 | tint 0.4902,0.251,0.098 a=1 vc amask blend=1/0 lit smooth=0.6 spec=0.2,0.2,0.2 
+   2 Wood_Horizontal_DarkOrange_5x_Mat | AG/Standard-Opaque | opaque cull=2 | tex wood_grain_Tex 512x512 tile 5,5 | tint 0.5098,0.3451,0.2706 a=1 vc amask blend=1/0 lit smooth=1 
+   2 EventRoom_Meeting_Glass_mat | AG/Standard-Transparent | fade cull=2 | tex - (flat 0.841,0.6953,0.6079) tile 1,1 | tint 0.841,0.6953,0.6079 a=0.1412 vc blend=5/10 lit smooth=1 spec=0.2,0.2,0.2 
+   2 RecCenter_CoffeePot_Coffee_Mat | AG/Fresnel | opaque cull=2 | tex - (flat 0.3113,0.1717,0.0514) tile 1,1 | tint 0.3113,0.1717,0.0514 a=1 blend=1/0 lit smooth=0.559 
+   2 EventRoom_BookShelf_Mat | AG/Standard-Opaque | opaque cull=2 | tex Concrete_Tex 512x512 tile 50,50 | tint 1,0.7672,0.0074 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   2 Magazine_LaserFan_Mat | AG/Standard-Opaque | opaque cull=2 | tex Laser_Fanmagazine_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.5 spec=0.2,0.2,0.2 
+   2 Magazine_LaserFan2000_Mat | AG/Standard-Opaque | opaque cull=2 | tex Arena_Cyber_Laserfan2000_Mag_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.868 spec=0.2,0.2,0.2 
+   2 EventRoom_MeetingBulbs_Emit_Mat | AG/Standard-Opaque | opaque cull=2 | tex - (flat 1,0.9948,0.9581) tile 1,1 | tint 1,0.9948,0.9581 a=1 vc glow=9.4 blend=1/0 lit smooth=1 
+   2 Bucket_mat | AG/Standard-Opaque | opaque cull=2 | tex Bucket_Tex 512x512 tile 1,1 | tint 0.7882,0.4588,0.2157 a=1 vc amask blend=1/0 lit smooth=0.513 spec=0.2,0.2,0.2 
+   2 Consumable_Cake_Chocolate_Mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_Cake_Chocolate_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   2 Bucket_Mat | AG/Standard-Opaque | opaque cull=2 | tex - (flat 0.812,0.3944,0.207) tile 1,1 | tint 0.812,0.3944,0.207 a=1 vc blend=1/0 lit smooth=0.55 spec=0.2,0.2,0.2 
+   2 LanternPost_Mat | AG/Standard-Opaque | opaque cull=2 | tex Wall_Torch_Lantern_Post_Tex 512x512 tile 1,1 | tint 1,0.4662,0.1179 a=1 vc amask emit glow=0.76 blend=1/0 lit smooth=0.105 spec=0.285,0.285,0.285 
+   2 Campfire_Mat | AG/Standard-Opaque | opaque cull=2 | tex Campfire_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.584 spec=0.2,0.2,0.2 
+   2 TrashCan_Office_mat | AG/Standard-Opaque | opaque cull=2 | tex TrashCan_Office_Tex 512x512 tile 1,1 | tint 0.2132,0.2132,0.2132 a=1 vc amask blend=1/0 lit smooth=0.109 spec=0.2,0.2,0.2 
+   2 Clock_Glass_Mat | AG/Standard-Transparent | fade cull=2 | tex - (flat 0.6131,0.7664,0.909) tile 1,1 | tint 0.6131,0.7664,0.909 a=0.0824 vc blend=5/10 lit smooth=0.984 spec=0.2,0.2,0.2 
+   1 Glass_Clear_mat | AG/Standard-Transparent | fade cull=2 | tex Glass_Spec 512x512 tile 4,4 | tint 0,0.6207,1 a=0.2392 vc blend=5/10 lit smooth=1 spec=0.2,0.2,0.2 
+   1 RecCenter_Carpet_mat | AG/Standard-Opaque | opaque cull=2 | tex Carpet_LowPile_Navy_tex 512x512 tile 5,5 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.616 spec=0.2,0.2,0.2 
+   1 Wood_Floor_Mat | AG/Standard-Opaque | opaque cull=2 | tex Wood FloorTiled_tex 512x512 tile 5.2,31.95 | tint 0.972,0.6327,0.3266 a=1 vc amask blend=1/0 lit smooth=0.77 
+   1 RecCenter_SubwayTile_VertColor_mat | AG/Standard-Opaque | opaque cull=2 | tex Brick_DarkGrout_tex 256x256 tile 30,30 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   1 Concrete_Blue_50x_Mat | AG/Standard-Opaque | opaque cull=2 | tex Concrete_Tex 512x512 tile 50,50 | tint 0.3255,0.6196,0.9137 a=1 vc amask blend=1/0 lit smooth=0.5 spec=0.2,0.2,0.2 
+   1 LockerRoom_Metal_Mat | AG/Standard-Opaque | opaque cull=2 | tex Paint_Tex 512x512 tile 4,4 | tint 0.0703,0.1708,0.3824 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   1 Mirror | AG/Mirror | opaque cull=2 | tex Smude_Tex 512x512 tile 0.97,1.8 | tint 1,1,1 a=1 unlit blend=1/0 
+   1 Fence_Brick_Mat | AG/Standard-Opaque | opaque cull=2 | tex Fence_Brick_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.811 spec=0.2,0.2,0.2 
+   1 Curtain_Red_Mat | AG/Standard-Opaque-Instanced | opaque cull=2 | tex Curtains_Tex 512x512 tile 1,1 | tint 0.5094,0.0937,0.0937 a=1 vc amask blend=1/0 lit smooth=0.5 spec=0.2,0.2,0.2 
+   1 RecCenter_Brick_Red | AG/Standard-Opaque | opaque cull=2 | tex Brick_Grout_tex 256x256 tile 3,3 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.811 spec=0.2,0.2,0.2 
+   1 Wall_Vertcolor_mat | AG/Standard-Opaque | opaque cull=2 | tex Concrete_Tex 512x512 tile 25,25 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.774 spec=0.2,0.2,0.2 
+   1 LockerRoom_FloorTile_mat | AG/Standard-Opaque | opaque cull=2 | tex Tile_Linoleum_Flecked_Tex 512x512 tile 25,25 | tint 0.969,0.969,0.969 a=1 vc amask blend=1/0 lit smooth=0.7 spec=0.2,0.2,0.2 
+   1 RecCenter_Carpet_Taupe_mat | AG/Standard-Opaque | opaque cull=2 | tex Carpet_Burber_tex 512x512 tile 10,10 | tint 0.4528,0.4072,0.3567 a=1 vc amask blend=1/0 lit smooth=0.6 spec=0.2,0.2,0.2 
+   1 LaundryHamper_Mat | AG/Standard-Opaque | opaque cull=2 | tex LaundryHamper_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   1 Grass_Distance_Mat | AG/Standard-Opaque | opaque cull=2 | tex Park_Grass_T 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit spec=0.189,0.189,0.189 
+   1 RecCenter_CarpetBorder_Mat | AG/Standard-Opaque | opaque cull=2 | tex - (flat 0.8585,0.6138,0.3361) tile 1,1 | tint 0.8585,0.6138,0.3361 a=1 vc blend=1/0 lit smooth=0.831 spec=0.8585,0.6629,0.4333 
+   1 CodeOfConduct_Mat | AG/Standard-Opaque | opaque cull=2 | tex CodeOfConduct_Tex 256x256 tile 1,1 | tint 0.902,0.902,0.902 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   1 Boombox_Mat | AG/Standard-Opaque | opaque cull=2 | tex Boombox_Tex 512x512 tile 1,1 | tint 0.4588,0.4078,0.3647 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   1 RecCenter_ProjectionScreen_Mat | AG/Standard-Opaque | opaque cull=2 | tex RecCenter_ProjectionScreen_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.55 spec=0.2,0.2,0.2 
+   1 LockerRoom_White_Mat | AG/Standard-Opaque | opaque cull=2 | tex Concrete_Tex 512x512 tile 50,50 | tint 0.8482,0.8973,0.9373 a=1 vc amask blend=1/0 lit smooth=0.31 spec=0.2,0.2,0.2 
+   1 LockerRoom_Orange_Mat | AG/Standard-Opaque | opaque cull=2 | tex Concrete_Tex 512x512 tile 50,50 | tint 0.958,0.483,0.161 a=1 vc amask blend=1/0 lit smooth=1 spec=0.2,0.2,0.2 
+   1 Banner_Mat | AG/Standard-Opaque | opaque cull=2 | tex Banners_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.8 spec=0.15,0.15,0.15 
+   1 RecCenter_Marquee_Mat | AG/Standard-Opaque | opaque cull=2 | tex RecCenter_Marquee_tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask emit glow=5.06 blend=1/0 lit smooth=0.177 spec=0.2,0.2,0.2 
+   1 Consumable_Cake_RedVelvet_Mat | AG/Standard-Opaque | opaque cull=2 | tex Consumable_Cake_RedVelvet_Tex 512x512 tile 1,1 | tint 1,1,1 a=1 vc amask blend=1/0 lit smooth=0.94 spec=0.2,0.2,0.2 
+   1 Slot_Mat | AG/OpaqueScanlines | opaque cull=2 | tex - (flat 1,0,0) tile 1,1 | tint 1,0,0 a=0.5725 vc unlit blend=1/0 
+   1 terrain:RecCenterTerrain | terrain | opaque cull=2 | tex - (flat -) tile 1,1 | tint 1,1,1 a=1 blend=-1/-1 

@@ -1,0 +1,7 @@
+{"note": "rcref_cache: approximate re-creations (room frame = level7 frame) of the iter6 in-game shots DevNotes/iter6/cachecenter_shots/cc_*.png (their exact camera poses were not recorded), for a look comparison only.",
+ "poses": [
+ {"name": "cc_like_arrival", "pos": [8.0, 1.7, -2.7], "look": [0.0, 1.5, -2.7], "fov": 75, "w": 1280, "h": 720, "src": "like cc_arrival.png: hall from the entrance"},
+ {"name": "cc_like_kiosk", "pos": [1.5, 1.7, -2.2], "look": [-7.0, 3.6, -2.2], "fov": 75, "w": 1280, "h": 720, "src": "like cc_kiosk.png: kiosk front with the REC ROOM logo"},
+ {"name": "cc_like_windows", "pos": [-11.0, 1.7, -3.0], "look": [-22.0, 1.6, 2.0], "fov": 75, "w": 1280, "h": 720, "src": "like cc_windows.png: curved window wall, SPORTS door left, brick right"},
+ {"name": "cc_like_cafe", "pos": [-9.0, 1.9, -19.0], "look": [0.0, 1.0, -22.0], "fov": 75, "w": 1280, "h": 720, "src": "like cc_cafe.png: cafe counter, curved cafe window right"}
+]}

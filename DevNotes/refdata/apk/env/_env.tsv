@@ -1,0 +1,73 @@
+scene	level	skymat	sun	lightmapped	maps	lights_rt_mixed_baked	shadowlights	reflprobes	lightprobegroups
+Bowling	level91	E skymat SkyboxNight shader=Skybox/Procedural	none	0/412	0	46,0,0	0	0	1
+Charades	level8	E skymat SkyboxCharades shader=Skybox/Procedural	none	0/216	0	43,0,0	1	0	1
+Charades_InkSpace	level105	E skymat SkyboxCharades shader=Skybox/Procedural	none	0/488	0	26,0,0	1	0	0
+DiscGolf	level9	E skymat SkyboxGrass_Baked shader=Skybox/Cubemap	E sun -3.343 16.8265 61.4579 -0.34 0.5224 -0.7803 -0.0518 0.9985 1 0.888 1 shadows=soft strength=0.95 bake=realtime bounce=1 spec=1 name=Directional%20Light src=brightest	0/1923	0	30,0,0	1	0	0
+DiscGolf_Propulsion	level10	E skymat Discgolf_Propulsion_Skybox shader=Skybox/Procedural	E sun -31.703 16.8265 61.4579 -0.6751 0.4059 -0.6158 -0.0164 0.9985 1 0.888 1 shadows=soft strength=0.951 bake=realtime bounce=1 spec=1 name=Directional%20Light src=brightest	0/972	0	13,0,0	1	0	0
+Dodgeball	level11	E skymat SkyboxDodgeBall_Baked shader=Skybox/Cubemap	E sun 0 4.14 -2.91 0.1972 0.0906 0.03 0.9757 1 0.7765 0.744 3.45 shadows=soft strength=0.84 bake=realtime bounce=1.5 spec=1 name=KeyLight src=rs	0/188	0	23,0,0	1	0	0
+Dorm_Builtin	level6	E skymat SkyboxDormRoom_Baked shader=Skybox/Cubemap	E sun 12.99 17.83 -1.53 -0.6202 -0.2302 0.6597 -0.3565 1 0.9625 0.8603 1.1 shadows=soft strength=1 bake=realtime bounce=1.2 spec=1 name=KeyLight%20Mobile src=brightest	0/134	0	9,0,0	2	0	1
+GoldenTrophy_Armory	level20	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/127	0	9,0,0	5	0	1
+GoldenTrophy_Battlefield	level28	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/421	0	59,0,0	2	0	1
+GoldenTrophy_Cafeteria	level29	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/435	0	62,0,0	1	0	1
+GoldenTrophy_DeadIsland	level24	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/180	0	32,0,0	1	0	1
+GoldenTrophy_Foyer	level19	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/689	0	40,0,0	1	0	1
+GoldenTrophy_Hallway1	level21	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/266	0	30,0,0	3	0	1
+GoldenTrophy_Hallway2	level22	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/254	0	50,0,0	3	0	1
+GoldenTrophy_Hallway3	level23	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/356	0	41,0,0	3	0	1
+GoldenTrophy_Hallway4	level25	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/395	0	70,0,0	3	0	1
+GoldenTrophy_Hallway5	level27	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/518	0	61,0,0	2	0	1
+GoldenTrophy_Library	level26	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/2711	0	56,0,0	2	0	1
+Isle_Beach1	level66	E skymat Quest_Pirate1_ShipDeck_Skybox_Mat shader=Skybox/Procedural	E sun -32.1799 5.0526 -247.7075 0.7169 0.167 0.1536 0.6593 1 0.88 0.5613 3.35 shadows=soft strength=0.801 bake=realtime bounce=1 name=KeyLight src=brightest	0/1937	0	13,0,0	4	0	1
+Isle_Beach2	level67	E skymat Quest_Pirate1_Beach2_Skybox_Mat shader=Skybox/Procedural	E sun -150.4379 21.7555 106.7578 0.6199 -0.3454 -0.3089 0.6332 1 0.5268 0.0991 2.95 shadows=soft strength=0.782 bake=realtime bounce=2.77 name=KeyLight src=rs	0/2109	0	25,0,0	4	0	1
+Isle_BossArena	level70	E skymat Quest_Pirate1_Boss_Skybox_Mat shader=Skybox/Procedural	none	0/535	0	22,0,0	7	0	1
+Isle_Caves1	level68	E skymat Quest_Pirate1_Caves_Skybox_Mat shader=Skybox/Procedural	none	0/2032	0	4,0,0	1	0	1
+Isle_Foyer	level62	E skymat Skybox_Goblin2_GoblinCamp shader=Skybox/Procedural	none	0/576	0	26,0,0	3	0	1
+Isle_Hallway1	level63	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/1852	0	136,0,0	6	0	1
+Isle_Hallway2	level64	E skymat Quest_Pirate1_Hallway2_Skybox shader=Skybox/Procedural	none	0/2784	0	97,0,0	6	0	1
+Isle_ShipDeck	level65	E skymat Quest_Pirate1_ShipDeck_Skybox_Mat shader=Skybox/Procedural	E sun -152.7359 13.8046 -30.2629 0.1399 0.8306 -0.2411 0.4821 1 0.7851 0.3804 3.2 shadows=soft strength=0.763 bake=realtime bounce=2 name=KeyLight src=brightest	0/694	0	20,0,0	1	0	1
+Isle_SunkenShip	level69	E skymat Quest_Pirate1_SunkenShip_Skybox_Mat shader=Skybox/Procedural	E sun 221.6951 -5.566 -277.1094 0.6301 0.4489 -0.375 0.5107 0.2718 0.716 0.8971 2.94 shadows=soft strength=0.928 bake=realtime bounce=2 spec=1 name=[CausticsLight] src=brightest	0/1694	0	29,0,0	4	0	0
+Jumbotron_Additive	level49	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/5	0	0,0,0	0	0	0
+Jumbotron_Armory	level39	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/154	0	10,0,0	9	0	1
+Jumbotron_Battlefield1	level40	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/338	0	18,0,0	11	0	1
+Jumbotron_Cargo1	level47	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/757	0	66,0,0	30	0	1
+Jumbotron_Foyer	level38	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/605	0	15,0,0	4	0	1
+Jumbotron_Garage	level46	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/462	0	33,0,0	9	0	1
+Jumbotron_Hallway1	level41	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/500	0	32,0,0	27	0	1
+Jumbotron_Hallway2	level42	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/582	0	34,0,0	34	0	1
+Jumbotron_Reception	level43	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/509	0	30,0,0	10	0	1
+Jumbotron_Stadium	level48	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/698	0	74,0,0	41	0	1
+Jumbotron_StadiumConcession	level44	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/479	0	23,0,0	7	0	1
+Jumbotron_StadiumEntry	level45	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/729	0	46,0,0	22	0	1
+LaserTag_CyberjunkCity	level77	E skymat Skybox_Cyberjunk_Mat shader=Skybox/Procedural	none	0/1712	0	89,0,0	4	0	1
+LaserTag_Hangar	level76	E skymat SkyboxSciFiQuest shader=Skybox/Procedural	none	0/1068	0	80,0,0	3	0	1
+Paddleball	level13	E skymat SkyboxPaddleBall_Baked shader=Skybox/Cubemap	E sun 0 3.78 -2.91 0.2054 -0.1748 0.0565 0.9613 0.9906 0.792 0.4345 2.5 shadows=soft strength=0.999 bake=realtime bounce=1.5 spec=1 name=KeyLight src=rs	0/235	0	28,0,0	1	0	0
+Paintball_Clearcut	level17	E skymat SkyboxClearCut_Baked shader=Skybox/Cubemap	E sun -3.343 10.55 -1.13 -0.2092 0.236 -0.0521 -0.9475 1 0.5137 0.2314 1 shadows=soft strength=1 bake=realtime bounce=0 spec=1 name=Directional%20Light src=rs	0/2371	0	11,0,0	1	0	0
+Paintball_DriveIn	level103	E skymat SkyboxPaintballDriveIn shader=Custom/SkyBox	E sun 14.9811 41.294 -20.0582 0.9444 -0.0556 0.2292 0.2291 1 0.6525 0.336 0.9 shadows=soft strength=0.75 bake=realtime bounce=1 spec=1 name=Key%20Light src=rs	0/6312	0	44,0,0	22	0	0
+Paintball_Homestead	level15	E skymat SkyboxPaintballHomestead_Baked shader=Skybox/Cubemap	E sun -25.1072 11.9354 97.3785 -0.4085 0.1541 -0.4915 -0.7535 0.9985 1 0.888 1.26 shadows=soft strength=0.904 bake=realtime bounce=1 spec=1 name=Directional%20Light src=rs	0/3083	0	37,0,0	1	0	1
+Paintball_Lobby	level113	E skymat SkyboxPaintballLobby_Baked shader=Skybox/Cubemap	E sun -58.1708 -1.1963 64.0328 -0.7832 -0.4723 0.291 -0.2808 0.9985 1 0.888 1 shadows=soft strength=0.904 bake=realtime bounce=1 spec=1 name=Directional%20Light src=brightest	0/1674	0	14,0,0	1	0	1
+Paintball_MerryMidway	level104	E skymat MerryMidway_Skybox_mat shader=Custom/SkyBox	E sun 50.59 14.85 41.76 0.0815 -0.9027 0.1968 0.3739 0.67 0.8298 1 0.21 shadows=soft strength=0.8 bake=realtime bounce=0.05 name=Directional%20Light src=rs	0/2295	0	61,0,0	1	0	0
+Paintball_Quarry	level16	E skymat SkyboxPaintballCastle_Baked shader=Skybox/Cubemap	E sun -79.8 24.5 -58.1 0.8255 -0.0762 0.5453 0.1243 1 0.6046 0.181 1.7 shadows=soft strength=0.91 bake=realtime bounce=1 spec=1 name=Directional%20Light src=rs	0/2479	0	14,0,0	1	0	0
+Paintball_River	level14	E skymat SkyboxPaintball_Baked shader=Skybox/Cubemap	E sun -3.343 16.8265 61.4579 0.2358 0.3671 -0.4011 0.8055 0.9985 1 0.888 1.48 shadows=soft strength=0.868 bake=realtime bounce=1 spec=1 name=Key%20Light src=rs	0/2114	0	6,0,0	1	0	0
+Paintball_Spillway	level18	E skymat Skybox_Dam_Baked shader=Skybox/Cubemap	E sun -3.343 10.55 -1.13 -0.7897 0.2023 -0.468 -0.3413 0.2849 0.4079 0.625 1.46 shadows=soft strength=1 bake=realtime bounce=0.2 spec=1 name=Directional%20Light src=brightest	0/3763	0	145,0,0	1	0	0
+RecCenter_Builtin	level7	E skymat SkyboxLockerRoom_Baked shader=Skybox/Cubemap	E sun 10.3772 1.3692 -3.9185 0.0561 0.769 -0.3115 0.5553 0.9725 0.9423 0.8422 1 shadows=soft strength=0.934 bake=realtime bounce=1.84 spec=1 name=KeyLight src=rs	0/1114	0	40,0,0	1	0	0
+RecRally_Chaparral	level107	E skymat Skybox_RecRally_Chaparral shader=Custom/SkyBox	E sun 117.9 93.7 150.6989 0.3529 0.4142 -0.3523 0.7614 0.9985 1 0.888 1.2 shadows=soft strength=0.868 bake=realtime bounce=1 spec=1 name=Key%20Light src=rs	0/4706	0	64,0,0	1	0	0
+Soccer	level72	E skymat SkyboxSoccer_Baked shader=Skybox/Cubemap	E sun 0 17.388 -13.386 0.9668 0.0186 -0.1736 0.1865 1 0.6939 0.4104 4.4 shadows=soft strength=1 bake=realtime bounce=1 spec=1 name=KeyLight src=rs	0/216	0	19,0,0	1	0	0
+StuntRunner_Baseroom	level100	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	E sun -15.23 2 -10.95 0.199 0.5767 -0.6802 -0.4063 0.832 0.9084 1 0.03 shadows=soft strength=1 bake=realtime bounce=1.25 spec=1 name=Directional%20Light src=rs	0/46	0	5,0,0	5	0	0
+StuntRunner_Course1	level93	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	E sun 82.5697 13.6866 31.8865 0.946 0 0 0.3241 0.5647 0.7305 1 0.05 shadows=none strength=0.149 bake=realtime bounce=1.2 spec=1 name=KeyLight src=brightest	0/3507	0	101,0,0	26	0	0
+StuntRunner_Course2	level94	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	E sun 185.827 13.6866 4.6615 0.9393 0.0385 -0.1123 0.3218 0.8074 0.5647 1 0.03 shadows=none strength=0.149 bake=realtime bounce=1.2 spec=1 name=KeyLight src=brightest	0/4654	0	120,0,0	22	0	0
+StuntRunner_Course3	level95	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	E sun -375.6671 19.0848 207.9709 0.946 0 0 0.3241 0.5647 0.7305 1 0.05 shadows=none strength=0.149 bake=realtime bounce=1.2 spec=1 name=KeyLight src=brightest	0/5026	0	108,0,0	6	0	0
+StuntRunner_Course4	level96	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	E sun 82.5697 13.6866 31.8865 0.946 0 0 0.3241 1 0.5685 0.5647 0.03 shadows=none strength=0.149 bake=realtime bounce=1.2 spec=1 name=KeyLight src=rs	0/4268	0	97,0,0	4	0	0
+StuntRunner_Course5	level97	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	E sun 177.225 7.9064 -195.1 0.2241 0.3011 -0.5032 0.7784 0.5647 0.9843 1 0.05 shadows=none strength=0.149 bake=realtime bounce=1.2 spec=1 name=KeyLight src=brightest	0/4700	0	120,0,0	2	0	0
+StuntRunner_Course6	level98	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	E sun -143.1113 -17.48 -94.3032 0.0462 -0.3237 0.9449 0.0158 0.5647 1 0.692 0.05 shadows=none strength=0.149 bake=realtime bounce=1.2 spec=1 name=KeyLight src=brightest	0/5778	0	128,0,0	4	0	0
+StuntRunner_Lobby	level92	E skymat Stuntrunner_Skybox shader=AG/Skybox/Simple%20Gradient	none	0/992	0	26,0,0	2	0	0
+Crimson_Armory	level51	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/144	0	15,0,0	1	0	1
+Crimson_BellTowerArena	level60	E skymat Skybox_Goblin2_BellTowerArena shader=Skybox/Procedural	E sun 138.5338 1.33 -98.89 0.0484 0.7873 -0.1898 0.5846 0.2635 0.442 0.734 2.69 shadows=soft strength=1 bake=realtime bounce=5.22 spec=0.28 name=Directional%20light%20(1) src=brightest	0/245	0	51,0,0	1	0	1
+Crimson_BellTowerStairs	level59	E skymat Skybox_Goblin2_BellTowerArena shader=Skybox/Procedural	none	0/602	0	55,0,0	1	0	1
+Crimson_Bog	level56	E skymat Skybox_Goblin2_Bog shader=Skybox/Procedural	none	0/313	0	42,0,0	3	0	1
+Crimson_BoilerRoom	level58	E skymat Skybox_Goblin2_BellTowerArena shader=Skybox/Procedural	none	0/949	0	90,0,0	1	0	1
+Crimson_CastleCourtyard	level52	E skymat Skybox_Goblin2_CastleCourtyard shader=Skybox/Procedural	E sun 210.2342 -5.8233 -87.7884 -0.1537 -0.4607 0.289 -0.825 1 0.5204 0.085 3.65 shadows=soft strength=1 bake=realtime bounce=1.96 spec=0.113 name=DirectionalLight%20(1) src=brightest	0/353	0	31,0,0	2	0	1
+Crimson_Forest1	level53	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/791	0	39,0,0	3	0	1
+Crimson_Forest2	level55	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/851	0	60,0,0	2	0	1
+Crimson_Foyer	level50	E skymat Skybox_Goblin2_GoblinCamp shader=Skybox/Procedural	none	0/649	0	34,0,0	1	0	1
+Crimson_GoblinCamp	level54	E skymat Skybox_Goblin2_GoblinCamp shader=Skybox/Procedural	none	0/479	0	33,0,0	6	0	1
+Crimson_Mines1	level57	E skymat SkyboxQuest shader=Skybox/Procedural	none	0/801	0	92,0,0	2	0	1

@@ -1,0 +1,12 @@
+// Research export (rplaces, 2026-09-24): writes Rec Room's own pictures of the Dorm / Rec Center (watch
+// illustrations, campus map, posters, loading art) as PNGs to SP/harness/out/export/ via RrHarness.RrExport.
+// Name list: export_art.txt next to this file if present, else RrExport.DefaultNames.
+{
+  "name": "export_art",
+  "boot_timeout": 240,
+  "steps": [
+    {"log": "export_art: exporting named Sprites/Texture2Ds"},
+    {"call": "RrHarness.RrExport.ExportArt"},
+    {"expect_log": "export art done", "timeout": 30}
+  ]
+}

@@ -1,0 +1,197 @@
+# RRSK 1 Paintball_MerryMidway_gameplay
+B -1891.387 -1549147 -1153.536 2673.269 11.225 842.747
+# source: REF1 room export paintballtroll1, subroom 3208674802250502193 (MerryMidway); frame = the official Paintball MerryMidway scene (geometry not included).
+# G kinds: flag_base, flag, weapon_pickup, standee, game_config, game_rule, role, role_map, scoreboard, leaderboard, door = official-looking layer; extra = player additions.
+P (PaintballGun) 39.873 2.137 93.172 0.0243 0.9658 -0.0973 0.2393 1 1 1
+P (PaintballGun) 75.336 0.663 73.53 -0.0653 0.7547 -0.0761 -0.6484 1 1 1
+P (Grenade) 73.315 0.66 57.051 0 0.649 0 -0.7608 1 1 1
+P (Grenade) 46.265 0.811 58.519 0 0.6601 0 0.7512 1 1 1
+P (Grenade) 76.994 2.001 17.622 0.0001 0.6044 -0.0001 0.7967 1 1 1
+P (PaintballRifleScoped) 21.394 8.555 82.926 0.045 -0.694 -0.6966 -0.1763 1 1 1
+P (PaintballShield) 35.935 -0.202 18.865 -0.5417 0.1762 0.816 0.0986 1 1 1
+P (FlagTool) 97.822 2.277 24.914 0 0 0 1 1 1 1
+P (ScoreboardProjector) 115.502 -0.155 70.273 0 0.8062 0 0.5916 0.75 0.75 0.75
+P (Grenade) 48.504 0.718 48.817 0.0001 0.6044 -0.0001 0.7967 1 1 1
+P (PaintballShotgun) 91.872 1.953 8.093 0.695 -0.689 -0.1461 0.1448 1 1 1
+P (Grenade) 88.199 1.974 20.108 -0.0006 0.8252 -0.0008 -0.5648 1 1 1
+P (FlagTool) 13.449 2.227 88.482 0 0 0 1 1 1 1
+P (PaintballShield) 66.916 1.198 15.348 0.0745 -0.7823 -0.1449 -0.6012 1 1 1
+P (PaintballShotgun) 66.349 2.013 15.803 0.6046 -0.6046 -0.3667 0.3668 1 1 1
+P (PaintballShotgun) 53.436 1.95 90.24 0.3792 -0.3791 0.597 -0.5968 1 1 1
+P (PaintballShotgun) 19.799 1.925 89.864 0.6435 -0.6437 0.2929 -0.2929 1 1 1
+P (PaintballGun) 73.162 0.735 57.403 -0.0268 0.9574 -0.0967 -0.2706 1 1 1
+P (FlagGoal) 13.449 0.944 88.482 0 0.3827 0 0.9239 1 1 1
+P (PaintballGun) 61.611 1.915 19.698 0.097 0.2545 -0.0256 0.9619 1 1 1
+P (PaintballRifleScoped) 85.003 -0.114 88.077 0.1087 0.6545 0.722 -0.1964 1 1 1
+P (FlagGoal) 97.822 0.994 24.914 0 0.5336 0 0.8457 1 1 1
+P (PaintballShotgun) 66.567 1.89 74.914 0.0293 0.9049 -0.0699 -0.4188 1 1 1
+P (PaintballShield) 53.183 2.212 89.582 -0.65 0.1607 0.7326 0.1221 1 1 1
+P (PaintballShotgun) 32.226 0.42 41.078 0.6058 -0.606 0.3645 -0.3646 1 1 1
+P (LeaderboardProjector) 122.01 -0.151 74.75 0 0.9999 0 -0.0128 0.75 0.75 0.75
+P (Grenade) 13.537 2.021 71.308 0 0.0675 0 0.9977 1 1 1
+P (Grenade) 82.277 2.073 47.696 -0.007 0.5191 0.0344 -0.854 1 1 1
+P (PaintballGun) 42.534 0.668 58.056 0.0886 0.4673 -0.047 0.8784 1 1 1
+P (PaintballShotgun) 36.646 0.497 18.423 0.0073 -0.0073 0.7072 -0.707 1 1 1
+P (Grenade) 18.511 9.252 80.474 0 0.6601 0 0.7512 1 1 1
+G role (GameRoleNode) 118.167 2.241 75.012 0.0002 -0.6574 -0.0016 -0.7535 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=In-Game%20|%20role_guid=2c721342-c7ed-49fe-b8f0-93f8d282a6df
+G weapon_pickup (PaintballGun) 39.873 2.137 93.172 0.0243 0.9658 -0.0973 0.2393 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (PaintballGun) 75.336 0.663 73.53 -0.0653 0.7547 -0.0761 -0.6484 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (Grenade) 73.315 0.66 57.051 0 0.649 0 -0.7608 type=PAINTBALL_GRENADE prefab=(Grenade)
+G game_rule (PaintballCaptureTheFlag_GameRuleWrapperCircuit)Variant 118.496 1.26 73.805 0.0004 -0.7333 -0.0016 -0.6799 type=PAINTBALL_CAPTURE_THE_FLAG_GAME_RULE_CIRCUIT prefab=(PaintballCaptureTheFlag_GameRuleWrapperCircuit)Variant
+G weapon_pickup (Grenade) 46.265 0.811 58.519 0 0.6601 0 0.7512 type=PAINTBALL_GRENADE prefab=(Grenade)
+G game_config (GameConfiguration) 117.934 1.246 75.833 -0.0001 -0.499 -0.0016 -0.8666 type=GAME_CONFIGURATION prefab=(GameConfiguration) name=Paintball%20Team%20Battle%20|%20stat_name=Hits%20|%20stat_name=Outs
+G role (GameRoleNode) 13.011 2.387 84.946 -0.0339 -0.6683 -0.0177 0.7429 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=New%20Role%20|%20role_guid=a2f3b1cb-0b06-455d-95d3-1fb9d68ead9c
+G weapon_pickup (Grenade) 76.994 2.001 17.622 0.0001 0.6044 -0.0001 0.7967 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballRifleScoped) 21.394 8.555 82.926 0.045 -0.694 -0.6966 -0.1763 type=PAINTBALL_SNIPER_RIFLE prefab=(PaintballRifleScoped)
+G role (GameRoleNode) 118.194 2.242 74.814 0.0002 -0.6574 -0.0016 -0.7535 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Eliminated%20|%20role_guid=0b9ec39e-2cc9-4825-8321-da11561f1c4f
+G weapon_pickup (PaintballShield) 35.935 -0.202 18.865 -0.5417 0.1762 0.816 0.0986 type=PAINTBALL_SHIELD prefab=(PaintballShield)
+G flag (FlagTool) 97.822 2.277 24.914 0 0 0 1 type=DEPRECATED_FLAG_RED prefab=(FlagTool)
+G scoreboard (ScoreboardProjector) 115.502 -0.155 70.273 0 0.8062 0 0.5916 type=SCOREBOARD_PROJECTOR prefab=(ScoreboardProjector) scale=0.75
+G weapon_pickup (Grenade) 48.504 0.718 48.817 0.0001 0.6044 -0.0001 0.7967 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballShotgun) 91.872 1.953 8.093 0.695 -0.689 -0.1461 0.1448 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G weapon_pickup (Grenade) 88.199 1.974 20.108 -0.0006 0.8252 -0.0008 -0.5648 type=PAINTBALL_GRENADE prefab=(Grenade)
+G flag (FlagTool) 13.449 2.227 88.482 0 0 0 1 type=DEPRECATED_FLAG_RED prefab=(FlagTool)
+G role (GameRoleNode) 16.906 2.835 85.772 0 0.4628 0 0.8865 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=New%20Role%20|%20role_guid=916da137-f410-48db-b8d9-75dd8cbf062a
+G weapon_pickup (PaintballShield) 66.916 1.198 15.348 0.0745 -0.7823 -0.1449 -0.6012 type=PAINTBALL_SHIELD prefab=(PaintballShield)
+G weapon_pickup (PaintballShotgun) 66.349 2.013 15.803 0.6046 -0.6046 -0.3667 0.3668 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G weapon_pickup (PaintballShotgun) 53.436 1.95 90.24 0.3792 -0.3791 0.597 -0.5968 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G weapon_pickup (PaintballShotgun) 19.799 1.925 89.864 0.6435 -0.6437 0.2929 -0.2929 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G role (GameRoleNode) 118.221 2.242 74.616 0.0002 -0.6574 -0.0016 -0.7535 type=GAME_ROLE_NODE prefab=(GameRoleNode)
+G weapon_pickup (PaintballGun) 73.162 0.735 57.403 -0.0268 0.9574 -0.0967 -0.2706 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G game_rule (PaintballTeamBattle_GameRuleWrapperCircuit)Variant 118.14 1.241 75.21 0.0002 -0.6574 -0.0016 -0.7535 type=PAINTBALL_TEAM_BATTLE_GAME_RULE_CIRCUIT prefab=(PaintballTeamBattle_GameRuleWrapperCircuit)Variant
+G flag_base (FlagGoal) 13.449 0.944 88.482 0 0.3827 0 0.9239 type=FLAG_GOAL prefab=(FlagGoal)
+G weapon_pickup (PaintballGun) 61.611 1.915 19.698 0.097 0.2545 -0.0256 0.9619 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (PaintballRifleScoped) 85.003 -0.114 88.077 0.1087 0.6545 0.722 -0.1964 type=PAINTBALL_SNIPER_RIFLE prefab=(PaintballRifleScoped)
+G flag_base (FlagGoal) 97.822 0.994 24.914 0 0.5336 0 0.8457 type=FLAG_GOAL prefab=(FlagGoal)
+G role (GameRoleNode) 118.14 2.241 75.21 0.0002 -0.6574 -0.0016 -0.7535 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=DriveIn%20|%20inner_value=paintpistol%20|%20inner_value=paintshotgun%20|%20inner_value=paintscoperifle%20|%20inner_value=paintburstgun%20|%20inner_value=paintgrenade%20|%20in...
+G role_map (PlayerRoleMappingNode) 14.917 2.284 84.135 0.052 -0.5336 -0.0048 0.8441 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (PaintballShotgun) 66.567 1.89 74.914 0.0293 0.9049 -0.0699 -0.4188 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G weapon_pickup (PaintballShield) 53.183 2.212 89.582 -0.65 0.1607 0.7326 0.1221 type=PAINTBALL_SHIELD prefab=(PaintballShield)
+G weapon_pickup (PaintballShotgun) 32.226 0.42 41.078 0.6058 -0.606 0.3645 -0.3646 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G leaderboard (LeaderboardProjector) 122.01 -0.151 74.75 0 0.9999 0 -0.0128 type=LEADERBOARD_PROJECTOR prefab=(LeaderboardProjector) scale=0.75 stat_full_name=Paintball%20Wins%20|%20stat_short_name=Wins%20|%20stat_full_name=Paintball%20Hits%20|%20stat_short_name=Hits%20|%20stat_full_name=Capture%20The%20Flag%20Wins%20|%20stat_short_...
+G weapon_pickup (Grenade) 13.537 2.021 71.308 0 0.0675 0 0.9977 type=PAINTBALL_GRENADE prefab=(Grenade)
+G game_config (GameConfiguration) 118.326 1.247 74.46 -0.0001 -0.499 -0.0016 -0.8666 type=GAME_CONFIGURATION prefab=(GameConfiguration) name=Paintball%20Capture%20The%20Flag%20|%20stat_name=Hits%20|%20stat_name=Outs%20|%20stat_name=Flags
+G weapon_pickup (Grenade) 82.277 2.073 47.696 -0.007 0.5191 0.0344 -0.854 type=PAINTBALL_GRENADE prefab=(Grenade)
+G weapon_pickup (PaintballGun) 42.534 0.668 58.056 0.0886 0.4673 -0.047 0.8784 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G weapon_pickup (PaintballShotgun) 36.646 0.497 18.423 0.0073 -0.0073 0.7072 -0.707 type=PAINTBALL_SHOTGUN prefab=(PaintballShotgun)
+G role_map (PlayerRoleMappingNode) 16.039 2.829 86.839 0 0.4628 0 0.8865 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G role_map (PlayerRoleMappingNode) 13.782 2.284 85.066 0.052 -0.5336 -0.0048 0.8441 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G role_map (PlayerRoleMappingNode) 16.777 2.829 85.998 0 0.4628 0 0.8865 type=PLAYER_ROLE_MAP_NODE prefab=(PlayerRoleMappingNode)
+G weapon_pickup (Grenade) 18.511 9.252 80.474 0 0.6601 0 0.7512 type=PAINTBALL_GRENADE prefab=(Grenade)
+G extra (SandboxBowlingPin) 118.795 -0.053 72.352 0.1757 -0.4954 -0.7433 -0.4137 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (ProximityMine) 31.417 2.077 86.062 -0.3018 0.6395 0.6395 0.3018 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (Sandbox_Button) 13.225 2.09 83.124 0.3782 0.5961 -0.6031 0.3714 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=fly
+G extra (Microphone_Conference) 72.484 -0.095 61.407 0.0183 0.9745 -0.0287 0.2216 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (Quest_Pirate1_FryingPan) 77.358 -0.439 60.644 0 0.9957 0 0.093 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Sandbox_TriggerHandle) 112.964 -1.5 64.374 0.024 0.9861 -0.0122 -0.1641 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (SandboxBowlingPin) 128.211 -0.648 66.79 -0.6924 0.3778 -0.3033 0.5346 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (Quest_Dracula1_BlunderBuss) 114.482 0.043 57.863 -0.0709 0.3267 -0.0614 -0.9405 type=DRACULA_BLUNDERBUSS prefab=(Quest_Dracula1_BlunderBuss)
+G extra (Quest_Pirate1_FryingPan) 64.16 2.819 64.071 0 0.9957 0 0.093 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (ProximityMine) 31.21 2.077 85.736 -0.3396 0.6202 0.6202 0.3396 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (Consumables_SwordRack_Sword1) 115.89 -0.403 67.507 0.4994 -0.465 0.5015 0.5319 type=GT_SWORD prefab=(Consumables_SwordRack_Sword1) scale=0.078
+G extra (Microphone_Conference) 70.925 0.118 73.214 0.2201 0.5445 -0.8062 0.072 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (Textured_Quad) 103.529 0.84 61.62 0 0.6841 0 -0.7294 type=TEXTURED_QUAD prefab=(Textured_Quad)
+G extra (PaintballGun)Confetti 77.21 -0.293 61.472 0.0259 -0.9624 0.0969 0.2523 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (SandboxBowlingPin) 128.777 -0.322 70.113 -0.3321 -0.6716 -0.6338 0.1923 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (PaintballGun)Confetti 96.199 -0.408 61.523 0.3653 0.3653 0.6054 0.6054 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (Quest_Pirate1_FryingPan) 81.002 0.219 49.992 0.0216 -0.9777 -0.1513 -0.1439 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Quest_Pirate1_FryingPan) 78.185 0.51 36.421 -0.0328 0.9939 0.0717 0.0771 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Microphone_Conference) 73.799 -1546761.75 57.843 0.7071 0 0 0.7071 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (SandboxBowlingPin) 124.483 -0.402 69.556 -0.1866 -0.6235 -0.7338 -0.195 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (Arena_PowerWeapon_BeamGun) 119.392 0.077 71.248 0.0459 0.9615 -0.0554 0.2652 type=ARENA_BEAM_GUN prefab=(Arena_PowerWeapon_BeamGun)
+G extra (Microphone_Conference) 92.054 -1549147 56.57 0.7071 0 0 0.7071 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (Whip_Sandbox)Variant 123.226 -4107.839 67.839 0.1951 0.1937 0.6803 0.6794 type=PVP_WHIP prefab=(Whip_Sandbox)Variant
+G extra (StandaloneShapeContainer) 112.303 1.207 65.878 0 0.2177 0 -0.976 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.053
+G extra (SandboxBowlingPin) 121.537 -0.045 75.357 -0.5881 0.6378 0.4954 -0.0443 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (PaintballGun)Confetti 84.745 -0.293 69.063 0.0257 -0.9629 0.0969 0.2504 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (BowlingBall) 115.089 -0.261 76.437 0.2532 0.0595 -0.9653 0.0242 type=BOWLING_BALL prefab=(BowlingBall)
+G extra (Quest_Pirate1_FryingPan) 81.252 -0.439 64.893 0 0.9998 0 -0.0197 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Quest_Pirate1_FryingPan) 71.436 -0.168 71.833 0.0789 0.9921 -0.0426 0.0881 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Quest_Pirate1_FryingPan) 30.229 -0.439 49.741 0 0.3755 0 0.9268 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Button_StuntRunnerEnd_Sandbox) 119.496 0.09 62.223 -0.0014 0.3833 -0.0055 -0.9236 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Microphone_Conference) 2673.269 -1500357.25 155.075 -0.312 0.4325 -0.4346 0.7258 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (AnimationGizmo_V2) 112.468 1.089 65.746 0 0.976 0 0.2177 type=ANIMATIONGIZMO_V2 prefab=(AnimationGizmo_V2) scale=0.217
+G extra (ProximityMine) 75.388 0.53 73.879 -0.5588 0.4332 0.4332 0.5588 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (StandaloneShapeContainer) 112.378 1.206 65.719 0 0.2177 0 -0.976 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.053
+G extra (StandaloneShapeContainer) 112.344 1.06 66.028 0 0.2177 0 -0.976 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.032
+G extra (Button_StuntRunnerEnd_Sandbox) 119.811 0.492 60.891 0.0169 0.3888 0.04 0.9203 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Button_StuntRunnerEnd_Sandbox) 121.447 0.236 59.703 -0.0041 -0.3321 -0.0152 -0.9431 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (SandboxBowlingPin) 117.781 -0.059 75.813 0.7985 0.5494 0.1481 0.1965 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (SandboxBowlingPin) 120.766 -0.045 73.523 0.6943 -0.4193 0.3321 0.4815 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (Sandbox_TriggerHandle) 112.458 1.118 65.952 0 0.8441 0 -0.5362 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (SandboxBowlingPin) 118.533 -0.046 73.662 -0.3838 -0.2632 -0.6669 0.582 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (Sandbox_Campfire) 120.117 -4.523 65.361 0 0.6344 0 0.773 type=CAMPFIRE prefab=(Sandbox_Campfire) scale=16.733
+G extra (Arena_PowerWeapon_BeamGun) 116.633 -0.198 68.491 0.6501 0.5461 -0.4344 -0.3006 type=ARENA_BEAM_GUN prefab=(Arena_PowerWeapon_BeamGun)
+G extra (StandaloneShapeContainer) 95.605 1.519 58.816 -0.1898 -0.9371 0.0316 0.2913 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=1.859
+G extra (Button_StuntRunnerEnd_Sandbox) 122.711 0.941 65.496 -0.0609 0.6476 -0.0429 0.7583 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Avatar_Item_Display) 121.691 1.173 59.428 0 0.2192 0 -0.9757 type=AVATAR_ITEM_DISPLAY prefab=(Avatar_Item_Display)
+G extra (Tractor_Tire_Sandbox)Variant 104.484 9.7 71.204 -0.3384 -0.4157 -0.6922 -0.4833 type=TRACTOR_TIRE prefab=(Tractor_Tire_Sandbox)Variant scale=3.851
+G extra (SandboxBowlingPin) 124.309 -0.346 71.074 0.5978 -0.7262 0.2574 0.2214 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (Vehicle_Truck) 106.849 -0.448 63.713 0 0.9883 0 -0.1522 type=VEHICLE_TRUCK prefab=(Vehicle_Truck)
+G extra (AnimationGizmo_V2) 112.381 1.09 65.931 0 0.976 0 0.2177 type=ANIMATIONGIZMO_V2 prefab=(AnimationGizmo_V2) scale=0.217
+G extra (Button_StuntRunnerEnd_Sandbox) 117.348 0.332 63.488 0.0083 0.5715 0.0124 -0.8205 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Button_StuntRunnerEnd_Sandbox) 122.023 0.283 62.158 -0.0028 -0.6476 -0.0318 -0.7613 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Button_StuntRunnerEnd_Sandbox) 117.74 0.311 65.01 0.0014 -0.6352 -0.0014 0.7724 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Button_StuntRunnerEnd_Sandbox) 118.293 0.264 66.217 -0.0028 -0.6116 -0.0014 0.7911 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (ClampGizmo_CV1) 112.51 1.062 65.977 -0.0008 0.2177 -0.0002 -0.976 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1) scale=0.119
+G extra (AnimationGizmo_V2) 112.456 1.089 65.771 0 0.976 0 0.2177 type=ANIMATIONGIZMO_V2 prefab=(AnimationGizmo_V2) scale=0.217
+G extra (Button_StuntRunnerEnd_Sandbox) 118.832 0.23 67.225 -0.0028 -0.5065 0.0014 0.8623 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Quest_Pirate1_FryingPan) 38.631 0.896 67.897 -0.013 0.3738 -0.0305 0.9269 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Microphone_Conference) -1891.387 -1533423.75 -1153.536 -0.0901 -0.656 0.7067 -0.249 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (Consumables_SwordRack_Sword1) 115.646 -0.385 67.767 -0.6817 -0.0969 0.1016 -0.7181 type=GT_SWORD prefab=(Consumables_SwordRack_Sword1) scale=0.078
+G extra (SandboxBowlingPin) 103.101 -0.339 64.708 0.3901 0.4516 -0.6632 -0.4517 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (Button_StuntRunnerEnd_Sandbox) 119.867 0.174 67.914 -0.0138 -0.3044 0.0041 0.9524 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (PaintballGun)Confetti 88.45 -0.293 59.852 -0.0257 0.9618 -0.097 -0.2546 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (Vehicle_Wolf) 116.852 0.747 50.83 0.0247 -0.7351 0.0252 0.677 type=VEHICLE_WOLF prefab=(Vehicle_Wolf)
+G extra (PaintballGun)Confetti 97.818 -0.406 58.48 0.6577 -0.6573 0.2602 -0.2601 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (Microphone_Conference) 72.951 3.595 65.774 -0.7547 0.0038 -0.2527 0.6054 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (Sandbox_Projectile_Launcher) 112.144 1.222 65.608 0 0.8441 0 -0.5362 type=SANDBOX_PROJECTILE_LAUNCHER prefab=(Sandbox_Projectile_Launcher) scale=0.311
+G extra (Whip_Sandbox)Variant 124.617 -4107.839 68.892 0.4262 0.4345 -0.5604 -0.5617 type=PVP_WHIP prefab=(Whip_Sandbox)Variant
+G extra (SandboxBowlingPin) 127.004 -0.463 66.131 -0.6664 0.5784 0.4151 -0.2214 type=BOWLING_PIN prefab=(SandboxBowlingPin)
+G extra (ClampGizmo_CV1) 112.585 1.061 65.817 -0.0008 0.2177 -0.0002 -0.976 type=CLAMP_GIZMO prefab=(ClampGizmo_CV1) scale=0.119
+G extra (AudioPlayerNodeVisualization_CV2) 112.358 1.196 65.709 0.0001 0.5362 0.0001 0.8441 type=AUDIO_PLAYER prefab=(AudioPlayerNodeVisualization_CV2) scale=0.321
+G extra (StandaloneShapeContainer) 112.413 1.18 65.931 0 0.2177 0 -0.976 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.053
+G extra (AudioPlayerNodeVisualization_CV2) 112.284 1.197 65.869 0.0001 0.5362 0.0001 0.8441 type=AUDIO_PLAYER prefab=(AudioPlayerNodeVisualization_CV2) scale=0.321
+G extra (AnimationGizmo_V2) 112.393 1.09 65.906 0 0.976 0 0.2177 type=ANIMATIONGIZMO_V2 prefab=(AnimationGizmo_V2) scale=0.217
+G extra (StandaloneShapeContainer) 112.419 1.059 65.868 0 0.2177 0 -0.976 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.032
+G extra (Sandbox_TriggerHandle) 112.533 1.117 65.792 0 0.8441 0 -0.5362 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (Sandbox_Projectile_Launcher) 112.069 1.223 65.768 0 0.8441 0 -0.5362 type=SANDBOX_PROJECTILE_LAUNCHER prefab=(Sandbox_Projectile_Launcher) scale=0.311
+G extra (ProximityMine) 32.405 0.389 42.047 -0.5588 0.4332 0.4332 0.5588 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (ProximityMine) 87.801 1.899 20.624 -0.5199 0.4792 0.4792 0.5199 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (AnimationGizmo) 112.647 1.121 65.865 0 0.976 0 0.2177 type=ANIMATIONGIZMO prefab=(AnimationGizmo) scale=0.175
+G extra (PaintballGun)Confetti 82.08 2.941 60.411 0.766 0.0005 0.6428 0.0005 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (ProximityMine) 61.747 1.818 20.155 -0.0248 0.715 0.6985 0.0169 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (ProximityMine) 96.029 0.55 57.912 -0.5896 0.3904 0.3904 0.5896 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (Quest_Pirate1_FryingPan) 62.865 0.581 73.294 0.0074 -0.9926 0.0808 -0.0908 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Quest_Pirate1_FryingPan) 45.773 -0.439 51.341 0 0.9633 0 0.2683 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Quest_Pirate1_FryingPan) 59.778 -0.372 43.92 0.1305 0 0.9915 0 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Vehicle_Wolf) 78.512 0.024 48.973 -0.1909 0.393 -0.0857 -0.8954 type=VEHICLE_WOLF prefab=(Vehicle_Wolf)
+G extra (Bucket) 112.717 11.225 83.679 0.1322 -0.6512 0.257 -0.7017 type=BUCKET prefab=(Bucket) scale=37.621
+G extra (ProximityMine) 54.208 1.989 97.025 -0.6972 -0.1179 -0.1179 0.6972 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (CostumeDummyPlus) 17.069 1.454 85.199 0 0.8474 0 -0.5309 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (Whip_Sandbox)Variant 1008.852 -4107.839 842.747 0.2505 -0.3556 -0.4054 -0.804 type=PVP_WHIP prefab=(Whip_Sandbox)Variant
+G extra (PaintballGun)Confetti 98.378 -0.293 68.869 0.0268 -0.9619 0.0965 0.2544 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (ProximityMine) 96.432 0.55 58.516 -0.6663 0.2368 0.2368 0.6663 type=PROXIMITY_MINE prefab=(ProximityMine)
+G extra (Quest_Pirate1_FryingPan) 117.562 -0.384 66.796 0 0.2459 0 0.9693 type=PIRATE_FRYING_PAN prefab=(Quest_Pirate1_FryingPan)
+G extra (Arena_PowerWeapon_BeamGun) 28.502 2.264 67.332 -0.0844 -0.6846 0.2463 -0.6808 type=ARENA_BEAM_GUN prefab=(Arena_PowerWeapon_BeamGun)
+G extra (Sandbox_Button) 12.09 2.09 84.055 0.3782 0.5961 -0.6031 0.3714 type=SANDBOX_BUTTON prefab=(Sandbox_Button) messages=fly
+G extra (Button_StuntRunnerEnd_Sandbox) 121.02 0.197 68.098 -0.0166 -0.1937 -0.0014 0.9809 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (PaintballGun)Confetti 98.295 -0.389 57.041 -0.5383 -0.5572 0.4373 0.4566 type=CONFETTI_GUN prefab=(PaintballGun)Confetti
+G extra (CostumeDummyPlus) 16.331 1.454 86.039 0 0.8474 0 -0.5309 type=COSTUME_DUMMY_PLUS prefab=(CostumeDummyPlus) add_player_role_on_equip=916da137-f410-48db-b8d9-75dd8cbf062a
+G extra (Button_StuntRunnerEnd_Sandbox) 122.525 0.744 66.494 -0.0055 -0.3044 0.0028 -0.9525 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Button_StuntRunnerEnd_Sandbox) 121.607 0.488 63.953 -0.047 0.7406 0.0512 0.6684 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Vehicle_Truck) 91.66 -0.447 58.018 0.0009 0.5841 0.0002 0.8116 type=VEHICLE_TRUCK prefab=(Vehicle_Truck)
+G extra (Sandbox_Audio_Sampler) 115.133 1.059 66.699 0.6472 0.341 -0.3993 0.5527 type=SANDBOX_AUDIO_SAMPLER prefab=(Sandbox_Audio_Sampler) blob_name=2935abhx3ypen7nfeg6fymknw.htr
+G extra (Arena_PowerWeapon_BeamGun) 28.607 1.936 67.162 0.802 -0.4663 0.3307 0.173 type=ARENA_BEAM_GUN prefab=(Arena_PowerWeapon_BeamGun)
+G extra (Button_StuntRunnerEnd_Sandbox) 121.668 1.154 60.506 0.0235 0.4539 0.0028 0.8908 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Sandbox_TriggerHandle) 112.956 -1.642 64.382 0.0039 0.9864 -0.0054 -0.164 type=TRIGGER_HANDLE prefab=(Sandbox_TriggerHandle) control_prompt=Trigger
+G extra (StandaloneShapeContainer) 112.488 1.179 65.771 0 0.2177 0 -0.976 type=SHAPE_CONTAINER prefab=(StandaloneShapeContainer) scale=0.053
+G extra (Sandbox_Stool) 118.039 0.107 62.502 0.494 -0.2463 0.8206 0.1481 type=STOOL prefab=(Sandbox_Stool)
+G extra (Microphone_Conference) 82.065 -1538686.5 54.777 0.2033 -0.1189 0.8545 -0.463 type=MICROPHONE_CONFERENCE prefab=(Microphone_Conference)
+G extra (Button_StuntRunnerEnd_Sandbox) 122.518 0.781 61.422 0.0291 -0.7403 -0.1508 -0.6545 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Button_StuntRunnerEnd_Sandbox) 122.188 0.471 61.143 -0.018 -0.5909 0.0152 -0.8064 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Button_StuntRunnerEnd_Sandbox) 122.242 0.148 67.625 -0.0028 -0.0263 0.0028 0.9996 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Quest_Dracula1_BlunderBuss) 83.08 0.91 46.986 0.2131 -0.256 0.649 -0.684 type=DRACULA_BLUNDERBUSS prefab=(Quest_Dracula1_BlunderBuss)
+G extra (Button_StuntRunnerEnd_Sandbox) 116.939 0.219 61.902 -0.0014 0.4027 -0.0028 -0.9153 type=STUNTRUNNER_BUTTON prefab=(Button_StuntRunnerEnd_Sandbox)
+G extra (Whip_Sandbox)Variant 123.285 -4107.839 69.439 0.3113 0.3224 -0.6454 -0.6185 type=PVP_WHIP prefab=(Whip_Sandbox)Variant
+G extra (PaintballGun)Confetti 71.715 -0.406 53.795 -0.3487 0.3487 0.6159 -0.6144 type=CONFETTI_GUN prefab=(PaintballGun)Confetti

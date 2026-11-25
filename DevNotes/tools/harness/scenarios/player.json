@@ -1,0 +1,16 @@
+// Player module: boot, the editor fallback rig (no client), the screen-mode right hand, teleport + play mode probe.
+{
+  "name": "player",
+  "arrival": true,
+  "steps": [
+    {"log": "player: waiting for the fallback rig"},
+    {"expect_log": "Player: up", "timeout": 5},
+    {"expect_log": "fallback rig at", "timeout": 5},
+    {"expect_log": "screen mode: right hand", "timeout": 5},
+    {"wait": 0.5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrPlayer.Probe"},
+    {"expect_log": "probe end", "timeout": 5},
+    {"expect_log": "play mode on", "timeout": 1},
+    {"dump": "player", "root": "Rr Player"}
+  ]
+}

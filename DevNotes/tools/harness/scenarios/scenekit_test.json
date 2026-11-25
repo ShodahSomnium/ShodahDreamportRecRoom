@@ -1,0 +1,19 @@
+// Scene kit (Core/RrSceneKit): builds the RRSK test sample (DevNotes/tools/rrscene/kit_sample.rrsk) at (0, 0, 6) on the
+// Arrival floor, then a 2,000-renderer stress scene, then a cancelled build. Hooks: SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest
+// (each logs one "SceneKitTest:" line). Needs the kit installed (DevNotes/iter4/kit_files -> Assets/#User/SomniumRecRoom/Core).
+{
+  "name": "scenekit_test",
+  "arrival": true,
+  "steps": [
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest.Build"},
+    {"expect_log": "SceneKitTest: PASS", "timeout": 5},
+    {"shot": "scenekit_sample", "pos": [0, 2.4, -2.5], "look": [0, 0.6, 6], "fov": 60, "w": 1280, "h": 720},
+    {"dump": "scenekit_sample", "root": "Rr SceneKit Test"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest.Stress"},
+    {"expect_log": "SceneKitTest: stress", "timeout": 5},
+    {"shot": "scenekit_stress", "pos": [0, 12, -12], "look": [0, 0, 30], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest.Cancel"},
+    {"expect_log": "SceneKitTest: PASS cancel", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest.Clear"}
+  ]
+}

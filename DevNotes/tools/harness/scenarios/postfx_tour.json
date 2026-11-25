@@ -1,0 +1,83 @@
+// Iteration 5, postfx: Rec Room's own post-processing per room (Core/RrPostFx + RrPostFxProfiles). Every pair is the
+// same camera rendered with post-processing on ("post": true): "_before" with our Volume held at weight 0
+// (RrPostFx.TestOff: the client's/project's default profile only - no tonemapping, no bloom), "_after" with Rec
+// Room's profile for the room (RrPostFx.TestOn). Dorm = the blank Studio scene's house profile, Rec Center = cache
+// 1AF's RecCenter_071825 profile, Golden Trophy lobby and acts = GoldenLobby's, Dodgeball and Paintball = house.
+// In act 4 (lava): a bloom probe (intensity x8: what is bright enough to glow) and the headset's bloom chain.
+// The last step loads the install's own VolumeProfile (StuntRunner_Default_SSFX_Profile) and compares it with the data.
+{
+  "name": "postfx_tour",
+  "steps": [
+    {"goto": "Dorm", "timeout": 240},
+    {"wait": 2},
+    {"expect_log": "PostFx: Dorm:", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOff"},
+    {"shot": "pfx_dorm_before", "pos": [0.3, 1.6, 1.9], "look": [0.3, 1.3, -2.9], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+    {"shot": "pfx_dorm_after", "pos": [0.3, 1.6, 1.9], "look": [0.3, 1.3, -2.9], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestReport"},
+
+    {"goto": "RecCenter", "timeout": 240},
+    {"wait": 2},
+    {"expect_log": "PostFx: RecCenter:", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOff"},
+    {"shot": "pfx_rc_before", "pos": [-0.65, 1.7, -15.2], "look": [-0.4, 4.2, 6], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"shot": "pfx_rc_stage_before", "pos": [-2, 2.2, -9], "look": [11.5, 4.0, -3.5], "frame": "room", "fov": 80, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+    {"shot": "pfx_rc_after", "pos": [-0.65, 1.7, -15.2], "look": [-0.4, 4.2, 6], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"shot": "pfx_rc_stage_after", "pos": [-2, 2.2, -9], "look": [11.5, 4.0, -3.5], "frame": "room", "fov": 80, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestReport"},
+
+    {"goto": "GoldenTrophy", "timeout": 300},
+    {"wait": 3},
+    {"expect_log": "PostFx: GoldenTrophy:", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOff"},
+    {"shot": "pfx_gt_lobby_before", "pos": [-27.2, 2.6, 0], "look": [0, 1.2, 0], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+    {"shot": "pfx_gt_lobby_after", "pos": [-27.2, 2.6, 0], "look": [0, 1.2, 0], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Start"},
+    {"wait": 1.5},
+    {"expect_log": "PostFx: GoldenTrophy area 1", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOff"},
+    {"shot": "pfx_gt_act1_before", "pos": [-19, -1.9, 230.8], "look": [-37, -2.2, 233], "frame": "room", "fov": 70, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+    {"shot": "pfx_gt_act1_after", "pos": [-19, -1.9, 230.8], "look": [-37, -2.2, 233], "frame": "room", "fov": 70, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestAct4"},
+    {"expect_log": "PostFx: GoldenTrophy area 4", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOff"},
+    {"shot": "pfx_gt_act4_before", "pos": [-10.3, 6.3, 412.3], "look": [-25.3, -3.7, 397.3], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+    {"shot": "pfx_gt_act4_after", "pos": [-10.3, 6.3, 412.3], "look": [-25.3, -3.7, 397.3], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestReport"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestVrChain"},
+    {"shot": "pfx_gt_act4_vrchain", "pos": [-10.3, 6.3, 412.3], "look": [-25.3, -3.7, 397.3], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestReport"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestDesktopChain"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestBloomProbe"},
+    {"shot": "pfx_gt_act4_bloomprobe", "pos": [-10.3, 6.3, 412.3], "look": [-25.3, -3.7, 397.3], "frame": "room", "fov": 75, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+
+    {"goto": "Dodgeball", "timeout": 240},
+    {"wait": 2},
+    {"expect_log": "PostFx: Dodgeball:", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOff"},
+    {"shot": "pfx_dodgeball_before", "pos": [6.5, 6.5, -10.5], "look": [0, 0.5, 2], "frame": "room", "fov": 70, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+    {"shot": "pfx_dodgeball_after", "pos": [6.5, 6.5, -10.5], "look": [0, 0.5, 2], "frame": "room", "fov": 70, "w": 1280, "h": 720, "post": true},
+
+    {"goto": "Paintball", "timeout": 240},
+    {"wait": 2},
+    {"expect_log": "PostFx: Paintball:", "timeout": 5},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOff"},
+    {"shot": "pfx_paintball_before", "pos": [0, 6.5, -15], "look": [0, 1.5, 4], "frame": "room", "fov": 70, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestOn"},
+    {"shot": "pfx_paintball_after", "pos": [0, 6.5, -15], "look": [0, 1.5, 4], "frame": "room", "fov": 70, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestReport"},
+
+    {"goto": "Dorm", "timeout": 240},
+    {"wait": 1},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestReport"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrPostFx.TestBundleProfile"},
+    {"expect_log": "bundle profile test:", "timeout": 60}
+  ]
+}

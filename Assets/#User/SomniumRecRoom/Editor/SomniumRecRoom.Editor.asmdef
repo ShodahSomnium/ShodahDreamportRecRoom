@@ -1,0 +1,23 @@
+{
+    "name": "SomniumRecRoom.Editor",
+    "rootNamespace": "SomniumSpace.Worlds.SomniumRecRoom.EditorTools",
+    "references": [
+        "SomniumRecRoom",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "SomniumSpace.Network",
+        "Fusion.Unity",
+        "Unity.RenderPipelines.Universal.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

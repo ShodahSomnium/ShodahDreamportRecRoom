@@ -1,0 +1,1136 @@
+# RRSK 1 Bowling
+B -17.8383 -1.7766 -20.36 18.3449 9.6854 39.7947
+# source: Android build 2026-03-23 (APKPure XAPK) level91 = Packages/com.recroom.legacy/Runtime/Assets/Activities/BowlingAlley/Scenes/BowlingAlley.unity; frame = the level's stored Unity world space (Y up), nothing re-centred.
+# derived placement data only (names and numbers); meshes/materials are loaded from the player's PC install by name.
+# renderers 170 (runtime-mesh 5), install mesh match 95/165 = 57.6%, stand-ins 106, material slots known 108/185; colliders 652 (mesh 9, mesh->box 0); P 30; G 109; terrain grids 1
+# H grid <name> ox oy oz dx dz nx nz key=..  +  H row <name> <j> h0..h(nx-1): terrain heights (m above oy) at x = ox + i*dx, z = oz + j*dz
+M 0 Light_Flourescent
+M 1 VendingMachine_Button1
+M 2 ActivityDoor_Right
+M 3 ActivityDoor_Left
+M 4 ActivityDoor_Glow
+M 5 ConstructionCone_LOD0
+M 6 ActivityDoor_Emit
+M 7 button
+M 8 jukebox
+M 9 glass
+M 10 label
+M 11 chair_stackable_LOD0
+M 12 CircuitNode_Board
+M 13 BowlingAlley_Pin
+M 14 ActivityDoor_Frame
+M 15 RecCenter_Cafe_Plate_LOD0
+M 16 WaterBottle_LOD0
+M 17 Door_Sign_LOD0
+M 18 Arrow
+M 19 Rim.Proxy
+M 20 ConstructionCone_LOD2
+M 21 WaterBottle_LOD2
+T 0 Light_Fluorescent_mat
+T 1 VendingMachine_Glass_Mat
+T 2 VendingMachine_Mat
+T 3 ActivityDoor_Mat
+T 4 DoorGlow_Mat
+T 5 TrafficCone_Mat
+T 6 DoorEmit_Mat
+T 7 JukeBox_Mat
+T 8 Glass_Clear_mat
+T 9 ?Chair_Stackable_White_Mat
+T 10 ?Chair_Stackable_Orange_mat
+T 11 Sandbox_CircuitNode_Mat
+T 12 Bowling_Pin_Mat
+T 13 RecCenter_CafeAssets_Mat
+T 14 WaterBottle_Mat
+T 15 DoorSign_mat
+T 16 Slot_Mat
+E fog linear 0.2745 0.5589 0.7843 0.07 2 500
+E ambient 0.5608 0.6471 0.8471 mode=skybox intensity=0.88 equator=0.6431,0.5765,0.5176 ground=0.8353,0.5725,0.3922
+E sky ?SkyboxNight
+G scoreboard (ScoreboardProjector) -5.832 0.1267 11.686 0 -0.4857 0 -0.8741 prefab=(ScoreboardProjector) path=(ScoreboardProjector)
+P (Dart) -10.873 1.1535 17.5115 0 0 0 1 1 1 1
+P (PoolTable) -7.4202 0.6822 25.3336 0 1 0 0 1 1 1
+P (PoolCue) -6.8636 1.2055 28.1191 -0.7044 0.008 0.0086 0.7097 1 1 1
+P (PoolCue) -7.1609 1.2055 28.1176 -0.7059 0.0193 0.0202 0.7078 1 1 1
+P (PoolCue) -7.4637 1.2039 28.1236 -0.7032 0.0873 0.0924 0.6995 1 1 1
+P (PoolCue) -6.5597 1.2054 28.1186 -0.7056 0.0386 0.0386 0.7065 1 1 1
+P (PoolTriangle) -11.1555 1.3896 26.8311 0 0 0 1 1 1 1
+P (PoolCueRack) -7.0144 1.169 28.201 0 1 0 0 1 1 1
+P (Dart) -10.809 1.1535 17.5115 0 0 0 1 1 1 1
+P (Dart) -10.745 1.1535 17.5115 0 0 0 1 1 1 1
+P (Dart) -10.941 1.1535 17.5115 0 0 0 1 1 1 1
+P (Dart) -11.0209 1.1535 17.5115 0 0 0 1 1 1 1
+P (SoloCup) -9.714 1.153 17.666 -0.0001 -0.579 0 -0.8153 1 1 1
+P (SoloCup) -9.984 1.153 17.517 -0.0001 -0.8349 0 -0.5504 1 1 1
+P (Basketball) -14.799 1.267 13.345 0 0 0 1 1 1 1
+P (Basketball) -14.417 1.267 13.345 0 0 0 1 1 1 1
+P (Basketball) -15.229 1.267 13.345 0 0 0 1 1 1 1
+P (RecCenter_Cafe_CoffeePot) 12.186 1.3206 11.471 0 0.7084 0 0.7058 0.8859 0.8859 0.8859
+P (RecCenter_Cafe_Plate) 12.6339 1.2962 11.1914 0 0 0 1 1 1 1
+P (RecCenter_Cafe_Plate) 12.9719 1.2962 11.1914 0 0 0 1 1 1 1
+P (RecCenter_Cafe_Plate) 12.6339 1.2962 11.5084 0 0 0 1 1 1 1
+P (RecCenter_Cafe_Plate) 13.3059 1.2962 11.1914 0 0 0 1 1 1 1
+P (RecCenter_Cafe_Plate) 13.3059 1.2962 11.5084 0 0 0 1 1 1 1
+P (RecCenter_Cafe_Plate) 12.9719 1.2962 11.5084 0 0 0 1 1 1 1
+G weapon_pickup [BowlingBall]%20(13) -7.208 0.751 17.874 0.2836 -0.1975 0.0088 0.9384 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(13)
+G weapon_pickup (BowlingBall) -1.363 0.751 17.874 0.6407 -0.087 -0.0002 0.7629 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/(BowlingBall)
+G weapon_pickup [BowlingBall]%20(7) 5.1329 0.751 17.874 0.4279 -0.3061 0.1675 0.8338 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(7)
+G weapon_pickup [BowlingBall]%20(2) -0.328 0.751 17.874 0.1426 0.3245 -0.0698 0.9324 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(2)
+G weapon_pickup [BowlingBall]%20(12) -6.374 0.751 17.874 0.5777 0.0961 0.007 0.8105 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(12)
+G weapon_pickup [BowlingBall]%20(8) 6.9559 0.751 17.874 0.537 -0.1496 0.0043 0.8302 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(8)
+G weapon_pickup [BowlingBall]%20(9) 6.0939 0.751 17.874 0.6494 0.0459 -0.0344 0.7583 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(9)
+G weapon_pickup [BowlingBall]%20(3) 0.327 0.751 17.874 0.2728 -0.0916 -0.1356 0.948 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(3)
+G weapon_pickup [BowlingBall]%20(6) 4.8129 0.751 17.874 0.2258 -0.0033 0.0207 0.9739 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(6)
+G weapon_pickup [BowlingBall]%20(5) 1.383 0.751 17.874 0.4014 0.0658 0.1478 0.9015 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(5)
+G weapon_pickup [BowlingBall]%20(11) -5.655 0.751 17.874 0.4375 -0.2533 0.0464 0.8616 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(11)
+G weapon_pickup [BowlingBall]%20(10) -5.204 0.751 17.874 0.5039 0.1376 -0.0136 0.8526 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(10)
+G weapon_pickup [BowlingBall]%20(4) 1.092 0.751 17.874 0.5471 -0.1996 0.0647 0.8103 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(4)
+G weapon_pickup [BowlingBall]%20(1) -0.694 0.751 17.874 0.5787 0.2487 0.0018 0.7767 set=DynamicProps prefab=(BowlingBall) path=DynamicProps/[BowlingBall]%20(1)
+P (RecCenter_Cafe_Mug) 11.5319 1.2962 11.3784 0 -0.6645 0 0.7473 1 1 1
+P (RecCenter_Cafe_Mug) 11.7739 1.2962 11.3784 0 -0.6645 0 0.7473 1 1 1
+P (RecCenter_Cafe_Mug) 11.5319 1.2962 11.5724 0 -0.6645 0 0.7473 1 1 1
+P (RecCenter_Cafe_Mug) 11.7739 1.2962 11.5724 0 -0.6645 0 0.7473 1 1 1
+P (RecCenter_Cafe_Mug) 11.7739 1.2962 11.1884 0 -0.6645 0 0.7473 1 1 1
+P (RecCenter_Cafe_Mug) 11.5319 1.2962 11.1884 0 -0.6645 0 0.7473 1 1 1
+G weapon_pickup [BowlingPin]%20SandboxVariant%20(2) -11.4111 1.3874 26.5764 0 0 0 1 set=DynamicProps path=DynamicProps/[BowlingPin]%20SandboxVariant%20(2)
+G weapon_pickup (SandboxBowlingPin) -11.8821 1.3874 26.3843 0 0 0 1 set=DynamicProps prefab=(SandboxBowlingPin) path=DynamicProps/(SandboxBowlingPin)
+G weapon_pickup [BowlingPin]%20SandboxVariant%20(1) -11.6471 1.3874 26.7544 0 0.0062 0 1 set=DynamicProps path=DynamicProps/[BowlingPin]%20SandboxVariant%20(1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 2.48 0.13 -17.2804 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 2.93 0.13 -16.501 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 2.705 0.13 -16.8907 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 2.705 0.13 -17.6701 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 2.255 0.13 -17.6701 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 3.155 0.13 -17.6701 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 3.38 0.13 -17.2804 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 3.155 0.13 -16.8907 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 2.93 0.13 -17.2804 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(PracticeLane1) 3.605 0.13 -17.6701 0 0 0 1 set=PracticeLanePins1 path=Pins/PracticeLanePins1/[BowlingPin]%20(PracticeLane1)
+G weapon_pickup [BowlingPin]%20(BowlingLane) -0.225 0.13 -16.8907 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) -0.675 0.13 -17.6701 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) -0.225 0.13 -17.6701 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) 0.675 0.13 -17.6701 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) 0 0.13 -17.2804 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) -0.45 0.13 -17.2804 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) 0.225 0.13 -16.8907 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) 0 0.13 -16.501 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) 0.45 0.13 -17.2804 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(BowlingLane) 0.225 0.13 -17.6701 0 0 0 1 set=BowlingLanePins path=Pins/BowlingLanePins/[BowlingPin]%20(BowlingLane)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -2.9 0.13 -17.2804 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -2.9 0.13 -16.501 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -2.675 0.13 -17.6701 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -2.45 0.13 -17.2804 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -3.575 0.13 -17.6701 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -2.225 0.13 -17.6701 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -2.675 0.13 -16.8907 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -3.35 0.13 -17.2804 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -3.125 0.13 -17.6701 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G weapon_pickup [BowlingPin]%20(PracticeLane2) -3.125 0.13 -16.8907 0 0 0 1 set=PracticeLanePins2 path=Pins/PracticeLanePins2/[BowlingPin]%20(PracticeLane2)
+G store [BowlingStorefront] 12.1592 0.51 16.1852 0 -1 0 0 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]
+G store StorefrontActivationVolume 11.8408 0.8749 13.9133 0 -1 0 0 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/ActivationVolumes/StorefrontActivationVolume
+G store [StorefrontItemSlot]%20(1) 15.6342 -0.9702 11.385 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(1)
+G store StorefrontItemContainer 15.6342 -0.9056 11.385 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(1)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 15.6342 -0.9676 11.385 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(1)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontItemSlot]%20(7) 9.3443 -0.9702 11.3505 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(7)
+G store StorefrontItemContainer 9.3443 -0.9056 11.3505 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(7)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 9.3443 -0.9676 11.3505 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(7)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontItemSlot]%20(8) 8.6042 -0.9702 11.3505 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(8)
+G store StorefrontItemContainer 8.6042 -0.9056 11.3505 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(8)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 8.6042 -0.9676 11.3505 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(8)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontItemSlot]%20(5) 10.8538 -0.9702 11.3505 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(5)
+G store StorefrontItemContainer 10.8538 -0.9056 11.3505 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(5)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 10.8538 -0.9676 11.3505 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(5)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontItemSlot]%20(2) 14.8941 -0.9702 11.385 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(2)
+G store StorefrontItemContainer 14.8941 -0.9056 11.385 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(2)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 14.8941 -0.9676 11.385 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(2)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontItemSlot]%20(6) 10.099 -0.9702 11.3505 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(6)
+G store StorefrontItemContainer 10.099 -0.9056 11.3505 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(6)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 10.099 -0.9676 11.3505 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(6)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontItemSlot]%20(3) 14.1497 -0.9702 11.385 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(3)
+G store StorefrontItemContainer 14.1497 -0.9056 11.385 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(3)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 14.1497 -0.9676 11.385 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(3)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontItemSlot]%20(4) 13.4019 -0.9702 11.385 0 0 0 1 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(4)
+G store StorefrontItemContainer 13.4019 -0.9056 11.385 0 0 0 1 path=sionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(4)/StorefrontItemContainer
+G store [PlayerPuppet_Storefront]%20Variant 13.4019 -0.9676 11.385 0 0 0 1 active=0 path=owlingStorefront]/CashierCanvas/Slots/[StorefrontItemSlot]%20(4)/StorefrontItemContainer/[PlayerPuppet_Storefront]%20Variant
+G store [StorefrontTokensBalanceRow] 12.1592 0.51 11.1096 0 -1 0 0 path=StaticProps/ConcessionArea/BowlingAlleyMerchBooth/[BowlingStorefront]/CashierCanvas/[StorefrontTokensBalanceRow]
+G game_config [Bowling_GameConfiguration]%20Variant -7.339 0.748 12.649 0 0.7705 0 -0.6375 path=[Bowling_GameConfiguration]%20Variant
+G game_rule [Bowling_GameRuleWrapperCircuit]%20Variant -7.342 0.753 13.41 0 -0.6341 0 0.7733 path=[Bowling_GameRuleWrapperCircuit]%20Variant
+X box 8.498 1.9064 27.5729 0.5757 1.0035 0.5183 0 0 0 1 1 1 1 1
+X box -14.84 1.7681 12.266 0.75 1.4061 1.5 0 0 0 1 1 1 1 1
+# X from a 1.0021 m voxel shell of ?BowlingAlley.StaticProps-23 (3 boxes)
+X box 6.7054 0.0585 14.967 0.501 0.11 3.1475 0 0 0 1 0.1792 0.1792 0.1792 1
+X box -2.8144 0.0585 17.3309 2.0042 0.11 0.501 0 0 0 1 0.1792 0.1792 0.1792 1
+X box 3.1981 0.0585 17.3309 2.0042 0.11 0.501 0 0 0 1 0.1792 0.1792 0.1792 1
+# X from a 2.3776 m voxel shell of ?BowlingAlley.StaticProps-4 (10 boxes)
+X box -0.5364 1.1623 4.0994 4.7552 1.1888 1.1888 0 0 0 1 1 1 1 1
+X box -0.5364 1.1623 10.0434 4.7552 1.1888 2.3776 0 0 0 1 1 1 1 1
+X box 11.3516 1.1623 12.421 4.7552 1.1888 2.3776 0 0 0 1 1 1 1 1
+X box -2.914 1.1623 15.9874 2.3776 1.1888 3.5664 0 0 0 1 1 1 1 1
+X box 3.03 1.1623 14.7986 1.1888 1.1888 2.3776 0 0 0 1 1 1 1 1
+X box -8.858 1.5772 15.9874 1.1888 1.6037 1.1888 0 0 0 1 1 1 1 1
+X box -6.4804 1.1623 18.365 1.1888 1.1888 1.1888 0 0 0 1 1 1 1 1
+X box 0.6524 1.1623 18.365 1.1888 1.1888 1.1888 0 0 0 1 1 1 1 1
+X box 6.5964 1.1623 18.365 2.3776 1.1888 1.1888 0 0 0 1 1 1 1 1
+X box -11.2356 1.5772 20.1446 1.1888 1.6037 0.5908 0 0 0 1 1 1 1 1
+X box -0.0087 1.283 -16.133 3.1694 0.2097 0.0417 0 0 0 1 1 1 1 1
+# X from a 1.0915 m voxel shell of ?BowlingAlley.StaticProps-22 (3 boxes)
+X box 7.7338 0.2055 15.1015 0.5458 0.01 3.2745 0 0 0 1 0 0 0 1
+X box -3.1813 0.2055 18.042 1.6373 0.01 0.7575 0 0 0 1 0 0 0 1
+X box 2.822 0.2055 18.042 2.183 0.01 0.7575 0 0 0 1 0 0 0 1
+X box 11.7515 2.2174 12.3458 4.0941 1.0157 1.4039 0 0 0 1 1 1 1 1
+X box -7.34 5.0016 25.3212 0.8945 2.031 0.3771 0 0 0 1 0.9717 0.8189 0.6096 1
+X box -10.8683 0.867 22.1859 1.5028 0.517 5.0909 0 0 0 1 0.6863 0.4549 0.2314 1
+X box -10.286 1.4912 12.4902 1.0125 1.155 1.7795 0 0 0 1 1 1 1 1
+X box 4.44 1.73 27.831 1.5422 1.375 0.3663 0 0 0 1 0.8585 0.8585 0.8585 1
+# X from a 1.5083 m voxel shell of ?BowlingAlley.StaticProps-30 (2 boxes)
+X box -11.6217 2.9728 27.4652 1.5083 0.7542 0.7354 0 0 0 1 1 1 1 1
+X box 4.2155 4.283 27.4652 0.7542 2.0643 0.7354 0 0 0 1 1 1 1 1
+X box -5.331 1.993 28.167 0.7256 0.3685 0 0 0 0 1 1 1 1 1
+X box -15.888 2.355 15.38 0 0.3685 0.7256 0 0 0 1 1 1 1 1
+X box 0 5.0851 8.7811 3.8041 1.1393 0.4568 0 0 0 1 1 1 1 1
+X box 15.7406 3.0376 23.1978 0.1011 0.5602 0.4274 0 0 0 1 1 1 1 1
+X box -0.0003 0.1457 7.852 1.2019 0.0281 0.0325 0 0 0 1 1 0 0 1
+X box -12.591 2.3271 10.887 1.0756 0.6725 0.1328 0 0 0 1 0.9294 0.3961 0.1725 1
+X box -7.3341 2.4708 25.3204 1.2311 0.5799 0.5722 0 0 0 1 0.2976 0.2699 0.1013 1
+# X from a 2.7803 m voxel shell of ?BowlingAlley.StaticProps-5 (2 boxes)
+X box -9.3231 0.4809 25.656 6.9509 0.437 4.8092 0 0 0 1 0.1685 0.0865 0.2264 1
+X box 11.5295 0.4809 25.656 5.5607 0.437 4.8092 0 0 0 1 0.1685 0.0865 0.2264 1
+X box -14.8398 2.5331 11.7232 0.727 0.5372 0.8556 0 0 0 1 0.55 0.55 0.55 1
+# X from a 2.5029 m voxel shell of ?BowlingAlley.StaticProps-38 (2 boxes)
+X box -14.7146 5.2026 18.4062 1.2514 1.2514 2.5708 0 0 0 1 1 1 1 1
+X box 11.5657 5.4517 17.0869 2.5029 1.5005 1.2514 0 0 0 1 1 1 1 1
+# X from a 2.3442 m voxel shell of ?BowlingAlley.StaticProps-18 (6 boxes)
+X box 1.0392 7.04 14.1734 4.6884 0.0452 2.3442 0 0 0 1 1 0.9661 0.9104 1
+X box -11.8539 7.04 15.3455 3.5163 0.0452 1.1721 0 0 0 1 1 0.9661 0.9104 1
+X box -4.8213 7.04 15.3455 1.1721 0.0452 1.1721 0 0 0 1 1 0.9661 0.9104 1
+X box -5.9934 7.04 23.5503 4.6884 0.0452 2.3442 0 0 0 1 1 0.9661 0.9104 1
+X box 9.2439 7.04 23.5503 3.5163 0.0452 2.3442 0 0 0 1 1 0.9661 0.9104 1
+X box -7.1655 7.04 26.2306 3.5163 0.0452 0.3362 0 0 0 1 1 0.9661 0.9104 1
+# X from a 2.3188 m voxel shell of ?BowlingAlley.StaticProps-16 (8 boxes)
+X box -0.1456 6.7339 14.2918 3.4781 0.1164 2.3188 0 0 0 1 0 0 0 1
+X box -11.7394 6.7339 15.4512 3.4781 0.1164 1.1594 0 0 0 1 0 0 0 1
+X box -4.7831 6.7339 15.4512 1.1594 0.1164 1.1594 0 0 0 1 0 0 0 1
+X box 4.4919 6.7339 15.4512 1.1594 0.1164 1.1594 0 0 0 1 0 0 0 1
+X box -5.9425 6.7339 23.5669 4.6375 0.1164 2.3188 0 0 0 1 0 0 0 1
+X box 9.1294 6.7339 23.5669 3.4781 0.1164 2.3188 0 0 0 1 0 0 0 1
+X box -9.4207 6.7339 26.1543 1.1594 0.1164 0.2686 0 0 0 1 0 0 0 1
+X box -4.7831 6.7339 26.1543 1.1594 0.1164 0.2686 0 0 0 1 0 0 0 1
+# X from a 1.0243 m voxel shell of ?BowlingAlley.StaticProps-41 (4 boxes)
+X box -5.6385 2.287 -0.7834 0.5121 1.5364 3.5488 0 0 0 1 1 0.8944 0.6745 1
+X box 5.6285 2.287 -0.7834 0.5121 1.5364 3.5488 0 0 0 1 1 0.8944 0.6745 1
+X box -5.6385 3.9264 -0.7473 0.5121 0.103 2.5607 0 0 0 1 1 0.8944 0.6745 1
+X box 5.6285 3.9264 -0.7473 0.5121 0.103 2.5607 0 0 0 1 1 0.8944 0.6745 1
+X box 14.8852 3.0366 25.1364 0.2564 0.5603 0.3566 0 0 0 1 1 1 1 1
+X box -10.4362 2.5551 22.203 2.6004 0.7621 5.7637 0 0 0 1 0 0.6207 1 0.2392
+# X from a 2.7803 m voxel shell of ?BowlingAlley.StaticProps-21 (5 boxes)
+X box 7.359 0.5432 21.1423 1.3902 0.3747 9.3228 0 0 0 1 1 1 1 1
+X box 0.4081 0.5432 18.7703 5.5607 0.3747 1.3902 0 0 0 1 1 1 1 1
+X box -9.3231 0.5432 21.5507 6.9509 0.3747 1.3902 0 0 0 1 1 1 1 1
+X box 12.9197 0.5432 21.5507 4.1705 0.3747 1.3902 0 0 0 1 1 1 1 1
+X box -3.7624 0.5432 26.703 1.3902 0.3747 3.7621 0 0 0 1 1 1 1 1
+X box 0 3.44 -14.89 5.6107 1.1468 0.0233 0.2678 0 0 0.9635 1 1 1 1
+X box 8.3749 2.0415 27.1685 0.3695 0.5163 0.0169 0 0 0 1 0.1145 0.4356 0.629 0.1255
+X box -14.84 2.6719 11.0783 0.6474 0.4316 0.2177 0 0 0 1 1 1 1 1
+X box 13.3144 3.0481 24.0477 2.6007 0.7717 3.7967 0 0 0 1 1 0.8535 0.517 1
+X box 13.2769 3.0376 26.648 0.368 0.5603 0.2399 0 0 0 1 1 1 1 1
+# X from a 1.2024 m voxel shell of ?BowlingAlley.StaticProps-3 (3 boxes)
+X box -6.1323 0.2733 17.865 1.2024 0.1242 0.1239 0 0 0 1 1 1 1 1
+X box -0.1205 0.2733 17.865 2.4047 0.1242 0.1239 0 0 0 1 1 1 1 1
+X box 5.2902 0.2733 17.865 1.8036 0.1242 0.1239 0 0 0 1 1 1 1 1
+X box 11.8436 1.6195 13.3299 0.5069 0.3746 0.2567 0 0 0 1 1 1 1 1
+X box 11.86 1.7619 13.2067 0.6522 0.542 0.4912 0 0 0 1 0.3185 0.5584 0.6078 0.1098
+X box 11.327 3.0376 27.641 0.4147 0.5603 0.1449 0 0 0 1 1 1 1 1
+X box 15.8401 3.5607 13.44 0.0679 1.073 0.4219 0 0 0 1 1 1 1 1
+X box 15.9013 3.0376 20.8499 0.0051 0.5604 0.4393 0 0 0 1 1 1 1 1
+X box 11.8575 0.3922 14.4 2.8617 0.0065 0.3279 0 0 0 1 1 1 1 1
+X box -12.591 2.1917 10.8244 0.4006 0.4006 0.0482 0 0 0 1 1 1 1 1
+X box -10.5575 2.795 27.8892 0.3925 0.576 0.1758 0 0 0 1 1 1 1 1
+X box 0 5.1045 8.5634 3.8376 1.2848 0.745 0 0 0 1 1 1 1 1
+X box 6.98 2.03 28.186 0.3976 0.5964 0 0 0 0 1 1 1 1 1
+R 0 0 0.08 5.6 31.7 0 0 0 1 1 1 1
+R 1 1,2 8.9006 1.9884 27.1681 0 1 0 0 1 1 1
+R 1 1,2 8.9006 2.1254 27.1681 0 1 0 0 1 1 1
+R 0 0 11.8 5.11 12.79 0 0.7071 0 0.7071 1 1 1
+R 1 1,2 8.9006 2.3976 27.1681 0 1 0 0 1 1 1
+R 2 3 0.9052 1.4012 35.2989 0 1 0 0 1 1 1
+R 3 3 -0.9059 1.3813 35.2989 0 1 0 0 1 1 1
+R 4 4 0 0.38 35.416 0 1 0 0 1 1 1
+R 5 5 -9.4457 0.5992 24.3179 0 0.9134 0 0.4071 1.2 1.2 1.2
+R 5 5 -5.4469 0.5992 23.8134 0 0.9134 0 0.4071 1.2 1.2 1.2
+R 1 1,2 8.9006 2.2622 27.1681 0 1 0 0 1 1 1
+R 6 6 -0.0016 1.2624 35.352 0 1 0 0 1 1 1
+X box -3.8901 1.124 -16.061 0.2211 0.2211 0 0 1 0 0 1 0 0 1
+X box 1.9399 1.124 -16.061 0.2211 0.2211 0 0 1 0 0 1 0 0 1
+X box -0.9901 1.124 -16.061 0.2211 0.2211 0 0 1 0 0 1 0 0 1
+R 7 7 -3.9379 1.7221 27.4601 -0.0811 -0.7123 0.0788 0.6927 0.7536 0.7536 -0.7536
+R 8 7 -3.61 0.604 27.85 0 -0.7169 0 0.6972 1.1215 1.1215 1.1215
+X box -0.0074 -0.2225 -4.2362 0.9697 0.3432 11.4834 0 0 0 1 1 1 1 1
+X box 2.93 1.0583 -16.9444 1.1599 0.7273 0.3475 -0.4421 0 0 0.8969 1 1 1 1
+X box 0 1.0583 -16.9444 1.1599 0.7273 0.3475 -0.4421 0 0 0.8969 1 1 1 1
+X box -2.9 1.0583 -16.9444 1.1599 0.7273 0.3475 -0.4421 0 0 0.8969 1 1 1 1
+X box -0.9913 1.1116 -16.1326 0.0847 0.0847 0.0337 0 0 0 1 1 1 1 1
+X box -3.9153 1.4346 -16.1326 0.0847 0.0847 0.0337 0 0 0 1 1 1 1 1
+X box -3.9153 1.1116 -16.1326 0.0847 0.0847 0.0337 0 0 0 1 1 1 1 1
+X box 1.9247 1.1116 -16.1326 0.0847 0.0847 0.0337 0 0 0 1 1 1 1 1
+X box -0.9913 1.4346 -16.1326 0.0847 0.0847 0.0337 0 0 0 1 1 1 1 1
+X box 1.9247 1.4346 -16.1326 0.0847 0.0847 0.0337 0 0 0 1 1 1 1 1
+X box 5.2175 1.1311 27.7786 0.0544 0.0615 0.1546 0 -0.2871 0 0.9579 1 1 1 1
+R 9 8 -3.61 0.604 27.85 0 -0.7169 0 0.6972 1.1215 1.1215 1.1215
+R 10 7 -3.5936 1.7059 27.4656 -0.0812 -0.7123 0.0789 0.6927 0.8995 1.0004 0.8996
+R 7 7 -3.26 1.7221 27.479 -0.0811 -0.7123 0.0788 0.6927 0.7536 0.7536 0.7536
+X box -0.9901 1.4518 -16.061 0.2211 0.2211 0 0 1 0 0 1 0 0 1
+X box 1.9399 1.4518 -16.061 0.2211 0.2211 0 0 1 0 0 1 0 0 1
+X box -3.8901 1.4518 -16.061 0.2211 0.2211 0 0 1 0 0 1 0 0 1
+R 11 9 9.636 0.882 23.44 0 0 0 1 1 1 1
+R 11 10 -1.889 0.027 14.4 0 -0.7071 0 0.7071 1 1 1
+R 11 9 2.13 0.027 14.4 0 0.7071 0 0.7071 1 1 1
+R 11 9 14.2275 0.916 22.8809 0 0.4274 0 -0.9041 1 1 1
+R 11 10 -3.365 0.027 15.385 0 0.7071 0 0.7071 1 1 1
+R 11 9 12.4973 0.916 24.4185 0 0.9041 0 0.4274 1 1 1
+R 11 10 8.483 0.882 24.71 0 0.7071 0 0.7071 1 1 1
+R 11 10 3.606 0.027 14.4 0 -0.7071 0 0.7071 1 1 1
+R 11 10 14.098 0.916 24.535 0 0.9415 0 -0.3371 1 1 1
+R 11 9 3.606 0.027 15.385 0 -0.7071 0 0.7071 1 1 1
+R 11 9 9.646 0.882 25.816 0 1 0 0 1 1 1
+R 11 9 -3.365 0.027 14.4 0 0.7071 0 0.7071 1 1 1
+R 11 10 2.13 0.027 15.385 0 0.7071 0 0.7071 1 1 1
+R 11 10 10.796 0.882 24.62 0 0.7071 0 -0.7071 1 1 1
+R 11 10 12.5822 0.9101 22.7053 0 0.3371 0 0.9415 1 1.012 1
+R 11 9 -1.889 0.027 15.385 0 -0.7071 0 0.7071 1 1 1
+X box 0 0.8982 -16.9941 0.7735 0.1957 0.6631 0 0 0 1 1 1 1 1
+X box 2.93 0.8982 -16.9941 0.7735 0.1957 0.6631 0 0 0 1 1 1 1 1
+X box -2.9 0.8982 -16.9941 0.7735 0.1957 0.6631 0 0 0 1 1 1 1 1
+R 12 11 -7.339 0.748 12.649 -0.4508 -0.4508 -0.5448 -0.5448 1 1 1
+X box -12.3203 1.1354 23.4555 0.4567 0.5419 0.5202 0 0.9986 0 0.0523 1 1 1 1
+X box -11.9558 1.1354 24.9236 0.4567 0.5419 0.5202 0 0.9657 0 -0.2596 1 1 1 1
+R 13 12 -11.6471 1.3884 26.7544 0 0.0062 0 1 1.5 1.5 1.5
+R 13 12 -11.4111 1.3884 26.5764 0 0 0 1 1.5 1.5 1.5
+R 14 3 0 0.373 35.393 0 1 0 0 1 1 1
+R 15 13 11.4865 1.9371 13.2096 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.8715 1.9371 13.2073 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.8715 1.5879 13.3033 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.6751 1.9371 12.907 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.846 1.2288 13.0187 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.4675 1.2319 13.4656 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.846 1.2288 13.0187 0 -0.705 0 0.7092 1 1 1
+R 15 13 12.2405 1.5879 13.3011 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.4865 1.5879 13.3056 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.838 1.2328 13.4647 0 -0.7101 0 -0.7041 1 1 1
+R 15 13 12.0601 1.9371 12.9047 0 -0.705 0 0.7092 1 1 1
+R 15 13 12.0601 1.5771 12.9047 0 -0.705 0 0.7092 1 1 1
+R 15 13 12.236 1.2298 13.46 0 0.7126 0 0.7016 1 1 1
+R 15 13 12.232 1.2288 13.0187 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.6751 1.5771 12.907 0 -0.705 0 0.7092 1 1 1
+R 15 13 11.43 1.2288 13.021 0 -0.705 0 0.7092 1 1 1
+R 15 13 12.2405 1.9371 13.2051 0 -0.705 0 0.7092 1 1 1
+R 12 11 -7.342 0.753 13.41 0.5468 0.5468 0.4483 0.4483 1 1 1
+R 16 14 8.498 1.516 27.649 0 1 0 0 1 1 1
+R 16 14 8.498 1.516 27.649 0 1 0 0 1 1 1
+R 13 12 0.225 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 -2.225 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 -2.675 0.1311 -16.8907 0 0 0 1 1.5 1.5 1.5
+R 13 12 3.605 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 -3.125 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 -3.125 0.1311 -16.8907 0 0 0 1 1.5 1.5 1.5
+R 13 12 -3.35 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 3.38 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 3.155 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 0 0.1311 -16.501 0 0 0 1 1.5 1.5 1.5
+R 13 12 0.45 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 2.93 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 3.155 0.1311 -16.8907 0 0 0 1 1.5 1.5 1.5
+R 13 12 -2.45 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 2.93 0.1311 -16.501 0 0 0 1 1.5 1.5 1.5
+R 13 12 -0.45 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 2.705 0.1311 -16.8907 0 0 0 1 1.5 1.5 1.5
+R 13 12 2.705 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 2.255 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 0.225 0.1311 -16.8907 0 0 0 1 1.5 1.5 1.5
+R 13 12 -3.575 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 -0.225 0.1311 -16.8907 0 0 0 1 1.5 1.5 1.5
+R 13 12 2.48 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 -2.9 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 -2.9 0.1311 -16.501 0 0 0 1 1.5 1.5 1.5
+R 13 12 -0.225 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 0.675 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 -2.675 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 13 12 0 0.1311 -17.2804 0 0 0 1 1.5 1.5 1.5
+R 13 12 -0.675 0.1311 -17.6701 0 0 0 1 1.5 1.5 1.5
+R 16 14 8.498 1.516 27.649 0 1 0 0 1 1 1
+X box -8.4274 1.3744 11.4204 0.6699 1.0075 0.5786 0 -0.0011 0 1 1 1 1 1
+R 16 14 8.498 1.516 27.649 0 1 0 0 1 1 1
+R 17 15 0 2.902 35.417 0 0.7071 0 0.7071 1 1 1
+R 18 16 -11.4831 1.5389 26.5695 0 0 0 1 0.4286 0.4286 0.4286
+R 18 16 -11.7192 1.5389 26.7484 0 0.0062 0 1 0.4286 0.4286 0.4286
+R 18 16 -11.7192 1.6589 26.7484 0 0.0062 0 1 0.4286 0.4286 0.4286
+R 18 16 -11.4831 1.6589 26.5695 0 0 0 1 0.4286 0.4286 0.4286
+X box 9.606 1.2616 24.67 0.8719 0.3967 0.8719 0 0 0 1 1 1 1 1
+X box 13.3416 1.2956 23.5827 0.8719 0.3967 0.8719 0 0.3371 0 0.9415 1 1 1 1
+R 16 14 8.498 1.516 27.649 0 1 0 0 1 1 1
+C mesh 19 -14.84 2.4359 11.1265 -0.7013 0 0 0.7128 0.708 0.708 0.708
+# C from a 0.5 m voxel shell of ?Dartboard_LOD2 (mesh not in the install; 1 boxes)
+C box -12.591 2.1917 10.8205 -0.7071 0 0 0.7071 0.8013 0.0886 0.8013
+C mesh 19 -14.84 2.4331 11.1265 -0.7013 0 0 0.7128 0.7293 0.7293 0.7293
+# C from a 0.5 m voxel shell of ?Dartboard_LOD0 (mesh not in the install; 1 boxes)
+C box -12.591 2.1917 10.8244 -0.7071 0 0 0.7071 0.8013 0.0965 0.8013
+# C from a 0.5 m voxel shell of ?Dartboard_LOD1 (mesh not in the install; 1 boxes)
+C box -12.591 2.1917 10.8244 -0.7071 0 0 0.7071 0.8013 0.0965 0.8013
+C mesh 20 -9.4457 0.5992 24.3179 0 0.9134 0 0.4071 1.2 1.2 1.2
+C mesh 20 -5.4469 0.5992 23.8134 0 0.9134 0 0.4071 1.2 1.2 1.2
+C mesh 21 8.498 1.516 27.649 0 1 0 0 1 1 1
+C mesh 21 8.498 1.516 27.649 0 1 0 0 1 1 1
+# C from a 0.5 m voxel shell of ?RecCenter_Cafe_Table_Collision1 (mesh not in the install; 2 boxes)
+C box 13.2737 1.6548 23.5 0 0.3371 0 0.9415 1.714 0.0751 1.5
+C box 13.735 1.6548 24.2301 0 0.3371 0 0.9415 1.5 0.0751 0.214
+# C from a 0.5 m voxel shell of ?RecCenter_Cafe_Table_Collision1 (mesh not in the install; 2 boxes)
+C box 9.606 1.6208 24.563 0 0 0 1 1.714 0.0751 1.5
+C box 9.499 1.6208 25.42 0 0 0 1 1.5 0.0751 0.214
+# C from a 0.5 m voxel shell of ?RecCenter_Cafe_Table_Collision1 (mesh not in the install; 2 boxes)
+C box 13.2737 1.6548 23.5 0 0.3371 0 0.9415 1.714 0.0751 1.5
+C box 13.735 1.6548 24.2301 0 0.3371 0 0.9415 1.5 0.0751 0.214
+# C from a 0.5 m voxel shell of ?RecCenter_Cafe_Table_Collision1 (mesh not in the install; 2 boxes)
+C box 9.606 1.6208 24.563 0 0 0 1 1.714 0.0751 1.5
+C box 9.499 1.6208 25.42 0 0 0 1 1.5 0.0751 0.214
+# C from a 0.5 m voxel shell of ?RecCenter_Cafe_Table_Collision1 (mesh not in the install; 2 boxes)
+C box 13.2737 1.6548 23.5 0 0.3371 0 0.9415 1.714 0.0751 1.5
+C box 13.735 1.6548 24.2301 0 0.3371 0 0.9415 1.5 0.0751 0.214
+# C from a 0.5 m voxel shell of ?RecCenter_Cafe_Table_Collision1 (mesh not in the install; 2 boxes)
+C box 9.606 1.6208 24.563 0 0 0 1 1.714 0.0751 1.5
+C box 9.499 1.6208 25.42 0 0 0 1 1.5 0.0751 0.214
+C mesh 21 8.498 1.516 27.649 0 1 0 0 1 1 1
+C mesh 21 8.498 1.516 27.649 0 1 0 0 1 1 1
+C mesh 21 8.498 1.516 27.649 0 1 0 0 1 1 1
+C box 7.743 0.077 13.396 0 0.7071 0 0.7071 3.1531 0.2569 1.0731
+C box 2.87 0.551 14.8736 0 0 0 1 0.9135 0.6999 1.5718
+G trigger_zone TeleportVolume%20(2) 14.236 1.6101 14.4 0 0.7071 0 -0.7071 shape=box size=0.306,2.4483,1.2241
+G trigger_zone TeleportVolume%20(2) 9.479 1.6102 14.4 0 0.7071 0 -0.7071 shape=box size=0.306,2.4483,1.2242
+C box 3.126 0.077 18.263 0 0 0 1 2.8687 0.2569 1.0731
+C box -7.34 5.0016 25.3212 0 0 0 1 1.7889 4.0619 0.7542
+C box -2.62 0.551 14.8736 0 0 0 1 0.9135 0.6999 1.5718
+C box -14.84 2.6719 10.8695 -0.7071 0 0 0.7071 1.2949 0.018 0.8632
+C box 7.743 0.077 16.538 0 0.7071 0 0.7071 3.1531 0.2569 1.0731
+C box 8.0096 1.6624 27.6353 0 1 0 0 0.1654 1.1642 0.918
+C box -12.2844 0.6132 26.4392 0 -0.3193 0 0.9477 0.0605 0.0594 0.0811
+C box -11.8284 0.6132 25.8393 0 -0.3193 0 0.9477 0.0605 0.0594 0.0811
+G trigger_zone VendingMachine_Button4 8.9006 1.9884 27.1655 0 1 0 0 shape=box size=0.1494,0.0885,0.0352
+C box -11.2889 0.3792 17.1565 0 0 0 1 0.0899 0.0594 0.07
+C box -11.2889 0.3792 17.807 0 0 0 1 0.0899 0.0594 0.07
+G trigger_zone VendingMachine_Button1 8.9006 2.3976 27.1655 0 1 0 0 shape=box size=0.1494,0.0885,0.0352
+C box -10.8478 0.6132 26.5847 0 -0.3193 0 0.9477 0.0605 0.0594 0.0811
+C box -9.4583 0.3792 17.1565 0 0 0 1 0.0899 0.0594 0.07
+C box -11.3274 0.9561 27.1205 -0.0798 -0.3229 0.0642 0.9409 0.0953 0.7217 0.1086
+C box 0 1.4453 35.3485 0 1 0 0 2.0452 2.1446 0.196
+C box -9.518 0.7212 17.7706 -0.0551 -0.0056 0.0863 0.9947 0.1416 0.7217 0.0937
+C box 15.8299 3.0486 20.8512 0.4971 -0.5029 -0.5029 -0.4971 1.1987 0.1622 1.5421
+C box -13.3979 2.3271 10.887 -0.7071 0 0 0.7071 0.5371 0.0349 1.345
+C box -10.3745 1.0686 17.485 0 0 0 1 1.6149 0.0516 0.5711
+C box -11.5689 1.3026 26.5145 0 -0.3193 0 0.9477 1.0867 0.0516 0.6616
+C box 11.303 3.0486 27.5738 -0.697 0.1182 0.1183 0.6973 1.1987 0.1622 1.5421
+C box -11.7845 1.788 10.9662 -0.7071 0 0 0.7071 0.4789 0.1265 0.062
+C box 8.498 1.2827 27.2887 0 0.9958 -0.0913 0 0.7473 0.0323 0.4589
+C box -12.5897 1.6699 10.8314 -0.7071 0 0 0.7071 1.082 0.1543 0.0308
+C box -14.84 2.4204 10.9198 -0.6797 0 0 0.7335 0.1194 0.085 0.068
+C box -10.9181 0.9561 26.5821 0.0272 -0.332 0.099 0.9377 0.0953 0.7217 0.1086
+C box -12.2088 0.9557 26.4505 -0.0282 -0.3146 -0.0897 0.9446 0.0953 0.7217 0.1086
+C box 13.2375 3.0486 26.5884 -0.6777 0.2014 0.2015 0.6779 1.1987 0.1622 1.5421
+C box 14.827 3.0476 25.0951 -0.6291 0.3225 0.3227 0.6293 1.1987 0.1622 1.5421
+C box -12.5907 2.1917 10.767 -0.7071 0 0 0.7071 1.082 0.0256 1.0743
+C box -11.2119 0.7225 17.7706 -0.0553 0.0035 -0.076 0.9956 0.1416 0.7217 0.0937
+C box -9.518 0.7212 17.1959 0.0574 -0.0152 0.0851 0.9946 0.1416 0.7217 0.0937
+C box -13.3996 1.788 10.9662 -0.7071 0 0 0.7071 0.4789 0.1265 0.062
+C box 15.671 3.0486 23.1818 -0.5545 0.4386 0.4388 0.5546 1.1987 0.1622 1.5421
+C box 8.498 2.0058 27.2116 0 1 0 0 1.1422 1.0996 0.0704
+C box 8.498 1.1264 27.6353 0 1 0 0 1.1422 0.0917 0.918
+C box -11.7839 2.3271 10.8869 -0.7071 0 0 0.7071 0.5371 0.0348 1.345
+C box -13.3979 2.3271 10.887 -0.7071 0 0 0.7071 0.5371 0.0349 1.345
+C box 8.9897 1.0041 27.2693 0 1 0 0 0.128 0.1996 0.1239
+C box 8.8539 1.3076 27.1801 0 0.9479 0.3187 0 0.0705 0.1996 0.1114
+C box -12.5907 2.1917 10.767 -0.7071 0 0 0.7071 1.082 0.0256 1.0743
+C box -10.3745 1.1184 17.485 0 0 0 1 2.0071 0.0701 0.7893
+C box -11.5689 1.3524 26.5145 0 -0.3193 0 0.9477 1.3506 0.0701 0.9144
+G trigger_zone VendingMachine_Button2 8.9006 2.2622 27.1655 0 1 0 0 shape=box size=0.1494,0.0885,0.0352
+C box 15.671 3.0486 23.1818 -0.5545 0.4386 0.4388 0.5546 1.1987 0.1622 1.5421
+C box 8.9864 1.6624 27.6353 0 1 0 0 0.1654 1.1642 0.918
+C box -13.1154 2.1916 10.8312 -0.7071 0 0 0.7071 0.0312 0.1543 1.0743
+C box 8.498 1.2677 27.0535 0 0.9958 -0.0913 0 0.7473 0.029 0.0184
+C box -12.5902 2.7153 10.8314 -0.7071 0 0 0.7071 1.082 0.1543 0.027
+C box 14.827 3.0476 25.0951 -0.6291 0.3225 0.3227 0.6293 1.1987 0.1622 1.5421
+C box -13.3996 1.788 10.9662 -0.7071 0 0 0.7071 0.4789 0.1265 0.062
+C box 13.2375 3.0486 26.5884 -0.6777 0.2014 0.2015 0.6779 1.1987 0.1622 1.5421
+C box -13.3981 2.3271 10.8873 -0.7071 0 0 0.7071 0.5371 0.0355 1.345
+C box 11.303 3.0486 27.5738 -0.697 0.1182 0.1183 0.6973 1.1987 0.1622 1.5421
+C box 8.146 1.3076 27.1801 0 0.9479 0.3187 0 0.0704 0.1996 0.1114
+C box -11.2119 0.7226 17.1959 0.0542 -0.0243 -0.0772 0.9952 0.1416 0.7217 0.0937
+C box -11.7995 0.9557 25.9122 0.076 -0.3408 -0.0558 0.9354 0.0953 0.7217 0.1086
+C box -12.5897 1.6699 10.8314 -0.7071 0 0 0.7071 1.082 0.1543 0.0308
+C box -13.1154 2.1916 10.8312 -0.7071 0 0 0.7071 0.0312 0.1543 1.0743
+C box -12.5907 2.1917 10.767 -0.7071 0 0 0.7071 1.082 0.0256 1.0743
+C box 15.8299 3.0486 20.8512 0.4971 -0.5029 -0.5029 -0.4971 1.1987 0.1622 1.5421
+C box -12.5902 2.7153 10.8314 -0.7071 0 0 0.7071 1.082 0.1543 0.027
+G trigger_zone Bullseye -12.587 2.191 10.839 -0.7071 0 0 0.7071 shape=box size=0.7959,0.0672,0.7959
+G trigger_zone VendingMachine_Button3 8.9006 2.1254 27.1655 0 1 0 0 shape=box size=0.1494,0.0885,0.0352
+C box 8.498 1.1782 27.2779 0 0.9889 0.1487 0 0.7473 0.0373 0.4589
+C box 7.9997 1.0041 27.2693 0 1 0 0 0.128 0.1996 0.1239
+C box 8.498 2.2665 27.6353 0 1 0 0 1.1422 1.2892 0.918
+C box -11.3038 0.6132 27.1846 0 -0.3193 0 0.9477 0.0605 0.0594 0.0811
+C box 8.9897 1.0041 28.0263 0 1 0 0 0.128 0.1996 0.1239
+C box -9.4583 0.3792 17.807 0 0 0 1 0.0899 0.0594 0.07
+C box -12.5902 2.7153 10.8314 -0.7071 0 0 0.7071 1.082 0.1543 0.027
+C box -11.7839 2.3271 10.8869 -0.7071 0 0 0.7071 0.5371 0.0348 1.345
+C box -12.0671 2.1916 10.8313 -0.7071 0 0 0.7071 0.0367 0.1543 1.0743
+C box -12.0671 2.1916 10.8313 -0.7071 0 0 0.7071 0.0367 0.1543 1.0743
+C box -12.5897 1.6699 10.8314 -0.7071 0 0 0.7071 1.082 0.1543 0.0308
+C box -11.7839 2.3271 10.8869 -0.7071 0 0 0.7071 0.5371 0.0348 1.345
+C box -13.3996 1.788 10.9662 -0.7071 0 0 0.7071 0.4789 0.1265 0.062
+C box -11.7845 1.788 10.9662 -0.7071 0 0 0.7071 0.4789 0.1265 0.062
+C box -11.7845 1.788 10.9662 -0.7071 0 0 0.7071 0.4789 0.1265 0.062
+C box -12.0671 2.1916 10.8313 -0.7071 0 0 0.7071 0.0367 0.1543 1.0743
+C box -13.1154 2.1916 10.8312 -0.7071 0 0 0.7071 0.0312 0.1543 1.0743
+C box 7.9997 1.0041 28.0263 0 1 0 0 0.128 0.1996 0.1239
+C box 8.498 1.4791 27.8486 0 1 0 0 1.1422 0.797 0.4915
+C box 12.9636 2.1986 13.2908 0.6242 -0.6242 0.3323 0.3323 0.2371 1.5972 0.1496
+C box 11.8633 1.2192 13.2059 0 -0.7071 0 0.7071 0.9899 0.0351 1.2768
+C box 11.2129 1.382 13.5808 0 -0.7071 0 0.7071 0.1163 0.3561 0.0816
+C box -15.5485 0.8117 12.3376 0 0 0 1 0.0929 0.9259 2.8027
+C box 5.442 1.0416 -17.2756 0 0 0 1 2.6052 1.7362 2.6686
+C box -0.038 3.5454 -17.3174 0 0 0 1 12.7027 2.763 4.8923
+C box 5.3076 -0.3666 -5.2931 0 0 0 1 1.9075 0.9867 26.3233
+C box 11.1666 3.56 27.9227 0 0.1766 0 0.9843 2.6736 7.1008 0.6785
+C box 1.4578 -0.2566 -4.0648 0 0 0 1 0.5644 0.9867 23.8667
+C box -0.038 5.8527 -3.9439 0 0 0 1 12.7027 2.8054 24.0844
+C box -0.2465 2.5814 -5.9757 0 0 0 1 13.7203 8.716 26.1742
+C box -0.2465 -0.1066 28.1601 0 0 0 1 33.0322 0.9867 20.1538
+C box -3.6091 2.2671 27.8186 0 -0.7169 0 0.6972 0.502 0.2622 0.857
+C box 12.185 1.9227 11.3287 0 0.7071 0 0.7071 0.6294 0.1523 0.3693
+C box -1.2289 0.9345 19.1173 0 0.7701 0 0.638 0.4281 0.3197 0.0828
+C box -6.6737 0.9345 19.1185 0 0.7071 0 0.7071 0.4281 0.3197 0.0828
+C box -5.4461 0.9345 19.114 0 0.9321 0 0.3622 0.4281 0.3197 0.0828
+C box 5.5244 0.9345 19.1185 0 0.7071 0 0.7071 0.4281 0.3197 0.0828
+C box 0.0063 0.9345 19.1185 0 0.7071 0 0.7071 0.4281 0.3197 0.0828
+C box 6.7528 0.9345 19.1233 0 0.3621 0 0.9322 0.4281 0.3197 0.0828
+C box 1.2349 0.9345 19.123 0 0.3914 0 0.9202 0.4281 0.3197 0.0828
+G trigger_zone InteractionVolume 11.7892 1.5857 13.9133 0 -1 0 0 shape=box size=7.8409,2.1514,2.8141
+C box 0.0038 1.1285 17.881 0 0 0 1 3.4461 0.0901 0.391
+C box -6.1216 1.1285 17.881 0 0 0 1 2.6669 0.0901 0.391
+C box 5.8743 1.1285 17.881 0 0 0 1 2.6669 0.0901 0.391
+C box -4.2089 1.9329 27.8019 0.4676 -0.5317 0.4808 0.5171 0.502 0.1666 0.39
+C box -1.4381 0.7203 9.83 0 0 0 1 0.4716 0.1316 0.9459
+C box 1.4699 0.7203 9.83 0 0 0 1 0.4716 0.1316 0.9459
+C box 12.185 1.6513 11.1299 0 0.7071 0 0.7071 0.2318 0.6952 0.3693
+C box -5.3024 -0.3666 -5.4064 0 0 0 1 1.9075 0.9867 26.5499
+C box 12.5063 1.5918 13.4631 0 -0.7071 0 0.7071 0.1349 0.7757 0.0816
+C box 6.1469 3.56 33.97 0 0 0 1 7.2781 7.1008 11.6494
+C box -1.4381 0.2253 9.7149 0 0 0 1 0.4716 0.29 1.3459
+C box 1.4699 0.2253 9.7149 0 0 0 1 0.4716 0.29 1.3459
+C box -14.84 1.458 12.134 0.1525 0 0 0.9883 1.4249 0.1593 2.8373
+G trigger_zone button -3.2583 1.7221 27.479 -0.0811 -0.7123 0.0788 0.6927 shape=box size=0.1152,0.0566,0.2238
+C box 1.4021 0.5813 19.2844 0.0432 -0.9146 0.1016 0.389 0.0602 0.4553 0.0616
+C box 6.9094 0.5813 19.2949 0.04 -0.9265 0.1029 0.3598 0.0602 0.4553 0.0616
+C box 0.2387 0.5813 19.1188 0.0781 -0.7028 0.0781 0.7028 0.0602 0.4553 0.0616
+C box -5.289 0.5813 18.9428 0.1029 -0.36 0.04 0.9264 0.0602 0.4553 0.0616
+C box 5.7568 0.5813 19.1188 0.0781 -0.7028 0.0781 0.7028 0.0602 0.4553 0.0616
+C box -6.4413 0.5813 19.1188 0.0781 -0.7028 0.0781 0.7028 0.0602 0.4553 0.0616
+C box -1.0005 0.5813 19.0744 0.085 -0.6341 0.0704 0.7654 0.0602 0.4553 0.0616
+C box 2.87 0.8591 14.8736 0 0 0 1 0.9135 0.0837 1.5718
+C box -2.62 0.8591 14.8736 0 0 0 1 0.9135 0.0837 1.5718
+C box -14.1225 0.8117 12.3376 0 0 0 1 0.0929 0.9259 2.8027
+C box 10.7078 0.6765 27.3118 0 0.7078 0 0.7064 7.2419 0.5138 7.1015
+C box 15.9548 3.56 23.4307 0 0.6146 0 0.7888 1.9983 7.1008 0.6785
+C box 11.8633 1.92 13.0908 0 -0.7071 0 0.7071 0.7598 0.0315 1.2768
+C box -2.9012 -0.3666 -5.7705 0 0 0 1 1.753 0.9867 27.2781
+C box 12.2848 1.1536 22.7621 0.0769 0.3369 -0.0904 0.934 0.03 0.4858 0.03
+C box -1.7441 0.2676 15.1192 0.1146 -0.7005 0.0309 0.7037 0.03 0.48 0.03
+C box 10.9409 1.1226 24.3542 -0.1146 0.7005 -0.0309 -0.7037 0.03 0.48 0.03
+C box -3.5099 0.2676 14.6658 0.0309 0.7037 -0.1146 0.7005 0.03 0.48 0.03
+C box 1.9851 0.2676 15.6508 0.0309 0.7037 -0.1146 0.7005 0.03 0.48 0.03
+C box 3.7509 0.2676 15.1192 0.1146 -0.7005 0.0309 0.7037 0.03 0.48 0.03
+C box 9.9118 1.1226 25.9609 -0.0591 0.9929 -0.1029 -0.0023 0.03 0.48 0.03
+C box 3.7509 0.2676 14.1342 0.1146 -0.7005 0.0309 0.7037 0.03 0.48 0.03
+C box 8.3381 1.1226 24.9758 0.0309 0.7037 -0.1146 0.7005 0.03 0.48 0.03
+C box 14.3954 1.1566 24.4783 -0.0904 0.934 -0.0769 -0.3369 0.03 0.48 0.03
+C box -3.5099 0.2676 15.6508 0.0309 0.7037 -0.1146 0.7005 0.03 0.48 0.03
+C box 14.1708 1.1566 22.5835 -0.1183 0.4223 0.0095 -0.8987 0.03 0.48 0.03
+C box 12.554 1.1566 24.7159 -0.0095 0.8987 -0.1183 0.4223 0.03 0.48 0.03
+C box -1.7441 0.2676 14.1342 0.1146 -0.7005 0.0309 0.7037 0.03 0.48 0.03
+C box 9.3702 1.1226 23.2951 0.1029 0.0023 -0.0591 0.9929 0.03 0.48 0.03
+C box 1.9851 0.2676 14.6658 0.0309 0.7037 -0.1146 0.7005 0.03 0.48 0.03
+C box 1.23 0.9448 19.119 0 -0.374 0 0.9274 0.3907 0.3184 0.3907
+C box 6.7481 0.9448 19.119 0 -0.4031 0 0.9151 0.3907 0.3184 0.3907
+C box 0 0.9448 19.119 0 0 0 1 0.3907 0.3184 0.3907
+C box -5.45 0.9448 19.119 0 0.403 0 0.9152 0.3907 0.3184 0.3907
+C box 5.5181 0.9448 19.119 0 0 0 1 0.3907 0.3184 0.3907
+C box -6.68 0.9448 19.119 0 0 0 1 0.3907 0.3184 0.3907
+C box -1.235 0.9448 19.119 0 0.0934 0 0.9956 0.3907 0.3184 0.3907
+C box -7.658 5.1406 15.6505 0 0 0 1 0.2413 3.9395 1.6607
+C box 15.1264 3.56 25.295 0 0.4511 0 0.8925 2.3844 7.1008 0.6785
+C box 11.2129 1.6767 13.3219 0 -0.7071 0 0.7071 0.1843 0.9455 0.0816
+C box 6.7469 0.9315 19.1213 0 -0.4031 0 0.9151 0.4311 0.3257 0.0828
+C box 1.229 0.9315 19.1213 0 -0.374 0 0.9274 0.4311 0.3257 0.0828
+C box 5.519 0.9315 19.1214 0 0 0 1 0.4311 0.3257 0.0828
+C box -5.4476 0.9315 19.12 0 0.403 0 0.9152 0.4311 0.3257 0.0828
+C box 0.0009 0.9315 19.1214 0 0 0 1 0.4311 0.3257 0.0828
+C box -6.6791 0.9315 19.1214 0 0 0 1 0.4311 0.3257 0.0828
+C box -1.2337 0.9315 19.1212 0 0.0934 0 0.9956 0.4311 0.3257 0.0828
+C box -3.3177 2.423 27.8295 -0.1571 -0.6872 0.156 -0.6919 0.502 0.1666 0.2638
+C box -0.1876 8.2827 21.8889 0 0 0 1 32.3012 2.8054 27.2062
+C box 6.7839 3.56 11.2684 0 0.9368 0 0.3499 1.5801 7.1008 0.6785
+C box -14.2923 3.56 22.3182 0 0 0 1 3.77 7.1008 0.4287
+C box -3.6091 1.2601 27.8186 0 -0.7169 0 0.6972 0.502 1.3277 1.3474
+C box -15.5485 1.7907 12.0896 -0.3426 0 0 0.9395 0.0929 2.6081 1.2391
+C box -11.3278 3.56 27.8899 0 -0.1715 0 0.9852 2.6736 7.1008 0.6785
+C box 7.1612 0.5807 17.881 0 0 0 1 0.0756 1.1582 0.391
+C box -4.8347 0.5807 17.881 0 0 0 1 0.0756 1.1582 0.391
+C box 1.6668 0.5807 17.881 0 0 0 1 0.0977 1.1582 0.391
+C box -4.2253 -0.2566 -4.0648 0 0 0 1 0.2383 0.9867 23.8667
+C box -1.4351 0.5704 10.8585 0.032 0 0 0.9995 0.1003 0.0492 1.3351
+C box 1.4729 0.5704 10.8585 0.032 0 0 0.9995 0.1003 0.0492 1.3351
+C box 12.185 1.3105 11.3287 0 0.7071 0 0.7071 0.6294 0.0363 0.3693
+C box 4.2447 -0.2566 -4.0648 0 0 0 1 0.2383 0.9867 23.8667
+C box 11.7688 6.5527 12.2777 0 0 0 1 8.3885 2.8054 7.9839
+C box 15.9013 3.0376 20.8499 0.0001 -0.7112 0.0001 -0.703 0.8783 1.1205 0
+C box 14.8852 3.0366 25.1364 0 0.4563 0 0.8898 0.8783 1.1205 0
+C box 13.2769 3.0376 26.648 0.0001 0.2849 -0.0001 0.9586 0.8783 1.1205 0
+C box 11.327 3.0376 27.641 0.0001 0.1672 -0.0001 0.9859 0.8783 1.1205 0
+C box 15.7406 3.0376 23.1978 0 0.6204 0 0.7842 0.8783 1.1205 0
+C box -0.151 -0.3666 9.8965 0 0 0 1 16.5886 0.9867 4.1806
+C box 1.4699 0.4424 9.7639 0 0 0 1 0.4716 0.1627 1.2479
+C box -1.4381 0.4424 9.7639 0 0 0 1 0.4716 0.1627 1.2479
+C box 12.5063 1.6767 13.3219 0 -0.7071 0 0.7071 0.1843 0.9455 0.0816
+C box -1.4381 0.5882 9.797 0 0 0 1 0.4716 0.1519 1.1163
+C box 1.4699 0.5882 9.797 0 0 0 1 0.4716 0.1519 1.1163
+C box 2.9298 -0.3666 -5.7622 0 0 0 1 1.753 0.9867 27.2616
+C box 11.72 0.7162 11.3295 0 0 0 1 8.5112 1.1601 0.6772
+C box -12.2248 1.3281 25.0691 0.6301 0.7318 -0.1694 -0.1967 0.6804 0.209 0.85
+C box -12.6234 1.3281 23.4147 0.6516 0.7568 0.0341 0.0396 0.6804 0.209 0.85
+C box -0.151 -0.4466 15.1346 0 0 0 1 16.5886 0.9867 6.31
+C box 3.9366 1.73 27.831 0 1 0 0 2.0776 2.75 0.7326
+C box 10.1978 0.3365 27.1618 0 0.7078 0 0.7064 7.2419 0.5138 7.1015
+C box -12.528 5.2292 21.1817 0 0 0 1 0.2413 4.0509 2.1346
+C box -6.8478 3.56 11.4235 0 0.9368 0 -0.3499 1.8892 7.1008 0.6785
+C box -6.1531 3.56 33.97 0 0 0 1 7.2781 7.1008 11.6494
+C box 12.5063 1.7331 12.9699 0 -0.7071 0 0.7071 0.5754 1.0583 0.0816
+C box 4.5797 0.5807 17.881 0 0 0 1 0.07 1.1582 0.391
+C box -7.4162 0.5807 17.881 0 0 0 1 0.07 1.1582 0.391
+C box -1.669 0.5807 17.881 0 0 0 1 0.0904 1.1582 0.391
+C box -9.9418 0.8576 14.1012 0 0 0 1 0.0866 1.0428 0.1086
+G trigger_zone Prev%20Button -3.9379 1.7221 27.4601 -0.0811 -0.7123 0.0788 0.6927 shape=box size=0.1121,0.0561,0.2131
+C box -15.9644 3.56 23.4272 0 0.7854 0 0.619 1.9983 7.1008 0.6785
+G trigger_zone Next%20Button -3.26 1.7221 27.479 -0.0811 -0.7123 0.0788 0.6927 shape=box size=0.1121,0.0561,0.2131
+C box -3.1181 2.2324 27.8309 -0.3205 -0.6287 0.3183 -0.6331 0.502 0.1666 0.39
+C box -7.658 3.56 17.2525 0 0 0 1 0.2413 7.1008 1.6607
+C box 15.8401 3.5607 13.44 0 -0.7071 0 0.7071 0.8437 2.146 0.1357
+C box 12.97 0.3365 26.4089 0 0.7078 0 0.7064 11.1695 0.5138 7.1015
+C box -1.713 0.6318 15.175 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box 12.3082 1.5222 22.7026 -0.0639 0.3363 0.0229 0.9393 0.03 0.3137 0.03
+C box 10.972 1.4868 24.41 0.048 0.7055 0.048 -0.7055 0.03 0.31 0.03
+C box 1.954 0.6318 15.595 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box -3.541 0.6318 14.61 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box 9.856 1.4868 25.992 0 0.9977 0.0679 0 0.03 0.31 0.03
+C box 3.782 0.6318 15.175 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box 14.372 1.5208 24.5377 0.0229 0.9393 0.0639 -0.3363 0.03 0.31 0.03
+C box 8.307 1.4868 24.92 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box 3.782 0.6318 14.19 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box 12.4946 1.5208 24.6925 -0.029 0.902 0.0614 0.4264 0.03 0.31 0.03
+C box 14.2302 1.5208 22.6069 0.0614 0.4264 0.029 -0.902 0.03 0.31 0.03
+C box -3.541 0.6318 15.595 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box 1.954 0.6318 14.61 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box -1.713 0.6318 14.19 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box 9.426 1.4868 23.264 -0.0679 0 0 0.9977 0.03 0.31 0.03
+C box 5.2175 1.1311 27.7786 0 -0.2871 0 0.9579 0.1088 0.123 0.3092
+C box -0.0004 0.0348 17.881 0 0 0 1 3.4275 0.0663 0.391
+C box -6.1249 0.0348 17.881 0 0 0 1 2.6525 0.0663 0.391
+C box 5.871 0.0348 17.881 0 0 0 1 2.6525 0.0663 0.391
+C box 11.2129 1.5918 13.4631 0 -0.7071 0 0.7071 0.1349 0.7757 0.0816
+C box -1.6881 0.6059 10.8316 0.032 0 0 0.9995 0.0541 0.0492 1.3351
+C box 1.2199 0.6059 10.8316 0.032 0 0 0.9995 0.0541 0.0492 1.3351
+C box -0.9261 -0.2225 -4.2362 0 0 0 1 0.102 0.6864 22.9668
+C box 0 1.6448 18.332 0 0 0 1 3.2632 0.1142 0.6968
+C box -6.12 1.6448 18.332 0 0 0 1 2.4592 0.1142 0.6968
+C box 6.143 1.6448 18.29 0 0 0 1 2.4712 0.1142 0.6968
+C box -2.127 0.2649 15.1191 -0.0329 -0.7162 -0.115 0.6876 0.03 0.48 0.03
+C box 12.5277 1.1509 23.0581 -0.1181 0.3156 -0.0194 0.9413 0.03 0.4858 0.03
+C box 10.558 1.1199 24.3541 0.0329 0.7162 0.115 -0.6876 0.03 0.48 0.03
+C box -3.127 0.2649 14.6659 -0.115 0.6876 0.0329 0.7162 0.03 0.48 0.03
+C box 2.368 0.2649 15.6509 -0.115 0.6876 0.0329 0.7162 0.03 0.48 0.03
+C box 3.368 0.2649 15.1191 -0.0329 -0.7162 -0.115 0.6876 0.03 0.48 0.03
+C box 9.9119 1.1199 25.578 -0.058 0.9926 0.1046 0.0202 0.03 0.48 0.03
+C box 3.368 0.2649 14.1341 -0.0329 -0.7162 -0.115 0.6876 0.03 0.48 0.03
+C box 8.721 1.1199 24.9759 -0.115 0.6876 0.0329 0.7162 0.03 0.48 0.03
+C box 14.1524 1.1539 24.1823 -0.0194 0.9413 0.1181 -0.3156 0.03 0.48 0.03
+C box -3.127 0.2649 15.6509 -0.115 0.6876 0.0329 0.7162 0.03 0.48 0.03
+C box 13.8748 1.1539 22.8264 0.0698 0.4425 0.0972 -0.8888 0.03 0.48 0.03
+C box 12.85 1.1539 24.473 -0.0972 0.8888 0.0698 0.4425 0.03 0.48 0.03
+C box -2.127 0.2649 14.1341 -0.0329 -0.7162 -0.115 0.6876 0.03 0.48 0.03
+C box 9.3701 1.1199 23.678 -0.1046 -0.0202 -0.058 0.9926 0.03 0.48 0.03
+C box 2.368 0.2649 14.6659 -0.115 0.6876 0.0329 0.7162 0.03 0.48 0.03
+C box -10.2951 1.4912 11.1932 0 0 0 1 1.2506 2.3099 0.9649
+C box -0.038 1.0563 -19.1753 0 0 0 1 9.0701 2.1834 0.7366
+C box 7.2764 3.56 11.0875 0 0.7071 0 0.7071 1.8892 7.1008 0.6785
+C box -1.4422 -0.2566 -4.0648 0 0 0 1 0.5644 0.9867 23.8667
+C box -5.408 1.0416 -17.2756 0 0 0 1 2.6052 1.7362 2.6686
+C box 11.8633 1.5655 13.1425 0 -0.7071 0 0.7071 0.8632 0.0351 1.2768
+C box -11.7191 1.2524 25.3022 -0.0538 0.9642 0.0145 -0.2592 0.8729 0.0294 0.1188
+C box -12.352 1.2524 23.9009 -0.0557 0.9971 -0.0029 0.0522 0.8729 0.0294 0.1188
+C box 13.3416 3.56 26.8856 0 0.2741 0 0.9617 2.6736 7.1008 0.6785
+C box -12.528 3.56 19.2576 0 0 0 1 0.2413 7.1008 2.7218
+C box 11.1585 3.56 -3.8026 0 0 0 1 10.181 7.1008 29.6345
+C box 5.871 0.16 17.9925 0 0 0 1 2.6525 0.0765 0.0631
+C box -6.1249 0.16 17.9925 0 0 0 1 2.6525 0.0765 0.0631
+C box -0.0004 0.16 17.9925 0 0 0 1 3.4275 0.0765 0.0631
+C box 2.87 0.4174 14.8862 0 0 0 1 0.1359 0.8878 0.1472
+C box -2.62 0.4174 14.8862 0 0 0 1 0.1359 0.8878 0.1472
+C box -1.4381 0.8209 9.8581 0 0 0 1 0.4716 0.1031 0.7894
+C box 1.4699 0.8209 9.8581 0 0 0 1 0.4716 0.1031 0.7894
+C box 9.0525 0.6765 23.143 0 0.384 0 0.9233 3.5586 0.5138 1.9036
+C box -0.0004 0.6557 17.9925 0 0 0 1 3.4275 0.0765 0.0631
+C box -6.1249 0.6557 17.9925 0 0 0 1 2.6525 0.0765 0.0631
+C box 5.871 0.6557 17.9925 0 0 0 1 2.6525 0.0765 0.0631
+C box -10.2711 0.3365 26.0949 0 0 0 1 12.4564 0.5138 7.1015
+C box 4.44 0.7146 27.831 0 1 0 0 3.0844 0.7191 0.7326
+C box -1.4381 0.9021 9.9156 0 0 0 1 0.4716 0.0844 0.62
+C box 1.4699 0.9021 9.9156 0 0 0 1 0.4716 0.0844 0.62
+C box 0.017 3.56 35.6945 0 0 0 1 5.5578 7.1008 0.6785
+C box -2.9986 1.7614 27.5293 0 -0.7169 0 0.6972 0.14 0.1411 0.1648
+C box 13.2349 0.6765 26.7842 0 0.7071 0 0.7071 11.1695 0.5138 7.1015
+C box -4.0043 0.3365 23.8847 0 -0.3823 0 0.924 2.0631 0.5138 1.9036
+C box -7.658 3.56 12.9337 0 0 0 1 0.2413 7.1008 3.9544
+C box -3.0014 1.9329 27.8317 -0.4759 -0.5227 0.4726 -0.5263 0.502 0.1666 0.39
+C box -1.1857 0.6059 10.8316 0.032 0 0 0.9995 0.0541 0.0492 1.3351
+C box 1.7223 0.6059 10.8316 0.032 0 0 0.9995 0.0541 0.0492 1.3351
+C box -11.2062 3.56 -3.9478 0 0 0 1 10.2844 7.1008 29.5441
+C box 12.976 2.271 13.1285 0.5482 -0.5482 0.4466 0.4466 0.2371 1.5889 0.1496
+C box 12.1825 1.8072 11.4755 0 0.7071 0 0.7071 0.147 0.1131 0.1545
+C box -14.1225 1.7595 11.258 0 0 0 1 0.0929 2.8215 1
+C box -10.544 2.795 27.879 0 0.9854 0 0.1702 0.8261 1.1521 0.1007
+C box -12.756 2.795 26.973 0 0.9588 0 0.284 0.8265 1.1526 0.1007
+C box -10.286 0.3982 13.0365 0 0 0 1 2.025 0.1239 2.4663
+C box -6.6783 0.5834 18.8805 0.1093 0 0 0.994 0.0602 0.4461 0.0616
+C box -1.2776 0.5834 18.8844 0.1088 0.0928 -0.0102 0.9897 0.0602 0.4461 0.0616
+C box 6.9252 0.5834 18.9593 0.1 -0.4007 0.0441 0.9097 0.0602 0.4461 0.0616
+C box 1.3967 0.5834 18.9484 0.1014 -0.3717 0.0409 0.9219 0.0602 0.4461 0.0616
+C box 5.5198 0.5834 18.8805 0.1093 0 0 0.994 0.0602 0.4461 0.0616
+C box -5.6247 0.5834 18.9567 0.1 0.4006 -0.044 0.9097 0.0602 0.4461 0.0616
+C box 0.0017 0.5834 18.8805 0.1093 0 0 0.994 0.0602 0.4461 0.0616
+C box 12.9444 2.2892 12.8748 0.5 -0.5 0.5 0.5 0.4056 1.5793 0.1496
+C box -11.9165 0.9431 23.0485 -0.064 0.9966 -0.0034 0.0522 0.0671 0.6912 0.065
+C box -11.8693 0.9431 24.3568 -0.0619 0.9637 0.0166 -0.259 0.0671 0.6912 0.065
+C box -10.2776 1.3364 14.1012 0 0 0 1 0.758 0.0853 0.1086
+C box 8.6625 0.3365 22.8723 0 0.384 0 0.9233 3.8988 0.5138 1.9036
+C box -15.063 3.56 25.2551 0 -0.461 0 0.8874 2.3844 7.1008 0.6785
+C box -15.5485 1.7595 11.258 0 0 0 1 0.0929 2.8215 1
+C box -5.09 0.9699 18.332 0 0 0 1 0.1763 1.3483 0.2046
+C box 1.3667 0.9699 18.332 0 0 0 1 0.234 1.3483 0.2046
+C box 7.178 0.9699 18.29 0 0 0 1 0.1772 1.3483 0.2046
+C box 12.429 -0.1066 15.1562 0 0 0 1 9.6978 0.9867 10.6107
+C box 12.0633 0.665 13.214 0 0 0 1 8.1194 1.095 1.0949
+C box -6.9168 0.5814 19.1186 0.0778 0.7028 -0.0778 0.7028 0.0602 0.4623 0.0616
+C box -1.4678 0.5814 19.1626 0.0702 0.7654 -0.0848 0.6341 0.0602 0.4623 0.0616
+C box 1.0597 0.5814 18.9544 0.1013 0.389 -0.0431 0.9146 0.0602 0.4623 0.0616
+C box 6.5885 0.5814 18.944 0.1026 0.3599 -0.0399 0.9265 0.0602 0.4623 0.0616
+C box -0.2368 0.5814 19.1186 0.0778 0.7028 -0.0778 0.7028 0.0602 0.4623 0.0616
+C box -5.6102 0.5814 19.2934 0.0399 0.9264 -0.1026 0.36 0.0602 0.4623 0.0616
+C box 5.2813 0.5814 19.1186 0.0778 0.7028 -0.0778 0.7028 0.0602 0.4623 0.0616
+C box 3.308 5.411 8.59 0 -0.9819 -0.1895 0 1.0438 1.0038 0.0722
+C box 0 5.1 8.744 0 -0.9819 -0.1895 0 4.9297 2.6805 0.1571
+C box -3.308 5.411 8.59 0 -0.9819 -0.1895 0 1.0438 1.0038 0.0722
+C box 0.0009 0.5791 19.3582 0 0.9939 -0.1099 0 0.0602 0.4568 0.0616
+C box 5.519 0.5791 19.3582 0 0.9939 -0.1099 0 0.0602 0.4568 0.0616
+C box -5.273 0.5791 19.2799 -0.0443 0.9097 -0.1005 -0.4006 0.0602 0.4568 0.0616
+C box 1.0647 0.5791 19.2919 0.0411 0.9218 -0.1019 0.3717 0.0602 0.4568 0.0616
+C box 6.5722 0.5791 19.2811 0.0443 0.9096 -0.1005 0.4007 0.0602 0.4568 0.0616
+C box -1.1896 0.5791 19.3539 -0.0103 0.9896 -0.1094 -0.0928 0.0602 0.4568 0.0616
+C box -6.6791 0.5791 19.3582 0 0.9939 -0.1099 0 0.0602 0.4568 0.0616
+C box -0.038 1.8216 -17.4656 0 0 0 1 12.7027 1.7362 2.6686
+C box -11.669 2.795 27.493 0 0.9848 0 0.1736 0.8261 1.1521 0.1007
+C box -12.0101 0.9435 23.9386 -0.064 0.9966 -0.0034 0.0522 0.0671 0.6902 0.065
+C box -11.4206 0.9435 25.1313 -0.0619 0.9637 0.0166 -0.259 0.0671 0.6902 0.065
+C box -3.6091 2.469 27.8186 0 -0.7169 0 0.6972 0.502 0.1666 0.4325
+C box -1.4383 0.2761 11.5592 0 0 0 1 0.0702 0.41 0.0644
+C box 1.4697 0.2761 11.5592 0 0 0 1 0.0702 0.41 0.0644
+C box -10.626 0.8576 14.1012 0 0 0 1 0.0866 1.0428 0.1086
+G trigger_zone button -3.9397 1.7221 27.4601 -0.0811 -0.7123 0.0788 0.6927 shape=box size=0.1152,0.0566,0.2238
+C box 11.2129 1.7331 12.9699 0 -0.7071 0 0.7071 0.5754 1.0583 0.0816
+C box 14.0482 1.5208 24.8037 0.0229 0.9393 0.0639 -0.3363 0.03 0.31 0.03
+C box 8.307 1.4868 24.501 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box 3.782 0.6318 14.609 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box 12.2286 1.5208 24.3688 -0.029 0.902 0.0614 0.4264 0.03 0.31 0.03
+C box 14.4962 1.5208 22.9307 0.0614 0.4264 0.029 -0.902 0.03 0.31 0.03
+C box -3.541 0.6318 15.176 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box 1.954 0.6318 14.191 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box -1.713 0.6318 14.609 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box 9.845 1.4868 23.264 -0.0679 0 0 0.9977 0.03 0.31 0.03
+C box 12.632 1.5222 22.4367 -0.0639 0.3363 0.0229 0.9393 0.03 0.3137 0.03
+C box -1.713 0.6318 15.594 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box 10.972 1.4868 24.829 0.048 0.7055 0.048 -0.7055 0.03 0.31 0.03
+C box 1.954 0.6318 15.176 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box -3.541 0.6318 14.191 -0.048 0.7055 0.048 0.7055 0.03 0.31 0.03
+C box 9.437 1.4868 25.992 0 0.9977 0.0679 0 0.03 0.31 0.03
+C box 3.782 0.6318 15.594 -0.048 -0.7055 -0.048 0.7055 0.03 0.31 0.03
+C box -12.1669 1.2524 24.5293 -0.0538 0.9642 0.0145 -0.2592 0.8729 0.0294 0.1188
+C box -12.2587 1.2524 23.0126 -0.0557 0.9971 -0.0029 0.0522 0.8729 0.0294 0.1188
+C box -8.8325 0.3365 27.4149 0 0 0 1 12.4564 0.5138 7.1015
+C box -1.458 1.0216 -17.459 0 0 0 1 0.5254 1.7362 3.4956
+C box -2.225 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box -2.675 0.205 -16.8907 0 0 0 1 0.0825 0.15 0.0825
+C box 0.225 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box -3.35 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box -3.125 0.205 -16.8907 0 0 0 1 0.0825 0.15 0.0825
+C box 3.605 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box -3.125 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box 3.155 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box 3.38 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box 3.155 0.205 -16.8907 0 0 0 1 0.0825 0.15 0.0825
+C box 0.45 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box 2.93 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box 0 0.205 -16.501 0 0 0 1 0.0825 0.15 0.0825
+C box -2.45 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box 2.93 0.205 -16.501 0 0 0 1 0.0825 0.15 0.0825
+C box -3.575 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box 2.255 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box 0.225 0.205 -16.8907 0 0 0 1 0.0825 0.15 0.0825
+C box -0.45 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box 2.705 0.205 -16.8907 0 0 0 1 0.0825 0.15 0.0825
+C box 2.705 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box -2.9 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box 2.48 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box -0.225 0.205 -16.8907 0 0 0 1 0.0825 0.15 0.0825
+C box -0.675 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box -2.675 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box 0 0.205 -17.2804 0 0 0 1 0.0825 0.15 0.0825
+C box -0.225 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box -2.9 0.205 -16.501 0 0 0 1 0.0825 0.15 0.0825
+C box 0.675 0.205 -17.6701 0 0 0 1 0.0825 0.15 0.0825
+C box -14.8471 0.8307 13.617 0 0 0 1 1.4957 0.9639 0.2835
+C box 0.9153 -0.2225 -4.2362 0 0 0 1 0.094 0.6864 22.9668
+C box -0.0095 -0.1995 -5.6005 0 0 0 1 8.2846 0.5324 26.9381
+C box -13.3339 3.56 26.9521 0 -0.2863 0 0.9581 2.6736 7.1008 0.6785
+C box -3.128 0.269 14.134 -0.0279 0.6963 0.1233 0.7066 0.03 0.48 0.03
+C box 2.367 0.269 15.119 -0.0279 0.6963 0.1233 0.7066 0.03 0.48 0.03
+C box 3.369 0.269 15.651 -0.1233 -0.7066 -0.0279 0.6963 0.03 0.48 0.03
+C box 9.38 1.124 25.579 0.0675 0.992 0.1069 0.0073 0.03 0.48 0.03
+C box -2.126 0.269 15.651 -0.1233 -0.7066 -0.0279 0.6963 0.03 0.48 0.03
+C box 12.9381 1.1551 22.7196 -0.0779 0.3275 0.0995 0.9363 0.03 0.4858 0.03
+C box 10.559 1.124 24.886 0.1233 0.7066 0.0279 -0.6963 0.03 0.48 0.03
+C box 9.902 1.124 23.677 -0.1069 -0.0073 0.0675 0.992 0.03 0.48 0.03
+C box -2.126 0.269 14.666 -0.1233 -0.7066 -0.0279 0.6963 0.03 0.48 0.03
+C box 2.367 0.269 14.134 -0.0279 0.6963 0.1233 0.7066 0.03 0.48 0.03
+C box 3.369 0.269 14.666 -0.1233 -0.7066 -0.0279 0.6963 0.03 0.48 0.03
+C box 8.72 1.124 24.444 -0.0279 0.6963 0.1233 0.7066 0.03 0.48 0.03
+C box 13.742 1.158 24.5207 0.0995 0.9363 0.0779 -0.3275 0.03 0.48 0.03
+C box -3.128 0.269 15.119 -0.0279 0.6963 0.1233 0.7066 0.03 0.48 0.03
+C box 14.2132 1.158 23.2369 0.1254 0.4305 -0.0153 -0.8937 0.03 0.48 0.03
+C box 12.5116 1.158 24.0626 0.0153 0.8937 0.1254 0.4305 0.03 0.48 0.03
+G trigger_zone PracticeLane2 -2.9 3.13 -7.86 0 0 0 1 shape=box size=2.7,6,25
+G trigger_zone PracticeLane1 2.93 3.13 -7.86 0 0 0 1 shape=box size=2.7,6,25
+G trigger_zone BowlingLane 0 3.13 -7.86 0 0 0 1 shape=box size=2.7,6,25
+C box 5.7102 1.73 27.831 0 1 0 0 0.5439 2.75 0.7326
+C box 12.5063 1.382 13.5808 0 -0.7071 0 0.7071 0.1163 0.3561 0.0816
+C box 5.4629 2.3181 27.831 0 1 0 0 1.0386 1.5737 0.7326
+C box -12.7005 0.9062 23.8661 0.0635 0.9966 0.0033 0.0522 0.0671 0.6315 0.065
+C box -12.0213 0.9062 25.4793 0.0614 0.9638 -0.0165 -0.259 0.0671 0.6315 0.065
+C box 12.9641 2.0772 13.4147 0.6764 -0.6764 0.206 0.206 0.2371 1.5896 0.1496
+C box -4.0923 2.2324 27.8052 0.3149 -0.6396 0.3238 0.622 0.502 0.1666 0.39
+C box 6.07 2.39 -0.77 0 -0.7071 0 0.7071 7.0708 3.2788 0.1412
+C box -6.08 2.39 -0.7969 0 0.7071 0 0.7071 7.0708 3.2788 0.1412
+C box -12.4393 -0.1066 15.1562 0 0 0 1 9.761 0.9867 10.6107
+C box -4.206 1.7546 27.4957 0 -0.7169 0 0.6972 0.14 0.1411 0.1648
+C box -3.6091 2.0339 27.8186 0 -0.7169 0 0.6972 0.502 0.2622 1.1614
+C box 12.9487 1.604 13.5799 0.7007 -0.7007 0.0946 0.0946 0.8963 1.5863 0.1496
+C box 9.3581 2.328 11.0504 0 0.7071 0 0.7071 0.1804 1.8103 3.4027
+C box 14.1411 2.328 11.0504 0 0.7071 0 0.7071 0.1804 1.8103 3.4027
+C box -14.8471 2.4832 10.8008 0 0 0 1 1.4957 1.4116 0.1148
+C box 4.44 1.73 28.0441 0 1 0 0 3.0844 2.75 0.3064
+C box -7.1052 0.9699 18.332 0 0 0 1 0.1763 1.3483 0.2046
+C box -1.3073 0.9699 18.332 0 0 0 1 0.234 1.3483 0.2046
+C box 5.153 0.9699 18.29 0 0 0 1 0.1772 1.3483 0.2046
+C box 1.4761 0.5642 11.5535 0 0 0 1 0.525 0.1647 0.1216
+C box -1.4319 0.5642 11.5535 0 0 0 1 0.525 0.1647 0.1216
+C box -10.1009 3.56 17.99 0 0.7071 0 0.7071 0.2413 7.1008 5.0467
+C box -0.0021 -0.3666 -5.7407 0 0 0 1 1.753 0.9867 27.2186
+C box -16.228 3.56 16.73 0 0 0 1 0.628 7.1008 11.6494
+C box 16.162 3.56 16.73 0 0 0 1 0.628 7.1008 11.6494
+C box 1.462 1.0216 -17.4887 0 0 0 1 0.5254 1.7362 3.5549
+C box -14.1225 1.7907 12.0896 -0.3426 0 0 0.9395 0.0929 2.6081 1.2391
+C box -3.6035 1.6795 27.6157 -0.0688 -0.7136 0.0669 0.694 0.502 0.1075 1.0588
+C box -12.4699 0.9064 24.7049 0.0614 0.9638 -0.0165 -0.259 0.0671 0.628 0.065
+C box -12.607 0.9064 22.976 0.0635 0.9966 0.0033 0.0522 0.0671 0.628 0.065
+C box -3.242 0.077 18.263 0 0 0 1 3.1531 0.2569 1.0731
+C box -1.4381 0.9679 9.9636 0 0 0 1 0.4716 0.0811 0.4536
+C box 1.4699 0.9679 9.9636 0 0 0 1 0.4716 0.0811 0.4536
+C box 10.938 1.121 24.888 -0.0316 0.7091 -0.1133 -0.6952 0.03 0.48 0.03
+C box -1.747 0.266 15.653 0.0316 -0.7091 0.1133 0.6952 0.03 0.48 0.03
+C box 12.6991 1.152 22.4255 0.1159 0.3255 0.0198 0.9382 0.03 0.4858 0.03
+C box 3.748 0.266 15.653 0.0316 -0.7091 0.1133 0.6952 0.03 0.48 0.03
+C box 9.378 1.121 25.958 0.0578 0.993 -0.1025 0.0098 0.03 0.48 0.03
+C box -3.507 0.266 14.132 0.1133 0.6952 -0.0316 0.7091 0.03 0.48 0.03
+C box 1.988 0.266 15.117 0.1133 0.6952 -0.0316 0.7091 0.03 0.48 0.03
+C box -3.507 0.266 15.117 0.1133 0.6952 -0.0316 0.7091 0.03 0.48 0.03
+C box 14.5074 1.155 22.9978 -0.0679 0.4332 -0.096 -0.8936 0.03 0.48 0.03
+C box 12.2175 1.155 24.3016 0.096 0.8936 -0.0679 0.4332 0.03 0.48 0.03
+C box 3.748 0.266 14.668 0.0316 -0.7091 0.1133 0.6952 0.03 0.48 0.03
+C box 8.341 1.121 24.442 0.1133 0.6952 -0.0316 0.7091 0.03 0.48 0.03
+C box 13.981 1.155 24.8148 0.0198 0.9382 -0.1159 -0.3255 0.03 0.48 0.03
+C box -1.747 0.266 14.668 0.0316 -0.7091 0.1133 0.6952 0.03 0.48 0.03
+C box 9.904 1.121 23.298 0.1025 -0.0098 0.0578 0.993 0.03 0.48 0.03
+C box 1.988 0.266 14.132 0.1133 0.6952 -0.0316 0.7091 0.03 0.48 0.03
+C box -0.0004 0.6557 17.7459 0 0 0 1 3.4275 0.0765 0.0613
+C box -6.1249 0.6557 17.7459 0 0 0 1 2.6525 0.0765 0.0613
+C box 5.871 0.6557 17.7459 0 0 0 1 2.6525 0.0765 0.0613
+C box -8.4687 1.76 16.6745 0 0.9871 0 -0.1604 1.53 2.8419 0.27
+C box -11.7139 1.76 20.3501 0 0.2161 0 0.9764 1.53 2.8419 0.27
+C box 5.871 0.16 17.7459 0 0 0 1 2.6525 0.0765 0.0613
+C box -0.0004 0.16 17.7459 0 0 0 1 3.4275 0.0765 0.0613
+C box -6.1249 0.16 17.7459 0 0 0 1 2.6525 0.0765 0.0613
+C box -3.8927 2.423 27.8107 0.1543 -0.6991 0.1587 0.6799 0.502 0.1666 0.2638
+G trigger_zone R_ISlot -7.3516 0.9677 13.1325 0.7037 0.7037 -0.0696 -0.0696 shape=box size=0.03,0.01,0.04
+C box 9.0957 1.6215 24.3566 0.6817 -0.1878 0.1878 0.6817 0.5172 0.6156 0.0747
+C box 12.7484 1.6555 23.6644 0.7051 0.053 -0.053 0.7051 0.5172 0.6156 0.0747
+C box -6.6795 1.1773 19.1185 0 0 0 1 0.4906 0.137 0.4895
+C box -1.2346 1.1773 19.1184 0 0.0934 0 0.9956 0.4906 0.137 0.4895
+C box 6.7488 1.1773 19.1191 0 -0.4031 0 0.9151 0.4906 0.137 0.4895
+C box 1.2307 1.1773 19.119 0 -0.374 0 0.9274 0.4906 0.137 0.4895
+C box 5.5186 1.1773 19.1185 0 0 0 1 0.4906 0.137 0.4895
+C box -5.45 1.1773 19.1183 0 0.403 0 0.9152 0.4906 0.137 0.4895
+C box 0.0005 1.1773 19.1185 0 0 0 1 0.4906 0.137 0.4895
+C box 13.8815 1.6555 23.134 -0.6657 -0.2384 0.2384 -0.6657 0.3238 0.3169 0.0747
+C box 10.308 1.6215 24.6659 -0.7071 0 0 -0.7071 0.3238 0.3169 0.0747
+G trigger_zone R_OSlot -7.3367 0.8775 12.8771 -0.704 -0.704 -0.0665 -0.0665 shape=box size=0.04,0.01,0.04
+G trigger_zone Collision -7.3092 0.748 12.6547 0.0665 0.0665 -0.704 -0.704 shape=box size=0.4,0.04,0.4
+G trigger_zone B_OSlot -7.3367 0.6991 12.8771 -0.704 -0.704 -0.0665 -0.0665 shape=box size=0.04,0.01,0.04
+G trigger_zone C_OSlot -7.3367 0.6205 12.8771 -0.704 -0.704 -0.0665 -0.0665 shape=box size=0.04,0.01,0.04
+G trigger_zone G_OSlot -7.3367 0.7892 12.8771 -0.704 -0.704 -0.0665 -0.0665 shape=box size=0.04,0.01,0.04
+C box 13.817 1.6555 24.1759 -0.6393 0.3022 -0.3022 -0.6393 0.2137 0.0899 0.0747
+C box 9.5968 1.6215 25.4301 -0.5 0.5 -0.5 -0.5 0.2137 0.0899 0.0747
+C box 9.606 0.8933 24.6704 0.7071 0 0 0.7071 0.0688 1.0968 0.0644
+C box 13.3419 0.9273 23.5829 0.6657 0.2384 -0.2384 0.6657 0.0688 1.0968 0.0644
+C box 9.6064 1.6215 24.67 0.5 0.5 -0.5 0.5 1.3081 1.0968 0.0747
+C box 13.3419 1.6555 23.5824 0.3022 0.6393 -0.6393 0.3022 1.3081 1.0968 0.0747
+C box -8.3462 1.7872 11.0048 0 -0.0011 0 1 0.8825 0.8284 0.324
+C box -8.3467 0.8861 11.2335 0 -0.0011 0 1 0.8825 1.0502 0.7813
+C box 12.8601 1.6555 22.9945 0.3022 0.6393 -0.6393 0.3022 0.2137 0.0899 0.0747
+C box 9.6072 1.6215 23.9099 0.5 0.5 -0.5 0.5 0.2137 0.0899 0.0747
+C box 9.3454 1.6215 23.9933 0.4007 0.5826 -0.5826 0.4007 0.2672 0.5546 0.0747
+C box 12.7107 1.6555 23.2252 0.1809 0.6836 -0.6836 0.1809 0.2672 0.5546 0.0747
+C box 9.606 0.8933 24.6704 0.5 0.5 -0.5 0.5 0.0688 1.0968 0.0644
+C box 13.3419 0.9273 23.5829 0.3022 0.6393 -0.6393 0.3022 0.0688 1.0968 0.0644
+C box 8.8947 1.6215 24.6491 0 0.7071 -0.7071 0 0.3238 0.3169 0.0747
+C box 12.7787 1.6555 24.018 -0.2384 0.6657 -0.6657 -0.2384 0.3238 0.3169 0.0747
+G trigger_zone G_OSlot -11.7526 1.5389 26.7495 0 0.0062 0 1 shape=box size=0.0669,0.0467,0.0094
+G trigger_zone G_OSlot -11.5165 1.5389 26.5702 0 0 0 1 shape=box size=0.0669,0.0467,0.0094
+C box 9.606 1.2344 24.67 0 0 0 1 0.1327 0.7404 0.1379
+C box 13.3416 1.2684 23.5827 0 0.3371 0 0.9415 0.1327 0.7404 0.1379
+C box -7.3243 0.753 13.4065 0 -0.6341 0 0.7733 0.495 0.49 0.035
+C box -8.346 2.1982 11.1685 0.6047 -0.0009 -0.0007 0.7965 0.8825 0.5934 0.225
+C box 10.1114 1.6215 24.3542 -0.1759 0.6849 -0.6849 -0.1759 0.5172 0.6156 0.0747
+C box 13.5317 1.6555 23.0178 -0.3965 0.5855 -0.5855 -0.3965 0.5172 0.6156 0.0747
+C box 13.9117 1.6555 23.4876 -0.0529 0.7051 -0.7051 -0.0529 0.5172 0.6156 0.0747
+C box 10.1069 1.6215 24.9584 0.1878 0.6817 -0.6817 0.1878 0.5172 0.6156 0.0747
+C box 2.1959 0.4899 14.3995 0 0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 9.6365 1.3449 23.5059 0 0 0 1 0.4343 0.0581 0.4066
+C box -1.9549 0.4899 14.4005 0 -0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 14.0558 1.3789 24.4844 0 0.9415 0 -0.3371 0.4343 0.0581 0.4066
+C box 8.5489 1.3449 24.7095 0 0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 3.5401 0.4899 14.4005 0 -0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 12.5479 1.3789 24.3763 0 0.9041 0 0.4274 0.4343 0.0581 0.4066
+C box 14.1769 1.3789 22.9231 0 0.4274 0 -0.9041 0.4343 0.0581 0.4066
+C box -3.2991 0.4899 15.3845 0 0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 2.1959 0.4899 15.3845 0 0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box -3.2991 0.4899 14.3995 0 0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 9.6455 1.3449 25.7501 0 1 0 0 0.4343 0.0581 0.4066
+C box 3.5401 0.4899 15.3855 0 -0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 12.6244 1.3786 22.7559 0 0.3371 0 0.9415 0.4343 0.0588 0.4066
+C box -1.9549 0.4899 15.3855 0 -0.7071 0 0.7071 0.4343 0.0581 0.4066
+C box 10.7301 1.3449 24.6205 0 0.7071 0 -0.7071 0.4343 0.0581 0.4066
+C box -14.84 2.6719 10.8695 -0.7071 0 0 0.7071 1.2949 0.018 0.8632
+C box -8.3464 1.6515 11.2229 -0.3023 -0.0011 0.0003 0.9532 0.8825 0.8284 0.374
+C box -11.6471 1.4624 26.7544 0 0.0062 0 1 0.0825 0.15 0.0825
+C box -11.4111 1.4624 26.5764 0 0 0 1 0.0825 0.15 0.0825
+C box -8.3506 1.3159 11.7449 0 -0.0011 0 1 1.3344 0.1438 0.5152
+C box -11.8506 0.9745 24.8532 0 0.8664 0 0.4993 0.7847 0.2119 0.6953
+C box -12.1938 0.9745 23.4607 0 0.6692 0 0.7431 0.7847 0.2119 0.6953
+C box 13.9664 1.6555 23.9452 -0.6836 0.1809 -0.1809 -0.6836 0.2672 0.5546 0.0747
+C box 9.8586 1.6215 25.3467 -0.5826 0.4007 -0.4007 -0.5826 0.2672 0.5546 0.0747
+G trigger_zone R_OSlot -11.5165 1.6589 26.5702 0 0 0 1 shape=box size=0.0669,0.0467,0.0094
+G trigger_zone R_OSlot -11.7526 1.6589 26.7495 0 0.0062 0 1 shape=box size=0.0669,0.0467,0.0094
+C box 13.1284 1.6555 24.1342 0.5855 0.3965 -0.3965 0.5855 0.5172 0.6156 0.0747
+C box 9.0912 1.6215 24.9609 0.6849 0.1759 -0.1759 0.6849 0.5172 0.6156 0.0747
+C box 11.8 5.0161 12.79 0 0.7071 0 0.7071 0.5363 0.1878 2.5578
+C box 0.08 5.5061 31.7 0 0 0 1 0.5363 0.1878 2.5578
+C box 9.8741 1.6215 23.9987 0.5932 0.3849 -0.3849 0.5932 0.2672 0.5546 0.0747
+C box 13.1227 1.6555 22.8937 0.4287 0.5623 -0.5623 0.4287 0.2672 0.5546 0.0747
+C box 13.5543 1.6555 24.2767 -0.5623 0.4287 -0.4287 -0.5623 0.2672 0.5546 0.0747
+C box 9.3299 1.6215 25.3413 -0.3849 0.5932 -0.5932 -0.3849 0.2672 0.5546 0.0747
+C sphere -1.443 0.273 17.865 0.125
+C sphere 6.456 0.273 17.865 0.125
+C sphere 6.97 0.273 17.865 0.125
+C sphere -6.363 0.273 17.865 0.125
+C sphere -5.366 0.273 17.865 0.125
+C sphere 5.636 0.273 17.865 0.125
+C sphere -6.614 0.273 17.865 0.125
+C sphere -0.876 0.273 17.865 0.125
+C sphere 5.312 0.273 17.865 0.125
+C sphere 6.715 0.273 17.865 0.125
+C sphere 4.996 0.273 17.865 0.125
+C sphere -7.211 0.273 17.865 0.125
+C sphere -0.319 0.273 17.865 0.125
+C sphere -0.031 0.273 17.865 0.125
+C sphere -6.935 0.273 17.865 0.125
+C sphere -1.197 0.273 17.865 0.125
+C sphere 6.198 0.273 17.865 0.125
+C sphere -6.101 0.273 17.865 0.125
+C sphere 1.514 0.273 17.865 0.125
+C sphere 0.358 0.273 17.865 0.125
+C sphere -0.572 0.273 17.865 0.125
+C sphere -5.09 0.273 17.865 0.125
+C sphere 4.743 0.273 17.865 0.125
+C sphere 0.922 0.273 17.865 0.125
+C sphere -5.8 0.273 17.865 0.125
+C sphere 0.672 0.273 17.865 0.125
+C sphere 1.198 0.273 17.865 0.125
+G trigger_zone MouthTrigger 8.498 1.516 27.649 0.5709 0.4215 0.4326 0.5562 shape=sphere r=0.15
+G trigger_zone MouthTrigger 8.498 1.516 27.649 0.5709 0.4215 0.4326 0.5562 shape=sphere r=0.15
+G trigger_zone MouthTrigger 8.498 1.516 27.649 0.5709 0.4215 0.4326 0.5562 shape=sphere r=0.15
+G trigger_zone MouthTrigger 8.498 1.516 27.649 0.5709 0.4215 0.4326 0.5562 shape=sphere r=0.15
+G trigger_zone MouthTrigger 8.498 1.516 27.649 0.5709 0.4215 0.4326 0.5562 shape=sphere r=0.15
+G trigger_zone RimCollisionBottom -14.84 2.2629 11.1233 -0.7013 0 0 0.7128 shape=capsule r=0.0708 h=0.1416
+G trigger_zone RimCollisionTop -14.84 2.5518 11.128 -0.7013 0 0 0.7128 shape=capsule r=0.0354 h=0.1062
+C capsule -0.45 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule 2.705 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule 2.705 0.31 -16.8907 0 0 0 1 0.114 0.3
+C capsule 2.255 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule 0.225 0.31 -16.8907 0 0 0 1 0.114 0.3
+C capsule -3.575 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule -2.45 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule 2.93 0.31 -16.501 0 0 0 1 0.114 0.3
+C capsule -2.9 0.31 -16.501 0 0 0 1 0.114 0.3
+C capsule -0.225 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule 0.675 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule -2.675 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule 0 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule -0.675 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule -0.225 0.31 -16.8907 0 0 0 1 0.114 0.3
+C capsule 2.48 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule -2.9 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule 3.605 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule -3.125 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule -3.125 0.31 -16.8907 0 0 0 1 0.114 0.3
+C capsule -3.35 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule 0.225 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule -2.675 0.31 -16.8907 0 0 0 1 0.114 0.3
+C capsule -2.225 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule 0 0.31 -16.501 0 0 0 1 0.114 0.3
+C capsule 0.45 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule 2.93 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule 3.155 0.31 -16.8907 0 0 0 1 0.114 0.3
+C capsule 3.38 0.31 -17.2804 0 0 0 1 0.114 0.3
+C capsule 3.155 0.31 -17.6701 0 0 0 1 0.114 0.3
+C capsule 3.155 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 3.38 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule 3.155 0.415 -16.8907 0 0 0 1 0.06 0.57
+C capsule 2.93 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule 0.45 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule 0 0.415 -16.501 0 0 0 1 0.06 0.57
+C capsule -2.675 0.415 -16.8907 0 0 0 1 0.06 0.57
+C capsule -2.225 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 0.225 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule -3.35 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule -3.125 0.415 -16.8907 0 0 0 1 0.06 0.57
+C capsule -3.125 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 3.605 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule -2.9 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule 2.48 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule -0.225 0.415 -16.8907 0 0 0 1 0.06 0.57
+C capsule -0.675 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 0 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule -2.675 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 0.675 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule -0.225 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule -2.9 0.415 -16.501 0 0 0 1 0.06 0.57
+C capsule 2.93 0.415 -16.501 0 0 0 1 0.06 0.57
+C capsule -2.45 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule -3.575 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 0.225 0.415 -16.8907 0 0 0 1 0.06 0.57
+C capsule 2.255 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 2.705 0.415 -17.6701 0 0 0 1 0.06 0.57
+C capsule 2.705 0.415 -16.8907 0 0 0 1 0.06 0.57
+C capsule -0.45 0.415 -17.2804 0 0 0 1 0.06 0.57
+C capsule 1.3854 0.5523 11.502 0 0 -0.7071 0.7071 0.0978 0.2689
+C capsule -1.5226 0.5523 11.502 0 0 -0.7071 0.7071 0.0978 0.2689
+C capsule -11.6471 1.6724 26.7544 0 0.0062 0 1 0.06 0.57
+C capsule -11.4111 1.6724 26.5764 0 0 0 1 0.06 0.57
+C capsule -11.4111 1.5674 26.5764 0 0 0 1 0.114 0.3
+C capsule -11.6471 1.5674 26.7544 0 0.0062 0 1 0.114 0.3
+H grid BowlingAlley_Environment#0 -17.8383 0.1206 -19.2483 1.9044 1.9568 20 29 src=mesh mat=BowlingAlley_Assets_Mat go=[BowlingAlley_Environment] collider=0 vis=1
+H row BowlingAlley_Environment#0 0 n n n n n n n n 0 0 0 0 n n n n n n n n
+H row BowlingAlley_Environment#0 1 n n n n n n 4.6 4.6 4.6 4.6 4.6 4.6 4.6 n n n n n n n
+H row BowlingAlley_Environment#0 2 n n n n n n 4.6 4.6 4.6 4.6 4.6 4.6 4.6 n n n n n n n
+H row BowlingAlley_Environment#0 3 n n n n n n 4.6 4.6 4.6 4.6 4.6 4.6 4.6 n n n n n n n
+H row BowlingAlley_Environment#0 4 n n n n n n 4.6 4.6 4.6 4.6 4.6 4.6 4.6 n n n n n n n
+H row BowlingAlley_Environment#0 5 n n n n n n 4.6 4.6 4.6 4.6 4.6 4.6 4.6 n n n n n n n
+H row BowlingAlley_Environment#0 6 n n n n n n 4.28 4.28 4.28 4.28 4.28 4.28 4.28 n n n n n n n
+H row BowlingAlley_Environment#0 7 n n n n n n 4.41 4.41 4.41 4.41 4.41 4.41 4.41 n n n n n n n
+H row BowlingAlley_Environment#0 8 n n n n n n 4.54 4.54 4.54 4.54 4.54 4.54 4.54 n n n n n n n
+H row BowlingAlley_Environment#0 9 n n n n n n 4.28 4.28 4.28 4.28 4.28 4.28 4.28 n n n n n n n
+H row BowlingAlley_Environment#0 10 n n n n n n 4.4 4.4 4.4 4.4 4.4 4.4 4.4 n n n n n n n
+H row BowlingAlley_Environment#0 11 n n n n n n 4.52 4.52 4.52 4.52 4.52 4.52 4.52 n n n n n n n
+H row BowlingAlley_Environment#0 12 n n n n n n 4.26 4.26 4.26 4.26 4.26 4.26 4.26 n n n n n n n
+H row BowlingAlley_Environment#0 13 n n n n n n 4.45 4.45 4.45 4.45 4.45 4.45 4.45 n n n n n n n
+H row BowlingAlley_Environment#0 14 n n n n n n 6.89 6.89 6.89 6.89 6.89 6.89 6.89 n n n n n n n
+H row BowlingAlley_Environment#0 15 n n n n n n 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0 n n n n n n
+H row BowlingAlley_Environment#0 16 0.24 5.65 5.65 5.65 5.65 5.65 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0 4.95 4.95 4.95 4.95 4.95 4.95
+H row BowlingAlley_Environment#0 17 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 4.95 n
+H row BowlingAlley_Environment#0 18 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0.24 n
+H row BowlingAlley_Environment#0 19 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0.24 n
+H row BowlingAlley_Environment#0 20 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0.24 n
+H row BowlingAlley_Environment#0 21 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0.24 n
+H row BowlingAlley_Environment#0 22 0.24 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0.24 n
+H row BowlingAlley_Environment#0 23 0.24 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0.24 n
+H row BowlingAlley_Environment#0 24 0.24 0.24 0.24 0.24 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 6.89 0.24 0.24 0.24 n
+H row BowlingAlley_Environment#0 25 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 5.43 5.43 5.43 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 n
+H row BowlingAlley_Environment#0 26 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 5.43 5.43 5.43 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 n
+H row BowlingAlley_Environment#0 27 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 5.43 5.43 5.43 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 n
+H row BowlingAlley_Environment#0 28 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 0.24 n
+L point -5.01 4.5 -8.8 0.9999 0 0 0.0139 1 0.8977 0.7406 0.2 4.53 30
+L point 0.25 4.5 -8.8 0.9999 0 0 0.0139 1 0.8977 0.7406 0.57 3.55 30
+L point -3.69 4.38 -2.59 0.9999 0 0 0.0139 1 0.8977 0.7406 0.57 3.55 30
+L point 11.9 5 13.32 0.7071 0 0 0.7071 1 0.8977 0.7406 0.96 6.95 30
+L point -7.51 6.83 24.25 0.7071 0 0 0.7071 1 0.8977 0.7406 0.28 10.21 30
+L point -4.57 2.42 -0.79 0 0 0 1 0.9725 0.8797 0.7176 0.68 8.54 30
+L point 0 1.82 9.51 0 0 0 1 1 0.6201 0.2877 1.09 8.39 30
+L point 0 1.88 -15.72 0.5742 0 0 0.8187 0.4542 0.0752 0.8396 2 5.53 30
+L point 2.54 2.29 -13.7 0 0 0 1 0 0.472 1 1.38 10.92 30
+L point 16 4.21 13.43 0.5063 0.5063 -0.4936 -0.4936 0.9608 0.6538 0.0863 0.72 2.4455 30
+L point 0 2.93 14.71 0 0 0 1 0.9434 0.6008 0.2981 0.78 20.6 30
+L point -2.93 1.88 -15.72 0.5742 0 0 0.8187 0.4542 0.0752 0.8396 2 3.41 30
+L point -3.575 1.804 26.84 0 0 0 1 0.9717 0.9166 0.7196 0.28 3.55 30
+L point 0.25 4.36 3.77 0.9999 0 0 0.0139 1 0.8977 0.7406 0.57 3.55 30
+L point 4.66 2.42 -0.79 0 0 0 1 0.9725 0.8797 0.7176 0.68 8.54 30
+L point -3.34 5.5 8.62 0.0327 0 0 0.9995 0 0.6765 1 0.2 6.8 30
+L point -15.42 5.01 18.69 0 0.7071 0 0.7071 0 0.742 1 1.28 4.02 30
+L point -14.09 6.77 15.04 0.7071 0 0 0.7071 1 0.8977 0.7406 1.28 8.23 30
+L point -10.314 4.11 15.37 0 -0.7071 0 0.7071 1 0.8977 0.7406 0.12 6.07 30
+L point 11.9 0.04 13.32 0 0.7071 0.7071 0 1 0.8977 0.7406 0.96 4.84 30
+L point 0 5.21 8.57 0.0327 0 0 0.9995 0 0.6765 1 0.91 10.68 30
+L point -3.69 4.36 3.77 0.9999 0 0 0.0139 1 0.8977 0.7406 0.57 3.55 30
+L point -15.28 5.01 17.52 0.5 0.5 -0.5 0.5 0 0.742 1 1.29 3.1 30
+L point 0 1.179 8.109 0 0 0 1 1 0.8265 0.6745 0.71 3.47 30
+L point 4.42 4.88 27.37 0 0 0 1 1 0.8534 0.5425 0.67 2.73 30
+L point 14.945 3.22 13.437 0.5063 0.5063 -0.4936 -0.4936 0.9608 0.6538 0.0863 0.4 2.4455 30
+L point 12.42 6.77 24.84 0.7071 0 0 0.7071 1 0.8977 0.7406 0.62 8.82 30
+L point 4.42 4.88 28.11 1 0 0 0 1 0.8534 0.5425 1.19 3.28 30
+L point 2.92 1.88 -15.72 0.5742 0 0 0.8187 0.4542 0.0752 0.8396 2 3.41 30
+L point 0.25 4.38 -2.59 0.9999 0 0 0.0139 1 0.8977 0.7406 0.57 3.55 30
+L point -15.28 5.01 19.83 0.5 0.5 -0.5 0.5 0 0.742 1 1.29 3.1 30
+L point -2.4 2.29 -13.7 0 0 0 1 0 0.472 1 1.38 10.92 30
+L point 0.09 3.98 31.66 0.5 -0.5 0.5 0.5 1 0.8977 0.7406 0.6 6.9511 30
+L point 3.49 4.36 3.77 0.9999 0 0 0.0139 1 0.8977 0.7406 0.57 3.55 30
+L point 13.71 6.09 17.21 0 0 0 1 0.9623 0.7576 0.0862 0.67 4.27 30
+L point 5.33 4.5 -8.8 0.9999 0 0 0.0139 1 0.8977 0.7406 0.2 4.53 30
+L point 0 0.1 -17.2 -0.7071 0 0 0.7071 0.9717 0.9166 0.7196 0.66 2.41 30
+L point 9.84 4.78 22.01 0 0 0 1 1 0.8977 0.7406 0.51 8.8882 30
+L point 11.27 6.23 17.189 0.7071 0 0 0.7071 0.9623 0.7576 0.0862 1.18 4.31 30
+L point 3.49 4.38 -2.59 0.9999 0 0 0.0139 1 0.8977 0.7406 0.57 3.55 30
+L point -7.39 1.96 25.31 0 0 0 1 0.9717 0.9166 0.7196 1.44 2.7 30
+L point 3.38 5.5 8.62 0.0327 0 0 0.9995 0 0.6765 1 0.2 6.8 30
+L point -6.57 3.82 25.23 0 0 0 1 1 0.8977 0.7406 0 12.6616 30
+L spot 0 0.883 -15.058 0.987 0 0 0.1608 1 1 1 4 3.33 47.4
+L spot 2.93 0.883 -15.058 0.987 0 0 0.1608 1 1 1 4 3.33 47.4
+L spot -2.9 0.883 -15.058 0.987 0 0 0.1608 1 1 1 4 3.33 47.4

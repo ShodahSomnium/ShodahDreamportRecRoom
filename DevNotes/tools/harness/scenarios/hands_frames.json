@@ -1,0 +1,46 @@
+// Hands task: RrAvatarHand, the read-only model of the local avatar's DRAWN hands (DN/phase1/hands_frames.md).
+// Run: synthetic arms by name (Mixamo left, Unreal right, random bone rotations, scale 1 / 1.3 / 0.8), the IK-target
+// fallback after the avatar is destroyed, the controller guess (screen hand), the RPM Men humanoid (T-pose check and a
+// re-created VRIK target), then a scene to LOOK at: arms with frame axes (red X, green Y, blue Z), Rec Room's root beer
+// bottle in the left drawn hand and the paintball pistol in the right, placed with the section-4 conversion.
+// Hooks: SomniumSpace.Worlds.SomniumRecRoom.Player.RrAvatarHandTest (logs "HandsTest: PASS|FAIL <name> (...)").
+{
+  "name": "hands_frames",
+  "steps": [
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrAvatarHandTest.Run"},
+    {"expect_log": "HandsTest: PASS constants-left"},
+    {"expect_log": "HandsTest: PASS constants-right"},
+    {"expect_log": "HandsTest: PASS names"},
+    {"expect_log": "HandsTest: PASS named-left"},
+    {"expect_log": "HandsTest: PASS named-right"},
+    {"expect_log": "HandsTest: PASS cost"},
+    {"expect_log": "drawn hand vs the client's IK constants"},
+    {"expect_log": "HandsTest: PASS scaled-left"},
+    {"expect_log": "HandsTest: PASS scaled-right"},
+    {"expect_log": "HandsTest: PASS ik-left"},
+    {"expect_log": "HandsTest: PASS ik-right"},
+    {"expect_log": "HandsTest: PASS controller"},
+    {"expect_log": "HandsTest: PASS humanoid-detect"},
+    {"expect_log": "HandsTest: PASS humanoid-left"},
+    {"expect_log": "HandsTest: PASS humanoid-right"},
+    {"expect_log": "HandsTest: PASS vrik-left"},
+    {"expect_log": "HandsTest: PASS vrik-right"},
+    {"expect_log": "HandsTest: ALL PASS"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrAvatarHandTest.Scene"},
+    {"expect_log": "HandsTest: holding (Consumables_RootBeer_Bottle) in the left hand (OLD"},
+    {"expect_log": "HandsTest: holding (PaintballGun) in the right hand (drawn hand"},
+    {"expect_log": "HandsTest: holding (QuestSword) in the right hand (drawn hand"},
+    {"expect_log": "HandsTest: holding (Paddleball_Paddle) in the right hand (drawn hand"},
+    {"shot": "hands_overview", "pos": [0.0, 2.0, -3.3], "look": [0, 1.3, -2.1], "fov": 55, "w": 1600, "h": 800},
+    {"shot": "hands_old_pov", "pos": [-1.05, 1.62, -2.75], "look": [-1.05, 1.3, -1.95], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "hands_new_pov", "pos": [-0.35, 1.62, -2.75], "look": [-0.35, 1.3, -1.95], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "hands_cup_sword_pov", "pos": [0.35, 1.62, -2.75], "look": [0.35, 1.3, -1.95], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "hands_pen_paddle_pov", "pos": [1.05, 1.62, -2.75], "look": [1.05, 1.3, -1.95], "fov": 60, "w": 1280, "h": 720},
+    {"shot": "hands_old_above", "pos": [-0.65, 1.8, -1.7], "look": [-1.0, 1.35, -2.15], "fov": 55, "w": 1280, "h": 720},
+    {"shot": "hands_new_above", "pos": [0.05, 1.8, -1.7], "look": [-0.3, 1.35, -2.15], "fov": 55, "w": 1280, "h": 720},
+    {"shot": "hands_rpm_hand", "pos": [1.9, 1.05, -1.0], "look": [1.88, 0.92, -0.6], "fov": 40, "w": 1280, "h": 720},
+    {"shot": "hands_rpm", "pos": [1.6, 1.45, -2.2], "look": [1.6, 1.25, -0.6], "fov": 55, "w": 1280, "h": 720},
+    {"dump": "hands_scene", "root": "Rr Hands Test"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrAvatarHandTest.ClearTestArms"}
+  ]
+}

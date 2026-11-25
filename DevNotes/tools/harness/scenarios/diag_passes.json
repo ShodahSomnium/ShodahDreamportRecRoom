@@ -1,0 +1,11 @@
+// Diagnostic: load a few Rec Room props, then list the passes and LightMode tags of every Rec Room shader in memory.
+{
+  "name": "diag_passes",
+  "arrival": true,
+  "steps": [
+    {"spawn": "(Basketball)", "pos": [-1, 0, 0]},
+    {"spawn": "(Dorm_Bunk_Bed)", "pos": [1, 0, 0]},
+    {"call": "RrHarness.RrDiag.ShaderPasses"},
+    {"expect_log": "diag shader passes"}
+  ]
+}

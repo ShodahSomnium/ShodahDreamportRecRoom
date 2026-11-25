@@ -1,0 +1,24 @@
+# RRSK 1 Jumbotron_Additive
+B -203.0074 -49.9949 -320.1124 325.1068 -5.935 206.3876
+# source: Android build 2026-03-23 (APKPure XAPK) level49 = Packages/com.recroom.legacy/Runtime/Assets/Activities/Quest/Campaigns/Scifi_1/Scenes/Quest_Scifi_Additive.unity; frame = the level's stored Unity world space (Y up), nothing re-centred.
+# derived placement data only (names and numbers); meshes/materials are loaded from the player's PC install by name.
+# renderers 5 (runtime-mesh 3), install mesh match 2/2 = 100.0%, stand-ins 0, material slots known 2/2; colliders 1 (mesh 0, mesh->box 0); P 0; G 10; terrain grids 0
+# H grid <name> ox oy oz dx dz nx nz key=..  +  H row <name> <j> h0..h(nx-1): terrain heights (m above oy) at x = ox + i*dx, z = oz + j*dz
+M 0 CircuitNode_Board
+T 0 Sandbox_CircuitNode_Mat
+E fog linear 0 0.4039 0.6039 0.04 5 45.3
+E ambient 0.2588 0.5569 0.7333 mode=skybox intensity=1 equator=0.8431,0.549,0.3333 ground=0.2745,0.3529,0.3765
+E sky ?SkyboxSciFiQuest
+G kill_zone [QuestKillFloor] 63.6068 -22.2 -56.8624 0 0 0 1 shape=box size=523,10,526.5 path=Quest_Scifi_Additive_root/[QuestKillFloor]
+G kill_zone [QuestKillFloor] 45.9025 -44.9949 -0.7683 0 0 0 1 shape=box size=497.8196,10,395.25 path=Systems/[QuestKillFloor]
+G game_rule [RiseOfJumbotron_GameRuleWrapperCircuit]%20Variant 38.3483 -6.18 48.5963 0 0.7071 0 0.7071 path=Systems/[RiseOfJumbotron_GameRuleWrapperCircuit]%20Variant
+G game_config [RiseOfJumbotron_GameConfiguration]%20Variant 38.3503 -6.1491 49.4763 0 0.7071 0 0.7071 path=Systems/[RiseOfJumbotron_GameConfiguration]%20Variant
+R 0 0 38.3483 -6.18 48.5963 0.5 0.5 -0.5 -0.5 1 1 1
+R 0 0 38.3503 -6.1491 49.4763 0.5 0.5 -0.5 -0.5 1 1 1
+C box 38.3303 -6.18 48.5963 0 0.7071 0 0.7071 0.495 0.49 0.035
+G trigger_zone R_OSlot 38.3053 -6.0196 49.2527 0 0 -0.7071 -0.7071 shape=box size=0.04,0.01,0.04
+G trigger_zone G_OSlot 38.3053 -6.1079 49.2527 0 0 -0.7071 -0.7071 shape=box size=0.04,0.01,0.04
+G trigger_zone Collision 38.32 -6.1491 49.4763 0.7071 0.7071 0 0 shape=box size=0.4,0.04,0.4
+G trigger_zone C_OSlot 38.3053 -6.2766 49.2527 0 0 -0.7071 -0.7071 shape=box size=0.04,0.01,0.04
+G trigger_zone B_OSlot 38.3053 -6.198 49.2527 0 0 -0.7071 -0.7071 shape=box size=0.04,0.01,0.04
+G trigger_zone R_ISlot 38.3033 -5.9653 48.8703 0 0 -0.7071 -0.7071 shape=box size=0.03,0.01,0.04

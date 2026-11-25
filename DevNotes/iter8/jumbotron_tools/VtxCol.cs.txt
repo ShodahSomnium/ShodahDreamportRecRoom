@@ -1,0 +1,62 @@
+/// jumbotron agent's scratch addition (iteration 8): per-vertex colours of a level mesh (Unity channel 3, Color:
+/// UNorm8 x4 or Float32 x4) and the area-weighted average colour of the triangles lying on a plate, so the level's
+/// *VertColor* hull materials keep their tints ("c=r,g,b" on G plate).
+static class VtxCol {
+  static int FmtSize(int f) => f switch { 0 => 4, 1 => 2, 2 => 1, 3 => 1, 4 => 2, 5 => 2, 6 => 1, 7 => 1, 8 => 2, 9 => 2, 10 => 4, 11 => 4, _ => 4 };
+  public static double[][] Colors(Ld L, MeshInfo mi) {
+    if (mi == null) return null;
+    try {
+      var f = L.File(mi.File); var d = L.Read(f, f.ById[mi.Pid]);
+      var vd = d.Dct("m_VertexData"); int n = (int)vd.Num("m_VertexCount");
+      var chans = vd.Lst("m_Channels").Cast<Dictionary<string, object>>().Select(x => (s: (int)x.Num("stream"), o: (int)x.Num("offset"), fmt: (int)x.Num("format"), dim: (int)x.Num("dimension") & 15)).ToList();
+      if (chans.Count < 4 || chans[3].dim < 3) return null;
+      byte[] data = vd.G("m_DataSize") as byte[];
+      if (data == null || data.Length == 0) {
+        var sd = d.Dct("m_StreamData"); var path = Ld.Norm(sd?.Str("path")); long off = (long)(sd?.Num("offset") ?? 0); long size = (long)(sd?.Num("size") ?? 0);
+        if (size > 0 && path != null && L.D.Has(path)) { var all = L.D.Get(path); data = new byte[size]; Buffer.BlockCopy(all, (int)off, data, 0, (int)size); }
+      }
+      if (data == null || n == 0) return null;
+      int maxS = chans.Where(x => x.dim > 0).Max(x => x.s);
+      var sOff = new int[maxS + 1]; var sStride = new int[maxS + 1]; int o = 0;
+      for (int s = 0; s <= maxS; s++) { sOff[s] = o; sStride[s] = chans.Where(x => x.s == s && x.dim > 0).Select(x => x.o + FmtSize(x.fmt) * x.dim).DefaultIfEmpty(0).Max(); o += sStride[s] * n; o = (o + 15) & ~15; }
+      var c = chans[3]; var res = new double[n][];
+      for (int i = 0; i < n; i++) {
+        int b = sOff[c.s] + i * sStride[c.s] + c.o;
+        if (c.fmt == 2) res[i] = new[] { data[b] / 255.0, data[b + 1] / 255.0, data[b + 2] / 255.0 };
+        else if (c.fmt == 0) res[i] = new[] { (double)BitConverter.ToSingle(data, b), BitConverter.ToSingle(data, b + 4), BitConverter.ToSingle(data, b + 8) };
+        else return null;
+      }
+      return res;
+    } catch { return null; }
+  }
+
+  /// Triangles of one submesh bucketed by plane (normal to ~0.1 degree, offset to 5 cm), for plate colour lookups.
+  public sealed class Tris {
+    public readonly Dictionary<(int, int, int, long), List<(V3 c, double a, double[] col)>> Buckets = new();
+    static double Dot(V3 a, V3 b) => a.x * b.x + a.y * b.y + a.z * b.z;
+    static (int, int, int, long) Key(V3 n, double d) => ((int)Math.Round(n.x * 100), (int)Math.Round(n.y * 100), (int)Math.Round(n.z * 100), (long)Math.Round(d * 20));
+    public Tris(V3[] w, int[] t, double[][] vc) {
+      for (int i = 0; i + 2 < t.Length; i += 3) {
+        var a = w[t[i]]; var b = w[t[i + 1]]; var c = w[t[i + 2]];
+        var e1 = b - a; var e2 = c - a; var cr = new V3(e1.y * e2.z - e1.z * e2.y, e1.z * e2.x - e1.x * e2.z, e1.x * e2.y - e1.y * e2.x); double len = cr.Len(); if (len < 1e-7) continue;
+        var n = cr * (1 / len); var cen = (a + b + c) * (1.0 / 3);
+        var k = Key(n, Dot(n, cen));
+        var col = new[] { (vc[t[i]][0] + vc[t[i + 1]][0] + vc[t[i + 2]][0]) / 3, (vc[t[i]][1] + vc[t[i + 1]][1] + vc[t[i + 2]][1]) / 3, (vc[t[i]][2] + vc[t[i + 1]][2] + vc[t[i + 2]][2]) / 3 };
+        if (!Buckets.TryGetValue(k, out var li)) Buckets[k] = li = new(); li.Add((cen, len * 0.5, col));
+      }
+    }
+    /// The plate's average colour, or null when no triangle of the bucket lies on it.
+    public double[] On(Plates.Rect re) {
+      var n = re.n; double d = Dot(n, re.c); double sr = 0, sg = 0, sb = 0, sa = 0;
+      for (int dn = -1; dn <= 1; dn++) {
+        var k = Key(n, d); k.Item4 += dn;
+        if (!Buckets.TryGetValue(k, out var li)) continue;
+        foreach (var (c, a, col) in li) {
+          var r = c - re.c; if (Math.Abs(Dot(r, re.u)) > re.hx + 0.02 || Math.Abs(Dot(r, re.v)) > re.hy + 0.02 || Math.Abs(Dot(r, n)) > 0.06) continue;
+          sr += col[0] * a; sg += col[1] * a; sb += col[2] * a; sa += a;
+        }
+      }
+      return sa > 0 ? new[] { sr / sa, sg / sa, sb / sa } : null;
+    }
+  }
+}

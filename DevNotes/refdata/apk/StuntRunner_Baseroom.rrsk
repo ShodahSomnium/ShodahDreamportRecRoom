@@ -1,0 +1,21 @@
+# RRSK 1 StuntRunner_Baseroom
+B -500 -170 -500 500 35.11 500
+# source: Android build 2026-03-23 (APKPure XAPK) level100 = Packages/com.recroom.legacy/Runtime/Assets/Activities/StuntRunner/Scenes/StuntRunner_Baseroom.unity; frame = the level's stored Unity world space (Y up), nothing re-centred.
+# derived placement data only (names and numbers); meshes/materials are loaded from the player's PC install by name.
+# renderers 0 (runtime-mesh 0), install mesh match 0/0 = 0.0%, stand-ins 0, material slots known 0/0; colliders 1 (mesh 0, mesh->box 0); P 7; G 3; terrain grids 0
+# H grid <name> ox oy oz dx dz nx nz key=..  +  H row <name> <j> h0..h(nx-1): terrain heights (m above oy) at x = ox + i*dx, z = oz + j*dz
+E fog linear 0.0431 0.051 0.0549 0.02 10 200
+E ambient 0.5257 0.5121 0.5804 mode=trilight intensity=1 equator=0.1992,0.2147,0.2354 ground=0.2706,0.2196,0.1647
+E sky ?Stuntrunner_Skybox
+P (StuntRunner_Ceiling) -0.5454 35.11 3.6641 0 0 0 1 1 1 1
+P (StuntRunner_Wall_Short) -0.5455 17.4052 59.9657 0 0 0 1 1 1 1
+G teleport_block TeleportBlocker -47.18 19.9155 -42.4265 0 0 0 1 shape=box size=0.14,5.94,0.7803 active=0 path=Env_Group/Group%20Ladder/[Ladder_Hook_Tall]/TeleportBlocker
+P (StuntRunner_Wall_Long) -48.975 17.405 -3.5721 0 -0.7071 0 0.7071 1 1 1
+P (StuntRunner_Floor) -0.5454 -0.2998 3.6641 0 0 0 1 1 1 1
+P (StuntRunnerJumbotron_Makerpen) 0 27.9693 0 -0.7071 0 0 0.7071 1 1 1
+P (StuntRunner_Wall_Short) -0.5456 17.4052 -53.0029 0 -1 0 0 1 1 1
+P (StuntRunner_Wall_Long) 47.885 17.405 10.535 0 0.7071 0 0.7071 1 1 1
+G bounds FieldBounds 0.07 0 0 0 0 0 1 path=Systems/FieldBounds
+G kill_zone Killzone 0 -115 0 0 0 0 1 shape=box size=1000,110,1000 path=Systems/Killzone
+C box 0 -0.29 0 0 0 0 1 500 1 500
+L dir -15.23 2 -10.95 0.199 0.5767 -0.6802 -0.4063 0.832 0.9084 1 0.03 10 30

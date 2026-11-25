@@ -1,0 +1,876 @@
+RrScenario 'light9_tour'  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\scenarios\light9_tour.json
+started 2026-09-25 12:04:15, total 74.6 s; Unity 6000.3.5f2, Direct3D11 'NVIDIA GeForce RTX 3080 Ti', rp UniversalRender, Linear
+environment: RrSceneSetup.BuildEnvironment (the world scene's light, Arrival floor and render settings)
+output: C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour
+
+== Result: booted; 0 step failure(s), 0 skipped, of 51
+
+== Timings
+  RrMain.Ready: +1.08 s
+  +   0.11 s  first Main: Iteration 8 (2026-09-24): Rec Room lighting, shadows and skies; the start hologram; Golden Trophy with its Armory; The Rise of Jumbotron
+  +   0.12 s  first PostFx: built the "Rr Post" Volume (global, priority 100, layer 0, its own runtime profile; the client's default profile has no tonemapping and no bloom, so Rec Room's grading is ours to add)
+  +   0.12 s  first Status: Iteration 8 (2026-09-24) - starting...
+  +   0.12 s  first Access: editor: the whitelist (1 name(s)) is not applied
+  +   0.99 s  first Look: maker-pen material from the bundles (AG/MakerPenShape)
+  +   1.01 s  first Text: title font legacy_FUTURA-T-OT-BOLD-CONDENSED (rr), body font Jost-500-Medium (rr)
+  +   1.01 s  first Player: view camera 'Harness Camera' (Camera.main)
+  +   1.01 s  first Net: started (waiting for the room; offline until then)
+  +   1.02 s  first Grab: ready: VR reach 0.12 m, screen reach 2.5 m, held props kinematic + triggers, layer 7 excluded
+  +   1.04 s  first Watch: started (desktop: H opens the menu, Backspace goes back)
+  +   1.05 s  first Travel: in the arrival room, waiting for the network (up to 15 s)
+  +   1.05 s  first Hand: screen mode: right hand = virtual hand at (0.220, -0.200, 0.450) m in the view of camera 'Harness Camera' (ScreenFirstPerson); left hand unused
+  +   1.06 s  first Isolation: up: players not in your place are hidden (after 0.5 s apart, shown after 0.35 s together; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 1 scene(s) 1.05 ms, 0 avatar/item root(s)
+  +   1.11 s  first Loading: card built (screen overlay, sorting 900)
+  +   1.36 s  first Quest: final rules: one hit downs, players 1-4, death -2000, kill gold GoblinBasicGroundMelee2020 450, GoblinBasicFlyingRanged 500, GoblinEliteGroundMelee 850, GoblinEliteFlyingRanged 850, GoblinKnightCharge 1500, GoblinKnightSpin 2000, GoblinKnightSpin 2000, boss 5500, rating S 150,000 / A 125,000 / B 100...
+  +   4.81 s  first Portal: door template from (Charades_InkSpace_MainHull_Sandbox)Variant/[ActivityDoor]: 9 renderers, 3442 ms
+  +   9.27 s  first Env: Rec Room lighting table: 69 scenes
+  +  10.11 s  first SceneKit: GoldenTrophy_Foyer: renderers 168 -> 30 merged (176173 verts) + 0 separate, skipped 6; prefabs 6; stand-ins 21 in 2 meshes; colliders box 3838 + other 1 on 389 objects, mesh 0; lights 40, 40 in Rec Room's light grid, merge cells 32 m; overlaps removed 0 (duplicate renderers 0, stand-ins 0, prefabs 0...
+  +  10.23 s  first Heartbeat: bundles open 81, assets loaded 192 (198 loads, 88 found resident), failed 0, repeated warnings 0, fps 50
+  +  10.31 s  first Tools: hold poses: (FatPot) uses the full-body pose (right (-0.180, -0.211, 0.002) (0.0, 0.0, 0.0)) - the tool's pose in Rec Room's hand frame (logged once per kind)
+  +  10.44 s  first Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.19 s  first Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +  11.22 s  first Weapon: (Longbow) (Bow, tool 18): 20/s, 50 m/s arc, head 60 / body 40, AI 17-67, no ammo, bullet [Arrow], decal -, flash -
+  +  14.85 s  first Lights: GoldenTrophy_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 40 lights (8 hemisphere, 33 without highlights, 40 also as Unity lights for URP-shaded objects); cells 1.79 x 1.8 x 1.67 m, 6912/6912 cells lit, 55 full, max 8 per cell; 221 renderers with Rec Room's shaders lit; 87...
+  +  17.79 s  first LightTest: 11 light grid(s) |   GoldenTrophy_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 40 lights (8 hemisphere, 33 without highlights, 40 also as Unity lights for URP-shaded objects); cells 1.79 x 1.8 x 1.67 m, 6912/6912 cells lit, 55 full, max 8 per cell; 221 renderers with Rec R...
+  +  24.59 s  first Combat: started (friendly fire off, local id 0)
+  +  24.59 s  first Health: health/kills/deaths go to the presence slot through RrNet
+  +  24.62 s  first HitVolumes: 1 player volume set(s) (1 member(s) in this instance, 0 target(s))
+  +  40.86 s  first Enemy: first enemy (QuestAIController)GoblinBasicGroundMelee2020: type 0 Melee, 100 HP, 3 m/s, height 1.28 m, radius 0.37, projectile 10 m/s, simulated here
+  +  45.58 s  first Assets: 368 of 2787 bundles hold audio, video, shaders or fonts and stay open once opened
+  +  46.82 s  first Jumbotron: Jumbotron_Foyer: built at room-local offset (-40.1, 6.5, -54.6) - kit 142 renderers, 0 stand-ins, 2057 colliders, 15 lights, 32 markers; hull 1076 plates in 14 meshes (14 materials, 3 from the install), 52 dress boxes, 1588 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked)...
+  +  58.26 s  first Paintball: install mesh Tire_LOD0: 1248 vertices, readable True
+  +  62.32 s  first RecCenter: cache scan: 1011 files, 344 UnityFS, 3 scene bundles, 0 re-read, 311 ms; scene Assets/s/Assets/Rooms/RecCenter/RecCenter-RecCenter_071825.unity in 1AF.data + 44 dependencies, 75.9 MB; missing CABs: cab-634aa40a8f2cc92082b491f41a54aec8; 123 material shader hints
+  +  63.16 s  first Doors: the door glow's material has no _TintColor: glow off
+  +  63.31 s  first Hoop: hoop ready: 3 rim colliders tagged CollisionSfx_Table, score trigger at the rim
+  +  63.96 s  first Dorm: mirror ready (planar reflection 448 px within 6.5 m, stylised glass otherwise)
+  longest frame of the run: 2468.9 ms
+
+== Steps
+  #1 goto GoldenTrophy -> ok (13671 ms, 6493 frames, max frame 2468.9 ms)
+      arrived in 13.6 s
+  #2 wait 3 -> ok (3001 ms, 2379 frames, max frame 102.7 ms)
+  #3 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait -> ok (5 ms, 1 frames, max frame 7.6 ms)
+      coroutine finished
+  #4 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.ProbeFoyer -> ok (10 ms, 1 frames, max frame 13.6 ms)
+      returned
+  #5 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairFoyer -> ok (858 ms, 5 frames, max frame 751.6 ms)
+      coroutine finished
+  #6 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairFoyerHall -> ok (147 ms, 5 frames, max frame 86.6 ms)
+      coroutine finished
+  #7 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom -> ok (751 ms, 2 frames, max frame 751.3 ms)
+      coroutine finished
+  #8 call SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Start -> ok (10501 ms, 7009 frames, max frame 132.7 ms)
+      coroutine finished
+  #9 wait 1.5 -> ok (1500 ms, 1448 frames, max frame 4.5 ms)
+  #10 call SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestDressingRoom -> ok (5000 ms, 3015 frames, max frame 3.8 ms)
+      coroutine finished
+  #11 wait 1 -> ok (1000 ms, 959 frames, max frame 4.3 ms)
+  #12 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait -> ok (1 ms, 1 frames, max frame 3.5 ms)
+      coroutine finished
+  #13 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairArmory -> ok (121 ms, 5 frames, max frame 61.9 ms)
+      coroutine finished
+  #14 call SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestAct1 -> ok (5000 ms, 2599 frames, max frame 16.8 ms)
+      coroutine finished
+  #15 wait 1.5 -> ok (1501 ms, 1131 frames, max frame 4.4 ms)
+  #16 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait -> ok (2 ms, 1 frames, max frame 4.4 ms)
+      coroutine finished
+  #17 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairAct1Torch -> ok (154 ms, 5 frames, max frame 84.4 ms)
+      coroutine finished
+  #18 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairAct1 -> ok (144 ms, 5 frames, max frame 74.9 ms)
+      coroutine finished
+  #19 goto Jumbotron -> ok (7078 ms, 2860 frames, max frame 657.6 ms)
+      arrived in 7.1 s
+  #20 wait 3 -> ok (3001 ms, 2686 frames, max frame 11.5 ms)
+  #21 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait -> ok (2 ms, 1 frames, max frame 3.7 ms)
+      coroutine finished
+  #22 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairJumboFoyer -> ok (188 ms, 5 frames, max frame 126.7 ms)
+      coroutine finished
+  #23 goto Paintball -> ok (4142 ms, 3019 frames, max frame 117.0 ms)
+      arrived in 4.1 s
+  #24 wait 2 -> ok (2001 ms, 1346 frames, max frame 60.9 ms)
+  #25 expect_log built the lobby -> ok (7 ms, 1 frames, max frame 10.2 ms)
+      seen at +58.68 s: [SomniumRecRoom] Paintball: built the lobby from Rec Room's level in 3.4 s: 389 renderers, 5 props (0 missing), 8 practice spots, flags ready; maps are built when chosen
+  #26 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait -> ok (3 ms, 1 frames, max frame 5.7 ms)
+      coroutine finished
+  #27 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairPbInterior -> ok (169 ms, 5 frames, max frame 86.0 ms)
+      coroutine finished
+  #28 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff -> ok (1 ms, 1 frames, max frame 4.4 ms)
+      returned
+  #29 shot light9_pb_lobby_before -> ok (69 ms, 2 frames, max frame 65.8 ms)
+      room frame (Paintball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_lobby_before.png rendered in 12.6 ms; mean luma 74, sd 32
+  #30 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn -> ok (1 ms, 1 frames, max frame 3.8 ms)
+      returned
+  #31 wait 0.3 -> ok (300 ms, 284 frames, max frame 3.4 ms)
+  #32 shot light9_pb_lobby_after -> ok (68 ms, 2 frames, max frame 69.4 ms)
+      room frame (Paintball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_lobby_after.png rendered in 7.5 ms; mean luma 102, sd 32
+  #33 goto RecCenter -> ok (2653 ms, 1341 frames, max frame 123.5 ms)
+      arrived in 2.7 s
+  #34 wait 3 -> ok (3000 ms, 2581 frames, max frame 5.2 ms)
+  #35 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait -> ok (4 ms, 1 frames, max frame 6.5 ms)
+      coroutine finished
+  #36 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff -> ok (1 ms, 1 frames, max frame 3.4 ms)
+      returned
+  #37 shot light9_rc_before -> ok (139 ms, 2 frames, max frame 140.9 ms)
+      room frame (RecCenter origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_rc_before.png rendered in 8.3 ms; mean luma 87, sd 31
+  #38 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn -> ok (2 ms, 1 frames, max frame 6.9 ms)
+      returned
+  #39 wait 0.3 -> ok (301 ms, 269 frames, max frame 3.2 ms)
+  #40 shot light9_rc_after -> ok (91 ms, 2 frames, max frame 94.4 ms)
+      room frame (RecCenter origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_rc_after.png rendered in 8.0 ms; mean luma 139, sd 39
+  #41 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom -> ok (1340 ms, 2 frames, max frame 1339.8 ms)
+      coroutine finished
+  #42 goto Dorm -> ok (2409 ms, 1043 frames, max frame 149.3 ms)
+      arrived in 2.4 s
+  #43 wait 2 -> ok (2002 ms, 835 frames, max frame 5.8 ms)
+  #44 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait -> ok (2 ms, 1 frames, max frame 7.4 ms)
+      coroutine finished
+  #45 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff -> ok (1 ms, 1 frames, max frame 3.1 ms)
+      returned
+  #46 shot light9_dorm_before -> ok (78 ms, 2 frames, max frame 80.0 ms)
+      room frame (Dorm origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_dorm_before.png rendered in 10.4 ms; mean luma 117, sd 30
+  #47 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn -> ok (2 ms, 1 frames, max frame 8.2 ms)
+      returned
+  #48 wait 0.3 -> ok (300 ms, 124 frames, max frame 5.6 ms)
+  #49 shot light9_dorm_after -> ok (87 ms, 2 frames, max frame 88.7 ms)
+      room frame (Dorm origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_dorm_after.png rendered in 7.4 ms; mean luma 178, sd 37
+  #50 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom -> ok (493 ms, 2 frames, max frame 493.4 ms)
+      coroutine finished
+  #51 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.Report -> ok (2 ms, 1 frames, max frame 7.8 ms)
+      returned
+
+== PNG (6)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_lobby_before.png  (1280x720, mean luma 74, sd 32)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_lobby_after.png  (1280x720, mean luma 102, sd 32)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_rc_before.png  (1280x720, mean luma 87, sd 31)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_rc_after.png  (1280x720, mean luma 139, sd 39)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_dorm_before.png  (1280x720, mean luma 117, sd 30)
+  C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_dorm_after.png  (1280x720, mean luma 178, sd 37)
+
+== Systems
+  assets: bundles open 97, assets loaded 84 (598 loads, 331 found resident), failed 0, bundles unloaded on leaving rooms 13
+  materials checked 458, queue fixes 255, shader swaps 11; spawned 969
+
+== Errors and exceptions (2)
+  +17.84 s Error: Host type is not matching any asset type at Path Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractive.shadergraph.
+      UnityEngine.Camera:Render ()
+      SomniumSpace.Worlds.SomniumRecRoom.RrLightTest:Capture (string,UnityEngine.Vector3,UnityEngine.Vector3,single) (at Assets/#User/SomniumRecRoom/Core/RrEnvironmentLightTest.cs:441)
+      SomniumSpace.Worlds.SomniumRecRoom.RrLightTest/<PairWorld>d__21:MoveNext () (at Assets/#User/SomniumRecRoom/Core/RrEnvironmentLightTest.cs:412)
+      SomniumSpace.Worlds.SomniumRecRoom.RrLightTest/<PairScene>d__19:MoveNext () (at Assets/#User/SomniumRecRoom/Core/RrEnvironmentLightTest.cs:375)
+  +17.85 s Error: Host type is not matching any asset type at Path Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader.
+      UnityEngine.Camera:Render ()
+      SomniumSpace.Worlds.SomniumRecRoom.RrLightTest:Capture (string,UnityEngine.Vector3,UnityEngine.Vector3,single) (at Assets/#User/SomniumRecRoom/Core/RrEnvironmentLightTest.cs:441)
+      SomniumSpace.Worlds.SomniumRecRoom.RrLightTest/<PairWorld>d__21:MoveNext () (at Assets/#User/SomniumRecRoom/Core/RrEnvironmentLightTest.cs:412)
+      SomniumSpace.Worlds.SomniumRecRoom.RrLightTest/<PairScene>d__19:MoveNext () (at Assets/#User/SomniumRecRoom/Core/RrEnvironmentLightTest.cs:375)
+
+== Other warnings (not [SomniumRecRoom]): 22348 'referenced script is missing' (Rec Room's inert scripts, expected) + 14 others, first 25 distinct:
+  (x12) Please remove the CanvasRenderer component from the [Text] GameObject as this component is no longer necessary.
+  Please remove the CanvasRenderer component from the [NewRoomText(Clone)] GameObject as this component is no longer necessary.
+  Your project uses a scriptable render pipeline. You can use Camera.stereoTargetEye only with the built-in renderer.
+
+== [SomniumRecRoom] log (553 lines, with [RrHarness] markers)
+  +   0.00   [RrHarness] scenario C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\scenarios\light9_tour.json -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour
+  +   0.11   [SomniumRecRoom] Main: Iteration 8 (2026-09-24): Rec Room lighting, shadows and skies; the start hologram; Golden Trophy with its Armory; The Rise of Jumbotron
+  +   0.11   [SomniumRecRoom] Main: starting; worker threaded, Unity 6000.3.5f2
+  +   0.12   [SomniumRecRoom] PostFx: built the "Rr Post" Volume (global, priority 100, layer 0, its own runtime profile; the client's default profile has no tonemapping and no bloom, so Rec Room's grading is ours to add)
+  +   0.12   [SomniumRecRoom] Status: Iteration 8 (2026-09-24) - starting...
+  +   0.12   [SomniumRecRoom] Access: editor: the whitelist (1 name(s)) is not applied
+  +   0.20   [SomniumRecRoom] Status: Iteration 8 (2026-09-24) - looking for Rec Room...
+  +   0.21   [SomniumRecRoom] Main: Rec Room at E:\SteamLibrary\steamapps\common\RecRoom
+  +   0.21   [SomniumRecRoom] Status: Reading Rec Room...
+  +   0.38   [SomniumRecRoom] Main: catalog: 2787 bundles, 24564 entries from cache in 89 ms
+  +   0.38   [SomniumRecRoom] Status: Starting...
+  +   0.99   [SomniumRecRoom] Look: maker-pen material from the bundles (AG/MakerPenShape)
+  +   1.01   [SomniumRecRoom] Text: title font legacy_FUTURA-T-OT-BOLD-CONDENSED (rr), body font Jost-500-Medium (rr)
+  +   1.01   [SomniumRecRoom] Player: view camera 'Harness Camera' (Camera.main)
+  +   1.01   [SomniumRecRoom] Player: up: desktop, client absent, camera 'Harness Camera'
+  +   1.01   [SomniumRecRoom] Net: started (waiting for the room; offline until then)
+  +   1.02   [SomniumRecRoom] Grab: ready: VR reach 0.12 m, screen reach 2.5 m, held props kinematic + triggers, layer 7 excluded
+  +   1.04   [SomniumRecRoom] Watch: started (desktop: H opens the menu, Backspace goes back)
+  +   1.05   [SomniumRecRoom] Travel: in the arrival room, waiting for the network (up to 15 s)
+  +   1.05   [SomniumRecRoom] Status: Joining the room...
+  +   1.05   [SomniumRecRoom] Hand: screen mode: right hand = virtual hand at (0.220, -0.200, 0.450) m in the view of camera 'Harness Camera' (ScreenFirstPerson); left hand unused
+  +   1.06   [SomniumRecRoom] Isolation: up: players not in your place are hidden (after 0.5 s apart, shown after 0.35 s together; renderers forceRenderingOff, tag alpha, colliders, voices volume 0, other sounds muted); warm-up scan of 1 scene(s) 1.05 ms, 0 avatar/item root(s)
+  +   1.08   [SomniumRecRoom] Grab: screen mode: aim within 2.5 m, grab/use/throw from RrInput
+  +   1.09   [RrHarness] RrMain.Ready after 1.1 s
+  +   1.09   [RrHarness] step 1 goto GoldenTrophy
+  +   1.09   [SomniumRecRoom] Travel: trip 1: arrival room -> GoldenTrophy
+  +   1.09   [SomniumRecRoom] Player: movement x0, no jump
+  +   1.11   [SomniumRecRoom] Loading: card built (screen overlay, sorting 900)
+  +   1.35   [SomniumRecRoom] Travel: arrival room: "Arrival" at (0, -0.3, 0) with 1 renderers and 1 colliders
+  +   1.36   [SomniumRecRoom] Travel: building GoldenTrophy #0 at (0, 0, 0) (offline instance object 14)
+  +   1.36   [SomniumRecRoom] Quest: final rules: one hit downs, players 1-4, death -2000, kill gold GoblinBasicGroundMelee2020 450, GoblinBasicFlyingRanged 500, GoblinEliteGroundMelee 850, GoblinEliteFlyingRanged 850, GoblinKnightCharge 1500, GoblinKnightSpin 2000, GoblinKnightSpin 2000, boss 5500, rating S 150,000 / A 125,000 / B 100,000 Gold, start line Gameon
+  +   1.51   [SomniumRecRoom] Player: no Somnium client after 0.5 s (editor): making the fallback rig
+  +   1.51   [SomniumRecRoom] Player: fallback rig at (0.000, 0.000, -3.000) yaw 0 (placed by camera 'Harness Camera'), driving camera 'Harness Camera'; WASD walk, Shift run, Space jump, right mouse look
+  +   4.24   [SomniumRecRoom] Watch: fonts: body Roboto-Regular (watch), headings Jost-500-Medium (rr)
+  +   4.66   [SomniumRecRoom] Watch: menu built: 6 pages, 205 graphics, 3595 ms (layout desktop)
+  +   4.81   [SomniumRecRoom] Portal: door template from (Charades_InkSpace_MainHull_Sandbox)Variant/[ActivityDoor]: 9 renderers, 3442 ms
+  +   4.81   [SomniumRecRoom] Portal: recolourable frame material ActivityDoor_Recolorable_Mat (AG/Standard-Opaque)
+  +   4.82   [SomniumRecRoom] Watch: wrist watch: mesh Wrist_Watch (1163 verts), material Watch_Wrist_mat (AG/Avatar)
+  +   8.80   [SomniumRecRoom] Quest: kit ready: stone AG/Standard-Opaque, floor Stones_Modular_Theater_Mat, wood Wood_Floor_Matte_mat
+  +   9.24   [SomniumRecRoom] Quest: GoldenTrophy hull surfaces: StageTop_mat=Wood_Horizontal_DarkBrown_5x_Mat (GT StageTop_mat) DormRoom_BulletinBoard_mat=DormRoom_BulletinBoard_mat Brick_Painted_MedGrey_Mat=Brick_Red_Mat (GT Brick_Painted_MedGrey_Mat) Wallpaper_RockWall_Mat=Stones_Modular_Theater_Mat (GT Wallpaper_RockWall_Mat) Wood_Horizontal_WarmDarkBrown_1x_Mat=Wood_Horizontal_DarkBrown_5x_Mat (GT Wood_Horizontal_WarmDarkBrown_1x_Mat) Wood_Floor_Wide_mat=Wood_Floor_Matte_mat (GT Wood_Floor_Wide_mat) Metal_Dull_Dark_Mat=Metal_Dull_Dark_Mat Stones_Modular_Theater_Mat=Stones_Modular_Theater_Mat Wallpaper_Dark_Mat=DormRoom_PlasterWalls_Black_mat (GT Wallpaper_Dark_Mat) Brick_Painted_DarkRed_Mat=Brick_Red_Mat (GT Brick_Painted_DarkRed_Mat) Unlit_Black_mat=Unlit_Black_mat Curtain_Red_Mat=Curtain_Red_Mat Barrel_Table_Crate_Mat=Rr Solid 8C8C8F Rocks_Tiling_Background_Mat=Rocks_Tiling_Background_Mat Wood_Horizontal_RedOrange_Mat=Wood_Horizontal_DarkBrown_5x_Mat (GT Wood_Horizontal_RedOrange_Mat) Wood_Horizontal_DarkBrown_5x_Mat=Wood_Horizontal_DarkBrown_5x_Mat (GT Wood_Horizontal_DarkBrown_5x_Mat)
+  +   9.27   [SomniumRecRoom] Env: Rec Room lighting table: 69 scenes
+  +  10.11   [SomniumRecRoom] Env: scene GoldenTrophy_Foyer lights itself while the player is inside it: GoldenTrophy_Foyer (apk level19): no sun, ambient Trilight #040304/#391C18/#0D0402, fog Linear #353341 2-40 m, reflections x1, sky procedural (exposure 0.01), 40 realtime lights (1 with shadows)
+  +  10.11   [SomniumRecRoom] SceneKit: GoldenTrophy_Foyer: renderers 168 -> 30 merged (176173 verts) + 0 separate, skipped 6; prefabs 6; stand-ins 21 in 2 meshes; colliders box 3838 + other 1 on 389 objects, mesh 0; lights 40, 40 in Rec Room's light grid, merge cells 32 m; overlaps removed 0 (duplicate renderers 0, stand-ins 0, prefabs 0; stand-ins over install art 0, dress markers over install art 0), stand-ins inset 21; audio 0; effects 24 from 3 install templates (placed when the room is ready); markers 194; unknown names 2; assets meshes 23, materials 16; fog linear #353341 density 0.04 start 2 end 40; ambient 040304 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 619 ms, build 863 ms (main thread 202 ms over 653 frames, longest step 28.6 ms)
+  +  10.17   [SomniumRecRoom] Quest: GoldenTrophy_Foyer: built at area-local offset (-115.3, 6.5, -45.8): 2794 hull rectangles, 114 stand-ins (11 torches), 194 markers, 40 lights, 3838 box colliders, level effects
+  +  10.18   [SomniumRecRoom] Quest: lobby hologram at Rec Room's [ScoreboardProjector] ((-6.9, 0.0, -3.1), yaw 51)
+  +  10.19   [SomniumRecRoom] Quest: mod board built: Turbo, Coconut Chaos, Laser Weapons
+  +  10.19   [SomniumRecRoom] Quest: GoldenTrophy_Foyer: 1 pots at Rec Room's poses (50 Gold)
+  +  10.19   [SomniumRecRoom] Quest: GoldenTrophy_Foyer: 4 weapons at Rec Room's poses ((QuestSword), (QuestSword), (Longbow), (Longbow))
+  +  10.23   [SomniumRecRoom] Heartbeat: bundles open 81, assets loaded 192 (198 loads, 88 found resident), failed 0, repeated warnings 0, fps 50
+  +  10.24 W [SomniumRecRoom] Portal: the door glow's material has no _TintColor: glow off
+  +  10.31   [SomniumRecRoom] Tools: hold poses: (FatPot) uses the full-body pose (right (-0.180, -0.211, 0.002) (0.0, 0.0, 0.0)) - the tool's pose in Rec Room's hand frame (logged once per kind)
+  +  10.31   [SomniumRecRoom] Tools: screen hand: (FatPot) from its IdleAnimation (bundle): (0.228, -0.219, 0.457) in the view, (2.2, 1.6, 355.2) (logged once per source)
+  +  10.32   [SomniumRecRoom] Tools: (FatPot): grip (full-body), throw x1 unclamped, 8 hover renderers, screen BreakableThrowToolBehaviorConfig 12 m/s + AnimateInOut + Respawnable
+  +  10.44   [SomniumRecRoom] Tools: hold poses: (QuestSword) uses the legacy pose (right (-0.011, -0.071, -0.071) (315.0, 0.0, 90.0)) - the tool's pose in Rec Room's hand frame (logged once per kind)
+  +  10.44   [SomniumRecRoom] Tools: screen hand: (QuestSword) from its IdleAnimation (table): (0.203, -0.275, 0.470) in the view, (346.7, 2.2, 356.5) (logged once per source)
+  +  10.44   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  10.44   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.18   [SomniumRecRoom] Env: scene GoldenTrophy_Armory lights itself while the player is inside it: GoldenTrophy_Armory (apk level20): no sun, ambient Trilight #1C110B/#2D4120/#160B07, fog Linear #284648 0-60 m, reflections x1, sky procedural (exposure 0.01), 9 realtime lights (5 with shadows)
+  +  11.18   [SomniumRecRoom] SceneKit: GoldenTrophy_Armory: renderers 12 -> 8 merged (12938 verts) + 0 separate, skipped 5; prefabs 0; stand-ins 0 in 0 meshes; colliders box 195 + other 0 on 74 objects, mesh 0; lights 9, 9 in Rec Room's light grid, merge cells 32 m; audio 0; markers 51; unknown names 1; assets meshes 9, materials 7; fog linear #284648 density 0.05 start 0 end 60; ambient 1C110B reported; sky ?SkyboxQuest reported; parse 0 ms, loads 926 ms, build 937 ms (main thread 9 ms over 618 frames, longest step 4.0 ms)
+  +  11.19   [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +  11.22   [SomniumRecRoom] Weapon: (Longbow) (Bow, tool 18): 20/s, 50 m/s arc, head 60 / body 40, AI 17-67, no ammo, bullet [Arrow], decal -, flash -
+  +  11.22   [SomniumRecRoom] Quest: GoldenTrophy_Armory: built at area-local offset (-27.9, 1.7, -0.3): 220 hull rectangles, 20 stand-ins (0 torches), 51 markers, 9 lights, 195 box colliders
+  +  11.25   [SomniumRecRoom] Quest: GoldenTrophy_Armory: 11 pots at Rec Room's poses (600 Gold)
+  +  11.25   [SomniumRecRoom] Quest: GoldenTrophy_Armory: 8 weapons at Rec Room's poses ((QuestShield), (QuestShield), (QuestSword), (QuestSword), (QuestSword), (QuestSword), (Longbow), (Longbow))
+  +  11.26   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.26   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.26   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.27   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.39   [SomniumRecRoom] Tools: (FatPot_Large): grip (full-body), throw x1 unclamped, 8 hover renderers, screen BreakableThrowToolBehaviorConfig 12 m/s + AnimateInOut + Respawnable
+  +  11.48   [SomniumRecRoom] Console: game console: Rec Room's (ScoreboardProjector) carries the panel; opens within 20 m
+  +  11.50   [SomniumRecRoom] Env: scene GoldenTrophy_Hallway1 lights itself while the player is inside it: GoldenTrophy_Hallway1 (apk level21): no sun, ambient Trilight #070F07/#20120B/#0E0702, fog Linear #283A36 2-32.8 m, reflections x1, sky procedural (exposure 0.01), 30 realtime lights (3 with shadows)
+  +  11.50   [SomniumRecRoom] SceneKit: GoldenTrophy_Hallway1: renderers 37 -> 12 merged (53872 verts) + 0 separate, skipped 7; prefabs 0; stand-ins 0 in 0 meshes; colliders box 656 + other 0 on 127 objects, mesh 0; lights 30, 30 in Rec Room's light grid, merge cells 32 m; audio 0; effects 17 from 3 install templates (placed when the room is ready); markers 91; assets meshes 8, materials 6; fog linear #283A36 density 0.05 start 2 end 32.8; ambient 070F07 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 0 ms, build 76 ms (main thread 36 ms over 6 frames, longest step 9.9 ms)
+  +  11.52   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  11.53   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  11.56   [SomniumRecRoom] Quest: GoldenTrophy_Hallway1: built at area-local offset (-53.0, 0.8, -31.2): 4963 hull rectangles, 60 stand-ins (8 torches), 91 markers, 30 lights, 656 box colliders, level effects
+  +  11.57   [SomniumRecRoom] Quest: GoldenTrophy_Hallway1: 4 pots at Rec Room's poses (400 Gold)
+  +  11.57   [SomniumRecRoom] Quest: GoldenTrophy_Hallway1: 1 weapons at Rec Room's poses ((QuestSword))
+  +  11.58   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.66   [SomniumRecRoom] Env: scene GoldenTrophy_Hallway2 lights itself while the player is inside it: GoldenTrophy_Hallway2 (apk level22): no sun, ambient Trilight #010201/#452F1E/#4E270D, fog Linear #202F3A 2-32.8 m, reflections x1, sky procedural (exposure 0.01), 50 realtime lights (3 with shadows)
+  +  11.66   [SomniumRecRoom] SceneKit: GoldenTrophy_Hallway2: renderers 27 -> 16 merged (33467 verts) + 0 separate, skipped 7; prefabs 0; stand-ins 0 in 0 meshes; colliders box 888 + other 0 on 150 objects, mesh 0; lights 48 (2 not as Unity lights), 50 in Rec Room's light grid, merge cells 32 m; audio 0; effects 19 from 3 install templates (placed when the room is ready); markers 121; unknown names 1; assets meshes 9, materials 6; fog linear #202F3A density 0.05 start 2 end 32.8; ambient 010201 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 0 ms, build 54 ms (main thread 37 ms over 7 frames, longest step 9.3 ms)
+  +  11.70   [SomniumRecRoom] Quest: GoldenTrophy_Hallway2: built at area-local offset (-118.7, 6.3, 47.3): 1398 hull rectangles, 54 stand-ins (9 torches), 121 markers, 48 lights, 888 box colliders, level effects
+  +  11.75   [SomniumRecRoom] Quest: GoldenTrophy_Hallway2: 24 pots at Rec Room's poses (1850 Gold)
+  +  11.75   [SomniumRecRoom] Quest: GoldenTrophy_Hallway2: 2 weapons at Rec Room's poses ((QuestSword), (Crossbow))
+  +  11.76   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  11.84   [SomniumRecRoom] Weapon: (Crossbow) (Crossbow, tool 16): 2/s, 10 m/s arc, head 100 / body 50, AI 17-67, no ammo, bullet [CrossbowBolt], decal -, flash [VFX_PaintBall_Shoot]
+  +  11.91   [SomniumRecRoom] Env: scene GoldenTrophy_Hallway3 lights itself while the player is inside it: GoldenTrophy_Hallway3 (apk level23): no sun, ambient Trilight #010100/#252525/#040302, fog Linear #170E0A -2-23.6 m, reflections x1, sky procedural (exposure 0.01), 41 realtime lights (3 with shadows)
+  +  11.91   [SomniumRecRoom] SceneKit: GoldenTrophy_Hallway3: renderers 60 -> 18 merged (57470 verts) + 0 separate, skipped 7; prefabs 0; stand-ins 0 in 0 meshes; colliders box 1422 + other 1 on 175 objects, mesh 0; lights 41, 41 in Rec Room's light grid, merge cells 32 m; audio 0; effects 29 from 3 install templates (placed when the room is ready); markers 111; unknown names 3; assets meshes 12, materials 6; fog linear #170E0A density 0.08 start -2 end 23.6; ambient 010100 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 31 ms, build 112 ms (main thread 50 ms over 29 frames, longest step 11.3 ms)
+  +  11.96   [SomniumRecRoom] Quest: GoldenTrophy_Hallway3: built at area-local offset (-65.7, -4.2, 0.9): 2094 hull rectangles, 58 stand-ins (14 torches), 111 markers, 41 lights, 1422 box colliders, level effects
+  +  12.02   [SomniumRecRoom] Quest: GoldenTrophy_Hallway3: 24 pots at Rec Room's poses (1750 Gold)
+  +  12.02   [SomniumRecRoom] Quest: GoldenTrophy_Hallway3: 4 weapons at Rec Room's poses ((QuestShield), (QuestShield), (QuestSword), (QuestSword))
+  +  12.03   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  12.03   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  12.04   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  12.04   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  12.39   [SomniumRecRoom] Env: scene GoldenTrophy_DeadIsland lights itself while the player is inside it: GoldenTrophy_DeadIsland (apk level24): no sun, ambient Trilight #030000/#50241C/#1F0400, fog Linear #E04521 10-350 m, reflections x1, sky procedural (exposure 0.01), 32 realtime lights (1 with shadows)
+  +  12.39   [SomniumRecRoom] SceneKit: GoldenTrophy_DeadIsland: renderers 7 -> 4 merged (4341 verts) + 0 separate, skipped 5; prefabs 0; stand-ins 0 in 0 meshes; colliders box 4432 + other 0 on 137 objects, mesh 0; lights 32, 32 in Rec Room's light grid, merge cells 32 m; audio 0; effects 25 from 3 install templates (placed when the room is ready); markers 120; unknown names 1; assets meshes 5, materials 2; fog linear #E04521 density 0.005 start 10 end 350; ambient 030000 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 17 ms, build 171 ms (main thread 88 ms over 23 frames, longest step 8.9 ms)
+  +  12.45   [SomniumRecRoom] Quest: GoldenTrophy_DeadIsland: built at area-local offset (-175.3, 0.3, -57.7): 5508 hull rectangles, 47 stand-ins (12 torches), 120 markers, 32 lights, 4432 box colliders, level effects
+  +  12.56   [SomniumRecRoom] Quest: GoldenTrophy_DeadIsland: 23 pots at Rec Room's poses (1700 Gold)
+  +  12.57   [SomniumRecRoom] Quest: GoldenTrophy_DeadIsland: 4 weapons at Rec Room's poses ((QuestSword), (QuestSword), (Longbow), (Longbow))
+  +  12.58   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  12.59   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  12.72   [SomniumRecRoom] Env: scene GoldenTrophy_Hallway4 lights itself while the player is inside it: GoldenTrophy_Hallway4 (apk level25): no sun, ambient Trilight #000101/#3B1E0A/#030101, fog Linear #1A1C30 0-23.7 m, reflections x1, sky procedural (exposure 0.01), 70 realtime lights (3 with shadows)
+  +  12.72   [SomniumRecRoom] SceneKit: GoldenTrophy_Hallway4: renderers 53 -> 24 merged (40724 verts) + 0 separate, skipped 7; prefabs 0; stand-ins 0 in 0 meshes; colliders box 1766 + other 0 on 193 objects, mesh 0; lights 48 (22 not as Unity lights), 70 in Rec Room's light grid, merge cells 32 m; audio 0; effects 37 from 3 install templates (placed when the room is ready); markers 146; unknown names 1; assets meshes 11, materials 8; fog linear #1A1C30 density 0.08 start 0 end 23.7; ambient 000101 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 0 ms, build 88 ms (main thread 56 ms over 11 frames, longest step 9.2 ms)
+  +  12.78   [SomniumRecRoom] Quest: GoldenTrophy_Hallway4: built at area-local offset (-170.5, 4.8, 8.5): 2991 hull rectangles, 78 stand-ins (18 torches), 146 markers, 48 lights, 1766 box colliders, level effects
+  +  12.87   [SomniumRecRoom] Quest: GoldenTrophy_Hallway4: 36 pots at Rec Room's poses (2700 Gold)
+  +  12.87   [SomniumRecRoom] Quest: GoldenTrophy_Hallway4: 4 weapons at Rec Room's poses ((QuestShield), (QuestSword), (Crossbow), (Crossbow))
+  +  12.88   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  12.88   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  13.00   [SomniumRecRoom] Console: Rec Room's hologram: projected panel 4.36 x 3.27 m, centre (0.01, 2.52, 0.54) (marker-local), up 1.00, reads toward +Z 1.00, view root scale (0.3914, 0.3918, 0.3918), opened in 1.5 s
+  +  13.01 W [SomniumRecRoom] Console: QUEST FOR THE GOLDEN TROPHY at (-6.90, 0.00, -3.12): the projector meets Colliders/Colliders 309 (the hologram cuts into the room)
+  +  13.11   [SomniumRecRoom] Env: scene GoldenTrophy_Library lights itself while the player is inside it: GoldenTrophy_Library (apk level26): no sun, ambient Trilight #040404/#270707/#1A0401, fog Linear #3A2A20 2-57.2 m, reflections x1, sky procedural (exposure 0.01), 56 realtime lights (2 with shadows)
+  +  13.11   [SomniumRecRoom] SceneKit: GoldenTrophy_Library: renderers 564 -> 14 merged (141363 verts) + 0 separate, skipped 5; prefabs 0; stand-ins 0 in 0 meshes; colliders box 4941 + other 0 on 251 objects, mesh 0; lights 48 (8 not as Unity lights), 56 in Rec Room's light grid, merge cells 32 m; audio 0; effects 23 from 3 install templates (placed when the room is ready); markers 380; unknown names 1; assets meshes 9, materials 8; fog linear #3A2A20 density 0.05 start 2 end 57.2; ambient 040404 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 0 ms, build 167 ms (main thread 105 ms over 22 frames, longest step 11.8 ms)
+  +  13.18   [SomniumRecRoom] Quest: GoldenTrophy_Library: built at area-local offset (37.8, 1.1, -25.6): 4656 hull rectangles, 323 stand-ins (11 torches), 380 markers, 48 lights, 4941 box colliders, level effects
+  +  13.24   [SomniumRecRoom] Quest: GoldenTrophy_Library: 30 pots at Rec Room's poses (1800 Gold)
+  +  13.24   [SomniumRecRoom] Quest: GoldenTrophy_Library: 3 weapons at Rec Room's poses ((QuestShield), (QuestSword), (Crossbow))
+  +  13.25   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  13.25   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  13.38   [SomniumRecRoom] Env: scene GoldenTrophy_Hallway5 lights itself while the player is inside it: GoldenTrophy_Hallway5 (apk level27): no sun, ambient Trilight #261111/#463131/#2E0B02, fog Linear #33251C 3-27.2 m, reflections x1, sky procedural (exposure 0.01), 61 realtime lights (2 with shadows)
+  +  13.38   [SomniumRecRoom] SceneKit: GoldenTrophy_Hallway5: renderers 91 -> 28 merged (71092 verts) + 0 separate, skipped 6; prefabs 0; stand-ins 0 in 0 meshes; colliders box 2784 + other 0 on 294 objects, mesh 0; lights 48 (13 not as Unity lights), 61 in Rec Room's light grid, merge cells 32 m; audio 0; markers 138; unknown names 2; assets meshes 13, materials 9; fog linear #33251C density 0.05 start 3 end 27.2; ambient 261111 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 13 ms, build 102 ms (main thread 54 ms over 15 frames, longest step 4.3 ms)
+  +  13.43   [SomniumRecRoom] Quest: GoldenTrophy_Hallway5: built at area-local offset (-264.6, 0.0, -15.2): 1932 hull rectangles, 86 stand-ins (12 torches), 138 markers, 48 lights, 2784 box colliders
+  +  13.60   [SomniumRecRoom] Quest: GoldenTrophy_Hallway5: 38 pots at Rec Room's poses (2800 Gold)
+  +  13.60   [SomniumRecRoom] Quest: GoldenTrophy_Hallway5: 3 weapons at Rec Room's poses ((QuestShield), (QuestSword), (Crossbow))
+  +  13.61   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  13.61   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  13.87   [SomniumRecRoom] Env: scene GoldenTrophy_Battlefield lights itself while the player is inside it: GoldenTrophy_Battlefield (apk level28): no sun, ambient Trilight #310707/#2E2828/#924B25, fog Linear #862406 5-59.3 m, reflections x1, sky procedural (exposure 0.01), 59 realtime lights (2 with shadows)
+  +  13.87   [SomniumRecRoom] SceneKit: GoldenTrophy_Battlefield: renderers 38 -> 14 merged (19505 verts) + 0 separate, skipped 6; prefabs 1; stand-ins 0 in 0 meshes; colliders box 4871 + other 0 on 199 objects, mesh 4 (1 pre-baked); lights 48 (11 not as Unity lights), 59 in Rec Room's light grid, merge cells 32 m; audio 0; markers 187; unknown names 1; assets meshes 9, materials 6; fog linear #862406 density 0.03 start 5 end 59.3; ambient 310707 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 62 ms, build 205 ms (main thread 85 ms over 52 frames, longest step 5.9 ms)
+  +  13.98   [SomniumRecRoom] Quest: GoldenTrophy_Battlefield: built at area-local offset (-29.9, -2.2, 46.8): 7050 hull rectangles, 114 stand-ins (15 torches), 187 markers, 48 lights, 4871 box colliders
+  +  14.05   [SomniumRecRoom] Quest: GoldenTrophy_Battlefield: 32 pots at Rec Room's poses (2100 Gold)
+  +  14.05   [SomniumRecRoom] Quest: GoldenTrophy_Battlefield: 15 weapons at Rec Room's poses ((QuestShield), (QuestShield), (QuestShield), (QuestShield), (QuestSword), (QuestSword), (QuestSword), (QuestSword), (Crossbow), (Crossbow), (Longbow), (Longbow), (Longbow), (Longbow), (Longbow))
+  +  14.06   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  14.06   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  14.06   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  14.07   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  14.07   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.07   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.08   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.08   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.23   [SomniumRecRoom] Env: scene GoldenTrophy_Cafeteria lights itself while the player is inside it: GoldenTrophy_Cafeteria (apk level29): no sun, ambient Trilight #160716/#340707/#1C060B, fog Linear #3A2543 5-50 m, reflections x1, sky procedural (exposure 0.01), 62 realtime lights (1 with shadows)
+  +  14.23   [SomniumRecRoom] SceneKit: GoldenTrophy_Cafeteria: renderers 44 -> 14 merged (24364 verts) + 0 separate, skipped 5; prefabs 0; stand-ins 0 in 0 meshes; colliders box 1458 + other 0 on 146 objects, mesh 0; lights 48 (14 not as Unity lights), 62 in Rec Room's light grid, merge cells 32 m; audio 0; markers 146; unknown names 1; assets meshes 9, materials 6; fog linear #3A2543 density 0.03 start 5 end 50; ambient 160716 reported; sky ?SkyboxQuest reported; parse 0 ms, loads 0 ms, build 72 ms (main thread 33 ms over 8 frames, longest step 4.4 ms)
+  +  14.31   [SomniumRecRoom] Quest: GoldenTrophy_Cafeteria: built at area-local offset (-170.2, 5.3, 51.3): 1259 hull rectangles, 84 stand-ins (13 torches), 146 markers, 48 lights, 1458 box colliders
+  +  14.39   [SomniumRecRoom] Quest: GoldenTrophy_Cafeteria: 27 pots at Rec Room's poses (1700 Gold)
+  +  14.39   [SomniumRecRoom] Quest: GoldenTrophy_Cafeteria: 10 weapons at Rec Room's poses ((QuestShield), (QuestShield), (QuestSword), (QuestSword), (QuestSword), (QuestSword), (Crossbow), (Crossbow), (Crossbow), (Longbow))
+  +  14.40   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  14.40   [SomniumRecRoom] Melee: (QuestShield): AI 1-1 over 0-3 m/s, players 100, blocks, blade 1.87 m
+  +  14.41   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.42   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.42   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.43   [SomniumRecRoom] Melee: (QuestSword): AI 67-100 over 3-15 m/s, players 100, blocks, thrown x1, blade 0.86 m
+  +  14.46   [SomniumRecRoom] Quest: act index 0 (GoldenTrophy_Armory) "The Dressing Room" root (-300, 0, 220), entry (0.0, 0.0, -0.1) yaw 269, 0 waves + 0 side, 0 groups, 0 lava, exit door, prelude
+  +  14.46   [SomniumRecRoom] Quest: act index 1 (GoldenTrophy_Hallway1) "The Hallway" root (-100, 0, 220), entry (0.0, 0.0, 0.0) yaw 269, 6 waves + 0 side, 3 groups, 0 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 2 (GoldenTrophy_Hallway2) "The Crossbow Hall" root (100, 0, 220), entry (0.0, 0.0, 0.0) yaw 269, 5 waves + 0 side, 5 groups, 0 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 3 (GoldenTrophy_Hallway3) "The Boulder" root (300, 0, 220), entry (0.0, 0.0, 0.0) yaw 269, 4 waves + 0 side, 3 groups, 0 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 4 (GoldenTrophy_DeadIsland) "The Lava Room" root (-300, 0, 440), entry (0.0, 0.0, 0.0) yaw 269, 5 waves + 2 side, 6 groups, 1 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 5 (GoldenTrophy_Hallway4) "The Split Path" root (-100, 0, 440), entry (0.0, 0.0, 0.0) yaw 269, 5 waves + 0 side, 4 groups, 0 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 6 (GoldenTrophy_Library) "The Library" root (100, 0, 440), entry (0.0, 0.0, 0.0) yaw 179, 6 waves + 1 side, 5 groups, 0 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 7 (GoldenTrophy_Hallway5) "The Maze" root (300, 0, 440), entry (0.0, 0.0, 0.0) yaw 179, 5 waves + 0 side, 5 groups, 0 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 8 (GoldenTrophy_Battlefield) "The Battlefield" root (-300, 0, 660), entry (0.0, 0.0, 0.0) yaw 269, 7 waves + 0 side, 5 groups, 1 lava, exit door
+  +  14.46   [SomniumRecRoom] Quest: act index 9 (GoldenTrophy_Cafeteria) "The Goblin King" root (-100, 0, 660), entry (0.0, 0.0, 0.0) yaw 269, 1 waves + 0 side, 2 groups, 0 lava, exit none, boss
+  +  14.46   [SomniumRecRoom] Quest: GoldenTrophy hull: 34865 rectangles in 1669 merged meshes (385836 vertices), 990 stand-ins rebuilt, 48 left out
+  +  14.52   [SomniumRecRoom] Quest: shown area GoldenTrophy_Foyer
+  +  14.54   [SomniumRecRoom] Quest: textured 5 boxes with Rec Room stone/wood (2 tilings)
+  +  14.54   [SomniumRecRoom] Quest: Quest for the Golden Trophy built at (0, 0, 0): 10 acts, 7 enemy types, 250 pots (17450 Gold), 11 racks, 0 kit props
+  +  14.54   [SomniumRecRoom] Quest: level potential with 4 players: about 146,250 Gold from 196 wave enemies and 250 pots, plus boss adds and optional side waves; S needs 150,000, Rec Room's best ~180,000
+  +  14.54   [SomniumRecRoom] Travel: built GoldenTrophy in 13183 ms
+  +  14.55   [SomniumRecRoom] Travel: GoldenTrophy: lowest floor y = -6.4 (4738 environment colliders); a player 10 m below it is put back
+  +  14.55   [SomniumRecRoom] Player: teleport to (-0.570, 0.049, 1.090) yaw 269 (fallback rig)
+  +  14.55   [SomniumRecRoom] Travel: arrival room hidden, colliders off (in GoldenTrophy)
+  +  14.55   [SomniumRecRoom] Player: movement x1
+  +  14.56   [SomniumRecRoom] PostFx: AO: the client's HBAO is not in our profile (editor/harness, or the client has not applied its graphics settings since the Volume was made): nothing to shape
+  +  14.56   [SomniumRecRoom] PostFx: GoldenTrophy: APPPLESARCHIVE-GoldenLobby-PostProcessingProfile (REF2 .unity files/APPPLESARCHIVE/APPPLESARCHIVE-GoldenLobby-PostProcessingProfile.asset): Bloom threshold 1.04 intensity 0.15 scatter 0.6 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.1 contrast 10; LiftGammaGain lift (0.922,0.942,1,0) gamma (1,0.982,0.96,0) gain (1,0.99,0.956,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +  14.56   [SomniumRecRoom] Env: the sun is the world scene's 'Directional Light': colour RGBA(1.000, 0.957, 0.894, 1.000), intensity 1.3, shadows Soft
+  +  14.57   [SomniumRecRoom] Env: Skybox/Procedural is available: the quests' procedural skies draw with their own parameters
+  +  14.57   [SomniumRecRoom] Env: applied GoldenTrophy_Foyer (apk level19): no sun, ambient Trilight #040304/#391C18/#0D0402, fog Linear #353341 2-40 m, reflections x1, sky procedural (exposure 0.01), 40 realtime lights (1 with shadows); sky material Skybox/Procedural
+  +  14.58   [SomniumRecRoom] Env: GoldenTrophy: default GoldenLobby, 11 kit scene(s) registered; applied GoldenTrophy_Foyer (apk level19): no sun, ambient Trilight #040304/#391C18/#0D0402, fog Linear #353341 2-40 m, reflections x1, sky procedural (exposure 0.01), 40 realtime lights (1 with shadows)
+  +  14.58   [SomniumRecRoom] Quest: entered Quest for the Golden Trophy (authority True, members 1)
+  +  14.59   [SomniumRecRoom] Travel: census at GoldenTrophy (visit 1): 1 room, nothing outside it; room GoldenTrophy at (0, 0, 0), feet (-0.6, 0, 1.1), arrival hidden, world root 11174 objects (10790 in the room, 384 outside), scene roots 7, memory 758.9 MB (managed 440.2 MB), bundles open 81, assets loaded 225 (227 loads, 108 found resident), failed 0
+  +  14.63   [SomniumRecRoom] Env: sky material ready: a copy of the install's ComfortModeSkybox (AG/Skybox/Simple Gradient, supported True)
+  +  14.63   [SomniumRecRoom] Env: applied GoldenTrophy_Foyer (apk level19): no sun, ambient Trilight #040304/#391C18/#0D0402, fog Linear #353341 2-40 m, reflections x1, sky procedural (exposure 0.01), 40 realtime lights (1 with shadows); sky material Skybox/Procedural
+  +  14.76   [SomniumRecRoom] Travel: arrived in GoldenTrophy #0 at (0, 0, 0), spawn 0 after 13.66 s
+  +  14.79   [RrHarness] step 1 ok (13671 ms) arrived in 13.6 s
+  +  14.79   [RrHarness] step 2 wait 3
+  +  14.84   [SomniumRecRoom] SceneKit: GoldenTrophy_Hallway1: effects placed 17 of 17 (wall mounts: 17 on a rebuilt wall, 0 left out with no wall within 1.2 m); (Sandbox_Campfire)|VFX/[VFX_CampfireFlame] x8; (Sandbox_Candle)|Candle_Tall/FirePlane_fbx x8; (WaterBottle)|Cap/Particle System x1; sounds 8: campfire_02_30_loop at (-109.6, 2.2, 222.7), campfire_02_30_loop at (-125.9, 1.8, 213.3), campfire_02_30_loop at (-128.1, 2.8, 229.9), campfire_02_30_loop at (-120.7, 2.7, 229.9), campfire_02_30_loop at (-99.5, 1.6, 217.3), campfire_02_30_loop at (-99.4, 1.7, 222.7); nearest 40 effects / 8 sounds run
+  +  14.85   [SomniumRecRoom] Lights: GoldenTrophy_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 40 lights (8 hemisphere, 33 without highlights, 40 also as Unity lights for URP-shaded objects); cells 1.79 x 1.8 x 1.67 m, 6912/6912 cells lit, 55 full, max 8 per cell; 221 renderers with Rec Room's shaders lit; 87.8 ms
+  +  14.86   [SomniumRecRoom] SceneKit: GoldenTrophy_Foyer: effects placed 24 of 24 (wall mounts: 24 on a rebuilt wall, 0 left out with no wall within 1.2 m); (Sandbox_Campfire)|VFX/[VFX_CampfireFlame] x11; (Sandbox_Candle)|Candle_Tall/FirePlane_fbx x11; (WaterBottle)|Cap/Particle System x2; sounds 11: campfire_02_30_loop at (-35.1, 2.9, 2.2), campfire_02_30_loop at (-0.3, 1.6, -2.8), campfire_02_30_loop at (-34.9, 3.0, -2.3), campfire_02_30_loop at (-32.4, 2.9, 2.2), campfire_02_30_loop at (2.0, 1.6, 2.7), campfire_02_30_loop at (-2.3, 1.6, 3.5); nearest 40 effects / 8 sounds run
+  +  14.87   [SomniumRecRoom] Lights: GoldenTrophy_Armory: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 9 lights (4 hemisphere, 7 without highlights, 9 also as Unity lights for URP-shaded objects); cells 0.49 x 0.48 x 0.48 m, 6678/6912 cells lit, 0 full, max 6 per cell; 160 renderers with Rec Room's shaders lit; 14.5 ms
+  +  14.89   [SomniumRecRoom] Lights: GoldenTrophy_Hallway1: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 30 lights (3 hemisphere, 27 without highlights, 30 also as Unity lights for URP-shaded objects); cells 1.71 x 0.95 x 1.9 m, 6138/6912 cells lit, 46 full, max 8 per cell; 155 renderers with Rec Room's shaders lit; 13.4 ms
+  +  17.79   [RrHarness] step 2 ok (3001 ms) 
+  +  17.79   [RrHarness] step 3 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait
+  +  17.79   [SomniumRecRoom] LightTest: 11 light grid(s)
+              GoldenTrophy_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 40 lights (8 hemisphere, 33 without highlights, 40 also as Unity lights for URP-shaded objects); cells 1.79 x 1.8 x 1.67 m, 6912/6912 cells lit, 55 full, max 8 per cell; 221 renderers with Rec Room's shaders lit; 87.8 ms
+              GoldenTrophy_Armory: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 9 lights (4 hemisphere, 7 without highlights, 9 also as Unity lights for URP-shaded objects); cells 0.49 x 0.48 x 0.48 m, 6678/6912 cells lit, 0 full, max 6 per cell; 160 renderers with Rec Room's shaders lit; 14.5 ms
+              GoldenTrophy_Hallway1: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 30 lights (3 hemisphere, 27 without highlights, 30 also as Unity lights for URP-shaded objects); cells 1.71 x 0.95 x 1.9 m, 6138/6912 cells lit, 46 full, max 8 per cell; 155 renderers with Rec Room's shaders lit; 13.4 ms
+              GoldenTrophy_Hallway2: waiting (50 lights)
+              GoldenTrophy_Hallway3: waiting (41 lights)
+              GoldenTrophy_DeadIsland: waiting (32 lights)
+              GoldenTrophy_Hallway4: waiting (70 lights)
+              GoldenTrophy_Library: waiting (56 lights)
+              GoldenTrophy_Hallway5: waiting (61 lights)
+              GoldenTrophy_Battlefield: waiting (59 lights)
+              GoldenTrophy_Cafeteria: waiting (62 lights)
+  +  17.79   [SomniumRecRoom] LightTest: room Room GoldenTrophy #0: 499 active renderers (501 material draws): 410 with Rec Room's grid shaders (406 lit by a grid, 408 draws outside the SRP Batcher), 89 URP-shaded (their lights: URP's per-object limit 4); 81 active Unity point/spot lights (0 shadowed)
+  +  17.80   [RrHarness] step 3 ok (5 ms) coroutine finished
+  +  17.80   [RrHarness] step 4 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.ProbeFoyer
+  +  17.81   [SomniumRecRoom] LightTest: GoldenTrophy_Foyer floor light (Rec Room's formula, linear, up-facing): (115.2, -6.5, 45.8): 1.54/0.23/0.02 (7 lights in cell) (115.0, -6.5, 43.4): 1.62/0.24/0.03 (7 lights in cell) (115.0, -6.5, 48.2): 1.66/0.24/0.03 (8 lights in cell) (117.3, -6.5, 43.4): 1.37/0.20/0.02 (7 lights in cell) (112.0, -6.5, 45.8): 0.89/0.15/0.03 (7 lights in cell) (110.0, -6.5, 45.8): 0.44/0.10/0.04 (6 lights in cell) (108.3, -6.5, 43.5): 0.34/0.09/0.04 (2 lights in cell) (98.7, -6.5, 46.1): 0.44/0.16/0.09 (3 lights in cell)
+  +  17.81   [RrHarness] step 4 ok (10 ms) returned
+  +  17.81   [RrHarness] step 5 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairFoyer
+  +  17.82   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 11 scene(s)
+  +  18.57   [SomniumRecRoom] LightTest: shot light9_gt_foyer_before from (2.7, 1.7, 0.0) toward (-6.9, 1.4, -1.6): mean luma 21.3 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_foyer_before.png
+  +  18.57   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  18.67   [SomniumRecRoom] LightTest: shot light9_gt_foyer_after from (2.7, 1.7, 0.0) toward (-6.9, 1.4, -1.6): mean luma 44.9 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_foyer_after.png
+  +  18.67   [RrHarness] step 5 ok (858 ms) coroutine finished
+  +  18.67   [RrHarness] step 6 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairFoyerHall
+  +  18.68   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 11 scene(s)
+  +  18.73   [SomniumRecRoom] LightTest: shot light9_gt_hall_before from (-11.3, 1.6, 0.0) toward (-29.3, 1.1, 0.7): mean luma 22.7 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_hall_before.png
+  +  18.73   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  18.82   [SomniumRecRoom] LightTest: shot light9_gt_hall_after from (-11.3, 1.6, 0.0) toward (-29.3, 1.1, 0.7): mean luma 43.4 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_hall_after.png
+  +  18.82   [RrHarness] step 6 ok (147 ms) coroutine finished
+  +  18.83   [RrHarness] step 7 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom
+  +  18.83   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 11 scene(s)
+  +  18.83   [SomniumRecRoom] Lights: blocks now carry the light arrays as properties
+  +  19.00   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  19.00   [SomniumRecRoom] Lights: blocks now carry Rec Room's AdditionalLights cbuffer as one bound buffer
+  +  19.27   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  19.27   [SomniumRecRoom] Lights: blocks now carry the light arrays as properties
+  +  19.57   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  19.57   [SomniumRecRoom] Lights: blocks now carry Rec Room's AdditionalLights cbuffer as one bound buffer
+  +  19.57   [SomniumRecRoom] LightTest: perf Room GoldenTrophy #0 from (-0.6, 1.8, 1.1): grids off 3.77 ms per render, grids on (bound cbuffer) 6.52 ms per render, grids on (arrays) 7.06 ms per render
+  +  19.59   [RrHarness] step 7 ok (751 ms) coroutine finished
+  +  19.59   [RrHarness] step 8 call SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Start
+  +  20.23   [SomniumRecRoom] Heartbeat: bundles open 84, assets loaded 230 (230 loads, 110 found resident), failed 0, repeated warnings 0, fps 995
+  +  24.59   [SomniumRecRoom] Quest: act 1/10 "THE DRESSING ROOM"
+  +  24.59   [SomniumRecRoom] Quest: Quest for the Golden Trophy: run started with 1 player(s)
+  +  24.59   [SomniumRecRoom] Combat: started (friendly fire off, local id 0)
+  +  24.59   [SomniumRecRoom] Health: health/kills/deaths go to the presence slot through RrNet
+  +  24.59   [SomniumRecRoom] Health: combat on: 1 HP, respawn 0 s, invincible 3 s
+  +  24.60   [SomniumRecRoom] Player: teleport to (-299.974, 0.045, 218.275) yaw 269 (fallback rig)
+  +  24.60   [SomniumRecRoom] Quest: local player into act 1 at (-300.0, 0.0, 218.3)
+  +  24.60   [SomniumRecRoom] Quest: shown area GoldenTrophy_Armory
+  +  24.60   [SomniumRecRoom] PostFx: GoldenTrophy area 1: APPPLESARCHIVE-GoldenLobby-PostProcessingProfile again (no change)
+  +  24.62   [SomniumRecRoom] HitVolumes: 1 player volume set(s) (1 member(s) in this instance, 0 target(s))
+  +  24.62   [SomniumRecRoom] Env: applied GoldenTrophy_Armory (apk level20): no sun, ambient Trilight #1C110B/#2D4120/#160B07, fog Linear #284648 0-60 m, reflections x1, sky procedural (exposure 0.01), 9 realtime lights (5 with shadows); sky material Skybox/Procedural
+  +  24.63   [SomniumRecRoom] Quest: Coach: "Game On!" (Gameon, 2.00 s, 44100 Hz)
+  +  27.59   [SomniumRecRoom] Quest: act 1 clear (gold 0)
+  +  30.09   [SomniumRecRoom] Quest: QuestTest: started - Quest for the Golden Trophy phase Playing act 1 stage Clear wave 0 alive 0 gold 0/17450 kills 0 pots broken 0 outcome 0
+  +  30.09   [RrHarness] step 8 ok (10501 ms) coroutine finished
+  +  30.09   [RrHarness] step 9 wait 1.5
+  +  30.23   [SomniumRecRoom] Heartbeat: bundles open 86, assets loaded 232 (232 loads, 110 found resident), failed 0, repeated warnings 0, fps 1030
+  +  31.59   [RrHarness] step 9 ok (1500 ms) 
+  +  31.59   [RrHarness] step 10 call SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestDressingRoom
+  +  31.59   [SomniumRecRoom] Quest: act 1/10 "THE DRESSING ROOM"
+  +  34.59   [SomniumRecRoom] Quest: act 1 clear (gold 0)
+  +  36.59   [SomniumRecRoom] Quest: QuestTest: GoldenTrophy_Armory (act index 0) - Quest for the Golden Trophy phase Playing act 1 stage Clear wave 0 alive 0 gold 0/17450 kills 0 pots broken 0 outcome 0, player at (-300.0, 0.0, 218.3)
+  +  36.59   [RrHarness] step 10 ok (5000 ms) coroutine finished
+  +  36.59   [RrHarness] step 11 wait 1
+  +  37.59   [RrHarness] step 11 ok (1000 ms) 
+  +  37.59   [RrHarness] step 12 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait
+  +  37.60   [SomniumRecRoom] LightTest: 11 light grid(s)
+              GoldenTrophy_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 40 lights (8 hemisphere, 33 without highlights, 40 also as Unity lights for URP-shaded objects); cells 1.79 x 1.8 x 1.67 m, 6912/6912 cells lit, 55 full, max 8 per cell; 221 renderers with Rec Room's shaders lit; 87.8 ms
+              GoldenTrophy_Armory: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 9 lights (4 hemisphere, 7 without highlights, 9 also as Unity lights for URP-shaded objects); cells 0.49 x 0.48 x 0.48 m, 6678/6912 cells lit, 0 full, max 6 per cell; 160 renderers with Rec Room's shaders lit; 14.5 ms
+              GoldenTrophy_Hallway1: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 30 lights (3 hemisphere, 27 without highlights, 30 also as Unity lights for URP-shaded objects); cells 1.71 x 0.95 x 1.9 m, 6138/6912 cells lit, 46 full, max 8 per cell; 155 renderers with Rec Room's shaders lit; 13.4 ms
+              GoldenTrophy_Hallway2: waiting (50 lights)
+              GoldenTrophy_Hallway3: waiting (41 lights)
+              GoldenTrophy_DeadIsland: waiting (32 lights)
+              GoldenTrophy_Hallway4: waiting (70 lights)
+              GoldenTrophy_Library: waiting (56 lights)
+              GoldenTrophy_Hallway5: waiting (61 lights)
+              GoldenTrophy_Battlefield: waiting (59 lights)
+              GoldenTrophy_Cafeteria: waiting (62 lights)
+  +  37.60   [SomniumRecRoom] LightTest: room Room GoldenTrophy #0: 236 active renderers (237 material draws): 202 with Rec Room's grid shaders (200 lit by a grid, 201 draws outside the SRP Batcher), 34 URP-shaded (their lights: URP's per-object limit 4); 41 active Unity point/spot lights (0 shadowed)
+  +  37.60   [RrHarness] step 12 ok (1 ms) coroutine finished
+  +  37.60   [RrHarness] step 13 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairArmory
+  +  37.60   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 11 scene(s)
+  +  37.65   [SomniumRecRoom] LightTest: shot light9_gt_armory_before from (-303.3, 1.6, 219.6) toward (-303.3, 1.3, 229.6): mean luma 17.9 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_armory_before.png
+  +  37.66   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  37.72   [SomniumRecRoom] LightTest: shot light9_gt_armory_after from (-303.3, 1.6, 219.6) toward (-303.3, 1.3, 229.6): mean luma 44.5 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_armory_after.png
+  +  37.72   [RrHarness] step 13 ok (121 ms) coroutine finished
+  +  37.72   [RrHarness] step 14 call SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestAct1
+  +  37.72   [SomniumRecRoom] Quest: act 2/10 "ACT 1"
+  +  37.73   [SomniumRecRoom] Player: teleport to (-99.978, 0.050, 218.350) yaw 269 (fallback rig)
+  +  37.73   [SomniumRecRoom] Quest: local player into act 2 at (-100.0, 0.1, 218.4)
+  +  37.73   [SomniumRecRoom] Quest: shown area GoldenTrophy_Hallway1
+  +  37.74   [SomniumRecRoom] PostFx: GoldenTrophy area 2: APPPLESARCHIVE-GoldenLobby-PostProcessingProfile again (no change)
+  +  37.78   [SomniumRecRoom] SceneKit: GoldenTrophy_Hallway2: effects placed 19 of 19 (wall mounts: 19 on a rebuilt wall, 0 left out with no wall within 1.2 m); (Sandbox_Campfire)|VFX/[VFX_CampfireFlame] x9; (Sandbox_Candle)|Candle_Tall/FirePlane_fbx x9; (WaterBottle)|Cap/Particle System x1; sounds 9: campfire_02_30_loop at (28.5, 8.8, 212.7), campfire_02_30_loop at (35.0, 9.0, 212.3), campfire_02_30_loop at (78.9, 2.3, 231.8), campfire_02_30_loop at (72.0, 2.3, 231.8), campfire_02_30_loop at (99.9, 1.9, 217.6), campfire_02_30_loop at (35.0, 9.0, 217.8); nearest 40 effects / 8 sounds run
+  +  37.79   [SomniumRecRoom] Lights: GoldenTrophy_Hallway2: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 50 lights (10 hemisphere, 42 without highlights, 48 also as Unity lights for URP-shaded objects); cells 3.34 x 1.24 x 1.54 m, 6370/6912 cells lit, 326 full, max 8 per cell; 333 renderers with Rec Room's shaders lit; 51.2 ms
+  +  37.91   [SomniumRecRoom] Env: applied GoldenLobby (ref2 GoldenLobby+apk GoldenTrophy Foyer): no sun, ambient Trilight #040304/#391C18/#0D0402, fog Linear #353341 2-40 m, reflections x1, sky procedural (exposure 0.01), 40 realtime lights (1 with shadows); sky material Skybox/Procedural
+  +  40.23   [SomniumRecRoom] Heartbeat: bundles open 86, assets loaded 232 (232 loads, 110 found resident), failed 0, repeated warnings 0, fps 959
+  +  40.72   [SomniumRecRoom] Quest: act 2 wave 1: 1 enemies (party 1)
+  +  40.74   [SomniumRecRoom] Quest: act 2 wave 2: 1 enemies (party 1)
+  +  40.86   [SomniumRecRoom] Enemy: first enemy (QuestAIController)GoblinBasicGroundMelee2020: type 0 Melee, 100 HP, 3 m/s, height 1.28 m, radius 0.37, projectile 10 m/s, simulated here
+  +  40.90   [SomniumRecRoom] Enemy: skinned rig Goblin_Ground_PlayerTransformation on type 0: posed height fitted x1.07 to 1.28 m, clips Goblin_Idle/Goblin_WalkCycle, arm bone Goblin_Ground_LeftArm
+  +  42.72   [SomniumRecRoom] Quest: QuestTest: GoldenTrophy_Hallway1 (act index 1) - Quest for the Golden Trophy phase Playing act 2 stage Combat wave 2 alive 2 gold 0/18350 kills 0 pots broken 0 outcome 0, player at (-100.0, 0.0, 218.4)
+  +  42.72   [RrHarness] step 14 ok (5000 ms) coroutine finished
+  +  42.72   [RrHarness] step 15 wait 1.5
+  +  44.23   [RrHarness] step 15 ok (1501 ms) 
+  +  44.23   [RrHarness] step 16 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait
+  +  44.23   [SomniumRecRoom] LightTest: 11 light grid(s)
+              GoldenTrophy_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 40 lights (8 hemisphere, 33 without highlights, 40 also as Unity lights for URP-shaded objects); cells 1.79 x 1.8 x 1.67 m, 6912/6912 cells lit, 55 full, max 8 per cell; 221 renderers with Rec Room's shaders lit; 87.8 ms
+              GoldenTrophy_Armory: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 9 lights (4 hemisphere, 7 without highlights, 9 also as Unity lights for URP-shaded objects); cells 0.49 x 0.48 x 0.48 m, 6678/6912 cells lit, 0 full, max 6 per cell; 160 renderers with Rec Room's shaders lit; 14.5 ms
+              GoldenTrophy_Hallway1: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 30 lights (3 hemisphere, 27 without highlights, 30 also as Unity lights for URP-shaded objects); cells 1.71 x 0.95 x 1.9 m, 6138/6912 cells lit, 46 full, max 8 per cell; 155 renderers with Rec Room's shaders lit; 13.4 ms
+              GoldenTrophy_Hallway2: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 50 lights (10 hemisphere, 42 without highlights, 48 also as Unity lights for URP-shaded objects); cells 3.34 x 1.24 x 1.54 m, 6370/6912 cells lit, 326 full, max 8 per cell; 333 renderers with Rec Room's shaders lit; 51.2 ms
+              GoldenTrophy_Hallway3: waiting (41 lights)
+              GoldenTrophy_DeadIsland: waiting (32 lights)
+              GoldenTrophy_Hallway4: waiting (70 lights)
+              GoldenTrophy_Library: waiting (56 lights)
+              GoldenTrophy_Hallway5: waiting (61 lights)
+              GoldenTrophy_Battlefield: waiting (59 lights)
+              GoldenTrophy_Cafeteria: waiting (62 lights)
+  +  44.23   [SomniumRecRoom] LightTest: room Room GoldenTrophy #0: 361 active renderers (363 material draws): 291 with Rec Room's grid shaders (287 lit by a grid, 289 draws outside the SRP Batcher), 70 URP-shaded (their lights: URP's per-object limit 4); 80 active Unity point/spot lights (0 shadowed)
+  +  44.23   [RrHarness] step 16 ok (2 ms) coroutine finished
+  +  44.23   [RrHarness] step 17 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairAct1Torch
+  +  44.24   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 11 scene(s)
+  +  44.30   [SomniumRecRoom] LightTest: shot light9_gt_act1_torch_before from (-124.7, 2.0, 216.5) toward (-125.9, 0.9, 213.3): mean luma 7.9 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_act1_torch_before.png
+  +  44.30   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  44.39   [SomniumRecRoom] LightTest: shot light9_gt_act1_torch_after from (-124.7, 2.0, 216.5) toward (-125.9, 0.9, 213.3): mean luma 39.1 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_act1_torch_after.png
+  +  44.39   [RrHarness] step 17 ok (154 ms) coroutine finished
+  +  44.39   [RrHarness] step 18 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairAct1
+  +  44.40   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 11 scene(s)
+  +  44.46   [SomniumRecRoom] LightTest: shot light9_gt_act1_before from (-121.1, -0.4, 237.0) toward (-121.1, -0.7, 247.0): mean luma 11.6 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_act1_before.png
+  +  44.46   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  44.46   [SomniumRecRoom] Env: applied GoldenTrophy_Hallway1 (apk level21): no sun, ambient Trilight #070F07/#20120B/#0E0702, fog Linear #283A36 2-32.8 m, reflections x1, sky procedural (exposure 0.01), 30 realtime lights (3 with shadows); sky material Skybox/Procedural
+  +  44.54   [SomniumRecRoom] LightTest: shot light9_gt_act1_after from (-121.1, -0.4, 237.0) toward (-121.1, -0.7, 247.0): mean luma 31.4 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_gt_act1_after.png
+  +  44.54   [RrHarness] step 18 ok (144 ms) coroutine finished
+  +  44.54   [RrHarness] step 19 goto Jumbotron
+  +  44.54   [SomniumRecRoom] Travel: trip 2: GoldenTrophy -> Jumbotron
+  +  44.54   [SomniumRecRoom] Player: movement x0, no jump
+  +  45.14   [SomniumRecRoom] Player: teleport to (-0.570, 0.049, 1.090) yaw 269 (fallback rig)
+  +  45.14   [SomniumRecRoom] Quest: back in the lobby
+  +  45.18   [SomniumRecRoom] Quest: shown area GoldenTrophy_Foyer
+  +  45.18   [SomniumRecRoom] PostFx: GoldenTrophy area 0: APPPLESARCHIVE-GoldenLobby-PostProcessingProfile again (no change)
+  +  45.36   [SomniumRecRoom] Travel: arrival room shown, colliders on (trip 2 to Jumbotron)
+  +  45.36   [SomniumRecRoom] PostFx: left GoldenTrophy: back to the client's own post-processing in 0.25 s
+  +  45.36   [SomniumRecRoom] Env: left GoldenTrophy: the world scene's own lighting is back
+  +  45.36   [SomniumRecRoom] Player: teleport to (0.000, 0.050, 0.000) yaw 0 (fallback rig)
+  +  45.36   [SomniumRecRoom] Travel: cleared what GoldenTrophy left outside its root: 0 effects, 0 sounds, 0 splats, shots in flight and given tools
+  +  45.48   [SomniumRecRoom] Travel: left GoldenTrophy
+  +  45.58   [SomniumRecRoom] Assets: 368 of 2787 bundles hold audio, video, shaders or fonts and stay open once opened
+  +  45.58   [SomniumRecRoom] Travel: freed GoldenTrophy in 105 ms: memory 678.8 -> 676.5 MB, managed 387.9 -> 387.9 MB; released 223 assets, 20 prefab data, 3 replacement materials; UnloadUnusedAssets 93 ms; bundles only this room opened: 29, unloaded 5, kept 9 (audio/video/shader/font) + 15 (an asset still in use); open now 82
+  +  45.58   [SomniumRecRoom] Travel: census after leaving GoldenTrophy (visit 1): no room, nothing of it left; room none (arrival room), feet (0, 0, 0), arrival shown, world root 390 objects (0 in the room, 390 outside), scene roots 7, memory 676.5 MB (managed 387.9 MB), bundles open 82, assets loaded 15 (238 loads, 112 found resident), failed 0, bundles unloaded on leaving rooms 5
+  +  45.58   [SomniumRecRoom] Travel: building Jumbotron #0 at (0, 0, 0) (offline instance object 21)
+  +  45.58   [SomniumRecRoom] Quest: final rules: one hit downs, players 1-4, death -1200, kill gold SciFiBasicGroundRanged 700, SciFiBasicFlyingRanged2020 700, SciFiGroundExplosive 300, SciFiKnightAssassin 2500, SciFiEliteFlyingRanged 1400, SciFiEliteGroundRanged 2000, SciFiKnightAssassin max HP, GoblinBasicGroundMelee2020 450, boss 10000, rating S 150,000 / A 125,000 / B 100,000 Credits, start line Gameon
+  +  45.58   [SomniumRecRoom] Quest: kit ready: stone AG/Standard-Opaque, floor Stones_Modular_Theater_Mat, wood Wood_Floor_Matte_mat
+  +  46.52   [SomniumRecRoom] Env: scene Jumbotron_Foyer lights itself while the player is inside it: Jumbotron_Foyer (apk level38): no sun, ambient Trilight #040B20/#4F14FF/#060B2A, fog Linear #00679A 5-45.3 m, reflections x1, sky procedural (exposure 0.18), 15 realtime lights (4 with shadows)
+  +  46.52   [SomniumRecRoom] SceneKit: Jumbotron_Foyer: renderers 142 -> 21 merged (179002 verts) + 0 separate, skipped 10; prefabs 6; stand-ins 0 in 0 meshes; colliders box 2053 + other 1 on 357 objects, mesh 3 (3 pre-baked); lights 15, 15 in Rec Room's light grid, merge cells 12 m; audio 0; markers 32; unknown names 5; assets meshes 17, materials 8; fog linear #00679A density 0.04 start 5 end 45.3; ambient 040B20 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 767 ms, build 896 ms (main thread 98 ms over 617 frames, longest step 12.1 ms)
+  +  46.82   [SomniumRecRoom] Jumbotron: Jumbotron_Foyer: built at room-local offset (-40.1, 6.5, -54.6) - kit 142 renderers, 0 stand-ins, 2057 colliders, 15 lights, 32 markers; hull 1076 plates in 14 meshes (14 materials, 3 from the install), 52 dress boxes, 1588 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 0; pots 0, weapons 4; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  46.82   [SomniumRecRoom] Jumbotron: Foyer: start hologram at (-6.86, 0.00, -2.68) yaw 59
+  +  46.83   [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +  47.27   [SomniumRecRoom] Weapon: (Quest_SciFi_Pistol) (Pistol, tool 12): 3/s, 80 m/s straight, head 30 / body 20, AI 25-25, magazine 5, bullet [Quest_SciFi_PistolLaser], decal [Quest_SciFi_ImpactDecal], flash [VFX_Laser_MuzzelFlash]
+  +  47.27   [SomniumRecRoom] Weapon: (Quest_SciFi_RailGun) (Pistol, tool 15): 1/s, 160 m/s straight, head 80 / body 40, AI 70-70, magazine 3, bullet [Quest_SciFi_RailGunProjectile], decal [Quest_SciFi_ImpactDecal], flash [VFX_Laser_MuzzelFlash_RailGun]
+  +  47.27   [SomniumRecRoom] Weapon: (Quest_SciFi_Shotgun) (Shotgun, tool 14): 1/s, 60 m/s straight, head 8 / body 5, AI 16-16, magazine 3, 17 pellets, bullet [Quest_SciFi_ShotgunLaser], decal [Quest_SciFi_ImpactDecal], flash [VFX_Laser_MuzzelFlash_ShotGun]
+  +  47.27   [SomniumRecRoom] Weapon: (Quest_SciFi_AutomaticGun) (AutomaticGun, tool 13): 15/s, auto 15/s, 80 m/s straight, head 6 / body 5, AI 8-8, magazine 22, bullet [Quest_SciFi_AutomaticLaser], decal [Quest_SciFi_ImpactDecal], flash [VFX_Laser_MuzzelFlash]
+  +  47.32   [SomniumRecRoom] Env: scene Jumbotron_Armory lights itself while the player is inside it: Jumbotron_Armory (apk level39): no sun, ambient Trilight #030B0D/#000C06/#000102, fog Linear #009A7A 2.9-71.5 m, reflections x1, sky procedural (exposure 0.18), 10 realtime lights (8 with shadows)
+  +  47.32   [SomniumRecRoom] SceneKit: Jumbotron_Armory: renderers 22 -> 16 merged (15711 verts) + 0 separate; prefabs 0; stand-ins 0 in 0 meshes; colliders box 140 + other 0 on 60 objects, mesh 3 (3 pre-baked); lights 10, 10 in Rec Room's light grid, merge cells 12 m; audio 0; markers 26; unknown names 5; assets meshes 18, materials 9; fog linear #009A7A density 0.04 start 2.9 end 71.5; ambient 030B0D reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 427 ms, build 472 ms (main thread 10 ms over 242 frames, longest step 4.5 ms)
+  +  47.91   [SomniumRecRoom] Jumbotron: Jumbotron_Armory: built at room-local offset (-68.7, 2.3, -28.1) - kit 22 renderers, 0 stand-ins, 143 colliders, 10 lights, 26 markers; hull 386 plates in 10 meshes (10 materials, 5 from the install), 15 dress boxes, 0 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 6, weapons 8; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  47.92   [SomniumRecRoom] Jumbotron: Jumbotron_Armory: exit door at (-12.3, 0.0, 0.0) (yaw 90), leave zone on the trigger pad (-9.9, -0.1, 0.1), 2 sliding leaves
+  +  47.99   [SomniumRecRoom] Tools: (SciFatPot): grip (full-body), throw x1 unclamped, 8 hover renderers, screen BreakableThrowToolBehaviorConfig 12 m/s + AnimateInOut + Respawnable
+  +  48.18   [SomniumRecRoom] Env: scene Jumbotron_Battlefield1 lights itself while the player is inside it: Jumbotron_Battlefield1 (apk level40): no sun, ambient Trilight #120F17/#45315F/#201A47, fog Linear #006D9A 7.3-64.5 m, reflections x1, sky procedural (exposure 0.18), 18 realtime lights (8 with shadows)
+  +  48.18   [SomniumRecRoom] SceneKit: Jumbotron_Battlefield1: renderers 61 -> 23 merged (44528 verts) + 17 separate (17 unreadable, 0 mirrored); prefabs 0; stand-ins 0 in 0 meshes; colliders box 2974 + other 0 on 225 objects, mesh 9 (3 pre-baked); lights 18, 18 in Rec Room's light grid, merge cells 12 m; audio 0; markers 55; unknown names 5; assets meshes 18, materials 8; fog linear #006D9A density 0.04 start 7.3 end 64.5; ambient 120F17 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 103 ms, build 176 ms (main thread 46 ms over 85 frames, longest step 4.7 ms)
+  +  48.20   [SomniumRecRoom] Jumbotron: Jumbotron_Battlefield1: built at room-local offset (-179.6, 3.8, 92.3) - kit 61 renderers, 0 stand-ins, 2983 colliders, 18 lights, 55 markers; hull 3203 plates in 11 meshes (11 materials, 4 from the install), 78 dress boxes, 2869 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 6, weapons 1; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  48.21   [SomniumRecRoom] Jumbotron: Jumbotron_Battlefield1: exit door at (21.7, 2.0, 44.3) (yaw 270), leave zone on the trigger pad (18.8, 2.0, 44.4), 2 sliding leaves
+  +  48.66   [SomniumRecRoom] Env: scene Jumbotron_Hallway1 lights itself while the player is inside it: Jumbotron_Hallway1 (apk level41): no sun, ambient Trilight #0F0A22/#781A45/#1A0305, fog Linear #214292 5-45.3 m, reflections x1, sky procedural (exposure 0.18), 32 realtime lights (8 with shadows)
+  +  48.66   [SomniumRecRoom] SceneKit: Jumbotron_Hallway1: renderers 116 -> 42 merged (118806 verts) + 0 separate; prefabs 0; stand-ins 0 in 0 meshes; colliders box 1288 + other 0 on 163 objects, mesh 12 (4 pre-baked); lights 32, 32 in Rec Room's light grid, merge cells 12 m; audio 0; markers 85; unknown names 5; assets meshes 20, materials 8; fog linear #214292 density 0.08 start 5 end 45.3; ambient 0F0A22 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 359 ms, build 397 ms (main thread 28 ms over 221 frames, longest step 4.6 ms)
+  +  48.67   [SomniumRecRoom] Jumbotron: Jumbotron_Hallway1: built at room-local offset (21.0, -1.3, -119.2) - kit 116 renderers, 0 stand-ins, 1300 colliders, 32 lights, 85 markers; hull 3302 plates in 11 meshes (11 materials, 3 from the install), 57 dress boxes, 1073 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 25, weapons 3; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  48.67   [SomniumRecRoom] Jumbotron: Jumbotron_Hallway1: exit door at (-76.7, -5.5, -24.3) (yaw 0), leave zone on the trigger pad (-76.6, -5.5, -21.3), 2 sliding leaves
+  +  48.86 W [SomniumRecRoom] Console: THE RISE OF JUMBOTRON at (-6.86, 0.00, -2.68): the projector meets Colliders/Colliders 306 (the hologram cuts into the room)
+  +  48.92   [SomniumRecRoom] Env: scene Jumbotron_Hallway2 lights itself while the player is inside it: Jumbotron_Hallway2 (apk level42): no sun, ambient Trilight #00041C/#07071A/#040416, fog Linear #002862 0-40.4 m, reflections x1, sky procedural (exposure 0.18), 34 realtime lights (8 with shadows)
+  +  48.92   [SomniumRecRoom] SceneKit: Jumbotron_Hallway2: renderers 75 -> 34 merged (53938 verts) + 0 separate; prefabs 0; stand-ins 0 in 0 meshes; colliders box 1712 + other 0 on 352 objects, mesh 3 (3 pre-baked); lights 34, 34 in Rec Room's light grid, merge cells 12 m; audio 0; markers 165; unknown names 5; assets meshes 20, materials 9; fog linear #002862 density 0 start 0 end 40.4; ambient 00041C reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 88 ms, build 149 ms (main thread 38 ms over 14 frames, longest step 4.7 ms)
+  +  48.95   [SomniumRecRoom] Jumbotron: Jumbotron_Hallway2: built at room-local offset (-17.9, -2.3, -131.0) - kit 75 renderers, 0 stand-ins, 1715 colliders, 34 lights, 165 markers; hull 4989 plates in 15 meshes (15 materials, 5 from the install), 172 dress boxes, 6 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 19, weapons 4; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  48.95   [SomniumRecRoom] Jumbotron: Jumbotron_Hallway2: exit door at (80.1, -4.0, -71.5) (yaw 0), leave zone on the trigger pad (80.2, -4.0, -68.8), 2 sliding leaves
+  +  49.39   [SomniumRecRoom] Env: scene Jumbotron_Reception lights itself while the player is inside it: Jumbotron_Reception (apk level43): no sun, ambient Trilight #173971/#005E78/#0F2552, fog Linear #001C42 6.2-34.4 m, reflections x1, sky procedural (exposure 0.18), 30 realtime lights (8 with shadows)
+  +  49.39   [SomniumRecRoom] SceneKit: Jumbotron_Reception: renderers 66 -> 34 merged (44670 verts) + 1 separate (0 unreadable, 1 mirrored); prefabs 6; stand-ins 0 in 0 meshes; colliders box 2425 + other 0 on 359 objects, mesh 3 (3 pre-baked); lights 30, 30 in Rec Room's light grid, merge cells 12 m; audio 0; markers 161; unknown names 9; assets meshes 27, materials 16; fog linear #001C42 density 0.08 start 6.2 end 34.4; ambient 173971 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 230 ms, build 350 ms (main thread 90 ms over 172 frames, longest step 12.1 ms)
+  +  49.49   [SomniumRecRoom] Jumbotron: Jumbotron_Reception: built at room-local offset (-198.5, 1.0, -21.8) - kit 66 renderers, 0 stand-ins, 2428 colliders, 30 lights, 161 markers; hull 2500 plates in 19 meshes (19 materials, 8 from the install), 95 dress boxes, 1149 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 14, weapons 6; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  49.49   [SomniumRecRoom] Jumbotron: Jumbotron_Reception: exit door at (45.5, -2.0, -11.5) (yaw 270), leave zone on the trigger pad (42.7, -2.0, -11.6), 2 sliding leaves
+  +  49.73   [SomniumRecRoom] Env: scene Jumbotron_StadiumConcession lights itself while the player is inside it: Jumbotron_StadiumConcession (apk level44): no sun, ambient Trilight #0B0B22/#1A435B/#0D0D27, fog Linear #3E275F 5-45.3 m, reflections x1, sky procedural (exposure 0.18), 23 realtime lights (7 with shadows)
+  +  49.73   [SomniumRecRoom] SceneKit: Jumbotron_StadiumConcession: renderers 94 -> 26 merged (105207 verts) + 1 separate (0 unreadable, 1 mirrored); prefabs 0; stand-ins 0 in 0 meshes; colliders box 3557 + other 0 on 264 objects, mesh 4 (4 pre-baked); lights 23, 23 in Rec Room's light grid, merge cells 12 m; overlaps removed 1 (duplicate renderers 1, stand-ins 0, prefabs 0; stand-ins over install art 0, dress markers over install art 0), stand-ins inset 0; audio 0; markers 117; unknown names 10; assets meshes 18, materials 6; fog linear #3E275F density 0.08 start 5 end 45.3; ambient 0B0B22 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 28 ms, build 100 ms (main thread 47 ms over 32 frames, longest step 4.3 ms)
+  +  49.76   [SomniumRecRoom] Jumbotron: Jumbotron_StadiumConcession: built at room-local offset (-194.1, 0.3, -57.7) - kit 94 renderers, 0 stand-ins, 3561 colliders, 23 lights, 117 markers; hull 12383 plates in 20 meshes (20 materials, 6 from the install), 82 dress boxes, 2341 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 7, weapons 4; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  49.76   [SomniumRecRoom] Jumbotron: Jumbotron_StadiumConcession: exit door at (-61.5, 0.0, 0.4) (yaw 90), leave zone on the trigger pad (-59.1, 0.0, 0.5), 2 sliding leaves
+  +  50.11   [SomniumRecRoom] Env: scene Jumbotron_StadiumEntry lights itself while the player is inside it: Jumbotron_StadiumEntry (apk level45): no sun, ambient Trilight #040009/#2A004E/#0D0020, fog Linear #01072E 0-354.2 m, reflections x1, sky procedural (exposure 0.18), 46 realtime lights (8 with shadows)
+  +  50.11   [SomniumRecRoom] SceneKit: Jumbotron_StadiumEntry: renderers 106 -> 52 merged (42640 verts) + 0 separate; prefabs 0; stand-ins 0 in 0 meshes; colliders box 2309 + other 0 on 250 objects, mesh 40 (6 pre-baked); lights 46, 46 in Rec Room's light grid, merge cells 12 m; audio 0; markers 126; unknown names 6; assets meshes 27, materials 13; fog linear #01072E density 0.08 start 0 end 354.2; ambient 040009 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 186 ms, build 267 ms (main thread 50 ms over 85 frames, longest step 4.1 ms)
+  +  50.16   [SomniumRecRoom] Jumbotron: Jumbotron_StadiumEntry: built at room-local offset (93.8, 3.5, 34.0) - kit 106 renderers, 0 stand-ins, 2349 colliders, 46 lights, 126 markers; hull 5034 plates in 18 meshes (18 materials, 7 from the install), 204 dress boxes, 4 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 22, weapons 5; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 89
+  +  50.16   [SomniumRecRoom] Jumbotron: Jumbotron_StadiumEntry: exit door at (5.6, -4.0, -107.1) (yaw 90), leave zone on the trigger pad (8.5, -4.0, -107.0), 2 sliding leaves
+  +  50.23   [SomniumRecRoom] Heartbeat: bundles open 85, assets loaded 122 (345 loads, 203 found resident), failed 0, bundles unloaded on leaving rooms 5, repeated warnings 2, fps 174
+  +  50.38   [SomniumRecRoom] Env: scene Jumbotron_Garage lights itself while the player is inside it: Jumbotron_Garage (apk level46): no sun, ambient Trilight #000409/#000B1B/#000103, fog Linear #006599 5-45.3 m, reflections x1, sky procedural (exposure 0.18), 33 realtime lights (8 with shadows)
+  +  50.38   [SomniumRecRoom] SceneKit: Jumbotron_Garage: renderers 108 -> 47 merged (55952 verts) + 0 separate; prefabs 0; stand-ins 0 in 0 meshes; colliders box 950 + other 0 on 238 objects, mesh 42 (7 pre-baked); lights 33, 33 in Rec Room's light grid, merge cells 12 m; audio 0; markers 85; unknown names 4; assets meshes 23, materials 11; fog linear #006599 density 0.08 start 5 end 45.3; ambient 000409 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 90 ms, build 140 ms (main thread 32 ms over 15 frames, longest step 4.3 ms)
+  +  50.39   [SomniumRecRoom] Jumbotron: Jumbotron_Garage: built at room-local offset (-138.6, 0.8, 33.6) - kit 108 renderers, 0 stand-ins, 992 colliders, 33 lights, 85 markers; hull 1866 plates in 11 meshes (11 materials, 6 from the install), 83 dress boxes, 3 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 12, weapons 4; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  50.39   [SomniumRecRoom] Jumbotron: Jumbotron_Garage: exit door at (-22.6, -3.9, 56.5) (yaw 180), leave zone on the trigger pad (-22.6, -4.0, 53.6), 2 sliding leaves
+  +  50.69   [SomniumRecRoom] Env: scene Jumbotron_Cargo1 lights itself while the player is inside it: Jumbotron_Cargo1 (apk level47): no sun, ambient Trilight #030815/#0F0707/#0F0A0F, fog Linear #00679A 5-77.4 m, reflections x1, sky procedural (exposure 0.18), 66 realtime lights (8 with shadows)
+  +  50.69   [SomniumRecRoom] SceneKit: Jumbotron_Cargo1: renderers 141 -> 51 merged (65794 verts) + 0 separate; prefabs 0; stand-ins 0 in 0 meshes; colliders box 4436 + other 0 on 321 objects, mesh 44 (6 pre-baked); lights 64 (2 not as Unity lights), 66 in Rec Room's light grid, merge cells 12 m; audio 0; markers 133; unknown names 9; assets meshes 26, materials 9; fog linear #00679A density 0.08 start 5 end 77.4; ambient 030815 reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 79 ms, build 203 ms (main thread 75 ms over 64 frames, longest step 5.7 ms)
+  +  50.91   [SomniumRecRoom] Jumbotron: Jumbotron_Cargo1: built at room-local offset (8.2, 0.0, -21.4) - kit 141 renderers, 0 stand-ins, 4480 colliders, 64 lights, 133 markers; hull 6081 plates in 29 meshes (29 materials, 7 from the install), 178 dress boxes, 143 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 10, weapons 7; dropped: grids 0, stand-ins 0, colliders 0, outside the cut 0
+  +  50.91   [SomniumRecRoom] Jumbotron: Jumbotron_Cargo1: exit door at (54.5, -2.0, -55.7) (yaw 0), leave zone on the trigger pad (54.6, -2.0, -52.7), 2 sliding leaves
+  +  51.16   [SomniumRecRoom] Env: scene Jumbotron_Stadium lights itself while the player is inside it: Jumbotron_Stadium (apk level48): no sun, ambient Trilight #15001A/#330655/#170017, fog Linear #000857 5-60.6 m, reflections x1, sky procedural (exposure 0.18), 74 realtime lights (8 with shadows)
+  +  51.16   [SomniumRecRoom] SceneKit: Jumbotron_Stadium: renderers 82 -> 50 merged (59865 verts) + 0 separate; prefabs 0; stand-ins 0 in 0 meshes; colliders box 2826 + other 0 on 551 objects, mesh 3 (3 pre-baked); lights 64 (10 not as Unity lights), 74 in Rec Room's light grid, merge cells 12 m; audio 0; markers 80; unknown names 9; assets meshes 19, materials 7; fog linear #000857 density 0.08 start 5 end 60.6; ambient 15001A reported; sky ?SkyboxSciFiQuest reported; parse 0 ms, loads 0 ms, build 115 ms (main thread 65 ms over 16 frames, longest step 4.7 ms)
+  +  51.26   [SomniumRecRoom] Jumbotron: Jumbotron_Stadium: built at room-local offset (-103.6, 2.2, 116.2) - kit 82 renderers, 0 stand-ins, 2829 colliders, 64 lights, 80 markers; hull 12806 plates in 22 meshes (22 materials, 9 from the install), 206 dress boxes, 2 left out; floors 0 grids, 0 chunks, 0 triangles, 0 collider chunks (0 baked), cells cut under near grids 0, clipped 0, steep 0, 0 ms (longest step 0.0 ms); door leaves 2; pots 13, weapons 8; dropped: grids 0, stand-ins 0, colliders 3, outside the cut 0
+  +  51.26   [SomniumRecRoom] Jumbotron: Jumbotron_Stadium: exit door at (-14.0, -2.9, 41.7) (yaw 180), leave zone on the trigger pad (-14.0, -2.9, 39.0), 2 sliding leaves
+  +  51.32   [SomniumRecRoom] Jumbotron: act 0 "THE ARMORY / Grab a laser pistol or a burst rifle" root (-375, 0, 250), entry (0.0, 0.0, 0.0) yaw 269, 0 waves + 0 side, 0 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 1 "ACT 1 / The SS Coach" root (-125, 0, 250), entry (0.0, 0.0, 0.0) yaw 359, 5 waves + 0 side, 4 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 2 "ACT 2 / The Cargo Bay" root (125, 0, 250), entry (0.0, 0.0, 0.0) yaw 269, 7 waves + 2 side, 9 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 3 "ACT 3 / Engineering" root (375, 0, 250), entry (0.0, 0.0, 0.0) yaw 89, 6 waves + 1 side, 9 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 4 "ACT 4 / The Bridge" root (-375, 0, 500), entry (0.0, 0.0, 0.0) yaw 89, 4 waves + 3 side, 8 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 5 "ACT 5 / The Flight Deck" root (-125, 0, 500), entry (0.0, 0.0, 0.0) yaw 269, 3 waves + 0 side, 6 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 6 "ACT 6 / Space" root (125, 0, 500), entry (0.0, 0.0, 0.0) yaw 179, 6 waves + 0 side, 9 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 7 "ACT 7 / The Hangar" root (375, 0, 500), entry (0.0, 0.1, 0.0) yaw 359, 6 waves + 0 side, 9 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 8 "ACT 8 / Supply" root (-375, 0, 750), entry (0.0, 0.0, 0.0) yaw 89, 7 waves + 2 side, 14 groups, exit door
+  +  51.32   [SomniumRecRoom] Jumbotron: act 9 "ACT 9 / Jumbotron" root (-125, 0, 750), entry (0.0, 0.0, 0.0) yaw 324, 2 waves + 0 side, 4 groups, exit none
+  +  51.38   [SomniumRecRoom] Quest: textured 0 boxes with Rec Room stone/wood (0 tilings)
+  +  51.38   [SomniumRecRoom] Quest: The Rise of Jumbotron built at (0, 0, 0): 10 acts, 8 enemy types, 134 pots (6700 Credits), 0 racks, 0 kit props
+  +  51.38   [SomniumRecRoom] Quest: level potential with 4 players: about 209,000 Credits from 222 wave enemies and 134 pots, plus boss adds and optional side waves; S needs 150,000
+  +  51.38   [SomniumRecRoom] Travel: built Jumbotron in 5793 ms
+  +  51.38   [SomniumRecRoom] Travel: Jumbotron: lowest floor y = -0.2 (2067 environment colliders); a player 10 m below it is put back
+  +  51.38   [SomniumRecRoom] Player: teleport to (-0.575, 0.051, 1.088) yaw 269 (fallback rig)
+  +  51.38   [SomniumRecRoom] Travel: arrival room hidden, colliders off (in Jumbotron)
+  +  51.38   [SomniumRecRoom] Player: movement x1
+  +  51.38   [SomniumRecRoom] PostFx: Jumbotron: APPPLESARCHIVE-JumbotronBoss-PostProcessingProfile (REF2 .unity files/APPPLESARCHIVE/APPPLESARCHIVE-JumbotronBoss-PostProcessingProfile.asset): Bloom threshold 1.04 intensity 0.15 scatter 0.6 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.1 contrast 10; LiftGammaGain lift (0.922,0.942,1,0) gamma (1,0.982,0.96,0) gain (1,0.99,0.956,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +  51.38   [SomniumRecRoom] Env: applied Jumbotron_Foyer (apk level38): no sun, ambient Trilight #040B20/#4F14FF/#060B2A, fog Linear #00679A 5-45.3 m, reflections x1, sky procedural (exposure 0.18), 15 realtime lights (4 with shadows); sky material Skybox/Procedural
+  +  51.38   [SomniumRecRoom] Env: Jumbotron: default Jumbotron_Foyer, 11 kit scene(s) registered; applied Jumbotron_Foyer (apk level38): no sun, ambient Trilight #040B20/#4F14FF/#060B2A, fog Linear #00679A 5-45.3 m, reflections x1, sky procedural (exposure 0.18), 15 realtime lights (4 with shadows)
+  +  51.38   [SomniumRecRoom] Quest: entered The Rise of Jumbotron (authority True, members 1)
+  +  51.39   [SomniumRecRoom] Travel: census at Jumbotron (visit 1): 1 room, nothing outside it; room Jumbotron at (0, 0, 0), feet (-0.6, 0.1, 1.1), arrival hidden, world root 10283 objects (9893 in the room, 390 outside), scene roots 7, memory 781.5 MB (managed 334.9 MB), bundles open 85, assets loaded 139 (363 loads, 219 found resident), failed 0, bundles unloaded on leaving rooms 5
+  +  51.62   [SomniumRecRoom] Travel: arrived in Jumbotron #0 at (0, 0, 0), spawn 0 after 7.08 s
+  +  51.62   [RrHarness] step 19 ok (7078 ms) arrived in 7.1 s
+  +  51.63   [RrHarness] step 20 wait 3
+  +  51.64   [SomniumRecRoom] Lights: Jumbotron_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 15 lights (4 hemisphere, 8 without highlights, 15 also as Unity lights for URP-shaded objects); cells 1.73 x 1.27 x 1.46 m, 6624/6912 cells lit, 0 full, max 5 per cell; 138 renderers with Rec Room's shaders lit; 19.6 ms
+  +  54.63   [RrHarness] step 20 ok (3001 ms) 
+  +  54.63   [RrHarness] step 21 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait
+  +  54.63   [SomniumRecRoom] LightTest: 11 light grid(s)
+              Jumbotron_Foyer: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 15 lights (4 hemisphere, 8 without highlights, 15 also as Unity lights for URP-shaded objects); cells 1.73 x 1.27 x 1.46 m, 6624/6912 cells lit, 0 full, max 5 per cell; 138 renderers with Rec Room's shaders lit; 19.6 ms
+              Jumbotron_Armory: waiting (10 lights)
+              Jumbotron_Battlefield1: waiting (18 lights)
+              Jumbotron_Hallway1: waiting (32 lights)
+              Jumbotron_Hallway2: waiting (34 lights)
+              Jumbotron_Reception: waiting (30 lights)
+              Jumbotron_StadiumConcession: waiting (23 lights)
+              Jumbotron_StadiumEntry: waiting (46 lights)
+              Jumbotron_Garage: waiting (33 lights)
+              Jumbotron_Cargo1: waiting (66 lights)
+              Jumbotron_Stadium: waiting (74 lights)
+  +  54.63   [SomniumRecRoom] LightTest: room Room Jumbotron #0: 153 active renderers (160 material draws): 130 with Rec Room's grid shaders (130 lit by a grid, 137 draws outside the SRP Batcher), 23 URP-shaded (their lights: URP's per-object limit 4); 15 active Unity point/spot lights (0 shadowed)
+  +  54.63   [RrHarness] step 21 ok (2 ms) coroutine finished
+  +  54.63   [RrHarness] step 22 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairJumboFoyer
+  +  54.63   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 11 scene(s)
+  +  54.76   [SomniumRecRoom] LightTest: shot light9_jt_foyer_before from (-28.1, 1.5, -0.1) toward (-5.0, 1.1, -0.1): mean luma 35.0 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_jt_foyer_before.png
+  +  54.76   [SomniumRecRoom] Lights: grids on for 11 scene(s)
+  +  54.82   [SomniumRecRoom] LightTest: shot light9_jt_foyer_after from (-28.1, 1.5, -0.1) toward (-5.0, 1.1, -0.1): mean luma 35.8 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_jt_foyer_after.png
+  +  54.82   [RrHarness] step 22 ok (188 ms) coroutine finished
+  +  54.82   [RrHarness] step 23 goto Paintball
+  +  54.82   [SomniumRecRoom] Travel: trip 3: Jumbotron -> Paintball
+  +  54.82   [SomniumRecRoom] Player: movement x0, no jump
+  +  55.07   [SomniumRecRoom] Travel: arrival room shown, colliders on (trip 3 to Paintball)
+  +  55.07   [SomniumRecRoom] PostFx: left Jumbotron: back to the client's own post-processing in 0.25 s
+  +  55.07   [SomniumRecRoom] Env: left Jumbotron: the world scene's own lighting is back
+  +  55.07   [SomniumRecRoom] Player: teleport to (0.000, 0.050, 0.000) yaw 0 (fallback rig)
+  +  55.07   [SomniumRecRoom] Travel: cleared what Jumbotron left outside its root: 0 effects, 0 sounds, 0 splats, shots in flight and given tools
+  +  55.14   [SomniumRecRoom] Travel: left Jumbotron
+  +  55.24   [SomniumRecRoom] Travel: freed Jumbotron in 102 ms: memory 695.7 -> 645.7 MB, managed 300.2 -> 300.2 MB; released 126 assets, 11 prefab data, 2 replacement materials; UnloadUnusedAssets 101 ms; bundles only this room opened: 27, unloaded 3, kept 10 (audio/video/shader/font) + 14 (an asset still in use); open now 83
+  +  55.24   [SomniumRecRoom] Travel: census after leaving Jumbotron (visit 1): no room, nothing of it left; room none (arrival room), feet (0, 0, 0), arrival shown, world root 390 objects (0 in the room, 390 outside), scene roots 7, memory 643.8 MB (managed 300.2 MB), bundles open 83, assets loaded 16 (365 loads, 219 found resident), failed 0, bundles unloaded on leaving rooms 8
+  +  55.24   [SomniumRecRoom] Travel: building Paintball #0 at (0, 0, 0) (offline instance object 12)
+  +  58.13   [SomniumRecRoom] Env: scene Paintball_Lobby lights itself while the player is inside it: Paintball_Lobby (apk level113): sun #FFFFE2 x1 Soft shadows 0.9 at (46, 196, 125), ambient Trilight #698BBA/#696945/#C5AD41, fog Linear #BCCBDA 50-350 m, reflections x0.348, sky gradient #7093C6/#9EC1D5/#D2BA2E, 13 realtime lights (0 with shadows)
+  +  58.13   [SomniumRecRoom] SceneKit: Paintball_Lobby: renderers 389 -> 58 merged (104914 verts) + 21 separate (18 unreadable, 3 mirrored), skipped 3; prefabs 9; stand-ins 0 in 0 meshes; colliders box 2350 + other 72 on 299 objects, mesh 9 (1 pre-baked); lights 13 (1 not as Unity lights), 13 in Rec Room's light grid, merge cells 32 m; overlaps removed 2 (duplicate renderers 0, stand-ins 2, prefabs 0; stand-ins over install art 0, dress markers over install art 0), stand-ins inset 0; audio 0; markers 650; assets meshes 37, materials 48; fog linear #BCCBDA density 0.003 start 50 end 350; ambient 698BBA reported; sky ?SkyboxPaintballLobby_Baked reported; parse 0 ms, loads 1128 ms, build 1238 ms (main thread 83 ms over 743 frames, longest step 9.0 ms)
+  +  58.14   [SomniumRecRoom] SceneKit: terrain: 7 grids, 15 chunks, 16156 triangles, 2 collider chunks (2 baked), cells cut under near grids 1325, clipped 0, steep 0, 16 ms (longest step 5.4 ms)
+  +  58.26   [SomniumRecRoom] Paintball: install mesh Tire_LOD0: 1248 vertices, readable True
+  +  58.29   [SomniumRecRoom] Paintball: install mesh RecRoyale_Rock_Cliff: 182 vertices, readable True
+  +  58.31   [SomniumRecRoom] Paintball: install mesh RecRoyale_Rock_Tall: 180 vertices, readable True
+  +  58.33   [SomniumRecRoom] Paintball: install mesh RecRoyale_Rock_Plateau: 124 vertices, readable True
+  +  58.35   [SomniumRecRoom] Paintball: install mesh RecRoyale_Rock_Cone: 184 vertices, readable True
+  +  58.45   [SomniumRecRoom] Paintball: install mesh RecRoyale_Rock_Stump: 163 vertices, readable True
+  +  58.58   [SomniumRecRoom] Paintball: Lobby level built in 3.3 s: kit 389 renderers (0 meshes missing), 2431 colliders; terrain 7 grids, 15 chunks, 16156 triangles, 2 collider chunks (2 baked), cells cut under near grids 1325, clipped 0, steep 0, 16 ms (longest step 5.4 ms); 423 stand-ins (77 trees, 21 rocks, 30 install tyres, 313 boxes; 9 structures drawn from 213 of their colliders (+4 uncovered voxel boxes), building faces 1150 inside / 266 outside, 3 left out) in 213 meshes, 111465 vertices, 116 ms; struct=100 keep=62 wood=70 container=32 metal=16 tire=10 rock=21 cube=11 tree_aspen=25 tree_pine=34 tree_bush=18 locker=24; spawns 0/0, flags (0.0, 0.0, 0.0) / (0.0, 0.0, 0.0), 1 weapon spots, 0 boards
+  +  58.59   [SomniumRecRoom] Paintball: game-start hologram at the level's second projector (15.7, 0.1, -4.8) (scene (-46.25, -5.12, 71.15)), facing the locker building's plaza door; START needs 2 players
+  +  58.60   [SomniumRecRoom] Paintball: lobby signs: 20 labels on 6 boards and 4 door signs (the level's own texts: Paintball, Customize your look! x2, Try 'em out!), lounge rug, 1 couch material(s) purple
+  +  58.61   [SomniumRecRoom] Paintball: lobby controls: START at (17.6, 1.2, -11.7), console, scoreboard, Rec Center door at (9.0, -0.1, -18.7), 7 try-out weapons, shooting gallery at (-5.7, 1.0, -10.0) (9 targets)
+  +  58.64   [SomniumRecRoom] Paintball: gallery: the install's male practice cutout stands at the Bonky target (-8.0, -0.1, -8.5)
+  +  58.64   [SomniumRecRoom] Console: fonts: labels legacy_Futura-T-OT-Bold-Oblique_Static (console), names legacy_FuturaT_Bold (console)
+  +  58.67   [SomniumRecRoom] Paintball: flag 0 ready (10 team-coloured materials, foot (0.00, -0.98, 0.00))
+  +  58.68   [SomniumRecRoom] Paintball: flag 1 ready (10 team-coloured materials, foot (0.00, -0.98, 0.00))
+  +  58.68   [SomniumRecRoom] Paintball: built the lobby from Rec Room's level in 3.4 s: 389 renderers, 5 props (0 missing), 8 practice spots, flags ready; maps are built when chosen
+  +  58.68   [SomniumRecRoom] Travel: built Paintball in 3434 ms
+  +  58.68   [SomniumRecRoom] Travel: Paintball: lowest floor y = -80.0 (2472 environment colliders); a player 10 m below it is put back
+  +  58.68   [SomniumRecRoom] Player: teleport to (-0.947, 0.050, -1.155) yaw 162 (fallback rig)
+  +  58.68   [SomniumRecRoom] Travel: arrival room hidden, colliders off (in Paintball)
+  +  58.68   [SomniumRecRoom] Player: movement x1
+  +  58.68   [SomniumRecRoom] PostFx: Paintball: APPPLESARCHIVE-Testing-PostProcessingProfile (REF2 .unity files/APPPLESARCHIVE/APPPLESARCHIVE-Testing-PostProcessingProfile.asset): Bloom threshold 1.04 intensity 0.15 scatter 0.6 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.1 contrast 10; LiftGammaGain lift (0.922,0.942,1,0) gamma (1,0.982,0.96,0) gain (1,0.99,0.956,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +  58.68   [SomniumRecRoom] Env: applied Paintball_Lobby (apk level113): sun #FFFFE2 x1 Soft shadows 0.9 at (46, 196, 125), ambient Trilight #698BBA/#696945/#C5AD41, fog Linear #BCCBDA 50-350 m, reflections x0.348, sky gradient #7093C6/#9EC1D5/#D2BA2E, 13 realtime lights (0 with shadows); sky material AG/Skybox/Simple Gradient
+  +  58.69   [SomniumRecRoom] Env: Paintball_Lobby: realtime reflection probe rendered once at (-0.9, 1.6, -1.2) over (64, 17, 34) m (Environment layer, 128 px, faces over frames), intensity 0.348
+  +  58.69   [SomniumRecRoom] Env: Paintball: default Paintball_Lobby, 1 kit scene(s) registered; applied Paintball_Lobby (apk level113): sun #FFFFE2 x1 Soft shadows 0.9 at (46, 196, 125), ambient Trilight #698BBA/#696945/#C5AD41, fog Linear #BCCBDA 50-350 m, reflections x0.348, sky gradient #7093C6/#9EC1D5/#D2BA2E, 13 realtime lights (0 with shadows)
+  +  58.69   [SomniumRecRoom] Paintball: entered: River, Capture the Flag, phase Lobby, authority True, members 1
+  +  58.69   [SomniumRecRoom] Travel: census at Paintball (visit 1): 1 room, nothing outside it; room Paintball at (0, 0, 0), feet (-0.9, 0.1, -1.2), arrival hidden, world root 1470 objects (1080 in the room, 390 outside), scene roots 9, memory 718.9 MB (managed 318.4 MB), bundles open 88, assets loaded 131 (482 loads, 316 found resident), failed 0, bundles unloaded on leaving rooms 8
+  +  58.97   [SomniumRecRoom] Travel: arrived in Paintball #0 at (0, 0, 0), spawn 0 after 4.14 s
+  +  58.97   [RrHarness] step 23 ok (4142 ms) arrived in 4.1 s
+  +  58.97   [RrHarness] step 24 wait 2
+  +  58.98   [SomniumRecRoom] Lights: Paintball_Lobby: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 13 lights (0 hemisphere, 0 without highlights, 13 also as Unity lights for URP-shaded objects); cells 1.56 x 3.24 x 1.58 m, 2804/6912 cells lit, 6 full, max 8 per cell; 228 renderers with Rec Room's shaders lit (106 out of every light's reach left batched); 15.3 ms
+  +  59.97   [SomniumRecRoom] Paintball: building River (Rec Room's level, River)
+  +  60.14   [SomniumRecRoom] Env: scene Paintball_River lights itself while the player is inside it: Paintball_River (apk level14): sun #FFFFE2 x1.48 Soft shadows 0.87 at (42, 33, 320), ambient Trilight #61727B/#999946/#6E7608, fog Linear #FBF9A9 40-300 m, reflections x0.348, sky gradient #6988B0/#98B7BD/#7E8A2D, 5 realtime lights (0 with shadows)
+  +  60.14   [SomniumRecRoom] SceneKit: Paintball_River: renderers 288 -> 55 merged (84108 verts) + 0 separate; prefabs 4; stand-ins 0 in 0 meshes; colliders box 2809 + other 86 on 490 objects, mesh 22 (1 pre-baked); lights 5 (1 not as Unity lights), 5 in Rec Room's light grid, merge cells 32 m; audio 0; markers 938; assets meshes 17, materials 15; fog linear #FBF9A9 density 0.004 start 40 end 300; ambient 61727B reported; sky ?SkyboxPaintball_Baked reported; parse 0 ms, loads 39 ms, build 157 ms (main thread 84 ms over 44 frames, longest step 8.0 ms)
+  +  60.16   [SomniumRecRoom] Lights: Paintball_River: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 5 lights (3 hemisphere, 1 without highlights, 5 also as Unity lights for URP-shaded objects); cells 2.48 x 1.62 x 4.94 m, 778/6912 cells lit, 0 full, max 1 per cell; 26 renderers with Rec Room's shaders lit (54 out of every light's reach left batched); 4.4 ms
+  +  60.16   [SomniumRecRoom] SceneKit: terrain: 4 grids, 14 chunks, 25230 triangles, 4 collider chunks (4 baked), cells cut under near grids 1564, clipped 1363, steep 0, 21 ms (longest step 5.4 ms)
+  +  60.24   [SomniumRecRoom] Heartbeat: bundles open 89, assets loaded 147 (496 loads, 329 found resident), failed 0, bundles unloaded on leaving rooms 8, repeated warnings 3, fps 207
+  +  60.27   [SomniumRecRoom] Paintball: River level built in 0.3 s: kit 288 renderers (0 meshes missing), 2917 colliders; terrain 4 grids, 14 chunks, 25230 triangles, 4 collider chunks (4 baked), cells cut under near grids 1564, clipped 1363, steep 0, 21 ms (longest step 5.4 ms); 488 stand-ins (119 trees, 12 rocks, 84 install tyres, 295 boxes; 62 structures drawn from 826 of their colliders (+0 uncovered voxel boxes), building faces 0 inside / 0 outside, 0 left out) in 180 meshes, 238484 vertices, 105 ms; struct=66 keep=1 container=33 wood=172 tire=28 cube=56 rock=12 tree_bush=43 tree_aspen=76 water=1; spawns 14/14, flags (0.0, 0.0, -510.2) / (0.0, 0.0, -609.8), 122 weapon spots, 4 boards
+  +  60.32   [SomniumRecRoom] Paintball: River ready: 25 pickups, 4 boards, kill floor y -8.0 (room), lowest floor y -80.0
+  +  60.32 W [SomniumRecRoom] Console: PAINTBALL at (15.69, 0.12, -4.84): the projector meets Colliders/Colliders 28 (the hologram cuts into the room)
+  +  60.97   [RrHarness] step 24 ok (2001 ms) 
+  +  60.97   [RrHarness] step 25 expect_log built the lobby
+  +  60.98   [RrHarness] step 25 ok (7 ms) seen at +58.68 s: [SomniumRecRoom] Paintball: built the lobby from Rec Room's level in 3.4 s: 389 renderers, 5 props (0 missing), 8 practice spots, flags ready; maps are built when chosen
+  +  60.98   [RrHarness] step 26 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait
+  +  60.98   [SomniumRecRoom] LightTest: 2 light grid(s)
+              Paintball_Lobby: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 13 lights (0 hemisphere, 0 without highlights, 13 also as Unity lights for URP-shaded objects); cells 1.56 x 3.24 x 1.58 m, 2804/6912 cells lit, 6 full, max 8 per cell; 228 renderers with Rec Room's shaders lit (106 out of every light's reach left batched); 15.3 ms
+              Paintball_River: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 5 lights (3 hemisphere, 1 without highlights, 5 also as Unity lights for URP-shaded objects); cells 2.48 x 1.62 x 4.94 m, 778/6912 cells lit, 0 full, max 1 per cell; 26 renderers with Rec Room's shaders lit (54 out of every light's reach left batched); 4.4 ms
+  +  60.99   [SomniumRecRoom] LightTest: room Room Paintball #0: 433 active renderers (436 material draws): 385 with Rec Room's grid shaders (228 lit by a grid, 228 draws outside the SRP Batcher), 48 URP-shaded (their lights: URP's per-object limit 4); 14 active Unity point/spot lights (0 shadowed)
+  +  60.99   [RrHarness] step 26 ok (3 ms) coroutine finished
+  +  60.99   [RrHarness] step 27 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairPbInterior
+  +  60.99   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 2 scene(s)
+  +  61.07   [SomniumRecRoom] LightTest: shot light9_pb_interior_before from (9.9, 1.6, -14.0) toward (14.4, 0.6, -6.0): mean luma 110.2 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_interior_before.png
+  +  61.07   [SomniumRecRoom] Lights: grids on for 2 scene(s)
+  +  61.16   [SomniumRecRoom] LightTest: shot light9_pb_interior_after from (9.9, 1.6, -14.0) toward (14.4, 0.6, -6.0): mean luma 119.2 -> C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_interior_after.png
+  +  61.16   [RrHarness] step 27 ok (169 ms) coroutine finished
+  +  61.16   [RrHarness] step 28 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff
+  +  61.16   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 2 scene(s)
+  +  61.17   [RrHarness] step 28 ok (1 ms) returned
+  +  61.17   [RrHarness] step 29 shot light9_pb_lobby_before
+  +  61.24   [RrHarness] step 29 ok (69 ms) room frame (Paintball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_lobby_before.png rendered in 12.6 ms; mean luma 74, sd 32
+  +  61.24   [RrHarness] step 30 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn
+  +  61.24   [SomniumRecRoom] Lights: grids on for 2 scene(s)
+  +  61.24   [RrHarness] step 30 ok (1 ms) returned
+  +  61.24   [RrHarness] step 31 wait 0.3
+  +  61.54   [RrHarness] step 31 ok (300 ms) 
+  +  61.55   [RrHarness] step 32 shot light9_pb_lobby_after
+  +  61.62   [RrHarness] step 32 ok (68 ms) room frame (Paintball origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_pb_lobby_after.png rendered in 7.5 ms; mean luma 102, sd 32
+  +  61.62   [RrHarness] step 33 goto RecCenter
+  +  61.62   [SomniumRecRoom] Travel: trip 4: Paintball -> RecCenter
+  +  61.62   [SomniumRecRoom] Player: movement x0, no jump
+  +  61.85   [SomniumRecRoom] Travel: arrival room shown, colliders on (trip 4 to RecCenter)
+  +  61.85   [SomniumRecRoom] PostFx: left Paintball: back to the client's own post-processing in 0.25 s
+  +  61.85   [SomniumRecRoom] Env: left Paintball: the world scene's own lighting is back
+  +  61.85   [SomniumRecRoom] Player: teleport to (0.000, 0.050, 0.000) yaw 0 (fallback rig)
+  +  61.85   [SomniumRecRoom] Travel: cleared what Paintball left outside its root: 0 effects, 0 sounds, 0 splats, shots in flight and given tools
+  +  61.88   [SomniumRecRoom] Travel: left Paintball
+  +  61.99   [SomniumRecRoom] Travel: freed Paintball in 113 ms: memory 701.2 -> 683.6 MB, managed 449.6 -> 449.6 MB; released 134 assets, 10 prefab data, 2 replacement materials; UnloadUnusedAssets 112 ms; bundles only this room opened: 30, unloaded 3, kept 12 (audio/video/shader/font) + 15 (an asset still in use); open now 87
+  +  61.99   [SomniumRecRoom] Travel: census after leaving Paintball (visit 1): no room, nothing of it left; room none (arrival room), feet (0, 0, 0), arrival shown, world root 390 objects (0 in the room, 390 outside), scene roots 7, memory 682.1 MB (managed 449.7 MB), bundles open 87, assets loaded 17 (500 loads, 329 found resident), failed 0, bundles unloaded on leaving rooms 11
+  +  61.99   [SomniumRecRoom] Travel: building RecCenter #0 at (0, 0, 0) (offline instance object 1)
+  +  62.32   [SomniumRecRoom] RecCenter: cache scan: 1011 files, 344 UnityFS, 3 scene bundles, 0 re-read, 311 ms; scene Assets/s/Assets/Rooms/RecCenter/RecCenter-RecCenter_071825.unity in 1AF.data + 44 dependencies, 75.9 MB; missing CABs: cab-634aa40a8f2cc92082b491f41a54aec8; 123 material shader hints
+  +  62.96   [SomniumRecRoom] RecCenter: cached scene post Volume 'Post Processing Volume': global True, weight 1, priority 0, profile RecCenter-RecCenter_071825-PostProcessingProfile (destroyed; values for the post team): [Bloom threshold=1.1 intensity=0.25 scatter=0.617 highQualityFiltering=False] [Tonemapping mode=Neutral] [WhiteBalance temperature=5] [ColorAdjustments postExposure=0.2 contrast=5 saturation=8] [ChannelMixer] [LiftGammaGain lift=(0.89, 0.95, 1.00, 0.00) gamma=(1.00, 0.92, 0.87, 0.00) gain=(1.00, 0.99, 0.94, 0.03)]
+  +  62.96   [SomniumRecRoom] RecCenter: cached scene: key light KeyLight (colour RGBA(0.973, 0.942, 0.842, 1.000), intensity 1.00, rotation (33, 103, 342), shadows Soft 0.95): it becomes the world's sun
+  +  62.99   [SomniumRecRoom] RecCenter: cached scene materials as loaded: 75 (0 null shader, 73 unsupported, 73 InternalErrorShader): Hidden/InternalErrorShader x73, Legacy Shaders/Particles/Alpha Blended Premultiply x1, Standard x1
+  +  63.11   [SomniumRecRoom] RecCenter: cached scene shaders: Lit from StudioTarget (Rec Room Studio Target/Lit); 75 swaps: Lit -> Rec Room Studio Target/Lit x64, Particle -> Universal Render Pipeline/Particles/Unlit x4, Tree -> Rec Room Studio Target/Lit x4, TmpMobile -> TextMeshPro/Mobile/Distance Field x1, Unlit -> Universal Render Pipeline/Unlit x1, Terrain -> Universal Render Pipeline/Terrain/Lit x1
+  +  63.11   [SomniumRecRoom] RecCenter: cached scene adopted: 27 roots, 839 renderers (524 static-batched, re-rooted), 75 materials, 75 shader swaps, lights 39 kept / 1 off, 1167 colliders (10 triggers off; layers before: 11 ReflectionProbe: 116, 10 GrababbleObject: 4, 0 Default: 1023, 14 Terrain: 24, 25 Underground: 10; now all 23), 2 of 2 audio sources playing, 1 components switched off, lightmaps 0 -> 0
+  +  63.11   [SomniumRecRoom] Env: the room's own key light KeyLight becomes the sun: colour RGBA(0.973, 0.942, 0.842, 1.000), intensity 1, rotation (33, 193, 342), shadows Soft 0.95
+  +  63.11   [SomniumRecRoom] RecCenter: cached scene: its own sky SkyboxLockerRoom_Baked (cubemap ReflectionProbe_Skybox_Baked) drawn with the client's Skybox/Cubemap
+  +  63.11   [SomniumRecRoom] RecCenter: cached scene: 39 point/spot lights in Rec Room's light grid for its Studio Target/Lit materials
+  +  63.11   [SomniumRecRoom] RecCenter: using Rec Room's own cached Rec Center (scene RecCenter_071825, 45 bundles, 75.9 MB) from C:\Users\derii\AppData\LocalLow\Against Gravity\Rec Room\HTTPCache in 1.1 s (bundles 0.0 s, scene 0.6 s)
+  +  63.12   [SomniumRecRoom] RecCenter: doors: SPORTS & PVP (9), QUESTS (5), MAKERWORLD (0), FEATURED ROOMS (6), CAMPUS JAMS (0), DELIGHT ME!, DORM ROOM
+  +  63.13   [SomniumRecRoom] RecCenter: fitted the doors to Rec Room's building: 13 checks, 4 already right, 9 moved (largest 0.31 m): Door SPORTS & PVP (0.00, 0.00, -0.31), Door SPORTS & PVP floor (0.00, 0.25, 0.00), Door QUESTS (-0.11, 0.00, 0.00), Door QUESTS floor (0.00, 0.01, 0.00), Door MAKERWORLD (by its sign) (0.22, 0.00, 0.00), Door MAKERWORLD (by its sign) floor (0.00, 0.22, 0.00), Door FEATURED ROOMS (0.20, 0.00, 0.00), Door CAMPUS JAMS (by its sign) (0.22, 0.00, 0.00), Door Dorm (by its sign) (0.00, 0.00, -0.04)
+  +  63.15   [SomniumRecRoom] RecCenter: our vending takes the place of the building's [VendingMachine_Static] at (-3.08, 24.03) yaw 270 (planned (-2.40, 24.00) yaw 270)
+  +  63.15   [SomniumRecRoom] RecCenter: our friendotron takes the place of the building's [VendingMachine_Static] (1) at (4.84, 15.99) yaw 207 (planned (4.75, 15.81) yaw 205)
+  +  63.15   [SomniumRecRoom] RecCenter: with Rec Room's building: 53 of 107 props kept (54 furniture copies left out: the building has its own couches, chairs, tables, stools, lamps, plants, lockers and punching bag)
+  +  63.16 W [SomniumRecRoom] Doors: the door glow's material has no _TintColor: glow off
+  +  63.16   [SomniumRecRoom] Doors: (Sandbox_RoomDoor): frame centre x 0.450 m from Rec Room's pivot, sign at y 2.32, front z 0.084
+  +  63.17   [SomniumRecRoom] Doors: door look from (Sandbox_RoomDoor) (31 ms)
+  +  63.28   [SomniumRecRoom] Tools: (Basketball): grip (full-body), throw x1 unclamped, 7 hover renderers, screen BasketballThrowToolBehaviorConfig 12 m/s + CollisionSound(2) + Ball + AnimateInOut + Respawnable
+  +  63.31   [SomniumRecRoom] Hoop: hoop ready: 3 rim colliders tagged CollisionSfx_Table, score trigger at the rim
+  +  63.31   [SomniumRecRoom] Tools: (Basketballhoop): not grabbable + Hoop + AnimateInOut
+  +  63.32   [SomniumRecRoom] Doors: (Sandbox_MagicDoor): frame centre x 0.500 m from Rec Room's pivot, sign at y 2.45, front z 0.084
+  +  63.32   [SomniumRecRoom] Doors: door look from (Sandbox_MagicDoor) (186 ms)
+  +  63.34   [SomniumRecRoom] Tools: (WaterBottle): grip (full-body), throw x1 unclamped, 1 hover renderers, screen DrinkWaterBottleToolBehaviorConfig 12 m/s + CollisionSound(1) + Drinkable + AnimateInOut + Respawnable
+  +  63.44   [SomniumRecRoom] Tools: (DodgeballBall): grip (full-body), throw x1 max 15 m/s, 3 hover renderers, screen ThrowDodgeballToolBehaviorConfig 14 m/s + CollisionSound(1) + AnimateInOut + Respawnable
+  +  63.51   [SomniumRecRoom] Tools: (Pingpong_Paddle): grip (legacy), throw x1 unclamped, lock on pickup, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  63.51   [SomniumRecRoom] Tools: (PingpongBall): grip (full-body), throw x1 max 12 m/s, 1 hover renderers, screen PingPongBallThrowToolBehaviorConfig 9 m/s + CollisionSound(3) + AnimateInOut + Respawnable
+  +  63.52   [SomniumRecRoom] Tools: (DiscGolfDisc): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  63.72   [SomniumRecRoom] Tools: (RecCenter_Cafe_CoffeePot): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + CollisionSound(1) + Drinkable + ShakeSound + AnimateInOut + Respawnable
+  +  63.73   [SomniumRecRoom] Tools: (RecCenter_Cafe_Mug): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  63.75   [SomniumRecRoom] Tools: (RecCenter_Cafe_Plate): grip (legacy), throw x1 unclamped, 1 hover renderers, screen BreakablePlateThrowToolBehaviorConfig 12 m/s + CollisionSound(1) + AnimateInOut + Respawnable
+  +  63.75   [SomniumRecRoom] Tools: (Consumables_Donuts_OpenBox): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  63.86   [SomniumRecRoom] Tools: (FoodConsumable_RedVelvetCake): not grabbable
+  +  63.86   [SomniumRecRoom] Tools: (Consumables_Cake_Chocolate_Tray): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  63.94   [SomniumRecRoom] Tools: (DrawableClipboard): grip (legacy), throw x1 unclamped, 2 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  63.96   [SomniumRecRoom] Dorm: mirror ready (planar reflection 448 px within 6.5 m, stylised glass otherwise)
+  +  63.97   [SomniumRecRoom] Tools: (SandboxMarkerSet): grip (legacy), throw x1 unclamped, 10 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  63.98   [SomniumRecRoom] RecCenter: fitted the props to Rec Room's building: 50 checks, 7 already right, 45 moved (largest 0.85 m): radio.kiosk (0.00, 0.14, 0.00), hoop (0.46, 0.00, 0.00), hoop (-0.66, 0.00, 0.00), bell (0.00, 0.14, 0.00), vending centred on theirs (0.08, 0.00, 0.00), vending (0.00, 0.25, 0.00), friendotron centred on theirs (0.03, 0.00, 0.07), radio.cafe (0.00, -0.16, 0.00), mirror (-0.85, 0.00, 0.00), (Basketball) (0.00, 0.25, 0.00), (Basketball) (0.00, 0.25, 0.00), (Basketball) (0.00, 0.25, 0.00), (Basketball) (0.00, 0.25, 0.00), (WaterBottle) (0.00, 0.25, 0.00), (WaterBottle) (0.00, 0.25, 0.00), (DodgeballBall) (0.00, 0.25, 0.00), (DodgeballBall) (0.00, 0.25, 0.00), (DodgeballBall) (0.00, 0.25, 0.00), (DiscGolfDisc) (0.00, 0.01, 0.00), (DiscGolfDisc) (0.00, 0.01, 0.00), (DiscGolfDisc) (0.00, 0.01, 0.00), pingpong.paddle (0.00, -0.02, 0.00), pingpong.paddle (0.00, -0.02, 0.00), pingpong.paddle (0.00, -0.02, 0.00), pingpong.paddle (0.00, -0.02, 0.00), pingpong.ball (0.00, 0.11, 0.00), pingpong.ball (0.00, 0.11, 0.00), (Consumables_Cake_Chocolate_Tray) (0.00, -0.16, 0.00), (FoodConsumable_RedVelvetCake) (0.00, -0.16, 0.00), (Consumables_Donuts_OpenBox) (0.00, -0.16, 0.00), (RecCenter_Cafe_Plate) (0.00, -0.16, 0.00), (RecCenter_Cafe_Mug) (0.00, -0.16, 0.00), (RecCenter_Cafe_Mug) (0.00, -0.16, 0.00), (RecCenter_Cafe_Mug) (0.00, -0.16, 0.00), (RecCenter_Cafe_Mug) (0.00, -0.16, 0.00), (RecCenter_Cafe_Mug) (0.00, -0.16, 0.00), (RecCenter_Cafe_CoffeePot) (0.00, -0.16, 0.00), (RecCenter_Cafe_CoffeePot) (0.00, -0.16, 0.00), (RecCenter_Cafe_Mug) (0.00, -0.16, 0.00), (RecCenter_Cafe_Plate) (0.00, -0.15, 0.00), (RecCenter_Cafe_Plate) (0.00, -0.15, 0.00), (RecCenter_Cafe_Plate) (0.00, -0.15, 0.00), (DrawableClipboard) (0.00, 0.06, 0.00), (DrawableClipboard) (0.00, 0.06, 0.00), (SandboxMarkerSet) (0.00, 0.06, 0.00)
+  +  63.99   [SomniumRecRoom] RecCenter: the building's own objects hidden under ours: 3 (2 static vending machines, the feed board 'BulletinBoard')
+  +  63.99   [SomniumRecRoom] RecCenter: door signs: 6 of ours hidden under Rec Room's own (Door SPORTS & PVP under [Door_Sign] (5), Door QUESTS under [Door_Sign] (8), Door MAKERWORLD under [Door_Sign], Door FEATURED ROOMS under [Door_Sign] (7), Door CAMPUS JAMS under [Door_Sign] (9), Door Dorm under [Door_Sign] (1))
+  +  63.99   [SomniumRecRoom] RecCenter: instance ints initialised (authority 0)
+  +  63.99   [SomniumRecRoom] RecCenter: built at (0, 0) in 2.0 s (Rec Room's cached building): 7 doors (6 category/magic + Dorm), 53 prefabs (0 failed), 35 local tools, 16 shared props, 3 radios, 2 hoops, mirror ready
+  +  63.99   [SomniumRecRoom] Travel: built RecCenter in 1995 ms
+  +  63.99   [SomniumRecRoom] Travel: RecCenter: lowest floor y = -20.7 (1259 environment colliders); a player 10 m below it is put back
+  +  63.99   [SomniumRecRoom] Player: teleport to (-6.750, 0.050, 23.640) yaw 180 (fallback rig)
+  +  63.99   [SomniumRecRoom] Player: movement x1
+  +  63.99   [SomniumRecRoom] PostFx: RecCenter: RecCenter-RecCenter_071825-PostProcessingProfile (cache 1AF.data (RecCenter_071825, measurements only)): Bloom threshold 1.1 intensity 0.25 scatter 0.617 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.2 contrast 5 saturation 8; LiftGammaGain lift (0.89,0.95,1,0) gamma (1,0.925,0.868,0) gain (1,0.989,0.94,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +  63.99   [SomniumRecRoom] Env: applied RecCenter_071825 (cache 1AF RecCenter 071825+apk level7): sun #F8F0D7 x1 Soft shadows 0.93 at (33, 283, 0), ambient Trilight #7CA6DC/#A38E63/#82492C, fog Linear #FFE5A3 5-400 m, reflections x1, sky gradient #899EB7/#D0E1E5/#A78135, 0 realtime lights (0 with shadows); sky material Skybox/Cubemap
+  +  64.00   [SomniumRecRoom] Env: RecCenter_071825: realtime reflection probe rendered once at (-6.8, 1.6, 23.6) over (200, 80, 200) m (Environment layer, 128 px, faces over frames), intensity 1
+  +  64.00   [SomniumRecRoom] Env: RecCenter: default RecCenter_071825, 0 kit scene(s) registered; applied RecCenter_071825 (cache 1AF RecCenter 071825+apk level7): sun #F8F0D7 x1 Soft shadows 0.93 at (33, 283, 0), ambient Trilight #7CA6DC/#A38E63/#82492C, fog Linear #FFE5A3 5-400 m, reflections x1, sky gradient #899EB7/#D0E1E5/#A78135, 0 realtime lights (0 with shadows)
+  +  64.00   [SomniumRecRoom] RecCenter: ambience: Rec Room's own AmbianceLightCrowd and CafeCounter sources from the cached building (2 sources)
+  +  64.00   [SomniumRecRoom] RecCenter: entered from Paintball (instance 0, authority True)
+  +  64.00   [SomniumRecRoom] Travel: census at RecCenter (visit 1): 1 room, nothing outside it; room RecCenter at (0, 0, 0), feet (-6.8, 0.1, 23.6), arrival hidden, world root 3882 objects (3492 in the room, 390 outside), scene roots 8, memory 802.8 MB (managed 322.5 MB), bundles open 92, assets loaded 48 (531 loads, 330 found resident), failed 0, bundles unloaded on leaving rooms 11
+  +  64.27   [SomniumRecRoom] Travel: arrived in RecCenter #0 at (0, 0, 0), spawn 0 after 2.65 s
+  +  64.28   [RrHarness] step 33 ok (2653 ms) arrived in 2.7 s
+  +  64.28   [RrHarness] step 34 wait 3
+  +  64.30   [SomniumRecRoom] Lights: RecCenter_071825: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 39 lights (0 hemisphere, 0 without highlights, 39 also as Unity lights for URP-shaded objects); cells 2.62 x 2.43 x 2.9 m, 4358/6912 cells lit, 107 full, max 8 per cell; 769 renderers with Rec Room's shaders lit (40 out of every light's reach left batched); 31.1 ms
+  +  67.28   [RrHarness] step 34 ok (3000 ms) 
+  +  67.28   [RrHarness] step 35 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait
+  +  67.28   [SomniumRecRoom] LightTest: 1 light grid(s)
+              RecCenter_071825: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 39 lights (0 hemisphere, 0 without highlights, 39 also as Unity lights for URP-shaded objects); cells 2.62 x 2.43 x 2.9 m, 4358/6912 cells lit, 107 full, max 8 per cell; 769 renderers with Rec Room's shaders lit (40 out of every light's reach left batched); 31.1 ms
+  +  67.28   [SomniumRecRoom] LightTest: room Room RecCenter #0: 941 active renderers (1045 material draws): 906 with Rec Room's grid shaders (683 lit by a grid, 761 draws outside the SRP Batcher), 35 URP-shaded (their lights: URP's per-object limit 4); 40 active Unity point/spot lights (0 shadowed)
+  +  67.28   [RrHarness] step 35 ok (4 ms) coroutine finished
+  +  67.28   [RrHarness] step 36 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff
+  +  67.29   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 1 scene(s)
+  +  67.29   [RrHarness] step 36 ok (1 ms) returned
+  +  67.29   [RrHarness] step 37 shot light9_rc_before
+  +  67.43   [RrHarness] step 37 ok (139 ms) room frame (RecCenter origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_rc_before.png rendered in 8.3 ms; mean luma 87, sd 31
+  +  67.43   [RrHarness] step 38 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn
+  +  67.43   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  67.44   [RrHarness] step 38 ok (2 ms) returned
+  +  67.44   [RrHarness] step 39 wait 0.3
+  +  67.74   [RrHarness] step 39 ok (301 ms) 
+  +  67.74   [RrHarness] step 40 shot light9_rc_after
+  +  67.84   [RrHarness] step 40 ok (91 ms) room frame (RecCenter origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_rc_after.png rendered in 8.0 ms; mean luma 139, sd 39
+  +  67.84   [RrHarness] step 41 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom
+  +  67.84   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 1 scene(s)
+  +  67.84   [SomniumRecRoom] Lights: blocks now carry the light arrays as properties
+  +  68.37   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  68.37   [SomniumRecRoom] Lights: blocks now carry Rec Room's AdditionalLights cbuffer as one bound buffer
+  +  68.74   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  68.75   [SomniumRecRoom] Lights: blocks now carry the light arrays as properties
+  +  69.17   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  69.17   [SomniumRecRoom] Lights: blocks now carry Rec Room's AdditionalLights cbuffer as one bound buffer
+  +  69.17   [SomniumRecRoom] LightTest: perf Room RecCenter #0 from (-6.7, 1.8, 23.6): grids off 13.03 ms per render, grids on (bound cbuffer) 9.13 ms per render, grids on (arrays) 10.38 ms per render
+  +  69.18   [RrHarness] step 41 ok (1340 ms) coroutine finished
+  +  69.18   [RrHarness] step 42 goto Dorm
+  +  69.18   [SomniumRecRoom] Travel: trip 5: RecCenter -> Dorm
+  +  69.18   [SomniumRecRoom] Player: movement x0, no jump
+  +  69.48   [SomniumRecRoom] PostFx: left RecCenter: back to the client's own post-processing in 0.25 s
+  +  69.48   [SomniumRecRoom] Env: left RecCenter: the world scene's own lighting is back
+  +  69.48   [SomniumRecRoom] Travel: cleared what RecCenter left outside its root: 0 effects, 0 sounds, 0 splats, shots in flight and given tools
+  +  69.50   [SomniumRecRoom] Travel: left RecCenter
+  +  69.63   [SomniumRecRoom] Travel: freed RecCenter in 129 ms: memory 793.4 -> 689.7 MB, managed 313.0 -> 313.1 MB; released 31 assets, 27 prefab data, 2 replacement materials; UnloadUnusedAssets 128 ms; bundles only this room opened: 32, unloaded 2, kept 15 (audio/video/shader/font) + 15 (an asset still in use); open now 90
+  +  69.64   [SomniumRecRoom] Travel: census after leaving RecCenter (visit 1): no room, nothing of it left; room none (arrival room), feet (0, 0, 0), arrival shown, world root 390 objects (0 in the room, 390 outside), scene roots 7, memory 688.0 MB (managed 313.1 MB), bundles open 90, assets loaded 18 (532 loads, 330 found resident), failed 0, bundles unloaded on leaving rooms 13
+  +  69.64   [SomniumRecRoom] Travel: building Dorm at (0, 0, 0) (dorm slot 0 (no presence slot))
+  +  69.67   [SomniumRecRoom] RecCenter: cached Rec Center released: scene unloaded, 45 bundles unloaded in 0.18 s
+  +  70.06   [SomniumRecRoom] Dorm: floor: Rec Room's Wood_Floor_Matte_mat (AG/Standard-Opaque)
+  +  70.24   [SomniumRecRoom] Heartbeat: bundles open 91, assets loaded 27 (556 loads, 331 found resident), failed 0, bundles unloaded on leaving rooms 13, repeated warnings 9, fps 612
+  +  70.53   [SomniumRecRoom] Dorm: mirror ready (planar reflection 448 px within 6.5 m, stylised glass otherwise)
+  +  70.59   [SomniumRecRoom] Dorm: hoop rim at room (3.893, 1.095, -1.066) (Rec Room's rim VFX: (3.905, 1.097, -1.090), off by 27 mm)
+  +  70.70   [SomniumRecRoom] Dorm: poster Nux_Stop_Gesture2 (1024x1024, DXT5) on the loft wall
+  +  70.70   [SomniumRecRoom] Dorm: poster Nux_Shake_hands2 (1024x1024, DXT5) on the loft wall
+  +  70.82   [SomniumRecRoom] Dorm: play board: 7 activities on Originals, tabs Originals + the Rec Center's 4 categories
+  +  70.88   [SomniumRecRoom] Dorm: door sign lowered 19 cm under the loft (top y 2.61, underside 2.64, Rec Room's door)
+  +  70.92   [SomniumRecRoom] Tools: (Radio): grip (legacy), throw x1 unclamped, lock on pickup, 4 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  70.93   [SomniumRecRoom] Tools: (SoloCup): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  70.95   [SomniumRecRoom] Tools: (Sandbox_Bell): held where grabbed, throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  71.03   [SomniumRecRoom] Tools: (TrashCan_Office)SandboxVariant: held where grabbed, throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  71.04   [SomniumRecRoom] Tools: (Bucket): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  71.06   [SomniumRecRoom] Tools: (Dart): grip (full-body), throw x1 unclamped, 1 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  71.10   [SomniumRecRoom] Tools: (Consumables_RootBeer_Bottle): grip (full-body), throw x1 unclamped, 3 hover renderers, screen DrinkRootBeerToolBehaviorConfig 12 m/s + CollisionSound(1) + Breakable + Drinkable + ShakeSound + AnimateInOut + Respawnable
+  +  71.13   [SomniumRecRoom] Tools: (Sandbox_Book_Green): grip (full-body), throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  71.13   [SomniumRecRoom] Tools: (Dorm_Desk_Lamp): held where grabbed, throw x1 unclamped, 2 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  71.15   [SomniumRecRoom] Tools: (Consumables_CheesePizza_Slice): grip (legacy), throw x1 unclamped, 3 hover renderers, screen EatPizzaToolBehaviorConfig 5 m/s + Edible(3 bites) + AnimateInOut + Respawnable
+  +  71.16   [SomniumRecRoom] Tools: (Consumables_Apple_Red): grip (full-body), throw x1 unclamped, 4 hover renderers, screen EatPizzaToolBehaviorConfig 5 m/s + Edible(4 bites) + AnimateInOut + Respawnable
+  +  71.17   [SomniumRecRoom] Tools: (SandboxDiceSet): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  71.29   [SomniumRecRoom] Tools: (Eraser): grip (legacy), throw x1 unclamped, lock on pickup, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  71.29   [SomniumRecRoom] Tools: (Trophy_Oscar): grip (legacy), throw x1 unclamped, 1 hover renderers, screen generic throw + CollisionSound(1) + AnimateInOut + Respawnable
+  +  71.30   [SomniumRecRoom] Tools: (Sandbox_Book_Yellow): grip (full-body), throw x1 unclamped, 1 hover renderers, screen generic throw + AnimateInOut + Respawnable
+  +  71.30   [SomniumRecRoom] Dorm: layout: DormRoom-2018 (REF1) - door (-4.88, 0.00, -0.86) facing +x, spawn on the welcome mat (-3.97, 0.05, -0.92), bed (1.86, 0.00, -2.17) on the back wall, mirror (0.88, 1.34, 2.92) on the front wall, Play board (-0.97, 1.70, -2.90), ladder z 1.27
+  +  71.30   [SomniumRecRoom] Dorm: built at (0, 0): 67 Rec Room objects, 25 props, max kit snap error 10 mm, 1.7 s
+  +  71.30   [SomniumRecRoom] Travel: built Dorm in 1665 ms
+  +  71.30   [SomniumRecRoom] Travel: Dorm: lowest floor y = -0.4 (163 environment colliders); a player 10 m below it is put back
+  +  71.30   [SomniumRecRoom] Player: movement x1
+  +  71.30   [SomniumRecRoom] PostFx: Dorm: APPPLESARCHIVE-Testing-PostProcessingProfile (REF2 .unity files/APPPLESARCHIVE/APPPLESARCHIVE-Testing-PostProcessingProfile.asset): Bloom threshold 1.04 intensity 0.15 scatter 0.6 highQualityFiltering 0; Tonemapping mode 1; WhiteBalance temperature 5; ColorAdjustments postExposure 0.1 contrast 10; LiftGammaGain lift (0.922,0.942,1,0) gamma (1,0.982,0.96,0) gain (1,0.99,0.956,0.034); bloom chain Rec Room's half resolution x6; global Volume priority 100, layer 0, fading in over 0.35 s
+  +  71.30   [SomniumRecRoom] Env: applied Dorm_Builtin (apk level6): sun #FFF5DB x1.1 Soft shadows 1 at (48, 281, 196), ambient Trilight #8498B6/#C28A62/#D26822, fog off, reflections x0.434, sky gradient #7890B1/#AAC0D0/#AF8937, 8 realtime lights (1 with shadows); sky material AG/Skybox/Simple Gradient
+  +  71.30   [SomniumRecRoom] Env: Dorm_Builtin: realtime reflection probe rendered once at (-3.4, 1.6, -0.9) over (200, 80, 200) m (Environment layer, 128 px, faces over frames), intensity 0.434
+  +  71.31   [SomniumRecRoom] Env: Dorm_Builtin: the level's own 8 point/spot lights placed in the room (0 with soft shadows), also in Rec Room's light grid for the room's Rec Room shaders
+  +  71.31   [SomniumRecRoom] Env: Dorm: default Dorm_Builtin, 0 kit scene(s) registered; applied Dorm_Builtin (apk level6): sun #FFF5DB x1.1 Soft shadows 1 at (48, 281, 196), ambient Trilight #8498B6/#C28A62/#D26822, fog off, reflections x0.434, sky gradient #7890B1/#AAC0D0/#AF8937, 8 realtime lights (1 with shadows)
+  +  71.31   [SomniumRecRoom] Travel: census at Dorm (visit 1): 1 room, nothing outside it; room Dorm at (0, 0, 0), feet (-3.4, 0.1, -0.9), arrival hidden, world root 1407 objects (1017 in the room, 390 outside), scene roots 8, memory 708.0 MB (managed 291.6 MB), bundles open 95, assets loaded 82 (598 loads, 331 found resident), failed 0, bundles unloaded on leaving rooms 13
+  +  71.53   [SomniumRecRoom] Dorm: radio: ClearShot (209 s)
+  +  71.59   [SomniumRecRoom] Travel: arrived in Dorm at (0, 0, 0), spawn 0 after 2.41 s
+  +  71.59   [RrHarness] step 42 ok (2409 ms) arrived in 2.4 s
+  +  71.59   [RrHarness] step 43 wait 2
+  +  71.61   [SomniumRecRoom] Lights: Dorm_Builtin: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 8 lights (5 hemisphere, 5 without highlights, 8 also as Unity lights for URP-shaded objects); cells 2.33 x 1.28 x 2.33 m, 1311/6912 cells lit, 0 full, max 7 per cell; 214 renderers with Rec Room's shaders lit (51 out of every light's reach left batched); 16.3 ms
+  +  73.60   [RrHarness] step 43 ok (2002 ms) 
+  +  73.60   [RrHarness] step 44 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait
+  +  73.60   [SomniumRecRoom] LightTest: 1 light grid(s)
+              Dorm_Builtin: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 8 lights (5 hemisphere, 5 without highlights, 8 also as Unity lights for URP-shaded objects); cells 2.33 x 1.28 x 2.33 m, 1311/6912 cells lit, 0 full, max 7 per cell; 214 renderers with Rec Room's shaders lit (51 out of every light's reach left batched); 16.3 ms
+  +  73.60   [SomniumRecRoom] LightTest: room Room Dorm: 295 active renderers (305 material draws): 248 with Rec Room's grid shaders (197 lit by a grid, 207 draws outside the SRP Batcher), 47 URP-shaded (their lights: URP's per-object limit 4); 14 active Unity point/spot lights (0 shadowed)
+  +  73.61   [RrHarness] step 44 ok (2 ms) coroutine finished
+  +  73.61   [RrHarness] step 45 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOff
+  +  73.61   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 1 scene(s)
+  +  73.61   [RrHarness] step 45 ok (1 ms) returned
+  +  73.61   [RrHarness] step 46 shot light9_dorm_before
+  +  73.69   [RrHarness] step 46 ok (78 ms) room frame (Dorm origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_dorm_before.png rendered in 10.4 ms; mean luma 117, sd 30
+  +  73.69   [RrHarness] step 47 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridOn
+  +  73.70   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  73.70   [RrHarness] step 47 ok (2 ms) returned
+  +  73.70   [RrHarness] step 48 wait 0.3
+  +  73.80   [SomniumRecRoom] Dorm: 25 prop homes set after settling
+  +  74.00   [RrHarness] step 48 ok (300 ms) 
+  +  74.00   [RrHarness] step 49 shot light9_dorm_after
+  +  74.10   [RrHarness] step 49 ok (87 ms) room frame (Dorm origin (0.0, 0.0, 0.0)); C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad\harness\out\light9_tour\light9_dorm_after.png rendered in 7.4 ms; mean luma 178, sd 37
+  +  74.10   [RrHarness] step 50 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PerfRoom
+  +  74.10   [SomniumRecRoom] Lights: grids off (iteration 8's lighting) for 1 scene(s)
+  +  74.10   [SomniumRecRoom] Lights: blocks now carry the light arrays as properties
+  +  74.19   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  74.19   [SomniumRecRoom] Lights: blocks now carry Rec Room's AdditionalLights cbuffer as one bound buffer
+  +  74.38   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  74.38   [SomniumRecRoom] Lights: blocks now carry the light arrays as properties
+  +  74.58   [SomniumRecRoom] Lights: grids on for 1 scene(s)
+  +  74.58   [SomniumRecRoom] Lights: blocks now carry Rec Room's AdditionalLights cbuffer as one bound buffer
+  +  74.59   [SomniumRecRoom] LightTest: perf Room Dorm from (-3.4, 1.6, -0.9): grids off 2.24 ms per render, grids on (bound cbuffer) 4.46 ms per render, grids on (arrays) 4.91 ms per render
+  +  74.59   [RrHarness] step 50 ok (493 ms) coroutine finished
+  +  74.59   [RrHarness] step 51 call SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.Report
+  +  74.59   [SomniumRecRoom] LightTest: 1 light grid(s)
+              Dorm_Builtin: Rec Room's light grid (24x12x24 cells, up to 8 lights each) with 8 lights (5 hemisphere, 5 without highlights, 8 also as Unity lights for URP-shaded objects); cells 2.33 x 1.28 x 2.33 m, 1311/6912 cells lit, 0 full, max 7 per cell; 214 renderers with Rec Room's shaders lit (51 out of every light's reach left batched); 16.3 ms
+  +  74.60   [SomniumRecRoom] LightTest: room Room Dorm: 295 active renderers (305 material draws): 248 with Rec Room's grid shaders (197 lit by a grid, 207 draws outside the SRP Batcher), 47 URP-shaded (their lights: URP's per-object limit 4); 14 active Unity point/spot lights (0 shadowed)
+  +  74.60   [RrHarness] step 51 ok (2 ms) returned

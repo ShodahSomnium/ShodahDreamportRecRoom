@@ -1,0 +1,4 @@
+server-like build of D:/Dreamport/Rec Room/Rec Room/Assets/#User/SomniumRecRoom: 3 error(s), 0 warning(s)  (115 files)
+RrHitVolume.cs(38,16): error CS0246: The type or namespace name 'RrEnemy' could not be found (are you missing a using directive or an assembly reference?)
+RrProjectile.cs(33,16): error CS0246: The type or namespace name 'RrEnemy' could not be found (are you missing a using directive or an assembly reference?)
+RrProjectile.cs(98,42): error CS0246: The type or namespace name 'RrEnemy' could not be found (are you missing a using directive or an assembly reference?)

@@ -1,0 +1,33 @@
+# RRSK 1 Paintball_Lobby_gameplay
+B -67.712 -5.413 61.843 -47.75 -3.677 75.647
+# source: REF1 room export paintballtroll1, subroom 7273161280607003170 (Lobby); frame = the official Paintball Lobby scene (geometry not included).
+# G kinds: flag_base, flag, weapon_pickup, standee, game_config, game_rule, role, role_map, scoreboard, leaderboard, door = official-looking layer; extra = player additions.
+P (PaintballGun) -67.712 -4.385 66.505 0.1538 0.1814 0.6283 0.7407 1 1 1
+G weapon_pickup (PaintballGun) -67.712 -4.385 66.505 0.1538 0.1814 0.6283 0.7407 type=PAINTBALL_PISTOL prefab=(PaintballGun)
+G role (GameRoleNode) -62.485 -4.246 74.833 0 0 0 1 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Eliminated%20|%20role_guid=0b9ec39e-2cc9-4825-8321-da11561f1c4f
+G role (GameRoleNode) -62.885 -4.246 74.833 0 0 0 1 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=Homestead%20|%20inner_value=paintpistol%20|%20inner_value=paintshotgun%20|%20inner_value=paintscoperifle%20|%20inner_value=paintburstgun%20|%20inner_value=paintgrenade%20|%20...
+G role (GameRoleNode) -62.685 -4.246 74.833 0 0 0 1 type=GAME_ROLE_NODE prefab=(GameRoleNode) role_name=In-Game%20|%20role_guid=2c721342-c7ed-49fe-b8f0-93f8d282a6df
+G extra (MannequinProp) -49.062 -5.413 67.17 -0.0226 0.4085 -0.0146 -0.9124 type=MANNEQUINPROP prefab=(MannequinProp) scale=8.132 avatar_version=AddedAuraData%20|%20raw_body_part=Head%20|%20raw_body_part=Torso%20|%20raw_body_part=Legs%20|%20raw_body_part=RightFoot%20|%20use_helmet_hair=On%20|%20avatar_body_type=F...
+G extra (HolotarProjector_CV1) -61.2 -4.82 62.226 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (WelcomeMatV2) -61.738 -4.948 75.647 0 0.9994 0 -0.0357 type=WELCOME_MAT_V2 prefab=(WelcomeMatV2) welcome_mat_name=Welcome%20Mat
+G extra (HolotarProjector_CV1) -60.442 -4.82 62.284 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (HolotarProjector_CV1) -58.168 -4.82 62.461 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (SoloCup) -47.843 -3.948 72.023 -0.8834 0.0046 0.4686 0.0004 type=SOLOCUP prefab=(SoloCup)
+G extra (HolotarProjector_CV1) -61.2 -4.82 62.226 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (HolotarProjector_CV1) -61.2 -4.82 62.226 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (Sandbox_Text_V3) -61.76 -3.677 73.671 0 0.0016 0 -1 type=SANDBOX_TEXT_V3 prefab=(Sandbox_Text_V3) scale=1.823 message=if%20u%20buy%20mods%20it%20more%20funny%20cause%20it%20dont%20work%20l%20mean%20it%20do%20but%20u%20still%20have%20the%20weapons
+G extra (WaterBottle) -48.156 -4.356 70.846 -0.0009 -0.2513 0.0016 -0.9679 type=WATERBOTTLE prefab=(WaterBottle)
+G extra (HolotarProjector_CV1) -60.442 -4.82 62.284 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (Radio) -51.841 -4.464 70.146 0 0.9277 0 0.3734 type=RADIO prefab=(Radio)
+G extra (HolotarProjector_CV1) -61.959 -4.82 62.167 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (SoloCup) -47.939 -4.305 72.161 -0.8835 0.0043 0.4683 0.0031 type=SOLOCUP prefab=(SoloCup)
+G extra (MannequinProp) -52.429 -4.203 61.843 0 0.0214 0 -0.9998 type=MANNEQUINPROP prefab=(MannequinProp) scale=9.191 avatar_version=AddedAuraData%20|%20raw_body_part=LeftHand%20|%20raw_body_part=RightHand%20|%20raw_body_part=Torso%20|%20raw_body_part=Legs%20|%20raw_body_part=LeftFoot%20|%20raw_body_p...
+G extra (HolotarProjector_CV1) -58.926 -4.82 62.402 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (SoloCup) -47.75 -4.307 71.882 -0.8835 0.0043 0.4683 0.0031 type=SOLOCUP prefab=(SoloCup)
+G extra (SoloCup) -47.891 -4.127 72.093 -0.8834 0.0067 0.4686 0.0004 type=SOLOCUP prefab=(SoloCup)
+G extra (HolotarProjector_CV1) -59.684 -4.82 62.343 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (WaterBottle) -50.702 -4.358 69.92 -0.0012 0.2512 -0.0019 0.9679 type=WATERBOTTLE prefab=(WaterBottle)
+G extra (SoloCup) -47.798 -4.128 71.955 -0.8835 0.0066 0.4685 0.0005 type=SOLOCUP prefab=(SoloCup)
+G extra (HolotarProjector_CV1) -59.684 -4.82 62.343 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (HolotarProjector_CV1) -61.959 -4.82 62.167 0 0.0388 0 -0.9992 type=HOLOTAR_PROJECTOR prefab=(HolotarProjector_CV1) scale=1.787 blob_name=7ienhkm6le9tq2vbdduuqxn86.htr
+G extra (SoloCup) -47.846 -4.306 72.023 -0.8835 0.0043 0.4683 0.0031 type=SOLOCUP prefab=(SoloCup)

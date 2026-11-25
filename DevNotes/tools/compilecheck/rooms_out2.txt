@@ -1,0 +1,21 @@
+server-like build of C:/Users/derii/AppData/Local/Temp/claude/D--Dreamport-Rec-Room-Rec-Room/00e4b7e5-d1a8-4847-ac44-3e6fa88a3591/scratchpad/rooms_copy: 30 error(s), 1 warning(s)  (110 files)
+RrBreakable.cs(232,40): error CS0246: The type or namespace name 'RrRespawnable' could not be found (are you missing a using directive or an assembly reference?)
+RrCombat.cs(345,21): error CS0117: 'RrEnemy' does not contain a definition for 'ApplyRemoteHit'
+RrCombat.cs(421,21): error CS0117: 'RrEnemy' does not contain a definition for 'ResetStatics'
+RrGrab.cs(402,13): error CS0103: The name 'RrPressable' does not exist in the current context
+RrGrab.cs(450,13): error CS0103: The name 'RrPressable' does not exist in the current context
+RrGrab.cs(568,17): error CS0103: The name 'RrPressable' does not exist in the current context
+RrGrab.cs(629,17): error CS0103: The name 'RrPressable' does not exist in the current context
+RrGrab.cs(629,45): error CS0103: The name 'RrPressable' does not exist in the current context
+RrLoadout.cs(158,30): error CS0103: The name 'RrMelee' does not exist in the current context
+RrLoadout.cs(209,43): error CS0246: The type or namespace name 'RrMelee' could not be found (are you missing a using directive or an assembly reference?)
+RrProjectile.cs(288,54): error CS1061: 'RrEnemy' does not contain a definition for 'Alive' and no accessible extension method 'Alive' accepting a first argument of type 'RrEnemy' could be found (are you missing a using directive or an assembly reference?)
+RrProjectile.cs(316,29): error CS1061: 'RrEnemy' does not contain a definition for 'TakeLocalHit' and no accessible extension method 'TakeLocalHit' accepting a first argument of type 'RrEnemy' could be found (are you missing a using directive or an assembly reference?)
+RrProjectile.cs(383,55): error CS1061: 'RrEnemy' does not contain a definition for 'Alive' and no accessible extension method 'Alive' accepting a first argument of type 'RrEnemy' could be found (are you missing a using directive or an assembly reference?)
+RrProjectile.cs(386,33): error CS1061: 'RrEnemy' does not contain a definition for 'TakeLocalHit' and no accessible extension method 'TakeLocalHit' accepting a first argument of type 'RrEnemy' could be found (are you missing a using directive or an assembly reference?)
+RrTools.cs(103,49): error CS0246: The type or namespace name 'RrBall' could not be found (are you missing a using directive or an assembly reference?)
+RrTools.cs(105,33): error CS0246: The type or namespace name 'RrBall' could not be found (are you missing a using directive or an assembly reference?)
+RrTools.cs(109,72): error CS0246: The type or namespace name 'RrHoop' could not be found (are you missing a using directive or an assembly reference?)
+RrTools.cs(111,33): error CS0246: The type or namespace name 'RrHoop' could not be found (are you missing a using directive or an assembly reference?)
+RrTools.cs(116,13): error CS0246: The type or namespace name 'RrAnimateInOut' could not be found (are you missing a using directive or an assembly reference?)
+RrTools.cs(116,54): error CS0246: The type or namespace name 'RrAnimateInOut' could not be found (are you missing a using directive or an assembly reference?)

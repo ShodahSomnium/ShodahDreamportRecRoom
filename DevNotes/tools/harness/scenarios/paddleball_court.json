@@ -1,0 +1,26 @@
+// Paddleball (Games/Paddleball): the court at the world origin (shots in the room frame; the old offline origin was (5000, 0, 4000)); tube x +-1.5, y 0..3,
+// z +-6; gallery on +X. Solo: START -> blue end with a paddle, a serve through the paddle-hit path scores at the
+// empty red end, then red's automatic serve flies past the blue player -> 1-1.
+{
+  "name": "paddleball_court",
+  "steps": [
+    {"goto": "Paddleball", "timeout": 150},
+    {"wait": 1.0},
+    {"shot": "paddleball_overview", "pos": [6.3, 4.2, -8.5], "look": [0, 1.2, 1], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "paddleball_tube", "pos": [0, 1.6, -5.4], "look": [0, 1.4, 6], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "paddleball_gallery", "pos": [0.5, 2.4, -7], "look": [6.5, 1.2, 0], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Paddleball.RrPaddleballTest.Start"},
+    {"wait": 0.5},
+    {"shot": "paddleball_serve", "pos": [0.8, 2, -6.1], "look": [0, 1.2, -3.5], "frame": "room", "fov": 65, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Paddleball.RrPaddleballTest.Serve"},
+    {"wait": 0.2},
+    {"shot": "paddleball_goal", "pos": [0, 1.6, -1], "look": [0, 1.5, 6], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Paddleball.RrPaddleballTest.WaitFlight"},
+    {"shot": "paddleball_rally", "pos": [6.3, 3, 0], "look": [0, 1.4, 0], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Paddleball.RrPaddleballTest.Concede"},
+    {"expect_log": "Paddleball: court built"},
+    {"expect_log": "PaddleballTest: start: phase Playing"},
+    {"expect_log": "Paddleball: goal for Blue"},
+    {"expect_log": "Paddleball: goal for Red"}
+  ]
+}

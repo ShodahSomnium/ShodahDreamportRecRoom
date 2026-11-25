@@ -1,0 +1,58 @@
+// Isolation (RrIsolation): the harness has no client, so RrIsolationTest builds a fake remote player shaped like the
+// client's (body prefab + Body.Root, name tag, chat bubble, avatar scene root, cloth item, voice) and a twin that
+// carries the local nickname. Presence is flipped with test overrides; every check compares full snapshots.
+// Shots: iso_visible (all there), iso_hidden (only the green "local avatar" cube left), iso_meddled (still hidden
+// after the fake client re-enabled things), iso_restored (all back; the teal LOD bar stays off: the fake client
+// switched it off while hidden, and a pink outfit part was added). The voice is silenced with volume 0, never mute:
+// the fake client blocks it (mute) and sets a new level (0.6) while hidden; the block must survive, 0.6 must come back.
+{
+  "name": "isolation_basic",
+  "steps": [
+    {"expect_log": "Player: up", "timeout": 90},
+    {"expect_log": "Isolation: up", "timeout": 10},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.Build"},
+    {"shot": "iso_visible", "pos": [0, 101.3, 1.0], "look": [0, 101.05, 5], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.Apart"},
+    {"wait": 1.2},
+    {"shot": "iso_hidden", "pos": [0, 101.3, 1.0], "look": [0, 101.05, 5], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.CheckHidden"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.Meddle"},
+    {"wait": 1.2},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.CheckStillHidden"},
+    {"shot": "iso_meddled", "pos": [0, 101.3, 1.0], "look": [0, 101.05, 5], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.Together"},
+    {"wait": 1.2},
+    {"shot": "iso_restored", "pos": [0, 101.3, 1.0], "look": [0, 101.05, 5], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.CheckRestored"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.Stress"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.Rules"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.ShutdownRestores"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Player.RrIsolationTest.Report"},
+    {"expect_log": "IsolationTest: PASS together untouched"},
+    {"expect_log": "IsolationTest: PASS hide ("},
+    {"expect_log": "IsolationTest: PASS local avatar untouched"},
+    {"expect_log": "IsolationTest: PASS re-scan"},
+    {"expect_log": "IsolationTest: PASS restore exact"},
+    {"expect_log": "IsolationTest: PASS rule dorm is private"},
+    {"expect_log": "IsolationTest: PASS rule arrival room is shared"},
+    {"expect_log": "IsolationTest: PASS rule they are loading"},
+    {"expect_log": "IsolationTest: PASS rule you are loading"},
+    {"expect_log": "IsolationTest: PASS rule other instance"},
+    {"expect_log": "IsolationTest: PASS rule same instance"},
+    {"expect_log": "IsolationTest: PASS rule unknown presence"},
+    {"expect_log": "IsolationTest: PASS hysteresis"},
+    {"expect_log": "IsolationTest: PASS dorm hides"},
+    {"expect_log": "IsolationTest: PASS dorm restore exact"},
+    {"expect_log": "IsolationTest: PASS shutdown restores"},
+    {"expect_log": "IsolationTest: PASS stress hide"},
+    {"expect_log": "IsolationTest: PASS stress restore"},
+    {"expect_log": "hidden: in Paintball #2 (you: RecCenter #1)"},
+    {"expect_log": "(IsoTest Local) hidden: in Dorm (you: RecCenter #1)"},
+    {"expect_log": "the avatar cannot be matched safely (the nickname is the local player's)"},
+    {"expect_log": "(IsoTest Remote): voice level set to 0.60 by the client while hidden"},
+    {"expect_log": "voice(s) silenced 1, sound(s) muted 1"},
+    {"expect_log": "Isolation: first voice pass: "},
+    {"expect_log": "IsolationTest: voice pass "},
+    {"expect_log": "IsolationTest: PASS all"}
+  ]
+}

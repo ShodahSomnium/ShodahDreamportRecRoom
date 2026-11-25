@@ -1,0 +1,12 @@
+// light9 diagnostic: why the Jumbotron foyer's maker-pen hull does not take the grid (instancing?).
+{
+  "name": "light9_diag",
+  "steps": [
+    {"goto": "Jumbotron", "timeout": 300},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.GridWait"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.DescribeJumboFoyer"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairJumboFoyer"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrLightTest.PairJumboNoInstancing"}
+  ]
+}

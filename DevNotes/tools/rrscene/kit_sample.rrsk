@@ -1,0 +1,69 @@
+# RRSK 1 KitSample
+# Test placement for Core/RrSceneKitTest.cs (a copy is inline there; the RRSZ1 copy Core/RrSceneKitSampleZ.cs is generated from this file).
+# Install names verified in rrtool's objects.tsv (2026-09-24): meshes Bench_LOD0/LOD1, Curtain_LOD0, WineBarrel_LOD0, Lockers_LOD0,
+# PropBox_Square (readable), TurkeyLeg_Whole_LOD0 (NOT readable, 2 submeshes); their renderers' materials; prefabs
+# (Sandbox_Barrel), (Sandbox_Table_Coffee_Large); clips AmbianceSummerOutdoor, Paintball_Ambiance_ClearCut01.
+# The *_KitTest and ?names are deliberately missing / unknown. Scene centre (10, 0, 10); the test builds it at offset (-10, 0, -4).
+B 5.5 -0.2 5.5 14.5 3 14.5
+M 0 Bench_LOD0
+M 1 Bench_LOD1
+M 2 Curtain_LOD0
+M 3 WineBarrel_LOD0
+M 4 Lockers_LOD0
+M 5 PropBox_Square
+M 6 TurkeyLeg_Whole_LOD0
+M 7 NoSuchMesh_KitTest
+M 8 ?UnknownMesh_KitTest
+T 0 Table_Booth_Diner_Mat
+T 1 Curtain_Red_Mat
+T 2 Barrel_Table_Crate_Mat
+T 3 LockerFountainStageLight_mat
+T 4 PropBox_Makerpen_mat
+T 5 Consumable_TurkeyLeg_Tray_Mat
+T 6 Consumable_TurkeyLeg_Mat
+T 7 NoSuchMaterial_KitTest
+R 0 0 7 0 12 0 0 0 1 1 1 1
+R 0 0 8.2 0 12 0 0 0 1 1 1 1
+R 0 0 9.4 0 12 0 0 0 1 1 1 1
+R 0 0 10.6 0 12 0 0 0 1 1 1 1
+R 0 0 11.8 0 12 0 0 0 1 1 1 1
+R 0 0 13 0 12 0 0 0 1 1 1 1
+R 1 0 7 0 12 0 0 0 1 1 1 1
+R 0 0 10 0 13.5 0 1 0 0 -1 1 1
+R 2 1 6 0 14.3 0 0 0 1 1 1 1
+R 2 1 14 0 14.3 0 0 0 1 1 1 1
+R 3 2 8 0 9.5 0 0.2588 0 0.9659 1 1 1
+R 3 2 8.7 0 9.5 0 0 0 1 1 1 1
+R 4 3 13.8 0 11 0 -0.7071 0 0.7071 1 1 1
+R 5 4 11.2 0 9.5 0 0 0 1 0.5 0.5 0.5
+R 6 5,6 10 0.8 9.5 0 0 0 1 1 1 1
+R 7 7 10 0 11 0 0 0 1 1 1 1
+R 8 0 10 0 11 0 0 0 1 1 1 1
+R 5 7 12 0 9.5 0 0 0 1 0.5 0.5 0.5
+X box 10 -0.1 10 4.5 0.1 4.5 0 0 0 1 0.55 0.45 0.35 1
+X cyl 6.5 1.25 13 0.25 1.25 0.25 0 0 0 1 0.8 0.8 0.85 1
+X box 13.5 0.3 8.5 0.3 0.3 0.3 0 0.3827 0 0.9239 0.9 0.6 0.2 1
+X box 10 1.5 14.45 4 1.5 0.05 0 0 0 1 0.6 0.8 1 0.35
+P (Sandbox_Barrel) 7.5 0 8.5 0 0 0 1 1 1 1
+P (Sandbox_Table_Coffee_Large) 12 0 7.5 0 0.7071 0 0.7071 1 1 1
+P (NoSuchPrefab_KitTest) 10 0 8 0 0 0 1 1 1 1
+C box 10 -0.1 10 0 0 0 1 9 0.2 9
+C box 10 1.5 14.5 0 0 0 1 9 3 0.2
+C box 13.5 0.3 8.5 0 0.3827 0 0.9239 0.6 0.6 0.6
+C sphere 7 0.5 11 0.5
+C capsule 6.5 1.25 13 0 0 0 1 0.25 2.5
+C mesh 0 7 0 12 0 0 0 1 1 1 1
+L point 8 2.5 10 0 0 0 1 1 0.9 0.8 1.2 8 30
+L point 12 2.5 10 0 0 0 1 1 0.9 0.8 1.2 8 30
+L spot 10 3 8 0.7071 0 0 0.7071 1 1 1 2 10 60
+L dir 0 10 0 0.4082 0.2345 0.1085 0.8754 1 1 1 1 0 0
+A AmbianceSummerOutdoor 10 1 10 0.2 1.5 20 1
+A Paintball_Ambiance_ClearCut01 10 1 12 0.5 1 15 0
+A ?UnknownClip_KitTest 10 1 10 1 1 10 1
+G spawn Spawn%20A 9 0 7 0 0 0 1 team=0 index=0
+G spawn Spawn%20B 11 0 7 0 0 0 1 team=1 index=1
+G flag_base BlueFlag 7 0 13 0 0 0 1 team=0
+G trigger_zone Goal 13 1 13 0 0 0 1 shape=box size=2,2,2
+E fog linear 0.7 0.8 0.9 0.01 10 80
+E ambient 0.5 0.55 0.6 mode=trilight intensity=1 equator=0.45,0.45,0.45 ground=0.3,0.28,0.25
+E sky Default-Skybox

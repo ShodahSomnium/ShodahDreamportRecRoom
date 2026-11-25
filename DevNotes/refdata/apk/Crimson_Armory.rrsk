@@ -1,0 +1,1220 @@
+# RRSK 1 Crimson_Armory
+B 38.6516 -1.816 44.9197 49.3377 3.0323 55.3849
+# source: Android build 2026-03-23 (APKPure XAPK) level51 = Packages/com.recroom.legacy/Runtime/Assets/Activities/Quest/Campaigns/Goblin_2/Scenes/Rooms/Quest_Goblin2_Armory.unity; frame = the level's stored Unity world space (Y up), nothing re-centred.
+# derived placement data only (names and numbers); meshes/materials are loaded from the player's PC install by name.
+# renderers 48 (runtime-mesh 0), install mesh match 26/48 = 54.2%, stand-ins 22, material slots known 39/50; colliders 197 (mesh 0, mesh->box 0); P 0; G 28; terrain grids 0
+# H grid <name> ox oy oz dx dz nx nz key=..  +  H row <name> <j> h0..h(nx-1): terrain heights (m above oy) at x = ox + i*dx, z = oz + j*dz
+M 0 Crossbow_Bolt
+M 1 Boombox_LOD0
+M 2 PropBox_Rectangle
+M 3 ActivityDoor_Glow
+M 4 PropBox_Square
+M 5 ActivityDoor_Emit
+M 6 ActivityDoor_Right
+M 7 ActivityDoor_Frame
+M 8 ActivityDoor_Left
+M 9 Stool_LOD0
+M 10 Lockers_LOD0
+M 11 Bookshelves_Tall_LOD0
+M 12 Bench_LOD0
+M 13 Book_LOD0
+M 14 WallPiece_Horizontal_LOD0
+M 15 WineBarrel_LOD0
+M 16 LightArchShaft
+T 0 Arrows_Mat
+T 1 Boombox_Mat
+T 2 ?PropBox_mat
+T 3 DoorGlow_Mat
+T 4 DoorEmit_Mat
+T 5 ActivtyDoor_Orange_mat
+T 6 Wood_Horizontal_YellowBrown_Mat
+T 7 LockerFountainStageLight_mat
+T 8 Bookshelf_Mat
+T 9 Barrel_Table_Crate_Mat
+T 10 Book_Green_Mat
+T 11 Wall_Stone_Section_Theater_mat
+T 12 LightShaft_Yellow_Mat
+E fog linear 0.1551 0.2733 0.284 0.05 0 32.2
+E ambient 0.0902 0.1294 0.1255 mode=trilight intensity=1 equator=0.2863,0.4314,0.098 ground=0.3255,0.1765,0.0588
+E sky ?SkyboxQuest
+E refl intensity=1 mode=skybox
+E sun none
+# gtscene: hull 18 renderers -> 1168 plates (773 m2, 27 materials), 3 mesh colliders -> 12 C box plates; 370 stand-ins -> G dress; 2 extra markers; REF2 -: 0 spawner markers, 0 effects
+# gtscene jt=1: left out: ActivityDoor_Grey_mat x1, StageLight_Glow_Mat x1, DoorTrigger_mat x1, Goblin_Ground_Green_Mat x1, Goblin_Flying_Green_Mat x1; hull rectangles from 1 cm in every material on their own axes: 752 of 752 m2 of hull triangles (99.9 %); 23 small curved pieces (< 0.6 m, < 70 % rectangles) left out (4.0 m2); 1 big curved pieces as 393 fitted rectangles (one per triangle pair); 9 small many-sided pieces as oriented boxes (instead of 147 rectangles); 59 tail rectangles of busy props left out; 0 mirrored hull renderers turned; 2 back faces of cull-off materials; 2 plates carry their vertex colour (c=)
+# gtscene jt=1: stand-ins re-measured: box 3, boxes 9, mixed 1, out 8, plates 1 (187 plates)
+G spawn PlayerSpawnPoint 46.5478 -1.6851 50.968 0 -0.7119 0 0.7023 path=Quest_Goblin2_Armory_root/Armory/Systems/PlayerSpawns/PlayerSpawnPoint
+G spawn PlayerSpawnPoint 46.5378 -1.6851 52.108 0 -0.7119 0 0.7023 path=Quest_Goblin2_Armory_root/Armory/Systems/PlayerSpawns/PlayerSpawnPoint
+G spawn PlayerSpawnPoint 46.5778 -1.6851 48.698 0 -0.7119 0 0.7023 path=Quest_Goblin2_Armory_root/Armory/Systems/PlayerSpawns/PlayerSpawnPoint
+G spawn PlayerSpawnPoint 46.5678 -1.6851 49.838 0 -0.7119 0 0.7023 path=Quest_Goblin2_Armory_root/Armory/Systems/PlayerSpawns/PlayerSpawnPoint
+G weapon_pickup [FatPot]%20(6) 47.4728 0.6645 47.8833 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(6)
+G weapon_pickup (FatPot) 40.0298 -0.7555 54.8388 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/(FatPot)
+G weapon_pickup [FatPot]%20(1) 39.9969 -1.6851 54.0533 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(1)
+G weapon_pickup [FatPot]%20(5) 45.13 0.3165 54.8191 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(5)
+G weapon_pickup [FatPot]%20(9) 46.7066 -1.6851 47.663 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(9)
+G weapon_pickup [FatPot]%20(4) 46.5688 0.3165 54.8669 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(4)
+G weapon_pickup [FatPot]%20(7) 44.212 -0.5595 45.6445 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(7)
+G weapon_pickup [FatPot]%20(3) 39.2497 0.156 54.5877 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(3)
+G weapon_pickup [FatPot]%20(8) 40.5168 -1.6851 46.0571 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(8)
+G weapon_pickup [FatPot]%20(2) 39.1907 -1.6851 53.3939 0 0 0 1 set=Collectibles prefab=(FatPot) path=Quest_Goblin2_Armory_root/Armory/Collectibles/[FatPot]%20(2)
+G weapon_pickup (FatPot_Large) 47.0223 -1.6851 53.8823 0 0 0 1 set=Collectibles prefab=(FatPot_Large) path=Quest_Goblin2_Armory_root/Armory/Collectibles/(FatPot_Large)
+G weapon_pickup [QuestShield]%20(1) 38.8943 -0.7793 46.8091 0 0.7071 0 0.7071 set=Weapons prefab=(QuestShield) path=Quest_Goblin2_Armory_root/Armory/Weapons/[QuestShield]%20(1)
+G weapon_pickup (QuestShield) 38.8943 0.2027 46.8091 0 0.7071 0 0.7071 set=Weapons prefab=(QuestShield) path=Quest_Goblin2_Armory_root/Armory/Weapons/(QuestShield)
+G weapon_pickup [QuestSword]%20(2) 38.8893 -0.6473 48.3401 -0.5 -0.5 -0.5 0.5 set=Weapons prefab=(QuestSword) path=Quest_Goblin2_Armory_root/Armory/Weapons/[QuestSword]%20(2)
+G weapon_pickup [QuestSword]%20(3) 38.8893 -0.6473 47.3381 -0.5 -0.5 -0.5 0.5 set=Weapons prefab=(QuestSword) path=Quest_Goblin2_Armory_root/Armory/Weapons/[QuestSword]%20(3)
+G weapon_pickup [QuestSword]%20(1) 38.8893 -0.6473 48.8801 -0.5 -0.5 -0.5 0.5 set=Weapons prefab=(QuestSword) path=Quest_Goblin2_Armory_root/Armory/Weapons/[QuestSword]%20(1)
+G weapon_pickup (QuestSword) 38.8893 -0.6473 47.8161 -0.5 -0.5 -0.5 0.5 set=Weapons prefab=(QuestSword) path=Quest_Goblin2_Armory_root/Armory/Weapons/(QuestSword)
+G weapon_pickup (Quest_Goblin_FirePotion) 41.464 -0.5595 45.3314 0 -0.3023 0 0.9532 set=Weapons prefab=(Quest_Goblin_FirePotion) path=Quest_Goblin2_Armory_root/Armory/Weapons/(Quest_Goblin_FirePotion)
+G weapon_pickup [Longbow]%20(1) 38.9073 -0.4143 52.0621 0 0 0 1 set=Weapons prefab=(Longbow) path=Quest_Goblin2_Armory_root/Armory/Weapons/[Longbow]%20(1)
+G weapon_pickup [Longbow]%20(2) 38.8863 -0.4023 52.5721 0 0 0 1 set=Weapons prefab=(Longbow) path=Quest_Goblin2_Armory_root/Armory/Weapons/[Longbow]%20(2)
+G weapon_pickup [Quest_Goblin_Wand]%20(2) 39.3353 -1.4263 51.6341 -0.133 0.8348 0.482 0.2304 set=Weapons prefab=(Quest_Goblin_Wand) path=Quest_Goblin2_Armory_root/Armory/Weapons/[Quest_Goblin_Wand]%20(2)
+G weapon_pickup [Quest_Goblin_Wand]%20(5) 39.5363 -1.4243 52.0131 0.3254 0.4634 0.8026 -0.1879 set=Weapons prefab=(Quest_Goblin_Wand) path=Quest_Goblin2_Armory_root/Armory/Weapons/[Quest_Goblin_Wand]%20(5)
+G weapon_pickup [Quest_Goblin_Wand]%20(3) 39.185 -1.4782 51.9232 0.232 0.5755 0.6566 -0.4288 set=Weapons prefab=(Quest_Goblin_Wand) path=Quest_Goblin2_Armory_root/Armory/Weapons/[Quest_Goblin_Wand]%20(3)
+R 0 0 39.2463 -0.8453 51.5781 0 -1 0 0 1.05 1 1
+R 1 1 41.2592 -0.403 45.6817 -0.561 -0.4305 -0.4305 0.561 1.5 1.5 1.5
+R 2 2 39.6256 0.0759 45.273 -0.0964 0.7005 0.7005 0.0964 1 1 1
+R 3 3 38.8258 -1.69 50.442 0 0.7071 0 0.7071 1 1 1
+R 4 2 39.4918 -1.6851 45.749 0 0 0 1 1 1 1
+R 5 4 38.8898 -0.8076 50.4404 0 0.7071 0 0.7071 1 1 1
+R 6 5 38.9429 -0.6688 51.3472 0 0.7071 0 0.7071 1 1 1
+R 7 5 38.8488 -1.697 50.442 0 0.7071 0 0.7071 1 1 1
+R 8 5 38.9429 -0.6887 49.5361 0 0.7071 0 0.7071 1 1 1
+R 9 6 42.2928 -1.2001 46.472 0 0.9959 0 0.0901 1 1 1
+R 9 6 43.7528 -1.2001 46.402 0 -0.9971 0 0.0761 1 1 1
+R 10 7 43.7676 -1.6851 54.884 0 -1 0 0 1 1 1
+R 10 7 41.6676 -1.6851 54.884 0 -1 0 0 1 1 1
+R 10 7 45.8676 -1.6851 54.884 0 -1 0 0 1 1 1
+R 11 8 47.3376 -1.6851 47.634 -0.5004 -0.4996 -0.4996 0.5004 1 1 1
+G dress Crenellations_LOD0 47.2863 -0.6166 54.9345 -0.5409 -0.4555 0.4555 0.5409 e=1.05,0.2576,0.165 c=0.4196,0.2824,0.1176,1 m=Wall_Stone_Section_Theater_mat
+G dress OpenCrate_LOD0_box 47.281 1.038 47.003 0 0.2852 0 0.9585 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.281 0.728 47.003 0 0.2852 0 0.9585 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.281 0.886 47.003 0 0.2852 0 0.9585 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.047 0.881 47.547 -0.6218 -0.3366 -0.3366 0.6218 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.262 1.038 47.459 0 -0.4761 0 0.8794 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.429 0.881 47.297 -0.6218 -0.3366 -0.3366 0.6218 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.262 0.728 47.459 0 -0.4761 0 0.8794 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.262 0.886 47.459 0 -0.4761 0 0.8794 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.071 0.881 46.748 -0.6218 -0.3366 -0.3366 0.6218 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.855 1.038 46.836 0 -0.4761 0 0.8794 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.688 0.881 46.998 -0.6218 -0.3366 -0.3366 0.6218 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.855 0.728 46.836 0 -0.4761 0 0.8794 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.855 0.886 46.836 0 -0.4761 0 0.8794 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.834 1.038 47.294 0 0.2852 0 0.9585 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.834 0.728 47.294 0 0.2852 0 0.9585 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.834 0.886 47.294 0 0.2852 0 0.9585 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 46.933 0.698 47.23 -0.6777 -0.6777 0.2017 0.2017 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.185 0.698 47.066 -0.6777 -0.6777 0.2017 0.2017 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 47.059 0.698 47.148 -0.6777 -0.6777 0.2017 0.2017 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.574 -1.298 51.737 0 0.2345 0 0.9721 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.574 -1.608 51.737 0 0.2345 0 0.9721 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.574 -1.45 51.737 0 0.2345 0 0.9721 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.283 -1.455 52.253 -0.6033 -0.3688 -0.3688 0.6033 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.507 -1.298 52.188 0 -0.5215 0 0.8532 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.69 -1.455 52.045 -0.6033 -0.3688 -0.3688 0.6033 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.507 -1.608 52.188 0 -0.5215 0 0.8532 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.507 -1.45 52.188 0 -0.5215 0 0.8532 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.391 -1.455 51.461 -0.6033 -0.3688 -0.3688 0.6033 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.167 -1.298 51.526 0 -0.5215 0 0.8532 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 38.984 -1.455 51.67 -0.6033 -0.3688 -0.3688 0.6033 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.167 -1.608 51.526 0 -0.5215 0 0.8532 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.167 -1.45 51.526 0 -0.5215 0 0.8532 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.099 -1.298 51.98 0 0.2345 0 0.9721 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.099 -1.608 51.98 0 0.2345 0 0.9721 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.099 -1.45 51.98 0 0.2345 0 0.9721 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.204 -1.638 51.926 -0.6874 -0.6874 0.1658 0.1658 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.471 -1.638 51.79 -0.6874 -0.6874 0.1658 0.1658 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 39.337 -1.638 51.858 -0.6874 -0.6874 0.1658 0.1658 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.21 0.707 54.672 0 0.6131 0 0.79 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.21 0.397 54.672 0 0.6131 0 0.79 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.21 0.555 54.672 0 0.6131 0 0.79 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.405 0.55 55.231 -0.7016 -0.0884 -0.0884 0.7016 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.504 0.707 55.021 0 -0.1251 0 0.9921 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.518 0.55 54.789 -0.7016 -0.0884 -0.0884 0.7016 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.504 0.397 55.021 0 -0.1251 0 0.9921 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.504 0.555 55.021 0 -0.1251 0 0.9921 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 40.883 0.55 54.626 -0.7016 -0.0884 -0.0884 0.7016 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 40.784 0.707 54.836 0 -0.1251 0 0.9921 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 40.77 0.55 55.069 -0.7016 -0.0884 -0.0884 0.7016 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 40.784 0.397 54.836 0 -0.1251 0 0.9921 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 40.784 0.555 54.836 0 -0.1251 0 0.9921 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.078 0.707 55.189 0 0.6131 0 0.79 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.078 0.397 55.189 0 0.6131 0 0.79 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.078 0.555 55.189 0 0.6131 0 0.79 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.107 0.367 55.074 -0.5586 -0.5586 0.4335 0.4335 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.182 0.367 54.783 -0.5586 -0.5586 0.4335 0.4335 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.145 0.367 54.929 -0.5586 -0.5586 0.4335 0.4335 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.886 0.706 54.574 0.6134 0.3518 -0.3518 0.6134 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.154 0.706 54.73 0.6134 0.3518 -0.3518 0.6134 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.017 0.706 54.651 0.6134 0.3518 -0.3518 0.6134 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.772 1.034 55.08 -0.6134 -0.6134 0.3518 0.3518 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.752 1.078 54.803 0.6825 0.6825 0.1849 0.1849 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.003 1.034 54.685 -0.6134 -0.6134 0.3518 0.3518 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.02 1.078 54.96 0.6825 0.6825 0.1849 0.1849 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.883 1.078 54.88 0.6825 0.6825 0.1849 0.1849 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.003 0.378 54.685 -0.6134 -0.6134 0.3518 0.3518 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.752 0.334 54.803 0.6825 0.6825 0.1849 0.1849 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.772 0.378 55.08 -0.6134 -0.6134 0.3518 0.3518 e=0.03,0.03,0.229 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.02 0.334 54.96 0.6825 0.6825 0.1849 0.1849 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.883 0.334 54.88 0.6825 0.6825 0.1849 0.1849 e=0.016,0.05,0.251 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.617 0.706 55.035 0.6134 0.3518 -0.3518 0.6134 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.884 0.706 55.191 0.6134 0.3518 -0.3518 0.6134 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.748 0.706 55.111 0.6134 0.3518 -0.3518 0.6134 e=0.016,0.05,0.347 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 41.97 0.706 55.104 -0.6825 -0.1849 -0.1849 0.6825 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.122 0.706 54.845 -0.6825 -0.1849 -0.1849 0.6825 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+G dress OpenCrate_LOD0_box 42.046 0.706 54.975 -0.6825 -0.1849 -0.1849 0.6825 e=0.016,0.05,0.374 c=1,1,1,1 m=Barrel_Table_Crate_Mat
+R 12 9 43.1036 0.5059 54.549 0.518 -0.518 -0.4814 0.4814 1 1 1
+R 13 10 47.2986 -0.6333 47.337 -0.5 -0.5 -0.5 0.5 1 1 1
+G dress Scaffolding_6M_LOD0_box 47.565 1.922 48.123 -0.0001 0.0001 -0.7071 0.7071 e=0.045,0.055,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.565 2.533 48.123 -0.0001 0.0001 -0.7071 0.7071 e=0.045,0.055,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.646 2.533 48.123 0 0 -0.7071 0.7071 e=0.045,0.05,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.646 1.922 48.123 -1 -0.0013 0 0 e=0.05,0.045,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 2.533 48.113 -0.5 0.5 -0.5 0.5 e=0.03,0.056,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 2.533 46.72 -0.5 0.5 -0.5 0.5 e=0.03,0.054,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.102 2.533 47.431 0.181 -0.181 -0.6836 0.6836 e=0.031,0.043,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 2.533 45.323 -0.5 0.5 -0.5 0.5 e=0.03,0.062,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.102 2.533 46.035 0.1804 -0.1804 -0.6837 0.6837 e=0.031,0.042,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 1.921 48.113 -0.5 0.5 -0.5 0.5 e=0.03,0.056,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 1.921 46.72 -0.5 0.5 -0.5 0.5 e=0.03,0.054,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.102 1.921 47.431 0.181 -0.181 -0.6836 0.6836 e=0.031,0.043,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 1.921 45.323 -0.5 0.5 -0.5 0.5 e=0.03,0.062,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.102 1.921 46.035 0.1804 -0.1804 -0.6837 0.6837 e=0.031,0.042,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 2.534 48.111 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 1.922 48.111 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 2.533 48.111 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 1.921 48.111 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 2.534 46.723 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 1.922 46.723 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 2.533 46.723 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 1.921 46.723 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 2.534 45.325 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 1.922 45.325 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 2.533 45.324 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 1.921 45.324 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.229 48.114 0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.229 46.719 -0.7071 0 0 0.7071 e=0.03,0.055,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.224 47.432 0.1781 0 0 0.984 e=0.031,0.044,0.642 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.229 45.324 0.7071 0 0 0.7071 e=0.03,0.05,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.231 46.023 -0.9846 0 0 0.1751 e=0.031,0.045,0.654 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.229 48.114 -0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.229 46.719 0.7071 0 0 0.7071 e=0.03,0.055,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.224 47.432 0.1781 0 0 0.984 e=0.031,0.044,0.642 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.229 45.324 -0.7071 0 0 0.7071 e=0.03,0.05,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.23 46.022 0.1772 0 0 0.9842 e=0.031,0.044,0.653 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.644 2.449 48.111 -0.0006 0 0 1 e=0.038,0.083,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.567 2.449 48.111 -0.0006 0 0 1 e=0.038,0.083,0.183 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.011 48.111 -0.0006 0 0 1 e=0.037,0.082,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.011 48.111 -0.0006 0 0 1 e=0.037,0.082,0.183 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.644 2.449 46.723 -0.0006 0 0 1 e=0.038,0.083,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.567 2.449 46.723 -0.0006 0 0 1 e=0.038,0.083,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.011 46.723 -0.0006 0 0 1 e=0.037,0.082,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.011 46.723 -0.0006 0 0 1 e=0.037,0.082,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.644 2.449 45.325 -0.0006 0 0 1 e=0.038,0.083,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.567 2.449 45.327 -0.0006 0 0 1 e=0.038,0.083,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.011 45.324 -0.0006 0 0 1 e=0.037,0.082,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 2.533 50.925 -0.5 0.5 -0.5 0.5 e=0.03,0.061,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 2.533 49.494 -0.5 0.5 -0.5 0.5 e=0.03,0.059,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.101 2.533 50.241 0.1758 -0.1758 -0.6849 0.6849 e=0.031,0.047,0.706 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.102 2.533 48.819 0.186 -0.186 -0.6822 0.6822 e=0.031,0.044,0.665 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 1.921 50.925 -0.5 0.5 -0.5 0.5 e=0.03,0.061,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.104 1.921 49.494 -0.5 0.5 -0.5 0.5 e=0.03,0.059,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.101 1.921 50.241 0.1758 -0.1758 -0.6849 0.6849 e=0.031,0.047,0.706 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.102 1.921 48.819 0.186 -0.186 -0.6822 0.6822 e=0.031,0.044,0.665 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 2.534 50.927 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 1.922 50.927 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 2.533 50.927 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 1.921 50.927 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 2.534 49.498 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.448 1.922 49.498 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 2.533 49.498 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.759 1.921 49.498 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.229 50.919 0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.229 49.49 -0.7071 0 0 0.7071 e=0.03,0.053,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.228 50.239 -0.9846 0 0 0.1745 e=0.031,0.043,0.666 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.228 48.82 -0.9827 0 0 0.185 e=0.031,0.045,0.626 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.229 50.925 -0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.229 49.49 0.7071 0 0 0.7071 e=0.03,0.053,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.228 50.238 -0.9848 0 0 0.1736 e=0.031,0.044,0.666 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.228 48.82 -0.9828 0 0 0.1844 e=0.031,0.046,0.626 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.644 2.449 50.924 -0.0004 0 0 1 e=0.038,0.083,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.567 2.449 50.924 -0.0004 0 0 1 e=0.038,0.083,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.011 50.924 -0.0004 0 0 1 e=0.037,0.081,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.011 50.924 -0.0004 0 0 1 e=0.037,0.081,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.644 2.449 49.495 -0.0006 0 0 1 e=0.038,0.083,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.567 2.449 49.496 -0.0006 0 0 1 e=0.038,0.083,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 46.645 2.011 49.497 -0.0006 0 0 1 e=0.037,0.082,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 47.568 2.011 49.497 -0.0006 0 0 1 e=0.037,0.082,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.815 1.922 50.122 -0.0001 0.0001 -0.7071 0.7071 e=0.045,0.055,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.815 2.533 50.122 -0.0001 0.0001 -0.7071 0.7071 e=0.045,0.055,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.896 2.533 50.122 0 0 -0.7071 0.7071 e=0.045,0.05,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.896 1.922 50.122 -1 -0.0013 0 0 e=0.05,0.045,3 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 2.533 50.112 -0.5 0.5 -0.5 0.5 e=0.03,0.056,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 2.533 48.719 -0.5 0.5 -0.5 0.5 e=0.03,0.054,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.353 2.533 49.43 0.181 -0.181 -0.6836 0.6836 e=0.031,0.043,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 2.533 47.322 -0.5 0.5 -0.5 0.5 e=0.03,0.062,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.352 2.533 48.034 0.1804 -0.1804 -0.6837 0.6837 e=0.031,0.042,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 1.921 50.112 -0.5 0.5 -0.5 0.5 e=0.03,0.056,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 1.921 48.719 -0.5 0.5 -0.5 0.5 e=0.03,0.054,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.353 1.921 49.43 0.181 -0.181 -0.6836 0.6836 e=0.031,0.043,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 1.921 47.322 -0.5 0.5 -0.5 0.5 e=0.03,0.062,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.352 1.921 48.034 0.1804 -0.1804 -0.6837 0.6837 e=0.031,0.042,0.681 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 2.534 50.11 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 1.922 50.11 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 2.533 50.11 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 1.921 50.11 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 2.534 48.722 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 1.922 48.722 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 2.533 48.722 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 1.921 48.722 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 2.534 47.324 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 1.922 47.324 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 2.533 47.323 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 1.921 47.323 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.229 50.113 0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.229 48.718 -0.7071 0 0 0.7071 e=0.03,0.055,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.224 49.431 0.1781 0 0 0.984 e=0.031,0.044,0.642 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.229 47.323 0.7071 0 0 0.7071 e=0.03,0.05,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.231 48.022 -0.9846 0 0 0.1751 e=0.031,0.045,0.654 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.229 50.113 -0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.229 48.718 0.7071 0 0 0.7071 e=0.03,0.055,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.224 49.431 0.1781 0 0 0.984 e=0.031,0.044,0.642 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.229 47.323 -0.7071 0 0 0.7071 e=0.03,0.05,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.23 48.021 0.1772 0 0 0.9842 e=0.031,0.044,0.653 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.894 2.449 50.11 -0.0006 0 0 1 e=0.038,0.083,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.817 2.449 50.11 -0.0006 0 0 1 e=0.038,0.083,0.183 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.011 50.11 -0.0006 0 0 1 e=0.037,0.082,0.182 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.011 50.11 -0.0006 0 0 1 e=0.037,0.082,0.183 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.894 2.449 48.722 -0.0006 0 0 1 e=0.038,0.083,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.817 2.449 48.722 -0.0006 0 0 1 e=0.038,0.083,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.011 48.722 -0.0006 0 0 1 e=0.037,0.082,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.011 48.722 -0.0006 0 0 1 e=0.037,0.082,0.174 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.894 2.449 47.324 -0.0006 0 0 1 e=0.038,0.083,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.817 2.449 47.326 -0.0006 0 0 1 e=0.038,0.083,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.011 47.323 -0.0006 0 0 1 e=0.037,0.082,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 2.533 52.924 -0.5 0.5 -0.5 0.5 e=0.03,0.061,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 2.533 51.493 -0.5 0.5 -0.5 0.5 e=0.03,0.059,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.351 2.533 52.24 0.1758 -0.1758 -0.6849 0.6849 e=0.031,0.047,0.706 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.352 2.533 50.818 0.186 -0.186 -0.6822 0.6822 e=0.031,0.044,0.665 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 1.921 52.924 -0.5 0.5 -0.5 0.5 e=0.03,0.061,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.354 1.921 51.493 -0.5 0.5 -0.5 0.5 e=0.03,0.059,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.351 1.921 52.24 0.1758 -0.1758 -0.6849 0.6849 e=0.031,0.047,0.706 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.352 1.921 50.818 0.186 -0.186 -0.6822 0.6822 e=0.031,0.044,0.665 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 2.534 52.926 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 1.922 52.926 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 2.533 52.926 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 1.921 52.926 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 2.534 51.497 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.698 1.922 51.497 -0.0004 0.0004 -0.7071 0.7071 e=0.038,0.095,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 2.533 51.497 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.009 1.921 51.497 -0.0004 0.0004 -0.7071 0.7071 e=0.037,0.096,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.229 52.918 0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.229 51.489 -0.7071 0 0 0.7071 e=0.03,0.053,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.228 52.238 -0.9846 0 0 0.1745 e=0.031,0.043,0.666 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.228 50.819 -0.9827 0 0 0.185 e=0.031,0.045,0.626 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.229 52.924 -0.7071 0 0 0.7071 e=0.03,0.051,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.229 51.489 0.7071 0 0 0.7071 e=0.03,0.053,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.228 52.237 -0.9848 0 0 0.1736 e=0.031,0.044,0.666 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.228 50.819 -0.9828 0 0 0.1844 e=0.031,0.046,0.626 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.894 2.449 52.923 -0.0004 0 0 1 e=0.038,0.083,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.817 2.449 52.923 -0.0004 0 0 1 e=0.038,0.083,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.011 52.923 -0.0004 0 0 1 e=0.037,0.081,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.011 52.923 -0.0004 0 0 1 e=0.037,0.081,0.191 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.894 2.449 51.494 -0.0006 0 0 1 e=0.038,0.083,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.817 2.449 51.495 -0.0006 0 0 1 e=0.038,0.083,0.192 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 38.895 2.011 51.496 -0.0006 0 0 1 e=0.037,0.082,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_6M_LOD0_box 39.818 2.011 51.496 -0.0006 0 0 1 e=0.037,0.082,0.19 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+R 14 11 47.6116 0.4999 46.601 0.5 -0.5 0.5 0.5 1 1 1
+G dress Book_stack_LOD0 47.4117 0.007 47.8264 -0.5 -0.5 -0.5 0.5 e=0.2446,0.1486,0.1807 c=1,1,1,1 m=Book_Green_Mat
+G dress Book_stack_LOD0 44.2085 0.4972 54.8107 0.0482 -0.7055 -0.7055 -0.0482 e=0.2446,0.1486,0.1807 c=1,1,1,1 m=Book_Green_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.228 53.608 -0.9704 0 0 0.2414 e=0.031,0.047,0.491 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.228 53.608 -0.9704 0 0 0.2414 e=0.031,0.047,0.491 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.23 54.593 -0.9693 0 0 0.2459 e=0.031,0.047,0.478 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.23 54.593 -0.9693 0 0 0.2459 e=0.031,0.047,0.478 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 2.533 54.114 0.5 -0.5 -0.5 0.5 e=0.03,0.055,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 1.921 54.114 0.5 -0.5 -0.5 0.5 e=0.03,0.055,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 2.534 54.116 -0.0005 0.0005 -0.7071 0.7071 e=0.038,0.095,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 1.922 54.116 -0.0005 0.0005 -0.7071 0.7071 e=0.038,0.095,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 2.533 54.116 -0.0005 0.0005 -0.7071 0.7071 e=0.037,0.096,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 1.921 54.116 -0.0005 0.0005 -0.7071 0.7071 e=0.037,0.096,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 2.533 53.642 0.2317 -0.2317 -0.6681 0.6681 e=0.031,0.051,0.549 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 1.921 53.642 0.2317 -0.2317 -0.6681 0.6681 e=0.031,0.051,0.549 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 2.533 53.159 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 1.921 53.159 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 2.534 53.21 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.079,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 1.922 53.21 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.079,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 2.533 53.209 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.079,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 1.921 53.209 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.079,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 2.533 54.635 0.2334 -0.2334 -0.6675 0.6675 e=0.031,0.051,0.545 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 1.921 54.635 0.2334 -0.2334 -0.6675 0.6675 e=0.031,0.051,0.545 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 2.533 55.088 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 1.921 55.088 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 2.534 55.037 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.08,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 1.922 55.037 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.08,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 2.533 55.037 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.08,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 1.921 55.037 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.08,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.229 54.118 0.7071 0 0 0.7071 e=0.03,0.038,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.229 54.118 0.7071 0 0 0.7071 e=0.03,0.038,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.229 53.152 -0.5005 -0.4995 -0.4995 0.5005 e=0.016,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.229 53.152 -0.5005 -0.4995 -0.4995 0.5005 e=0.016,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.894 2.449 53.21 0.7071 0 0 0.7071 e=0.038,0.08,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.817 2.449 53.21 0.7071 0 0 0.7071 e=0.038,0.08,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.011 53.21 0.7071 0 0 0.7071 e=0.037,0.08,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.011 53.21 0.7071 0 0 0.7071 e=0.037,0.08,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.229 55.088 -0.5005 -0.4995 -0.4995 0.5005 e=0.023,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.229 55.088 -0.5005 -0.4995 -0.4995 0.5005 e=0.022,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.894 2.449 55.036 0.7071 0 0 0.7071 e=0.038,0.081,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.817 2.449 55.036 0.7071 0 0 0.7071 e=0.038,0.081,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.011 55.036 0.7071 0 0 0.7071 e=0.037,0.081,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.011 55.036 0.7071 0 0 0.7071 e=0.037,0.081,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.815 1.922 54.122 -0.0003 0.0003 -0.7071 0.7071 e=0.045,0.055,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.815 2.533 54.122 -0.0003 0.0003 -0.7071 0.7071 e=0.045,0.055,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.896 2.533 54.122 0 0 -0.7071 0.7071 e=0.045,0.05,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.896 1.922 54.122 -1 -0.0013 0 0 e=0.05,0.045,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.228 45.608 -0.9704 0 0 0.2414 e=0.031,0.047,0.491 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.228 45.608 -0.9704 0 0 0.2414 e=0.031,0.047,0.491 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.23 46.593 -0.9693 0 0 0.2459 e=0.031,0.047,0.478 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.23 46.593 -0.9693 0 0 0.2459 e=0.031,0.047,0.478 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 2.533 46.114 0.5 -0.5 -0.5 0.5 e=0.03,0.055,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 1.921 46.114 0.5 -0.5 -0.5 0.5 e=0.03,0.055,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 2.534 46.116 -0.0005 0.0005 -0.7071 0.7071 e=0.038,0.095,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 1.922 46.116 -0.0005 0.0005 -0.7071 0.7071 e=0.038,0.095,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 2.533 46.116 -0.0005 0.0005 -0.7071 0.7071 e=0.037,0.096,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 1.921 46.116 -0.0005 0.0005 -0.7071 0.7071 e=0.037,0.096,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 2.533 45.642 0.2317 -0.2317 -0.6681 0.6681 e=0.031,0.051,0.549 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 1.921 45.642 0.2317 -0.2317 -0.6681 0.6681 e=0.031,0.051,0.549 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 2.533 45.159 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 1.921 45.159 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 2.534 45.21 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.079,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 1.922 45.21 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.079,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 2.533 45.209 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.079,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 1.921 45.209 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.079,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 2.533 46.635 0.2334 -0.2334 -0.6675 0.6675 e=0.031,0.051,0.545 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.353 1.921 46.635 0.2334 -0.2334 -0.6675 0.6675 e=0.031,0.051,0.545 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 2.533 47.088 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.354 1.921 47.088 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 2.534 47.037 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.08,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.698 1.922 47.037 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.08,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 2.533 47.037 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.08,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.009 1.921 47.037 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.08,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.229 46.118 0.7071 0 0 0.7071 e=0.03,0.038,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.229 46.118 0.7071 0 0 0.7071 e=0.03,0.038,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.229 45.152 -0.5005 -0.4995 -0.4995 0.5005 e=0.016,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.229 45.152 -0.5005 -0.4995 -0.4995 0.5005 e=0.016,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.894 2.449 45.21 0.7071 0 0 0.7071 e=0.038,0.08,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.817 2.449 45.21 0.7071 0 0 0.7071 e=0.038,0.08,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.011 45.21 0.7071 0 0 0.7071 e=0.037,0.08,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.011 45.21 0.7071 0 0 0.7071 e=0.037,0.08,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.229 47.088 -0.5005 -0.4995 -0.4995 0.5005 e=0.023,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.229 47.088 -0.5005 -0.4995 -0.4995 0.5005 e=0.022,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.894 2.449 47.036 0.7071 0 0 0.7071 e=0.038,0.081,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.817 2.449 47.036 0.7071 0 0 0.7071 e=0.038,0.081,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.895 2.011 47.036 0.7071 0 0 0.7071 e=0.037,0.081,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.818 2.011 47.036 0.7071 0 0 0.7071 e=0.037,0.081,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.815 1.922 46.122 -0.0003 0.0003 -0.7071 0.7071 e=0.045,0.055,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 39.815 2.533 46.122 -0.0003 0.0003 -0.7071 0.7071 e=0.045,0.055,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.896 2.533 46.122 0 0 -0.7071 0.7071 e=0.045,0.05,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 38.896 1.922 46.122 -1 -0.0013 0 0 e=0.05,0.045,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.645 2.228 51.61 -0.9704 0 0 0.2414 e=0.031,0.047,0.491 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.568 2.228 51.61 -0.9704 0 0 0.2414 e=0.031,0.047,0.491 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.645 2.23 52.595 -0.9693 0 0 0.2459 e=0.031,0.047,0.478 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.568 2.23 52.595 -0.9693 0 0 0.2459 e=0.031,0.047,0.478 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.104 2.533 52.116 0.5 -0.5 -0.5 0.5 e=0.03,0.055,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.104 1.921 52.116 0.5 -0.5 -0.5 0.5 e=0.03,0.055,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.448 2.534 52.118 -0.0005 0.0005 -0.7071 0.7071 e=0.038,0.095,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.448 1.922 52.118 -0.0005 0.0005 -0.7071 0.7071 e=0.038,0.095,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.759 2.533 52.118 -0.0005 0.0005 -0.7071 0.7071 e=0.037,0.096,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.759 1.921 52.118 -0.0005 0.0005 -0.7071 0.7071 e=0.037,0.096,0.161 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.103 2.533 51.644 0.2317 -0.2317 -0.6681 0.6681 e=0.031,0.051,0.549 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.103 1.921 51.644 0.2317 -0.2317 -0.6681 0.6681 e=0.031,0.051,0.549 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.104 2.533 51.161 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.104 1.921 51.161 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.448 2.534 51.212 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.079,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.448 1.922 51.212 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.079,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.759 2.533 51.211 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.079,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.759 1.921 51.211 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.079,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.103 2.533 52.637 0.2334 -0.2334 -0.6675 0.6675 e=0.031,0.051,0.545 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.103 1.921 52.637 0.2334 -0.2334 -0.6675 0.6675 e=0.031,0.051,0.545 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.104 2.533 53.09 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.104 1.921 53.09 -0.4997 0.4997 -0.5003 0.5003 e=0.03,0.023,0.274 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.448 2.534 53.039 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.08,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.448 1.922 53.039 0.4991 -0.4991 -0.5009 0.5009 e=0.038,0.08,0.095 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.759 2.533 53.039 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.08,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.759 1.921 53.039 0.4991 -0.4991 -0.5009 0.5009 e=0.037,0.08,0.096 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.645 2.229 52.12 0.7071 0 0 0.7071 e=0.03,0.038,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.568 2.229 52.12 0.7071 0 0 0.7071 e=0.03,0.038,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.645 2.229 51.154 -0.5005 -0.4995 -0.4995 0.5005 e=0.016,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.568 2.229 51.154 -0.5005 -0.4995 -0.4995 0.5005 e=0.016,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.644 2.449 51.212 0.7071 0 0 0.7071 e=0.038,0.08,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.567 2.449 51.212 0.7071 0 0 0.7071 e=0.038,0.08,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.645 2.011 51.212 0.7071 0 0 0.7071 e=0.037,0.08,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.568 2.011 51.212 0.7071 0 0 0.7071 e=0.037,0.08,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.645 2.229 53.09 -0.5005 -0.4995 -0.4995 0.5005 e=0.023,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.568 2.229 53.09 -0.5005 -0.4995 -0.4995 0.5005 e=0.022,0.03,0.162 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.644 2.449 53.038 0.7071 0 0 0.7071 e=0.038,0.081,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.567 2.449 53.038 0.7071 0 0 0.7071 e=0.038,0.081,0.083 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.645 2.011 53.038 0.7071 0 0 0.7071 e=0.037,0.081,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.568 2.011 53.038 0.7071 0 0 0.7071 e=0.037,0.081,0.081 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.565 1.922 52.124 -0.0003 0.0003 -0.7071 0.7071 e=0.045,0.055,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 47.565 2.533 52.124 -0.0003 0.0003 -0.7071 0.7071 e=0.045,0.055,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.646 2.533 52.124 0 0 -0.7071 0.7071 e=0.045,0.05,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+G dress Scaffolding_2M_LOD0_box 46.646 1.922 52.124 -1 -0.0013 0 0 e=0.05,0.045,1 c=0.596,0.596,0.596,1 m=?Metal_Dull_Mat
+R 15 9 47.0226 -0.6831 45.56 0 -0.5193 0 0.8546 1 1 1
+R 15 9 47.2206 -1.4631 46.613 -0.2456 0.2312 0.0833 0.9377 1 1 1
+R 15 9 40.0316 -1.6851 54.865 0 0.3521 0 0.936 1 1 1
+R 15 9 39.2716 -0.7671 54.578 0 0.5664 0 0.8241 1 1 1
+R 15 9 39.2716 -1.6851 54.783 0 0 0 1 1 1 1
+R 15 9 47.1846 -1.6121 45.56 0 0 0 1 1 1 1
+R 15 9 39.2306 -1.6851 54.096 0 0.182 0 0.9833 1 1 1
+G dress Clock_Housing_LOD0_box 38.818 1.373 50.363 -0.0441 0 -0.0003 0.999 e=0.166,0.331,0.331 c=0.794,0.794,0.794,1 m=?Goblet_Clock_Mat
+R 16 12 46.4484 1.0663 52.6893 0.6859 -0.3217 -0.4045 -0.5123 18.7594 18.7594 18.7594
+C box 46.28 0.71 45.24 -0.709 -0.691 0.097 0.106 0.07 0.24 0.2
+C box 43.23 2.4 54.91 0.707 -0.707 0 0 0.17 8.89 0.16
+C box 47.05 0.95 47.35 -0.082 -0.728 -0.305 0.608 0.39 0.69 0.05
+C box 41.32 -1.56 45.77 0 0.035 0 0.999 0.47 0.17 0.26
+C box 46.98 0.8 47.07 0.018 -0.621 -0.042 0.783 0.42 0.12 0.37
+C box 47.18 0.85 47.24 0.072 0.029 -0.634 0.769 0.32 0.1 0.39
+C box 46.79 0.8 46.12 0 -0.534 0 0.846 0.22 0.29 0.54
+C box 40.73 -1.08 45.3 -0.001 -0.988 -0.106 0.115 0.41 1.13 0.47
+C box 46.97 0.87 46.42 -0.034 -0.638 -0.566 0.521 0.34 0.29 0.36
+C box 41.26 -1.44 45.44 0 0.445 0 0.896 0.61 0.4 0.38
+C box 40.25 -1.13 45.52 0 0 0.808 0.589 0.1 0.33 0.33
+C box 46.87 0.93 46.41 -0.034 -0.638 -0.566 0.521 0.73 0.28 0.51
+C box 46.97 1 46.92 -0.259 0.002 0.012 0.966 0.38 0.69 0.05
+C box 46.63 0.68 45.91 -0.46 -0.589 0.465 0.474 0.07 0.24 0.21
+C box 40.69 -1.65 45.38 -0.278 -0.287 0.647 0.649 0.07 0.32 0.28
+C box 41.22 -1.23 45.41 0 0.445 0 0.896 0.36 0.56 0.53
+C box 46.52 0.98 45.54 0 -0.45 0 0.893 0.37 0.08 0.17
+C box 46.62 0.93 45.47 0 -0.45 0 0.893 0.4 0.7 0.4
+C box 43.23 2.19 54.91 0.707 -0.707 0 0 0.17 8.89 0.16
+C box 47.34 -0.67 47.14 -0.5 -0.5 -0.5 0.5 0.02 0.5 2
+C box 44.87 -1.18 45.84 0 0 0 1 0.12 1.03 0.12
+C box 47.34 -0.67 48.12 -0.5 -0.5 -0.5 0.5 0.02 0.5 2
+C box 47.34 -1.14 47.63 -0.5 -0.5 -0.5 0.5 1 0.5 0.05
+C box 47.34 -1.61 47.63 -0.5 -0.5 -0.5 0.5 1 0.5 0.12
+C box 45.85 -1.28 48.01 0.014 -0.637 0.011 0.771 0.18 0.58 0.95
+C box 42.93 -0.66 45.49 0 0 0 1 4.07 0.21 0.88
+C box 45.95 -1.15 46.84 0.505 -0.481 0.417 0.583 2.19 0.29 0.82
+C box 41.26 -0.39 45.69 -0.561 -0.43 -0.43 0.561 0.19 0.66 0.38
+C box 41.34 -1.55 50.47 0 0 0 1 3.01 0.13 3.99
+C box 40.98 -1.18 45.84 0 0 0 1 0.12 1.03 0.12
+C box 47.34 -0.2 47.63 -0.5 -0.5 -0.5 0.5 1 0.5 0.05
+C box 47.56 -0.67 47.63 -0.5 -0.5 -0.5 0.5 1 0.05 2
+C box 47.34 -0.66 47.63 -0.5 -0.5 -0.5 0.5 1 0.5 0.06
+C box 42.93 0.66 45.13 0 0 0 1 3.65 2.52 0.1
+C box 47.34 0.28 47.63 -0.5 -0.5 -0.5 0.5 1 0.5 0.1
+C box 45.42 -1.28 45.8 0.014 -0.637 0.011 0.771 0.18 0.58 0.95
+C box 39.56 0.85 46.08 -0.569 -0.46 -0.406 0.548 0.22 0.25 0.03
+C box 46.54 -0.67 46.13 0 0 0.707 0.707 2.02 0.13 2.02
+C box 46.33 0.5 45.95 0.5 -0.5 0.5 0.5 0.13 0.38 0.13
+C box 39.49 0.08 45.75 -0.136 0 0.991 0 1 1.5 1
+C box 46.33 0.5 45.36 0.5 -0.5 0.5 0.5 0.5 0.38 0.33
+C box 47.03 0.5 46.43 0.5 -0.5 0.5 0.5 2.62 0.38 0.33
+C box 42.01 1.03 54.69 -0.185 -0.185 0.682 0.682 0.07 0.46 0.07
+C box 47.57 0.3 46.13 0 0 0.707 0.707 0.08 0.08 2.01
+C box 39.1 -1.46 51.98 0 0.234 0 0.972 0.04 0.42 0.7
+C box 41.08 0.55 55.19 0 0.613 0 0.79 0.04 0.42 0.7
+C box 46.83 0.88 47.29 0 0.285 0 0.959 0.04 0.42 0.7
+C box 41.75 0.71 55.11 -0.613 0.352 0.352 0.613 0.04 0.42 0.7
+C box 47.07 0.3 46.14 0.161 0.161 0.689 0.688 0.08 0.08 2.07
+C box 47.57 -0.67 47.1 0.5 -0.5 0.5 0.5 0.08 0.08 2.01
+C box 47.29 -0.62 55.01 -0.541 -0.456 0.456 0.541 2.11 0.37 0.34
+C box 47.08 -0.68 47.1 0.6 -0.372 0.601 0.373 0.08 0.08 2.07
+C box 46.53 0.5 46.62 0.5 -0.5 0.5 0.5 0.13 0.38 0.13
+G door_zone [Quest_Door_Active] 38.8933 -0.6247 50.442 0 0.7071 0 0.7071 shape=box size=2.0452,2.1446,0.196
+C box 47.08 -1.64 46.12 -0.688 0.689 -0.161 0.161 0.08 0.08 2.07
+C box 39.23 -1.18 54.1 0 0.182 0 0.983 0.65 0.4 0.65
+C box 47.18 -1.11 45.56 0 0 0 1 0.65 0.4 0.65
+C box 39.27 -1.18 54.78 0 0 0 1 0.65 0.4 0.65
+C box 39.27 -0.26 54.58 0 0.566 0 0.824 0.65 0.4 0.65
+C box 47.09 -1.03 46.4 -0.246 0.231 0.083 0.938 0.65 0.4 0.65
+C box 47.02 -0.18 45.56 0 -0.519 0 0.855 0.65 0.4 0.65
+C box 40.03 -1.18 54.87 0 0.352 0 0.936 0.65 0.4 0.65
+C box 46.75 1.23 52.71 -0.059 0.847 -0.123 -0.513 0.34 0.33 0.6
+C box 39.43 1.01 45.69 -0.098 0.08 -0.692 0.711 0.34 0.33 0.6
+C box 46.73 1.64 52.69 0 0.88 0 -0.475 0.37 0.68 0.06
+C box 39.76 1.02 45.88 0.245 -0.251 -0.649 0.675 0.37 0.68 0.06
+C box 46.68 0.5 47 0.5 -0.5 0.5 0.5 0.69 0.36 0.33
+C box 39.17 -1.46 51.53 0 -0.521 0 0.853 0.04 0.42 0.51
+C box 40.78 0.55 54.84 0 -0.125 0 0.992 0.04 0.42 0.51
+C box 46.86 0.88 46.84 0 -0.476 0 0.879 0.04 0.42 0.51
+C box 41.89 0.33 54.88 -0.185 -0.185 0.682 0.682 0.04 0.42 0.51
+C box 47.23 -0.96 54.75 -0.541 -0.456 0.456 0.541 0.36 0.16 0.34
+C box 41.5 0.55 55.02 0 -0.125 0 0.992 0.04 0.42 0.51
+C box 39.51 -1.46 52.19 0 -0.521 0 0.853 0.04 0.42 0.51
+C box 47.26 0.88 47.46 0 -0.476 0 0.879 0.04 0.42 0.51
+C box 41.89 1.08 54.88 -0.185 -0.185 0.682 0.682 0.04 0.42 0.51
+C box 46.37 1.3 52.5 -0.374 0.572 -0.637 -0.357 0.24 0.22 0.03
+C box 47.56 -0.62 50.4 0 0.707 0 -0.707 2.05 2.15 0.2
+C box 41.77 0.38 55.08 -0.185 -0.185 0.682 0.682 0.07 0.46 0.07
+C box 39.23 -0.91 54.1 0 0.182 0 0.983 0.57 0.31 0.57
+C box 40.03 -0.91 54.87 0 0.352 0 0.936 0.57 0.31 0.57
+C box 47.01 -0.79 46.29 -0.246 0.231 0.083 0.938 0.57 0.31 0.57
+C box 47.02 0.09 45.56 0 -0.519 0 0.855 0.57 0.31 0.57
+C box 39.27 0.01 54.58 0 0.566 0 0.824 0.57 0.31 0.57
+C box 47.18 -0.84 45.56 0 0 0 1 0.57 0.31 0.57
+C box 39.27 -0.91 54.78 0 0 0 1 0.57 0.31 0.57
+C box 47.06 0.69 47.15 0.202 0.202 0.678 0.678 0.04 0.42 0.7
+C box 39.34 -1.64 51.86 0.166 0.166 0.687 0.687 0.04 0.42 0.7
+C box 41.15 0.36 54.93 0.433 0.433 0.559 0.559 0.04 0.42 0.7
+C box 42.05 0.71 54.97 -0.185 0.682 0.682 0.185 0.04 0.42 0.7
+C box 39.49 -1.19 45.75 -0.707 0 0 0.707 1 1 1
+C box 47.57 -0.67 45.2 0.5 -0.5 0.5 0.5 0.08 0.08 2.01
+C box 47.35 -0.27 54.75 -0.541 -0.456 0.456 0.541 0.36 0.16 0.34
+C box 46.34 0.5 45.82 0 -0.707 0.707 0 0.1 0.6 0.1
+C box 47.41 0.5 46.6 0.5 -0.5 0.5 0.5 2.96 0.4 0.33
+C box 47.07 -0.67 45.17 -0.373 0.601 0.373 0.601 0.08 0.08 2.07
+C box 42.01 0.38 54.69 -0.185 -0.185 0.682 0.682 0.07 0.46 0.07
+C box 45.87 -0.62 54.86 0 -1 0 0 2.11 1.87 0.71
+C box 43.77 -0.62 54.86 0 -1 0 0 2.11 1.87 0.71
+C box 41.67 -0.62 54.86 0 -1 0 0 2.11 1.87 0.71
+C box 42.02 0.71 54.65 -0.613 0.352 0.352 0.613 0.04 0.42 0.7
+C box 47.28 0.88 47 0 0.285 0 0.959 0.04 0.42 0.7
+C box 39.57 -1.46 51.74 0 0.234 0 0.972 0.04 0.42 0.7
+C box 41.21 0.55 54.67 0 0.613 0 0.79 0.04 0.42 0.7
+C box 39.54 1.19 46.07 0.422 0.561 -0.557 0.445 0.22 0.25 0.03
+C box 46.76 0.5 46.43 0.5 -0.5 0.5 0.5 0.69 0.19 0.33
+C box 46.68 0.5 45.67 0.5 -0.5 0.5 0.5 1.1 0.36 0.33
+C box 47.57 -1.64 46.13 0 0 0.707 0.707 0.08 0.08 2.01
+C box 46.46 0.96 52.56 0.236 0.773 0.368 -0.46 0.24 0.22 0.03
+C box 39.23 -1.52 54.1 0 0.182 0 0.983 0.58 0.32 0.58
+C box 40.03 -1.52 54.87 0 0.352 0 0.936 0.58 0.32 0.58
+C box 47.18 -1.32 46.54 -0.246 0.231 0.083 0.938 0.58 0.32 0.58
+C box 47.02 -0.52 45.56 0 -0.519 0 0.855 0.58 0.32 0.58
+C box 47.18 -1.45 45.56 0 0 0 1 0.58 0.32 0.58
+C box 39.27 -1.52 54.78 0 0 0 1 0.58 0.32 0.58
+C box 39.27 -0.6 54.58 0 0.566 0 0.824 0.58 0.32 0.58
+C box 41.77 1.03 55.08 -0.185 -0.185 0.682 0.682 0.07 0.46 0.07
+C box 43.85 0.51 54.85 0.518 -0.518 -0.481 0.481 0.33 0.5 0.05
+C box 42.29 -0.86 46.47 0 0.64 0 0.768 0.62 0.11 0.61
+C box 43.75 -0.86 46.4 0 -0.759 0 -0.651 0.62 0.11 0.61
+C box 45.72 -1.38 47.64 0 -0.637 0 0.771 0.73 0.34 0.73
+C box 47.11 2.23 52.12 -0.5 -0.5 -0.5 0.5 2 1.03 0.7
+C box 39.36 2.23 46.12 -0.5 -0.5 -0.5 0.5 2 1.03 0.7
+C box 39.36 2.23 54.12 -0.5 -0.5 -0.5 0.5 2 1.03 0.7
+C box 47.11 2.23 48.12 -0.5 -0.5 -0.5 0.5 6 1.03 0.7
+C box 39.36 2.23 50.12 -0.5 -0.5 -0.5 0.5 6 1.03 0.7
+C box 44.21 0.5 54.81 0.048 -0.706 -0.706 -0.048 0.49 0.3 0.37
+C box 47.41 0.01 47.83 -0.5 -0.5 -0.5 0.5 0.49 0.3 0.37
+C box 47.29 -0.45 47.28 -0.5 -0.5 -0.5 0.5 0.13 0.3 0.37
+C box 42.67 0.51 55.02 0.026 -0.707 -0.707 -0.026 0.7 0.05 0.41
+C box 43.47 0.51 55.08 0.026 -0.707 -0.707 -0.026 0.7 0.05 0.41
+C box 45.58 -1.38 46.92 0 -0.637 0 0.771 0.73 0.34 0.73
+C box 42.31 0.51 54.74 0.518 -0.518 -0.481 0.481 0.33 0.5 0.05
+C box 45.44 -1.46 46.2 0 -0.637 0 0.771 0.73 0.49 0.73
+L point 41.2118 0.007 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 44.6008 0.011 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 46.3228 1.132 52.496 0 0 0 1 1 0.8907 0.7972 8.63 0.48 30 spec=0
+L point 44.6008 1.695 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 42.9138 0.424 45.008 0 0 0 1 1 0.8271 0.5708 1.26 3.94 30 spec=0 hemi=1 hin=155 hout=180
+L spot 46.5958 2.354 52.65 0.1571 -0.7828 0.1864 0.5725 1 0.8865 0.516 3.85 14.95 52.6182 shadows=soft strength=1 spec=1 ispot=39.1274
+L point 42.1608 1.78 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 43.8208 1.78 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 43.0808 1.78 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 41.3418 1.71 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 42.8448 -0.009 50.538 0 0 0 1 1 0.8907 0.7972 0.65 7.49 30 spec=0
+L point 40.8528 -1.816 50.117 -0.7071 0 0 0.7071 1 0.8907 0.7972 0.42 3.82 30 spec=0 hemi=1 hin=164 hout=180
+L point 44.6008 0.862 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 41.2118 0.905 45.675 0 0 0 1 1 0.8271 0.5708 0.65 1.12 30 spec=0
+L point 47.3287 0.1044 47.304 -0.7071 0 0 0.7071 1 0.5432 0.2706 0.18 1.2054 30 spec=0.14
+G platemat Wallpaper_Dark_Mat 0 0 0 0 0 0 1 col=0.182,0.182,0.182,1 tex=Paint_Tex scale=1,1 inst=0
+G platemat LaternFlame_Mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=CandleFlame scale=1,1 inst=1
+G platemat Metal_Dull_Dark_Mat 0 0 0 0 0 0 1 col=0.01,0.031,0.083,1 tex=Metal_Tex scale=4,4 inst=1
+G platemat LockerFountainStageLight_mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=Locker_Fountain_Spotlight_Tex scale=1,1 inst=1
+G platemat Brick_Painted_DarkGrey_Mat 0 0 0 0 0 0 1 col=0.235,0.244,0.253,1 tex=Brick_Tex scale=0.5,0.5 inst=0
+G platemat Brick_Painted_Green_Mat 0 0 0 0 0 0 1 col=0.312,0.597,0.192,1 tex=Brick_Tex scale=0.5,0.5 inst=0
+G platemat ActivityDoor_Grey_mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=ActivityDoor_Grey_tex scale=1,1 inst=0
+G platemat Banner_Mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=Banners_Tex scale=1,1 inst=0
+G platemat LanternPost_Mat 0 0 0 0 0 0 1 col=1,0.466,0.118,1 tex=Wall_Torch_Lantern_Post_Tex scale=1,1 inst=1
+G platemat StageLight_Glow_Mat 0 0 0 0 0 0 1 col=1,0.776,0.522,1 tex=StarBoxBlur scale=1,1 inst=0
+G platemat DoorTrigger_mat 0 0 0 0 0 0 1 col=1,0.578,0.125,1 tex=StageTop_tex scale=1,1 inst=0
+G platemat Goblin_Ground_Green_Mat 0 0 0 0 0 0 1 col=0.388,0.545,0.208,1 tex=Goblin_Ground_Green_Tex scale=1,1 inst=1
+G platemat Goblin_Flying_Green_Mat 0 0 0 0 0 0 1 col=0.388,0.545,0.208,1 tex=Goblin_Flying_Green_Tex scale=1,1 inst=1
+G platemat Wood_Floor_Wide_mat 0 0 0 0 0 0 1 col=0.578,0.46,0.395,1 tex=Wood%20FloorTiled_tex scale=0.2,0.75 inst=0
+G platemat Unlit_Black_mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=- scale=1,1 inst=1
+G platemat StageTop_mat 0 0 0 0 0 0 1 col=0.566,0.386,0.117,1 tex=StageTop_tex scale=1,1 inst=0
+G platemat Unlit_PaleYellow_mat 0 0 0 0 0 0 1 col=1,0.858,0.59,1 tex=- scale=1,1 inst=0
+G platemat Couch_Plush_Purple_Mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=Couch_Plush_Purple_tex scale=1,1 inst=0
+G platemat Mirror_Quest_Mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=Smude_Tex scale=1.39,1 inst=0
+G platemat Wood_Horizontal_YellowBrown_Mat 0 0 0 0 0 0 1 col=0.5,0.37,0.134,1 tex=wood_diffuse_horiz_desat scale=2,2 inst=1
+G platemat Poster_HunterNote_Wizard_Mat 0 0 0 0 0 0 1 col=0.875,0.875,0.875,1 tex=Poster_HunterNote_Wizard_Tex scale=1,1 inst=0
+G platemat Wall_Stone_Section_Theater_mat 0 0 0 0 0 0 1 col=0.42,0.282,0.118,1 tex=Wall_Stone_Section_Tex scale=1,1 inst=1
+G platemat Barrel_Table_Crate_Mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=Barrel_Table_Crate_Tex scale=1,1 inst=1
+G platemat Metal_Dull_Mat 0 0 0 0 0 0 1 col=0.596,0.596,0.596,1 tex=Metal_Tex scale=3,3 inst=0
+G platemat Book_Green_Mat 0 0 0 0 0 0 1 col=1,1,1,1 tex=Book_Green_Tex scale=1,1 inst=1
+G platemat Clock_Glass_Mat 0 0 0 0 0 0 1 col=0.613,0.766,0.909,0.082 tex=- scale=1,1 inst=0
+G platemat Goblet_Clock_Mat 0 0 0 0 0 0 1 col=0.794,0.794,0.794,1 tex=Goblet_WallClock_Tex scale=1,1 inst=0
+G plate Wallpaper_Dark_Mat 43.238 2.636 50.157 0.7071 0 0 0.7071 e=4.42,5.092
+G plate LaternFlame_Mat 47.334 0.049 47.302 0 1 0 0 e=0.035,0.05 c=0.399,0.399,0.399 ds=1
+G plate LaternFlame_Mat 47.329 0.049 47.309 0 0.7071 0 0.7071 e=0.035,0.05 c=0.399,0.399,0.399 ds=1
+G plate Metal_Dull_Dark_Mat 41.328 -2.114 52.388 -0.4143 -0.573 -0.4143 0.573 e=0.063,1.495
+G plate Metal_Dull_Dark_Mat 41.348 -2.141 52.451 0 0 0.159 0.9873 e=1.485,0.031
+G plate Metal_Dull_Dark_Mat 41.368 -2.168 52.388 0.4143 0.573 -0.4143 0.573 e=0.063,1.495
+G plate Metal_Dull_Dark_Mat 41.348 -2.141 52.325 0.5857 0.8106 0 0 e=0.031,1.485
+G plate Metal_Dull_Dark_Mat 41.344 -1.68 48.559 0.7071 0 0 0.7071 e=1.391,0.069
+G plate Metal_Dull_Dark_Mat 39.901 -1.68 50.474 0.7071 0 0 0.7071 e=0.052,1.845
+G plate Metal_Dull_Dark_Mat 42.787 -1.68 50.474 0.7071 0 0 0.7071 e=0.052,1.844
+G plate Metal_Dull_Dark_Mat 41.344 -1.68 52.389 0.7071 0 0 0.7071 e=1.391,0.069
+G plate Metal_Dull_Dark_Mat 42.787 -2.11 48.49 0 1 0 0 e=0.052,0.5
+G plate Metal_Dull_Dark_Mat 39.901 -2.11 48.49 0 1 0 0 e=0.052,0.5
+G plate Metal_Dull_Dark_Mat 41.344 -1.645 48.49 0 1 0 0 e=1.391,0.035
+G plate Metal_Dull_Dark_Mat 41.344 -1.645 48.629 0 0 0 1 e=1.391,0.035
+G plate Metal_Dull_Dark_Mat 39.848 -2.11 48.558 0 -0.7071 0 0.7071 e=0.068,0.5
+G plate Metal_Dull_Dark_Mat 39.848 -2.11 52.39 0 -0.7071 0 0.7071 e=0.068,0.5
+G plate Metal_Dull_Dark_Mat 39.848 -1.645 50.474 0 -0.7071 0 0.7071 e=1.848,0.035
+G plate Metal_Dull_Dark_Mat 39.953 -2.145 52.389 0 0.7071 0 0.7071 e=0.069,0.465
+G plate Metal_Dull_Dark_Mat 39.953 -2.145 48.559 0 0.7071 0 0.7071 e=0.069,0.465
+G plate Metal_Dull_Dark_Mat 39.953 -1.645 50.474 0 0.7071 0 0.7071 e=1.845,0.035
+G plate Metal_Dull_Dark_Mat 42.839 -2.11 52.389 0 0.7071 0 0.7071 e=0.069,0.5
+G plate Metal_Dull_Dark_Mat 42.839 -2.11 48.559 0 0.7071 0 0.7071 e=0.069,0.5
+G plate Metal_Dull_Dark_Mat 42.839 -1.645 50.474 0 0.7071 0 0.7071 e=1.846,0.035
+G plate Metal_Dull_Dark_Mat 41.344 -1.61 52.389 -0.7071 0 0 0.7071 e=1.495,0.069
+G plate Metal_Dull_Dark_Mat 39.901 -1.61 50.405 -0.7071 0 0 0.7071 e=0.052,1.915
+G plate Metal_Dull_Dark_Mat 42.787 -1.61 50.405 -0.7071 0 0 0.7071 e=0.052,1.915
+G plate Metal_Dull_Dark_Mat 41.344 -1.61 48.559 -0.7071 0 0 0.7071 e=1.391,0.069
+G plate Metal_Dull_Dark_Mat 42.735 -2.145 48.559 0 -0.7071 0 0.7071 e=0.069,0.465
+G plate Metal_Dull_Dark_Mat 42.735 -2.145 52.389 0 -0.7071 0 0.7071 e=0.069,0.465
+G plate Metal_Dull_Dark_Mat 42.735 -1.645 50.474 0 -0.7071 0 0.7071 e=1.846,0.035
+G plate Metal_Dull_Dark_Mat 39.901 -2.11 52.458 0 0 0 1 e=0.052,0.5
+G plate Metal_Dull_Dark_Mat 42.787 -2.11 52.458 0 0 0 1 e=0.052,0.5
+G plate Metal_Dull_Dark_Mat 41.344 -1.645 52.458 0 0 0 1 e=1.391,0.035
+G plate Metal_Dull_Dark_Mat 41.344 -1.645 52.319 0 1 0 0 e=1.391,0.035
+G plate Metal_Dull_Dark_Mat 39.901 -2.114 50.453 0 -0.7878 -0.6159 0 e=0.047,1.941
+G plate Metal_Dull_Dark_Mat 39.854 -2.141 50.48 -0.0862 -0.7018 0.0862 0.7018 e=1.922,0.031
+G plate Metal_Dull_Dark_Mat 39.901 -2.168 50.506 0.6159 0 0 0.7878 e=0.047,1.941
+G plate Metal_Dull_Dark_Mat 39.948 -2.141 50.48 0.4353 0.5572 0.4353 0.5572 e=0.031,1.922
+G plate Metal_Dull_Dark_Mat 41.359 -2.114 48.56 -0.4143 0.573 0.4143 0.573 e=0.063,1.495
+G plate Metal_Dull_Dark_Mat 41.339 -2.141 48.497 0.159 0.9873 0 0 e=1.485,0.031
+G plate Metal_Dull_Dark_Mat 41.319 -2.168 48.56 0.4143 -0.573 0.4143 0.573 e=0.063,1.495
+G plate Metal_Dull_Dark_Mat 41.339 -2.141 48.623 0 0 0.5857 0.8106 e=0.031,1.485
+G plate Metal_Dull_Dark_Mat 42.786 -2.114 50.495 -0.6159 0 0 0.7878 e=0.047,1.941
+G plate Metal_Dull_Dark_Mat 42.833 -2.141 50.468 0.0862 0.7018 0.0862 0.7018 e=1.922,0.031
+G plate Metal_Dull_Dark_Mat 42.786 -2.168 50.442 0 0.7878 -0.6159 0 e=0.047,1.941
+G plate Metal_Dull_Dark_Mat 42.739 -2.141 50.468 -0.4353 -0.5572 0.4353 0.5572 e=0.031,1.922
+G plate Metal_Dull_Dark_Mat 43.227 2.317 54.89 0 0.761 -0.6488 0 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.325 54.859 0 0.8699 -0.4932 0 e=4.441,0.008
+G plate Metal_Dull_Dark_Mat 43.227 2.317 54.938 0.6487 0 0 0.7611 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.326 54.969 0.4901 0 0 0.8716 e=4.441,0.009
+G plate Metal_Dull_Dark_Mat 43.227 2.336 54.98 0.2535 0 0 0.9673 e=4.441,0.007
+G plate Metal_Dull_Dark_Mat 43.227 2.359 54.988 0.1121 0 0 0.9937 e=4.441,0.017
+G plate Metal_Dull_Dark_Mat 43.227 2.398 54.991 0 0 0 1 e=4.441,0.022
+G plate Metal_Dull_Dark_Mat 43.227 2.436 54.988 -0.1121 0 0 0.9937 e=4.441,0.017
+G plate Metal_Dull_Dark_Mat 43.227 2.459 54.98 -0.2535 0 0 0.9673 e=4.441,0.007
+G plate Metal_Dull_Dark_Mat 43.227 2.47 54.969 -0.4902 0 0 0.8716 e=4.441,0.009
+G plate Metal_Dull_Dark_Mat 43.227 2.479 54.938 -0.6488 0 0 0.761 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.479 54.89 0 -0.7611 -0.6487 0 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.471 54.859 0 0.8699 0.4932 0 e=4.441,0.008
+G plate Metal_Dull_Dark_Mat 43.227 2.438 54.842 0 0.9941 0.1086 0 e=4.441,0.018
+G plate Metal_Dull_Dark_Mat 43.227 2.461 54.849 0 0.9664 0.2572 0 e=4.441,0.006
+G plate Metal_Dull_Dark_Mat 43.227 2.398 54.838 0 1 0 0 e=4.441,0.022
+G plate Metal_Dull_Dark_Mat 43.227 2.358 54.842 0 0.9941 -0.1086 0 e=4.441,0.018
+G plate Metal_Dull_Dark_Mat 43.227 2.335 54.849 0 0.9664 -0.2572 0 e=4.441,0.006
+G plate Metal_Dull_Dark_Mat 43.227 2.107 54.89 0 0.761 -0.6488 0 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.115 54.859 0 0.8699 -0.4932 0 e=4.441,0.008
+G plate Metal_Dull_Dark_Mat 43.227 2.107 54.938 0.6487 0 0 0.7611 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.116 54.969 0.4901 0 0 0.8716 e=4.441,0.009
+G plate Metal_Dull_Dark_Mat 43.227 2.126 54.98 0.2535 0 0 0.9673 e=4.441,0.007
+G plate Metal_Dull_Dark_Mat 43.227 2.149 54.988 0.1121 0 0 0.9937 e=4.441,0.017
+G plate Metal_Dull_Dark_Mat 43.227 2.188 54.991 0 0 0 1 e=4.441,0.022
+G plate Metal_Dull_Dark_Mat 43.227 2.226 54.988 -0.1121 0 0 0.9937 e=4.441,0.017
+G plate Metal_Dull_Dark_Mat 42.783 2.249 54.98 -0.2536 0 0 0.9673 e=3.997,0.007
+G plate Metal_Dull_Dark_Mat 43.664 2.249 54.98 -0.2535 0 0 0.9673 e=4.004,0.007
+G plate Metal_Dull_Dark_Mat 43.227 2.26 54.969 -0.4902 0 0 0.8716 e=4.441,0.009
+G plate Metal_Dull_Dark_Mat 43.227 2.269 54.938 -0.6488 0 0 0.761 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.269 54.89 0 -0.7611 -0.6487 0 e=4.441,0.024
+G plate Metal_Dull_Dark_Mat 43.227 2.261 54.859 0 0.8699 0.4932 0 e=4.441,0.008
+G plate Metal_Dull_Dark_Mat 43.227 2.228 54.842 0 0.9941 0.1086 0 e=4.441,0.018
+G plate Metal_Dull_Dark_Mat 43.227 2.251 54.849 0 0.9664 0.2572 0 e=4.441,0.006
+G plate Metal_Dull_Dark_Mat 43.227 2.188 54.838 0 1 0 0 e=4.441,0.022
+G plate Metal_Dull_Dark_Mat 43.227 2.148 54.842 0 0.9941 -0.1086 0 e=4.441,0.018
+G plate Metal_Dull_Dark_Mat 43.227 2.125 54.849 0 0.9664 -0.2572 0 e=4.441,0.006
+G plate Metal_Dull_Dark_Mat 47.101 -0.66 47.099 -0.1606 0.6886 0.1606 0.6886 e=0.032,1.059
+G plate Metal_Dull_Dark_Mat 47.074 -0.673 47.13 0 0 0.2275 0.9738 e=0.029,1.059
+G plate Metal_Dull_Dark_Mat 47.047 -0.686 47.099 0.1606 -0.6886 0.1606 0.6886 e=0.032,1.059
+G plate Metal_Dull_Dark_Mat 47.074 -0.673 47.067 0.5277 0.8494 0 0 e=1.059,0.029
+G plate Metal_Dull_Dark_Mat 47.535 -1.635 46.134 0 -0.7071 0 0.7071 e=0.929,0.035
+G plate Metal_Dull_Dark_Mat 47.535 -0.67 45.169 0 -0.7071 0 0.7071 e=0.035,0.93
+G plate Metal_Dull_Dark_Mat 47.535 -0.67 47.099 0 -0.7071 0 0.7071 e=0.035,0.93
+G plate Metal_Dull_Dark_Mat 47.535 0.295 46.134 0 -0.7071 0 0.7071 e=0.93,0.035
+G plate Metal_Dull_Dark_Mat 47.57 -0.635 45.134 0 1 0 0 e=0.035,0.965
+G plate Metal_Dull_Dark_Mat 47.57 -0.67 45.204 0 0 0 1 e=0.035,0.93
+G plate Metal_Dull_Dark_Mat 47.57 0.33 46.1 -0.7071 0 0 0.7071 e=0.035,0.966
+G plate Metal_Dull_Dark_Mat 47.57 0.26 46.134 0.7071 0 0 0.7071 e=0.035,0.93
+G plate Metal_Dull_Dark_Mat 47.57 -1.67 46.169 0.7071 0 0 0.7071 e=0.035,0.965
+G plate Metal_Dull_Dark_Mat 47.605 -1.635 46.134 0 0.7071 0 0.7071 e=1,0.035
+G plate Metal_Dull_Dark_Mat 47.605 -0.635 47.099 0 0.7071 0 0.7071 e=0.035,0.965
+G plate Metal_Dull_Dark_Mat 47.605 -0.635 45.169 0 0.7071 0 0.7071 e=0.035,0.965
+G plate Metal_Dull_Dark_Mat 47.605 0.295 46.134 0 0.7071 0 0.7071 e=0.93,0.035
+G plate Metal_Dull_Dark_Mat 47.57 -1.6 46.134 -0.7071 0 0 0.7071 e=0.035,0.93
+G plate Metal_Dull_Dark_Mat 47.57 -0.635 47.134 0 0 0 1 e=0.035,0.965
+G plate Metal_Dull_Dark_Mat 47.57 -0.67 47.064 0 1 0 0 e=0.035,0.93
+G plate Metal_Dull_Dark_Mat 47.101 0.295 46.124 0 0.8492 0 0.528 e=1.059,0.032
+G plate Metal_Dull_Dark_Mat 47.074 0.326 46.137 -0.6886 0.1609 0.1609 0.6886 e=0.029,1.059
+G plate Metal_Dull_Dark_Mat 47.047 0.295 46.15 0 -0.528 0 0.8492 e=1.059,0.032
+G plate Metal_Dull_Dark_Mat 47.074 0.263 46.137 0.6006 -0.3731 0.3731 0.6006 e=1.059,0.029
+G plate Metal_Dull_Dark_Mat 47.101 -0.681 45.169 0.1606 0.6886 -0.1606 0.6886 e=0.032,1.059
+G plate Metal_Dull_Dark_Mat 47.074 -0.667 45.138 0.2275 0.9738 0 0 e=0.029,1.059
+G plate Metal_Dull_Dark_Mat 47.047 -0.654 45.169 -0.1606 -0.6886 -0.1606 0.6886 e=0.032,1.059
+G plate Metal_Dull_Dark_Mat 47.074 -0.667 45.201 0 0 0.5277 0.8494 e=1.059,0.029
+G plate Metal_Dull_Dark_Mat 47.101 -1.635 46.144 0 0.528 0 0.8492 e=1.059,0.032
+G plate Metal_Dull_Dark_Mat 47.074 -1.667 46.131 0.6886 -0.1609 0.1609 0.6886 e=0.029,1.059
+G plate Metal_Dull_Dark_Mat 47.047 -1.635 46.118 0 -0.8492 0 0.528 e=1.059,0.032
+G plate Metal_Dull_Dark_Mat 47.074 -1.603 46.131 -0.6006 0.3731 0.3731 0.6006 e=1.059,0.029
+G plate LockerFountainStageLight_mat 46.817 1.472 52.557 0 -0.2864 0 0.9581 e=0.023,0.172
+G plate LockerFountainStageLight_mat 46.64 1.472 52.827 0 0.9581 0 0.2864 e=0.023,0.172
+G plate LockerFountainStageLight_mat 46.631 1.469 52.841 0 -0.2864 0 0.9581 e=0.023,0.17
+G plate LockerFountainStageLight_mat 46.827 1.469 52.543 0 0.9581 0 0.2864 e=0.023,0.17
+G plate LockerFountainStageLight_mat 46.729 1.644 52.692 0.6775 -0.2026 0.2026 0.6775 e=0.023,0.161
+G plate LockerFountainStageLight_mat 46.724 1.817 52.699 0 -0.2864 0 0.9581 e=0.023,0.16
+G plate LockerFountainStageLight_mat 46.733 1.817 52.685 0 0.9581 0 0.2864 e=0.023,0.16
+G plate LockerFountainStageLight_mat 46.775 1.657 52.622 -0.6223 0.3358 0.3358 0.6223 e=0.076,0.023
+G plate LockerFountainStageLight_mat 46.682 1.657 52.762 -0.6223 0.3358 0.3358 0.6223 e=0.076,0.023
+G plate LockerFountainStageLight_mat 46.802 1.477 52.537 0 -0.88 0 0.475 e=0.009,0.161
+G plate LockerFountainStageLight_mat 46.841 1.477 52.563 0 0.475 0 0.88 e=0.009,0.161
+G plate LockerFountainStageLight_mat 46.616 1.477 52.821 0 -0.88 0 0.475 e=0.009,0.161
+G plate LockerFountainStageLight_mat 46.655 1.477 52.847 0 0.475 0 0.88 e=0.009,0.161
+G plate LockerFountainStageLight_mat 46.748 1.817 52.705 0 0.475 0 0.88 e=0.008,0.16
+G plate LockerFountainStageLight_mat 46.709 1.817 52.679 0 -0.88 0 0.475 e=0.008,0.16
+G plate LockerFountainStageLight_mat 46.709 1.65 52.679 0 -0.88 0 0.475 e=0.16,0.007
+G plate LockerFountainStageLight_mat 46.748 1.65 52.705 0 0.475 0 0.88 e=0.16,0.007
+G plate LockerFountainStageLight_mat 46.729 1.977 52.692 -0.6223 0.3358 0.3358 0.6223 e=0.008,0.023
+G plate LockerFountainStageLight_mat 46.825 1.645 52.545 -0.0559 0.9397 0.1869 0.2809 e=0.023,0.007
+G plate LockerFountainStageLight_mat 46.632 1.645 52.839 -0.1869 -0.2809 -0.0559 0.9397 e=0.023,0.007
+G plate LockerFountainStageLight_mat 46.637 1.655 52.831 -0.5323 -0.2381 -0.1591 0.7966 e=0.023,0.007
+G plate LockerFountainStageLight_mat 46.455 1.293 52.55 0.6483 -0.0764 0.2576 0.7124 e=0.01,0.018
+G plate LockerFountainStageLight_mat 46.451 1.309 52.548 -0.3216 -0.6859 -0.5124 0.4044 e=0.018,0.01
+G plate LockerFountainStageLight_mat 46.445 1.299 52.545 0.0585 -0.8473 0.1227 0.5135 e=0.018,0.008
+G plate LockerFountainStageLight_mat 46.461 1.304 52.554 0.2763 0.4498 0.6405 0.5578 e=0.008,0.018
+G plate LockerFountainStageLight_mat 46.557 1.164 52.432 -0.0455 -0.236 0.1285 0.9621 e=0.01,0.018
+G plate LockerFountainStageLight_mat 46.565 1.163 52.417 0.5894 0.7712 0.1347 0.1991 e=0.018,0.01
+G plate LockerFountainStageLight_mat 46.552 1.161 52.42 0.0585 -0.8473 0.1227 0.5135 e=0.008,0.018
+G plate LockerFountainStageLight_mat 46.569 1.166 52.429 0.2763 0.4499 0.6405 0.5577 e=0.018,0.008
+G plate LockerFountainStageLight_mat 46.516 1.039 52.586 -0.3216 -0.6859 -0.5124 0.4044 e=0.018,0.01
+G plate LockerFountainStageLight_mat 46.52 1.023 52.589 0.6483 -0.0764 0.2577 0.7124 e=0.01,0.018
+G plate LockerFountainStageLight_mat 46.509 1.028 52.583 0.0585 -0.8473 0.1227 0.5135 e=0.018,0.008
+G plate LockerFountainStageLight_mat 46.526 1.034 52.592 0.2763 0.4499 0.6405 0.5577 e=0.008,0.018
+G plate LockerFountainStageLight_mat 47.053 1.415 52.694 0.2763 0.4498 0.6405 0.5578 e=0.044,0.013
+G plate LockerFountainStageLight_mat 46.97 1.453 52.83 0.2763 0.4498 0.6405 0.5578 e=0.009,0.147
+G plate LockerFountainStageLight_mat 46.918 1.414 52.955 0.2763 0.4498 0.6405 0.5578 e=0.036,0.013
+G plate LockerFountainStageLight_mat 46.929 1.369 52.961 -0.0487 0.5257 0.178 0.8304 e=0.01,0.014
+G plate LockerFountainStageLight_mat 47.065 1.362 52.702 0.2097 0.4845 0.5549 0.6429 e=0.014,0.01
+G plate LockerFountainStageLight_mat 46.714 1.38 52.682 -0.3216 -0.6859 -0.5124 0.4044 e=0.16,0.305
+G plate LockerFountainStageLight_mat 46.525 1.069 52.592 -0.3216 -0.6859 -0.5124 0.4044 e=0.123,0.02
+G plate LockerFountainStageLight_mat 46.942 1.22 52.807 0.5003 0.2023 0.4858 0.6876 e=0.136,0.133
+G plate LockerFountainStageLight_mat 46.874 1.227 52.932 0.3567 0.1033 0.5164 0.7716 e=0.135,0.01
+G plate LockerFountainStageLight_mat 46.512 1.049 52.586 0.0585 -0.8473 0.1227 0.5135 e=0.133,0.016
+G plate LockerFountainStageLight_mat 46.547 1.177 52.44 0.0585 -0.8473 0.1227 0.5135 e=0.018,0.122
+G plate LockerFountainStageLight_mat 46.415 1.185 52.691 0.0585 -0.8473 0.1227 0.5135 e=0.018,0.122
+G plate LockerFountainStageLight_mat 46.457 1.283 52.55 0.0585 -0.8473 0.1227 0.5135 e=0.123,0.016
+G plate LockerFountainStageLight_mat 46.444 1.066 52.708 -0.4613 -0.7131 0.4061 0.3373 e=0.014,0.017
+G plate LockerFountainStageLight_mat 46.449 1.056 52.704 -0.1657 -0.833 0.2531 0.4633 e=0.011,0.016
+G plate LockerFountainStageLight_mat 46.576 1.061 52.455 -0.2004 -0.8253 0.2722 0.4523 e=0.018,0.013
+G plate LockerFountainStageLight_mat 46.485 1.166 52.568 0.0585 -0.8473 0.1227 0.5135 e=0.041,0.035
+G plate LockerFountainStageLight_mat 46.573 1.042 52.469 -0.2004 -0.8253 0.2722 0.4523 e=0.018,0.01
+G plate LockerFountainStageLight_mat 46.477 1.273 52.561 0.6483 -0.0764 0.2576 0.7124 e=0.02,0.123
+G plate LockerFountainStageLight_mat 46.444 1.174 52.686 0.5894 0.7712 0.1347 0.1991 e=0.106,0.02
+G plate LockerFountainStageLight_mat 46.536 1.168 52.502 -0.5854 -0.6871 0.3748 0.2116 e=0.035,0.042
+G plate LockerFountainStageLight_mat 46.48 1.237 52.563 0.0088 -0.8552 0.0399 0.5167 e=0.041,0.036
+G plate LockerFountainStageLight_mat 46.46 1.172 52.648 0.0444 -0.7839 0.1284 0.6058 e=0.042,0.035
+G plate LockerFountainStageLight_mat 46.512 1.102 52.584 0.1081 -0.8314 0.2041 0.5054 e=0.041,0.036
+G plate LockerFountainStageLight_mat 46.917 1.403 52.94 0.5894 0.7712 0.1347 0.1991 e=0.044,0.01
+G plate LockerFountainStageLight_mat 46.539 1.018 52.601 0.2507 -0.7358 0.4375 0.4521 e=0.133,0.032
+G plate LockerFountainStageLight_mat 46.472 1.027 52.727 0.1602 -0.6335 0.4782 0.5867 e=0.01,0.036
+G plate LockerFountainStageLight_mat 46.604 1.019 52.474 0.3385 0.8068 -0.4809 0.057 e=0.036,0.01
+G plate LockerFountainStageLight_mat 46.723 1.052 52.697 0.6483 -0.0764 0.2576 0.7124 e=0.186,0.133
+G plate LockerFountainStageLight_mat 46.657 1.06 52.823 0.4968 -0.1252 0.2379 0.8252 e=0.184,0.01
+G plate LockerFountainStageLight_mat 46.787 1.051 52.57 0.5655 0.5302 -0.2153 0.5939 e=0.01,0.184
+G plate LockerFountainStageLight_mat 46.97 1.397 52.817 0.2763 0.4499 0.6405 0.5577 e=0.044,0.134
+G plate LockerFountainStageLight_mat 46.969 1.442 52.815 0.6483 -0.0764 0.2576 0.7124 e=0.01,0.134
+G plate LockerFountainStageLight_mat 47.042 1.396 52.703 -0.0455 -0.236 0.1285 0.9621 e=0.01,0.044
+G plate LockerFountainStageLight_mat 46.989 1.358 52.828 -0.3216 -0.6859 -0.5124 0.4044 e=0.134,0.01
+G plate LockerFountainStageLight_mat 46.859 1.238 52.939 0.0342 -0.1019 0.5162 0.8497 e=0.139,0.01
+G plate LockerFountainStageLight_mat 46.925 1.367 52.97 0.0342 -0.1019 0.5162 0.8497 e=0.01,0.01
+G plate LockerFountainStageLight_mat 46.649 1.074 52.834 0.1432 -0.2065 0.1719 0.9525 e=0.178,0.01
+G plate LockerFountainStageLight_mat 46.463 1.044 52.737 -0.0348 -0.3607 0.5031 0.7846 e=0.01,0.044
+G plate LockerFountainStageLight_mat 46.609 1.223 52.813 -0.0455 -0.236 0.1285 0.9621 e=0.175,0.147
+G plate LockerFountainStageLight_mat 46.435 1.169 52.723 -0.0455 -0.236 0.1285 0.9621 e=0.028,0.147
+G plate LockerFountainStageLight_mat 46.781 1.277 52.902 -0.0455 -0.236 0.1285 0.9621 e=0.026,0.147
+G plate LockerFountainStageLight_mat 46.818 1.318 52.92 -0.0455 -0.236 0.1285 0.9621 e=0.025,0.118
+G plate LockerFountainStageLight_mat 46.859 1.34 52.941 -0.0455 -0.236 0.1285 0.9621 e=0.025,0.11
+G plate LockerFountainStageLight_mat 46.897 1.378 52.96 -0.0455 -0.236 0.1285 0.9621 e=0.026,0.084
+G plate LockerFountainStageLight_mat 47.008 1.238 52.665 0.2544 0.8741 -0.0013 0.4139 e=0.01,0.148
+G plate LockerFountainStageLight_mat 46.788 1.063 52.555 0.605 0.7171 0.0173 0.3456 e=0.01,0.178
+G plate LockerFountainStageLight_mat 46.608 1.036 52.461 0.2913 0.9293 -0.1355 0.1822 e=0.044,0.01
+G plate LockerFountainStageLight_mat 46.774 1.239 52.537 0.5894 0.7712 0.1347 0.1991 e=0.109,0.254
+G plate LockerFountainStageLight_mat 46.783 1.1 52.546 0.5894 0.7712 0.1347 0.1991 e=0.028,0.229
+G plate LockerFountainStageLight_mat 46.768 1.359 52.531 0.5894 0.7712 0.1347 0.1991 e=0.01,0.279
+G plate LockerFountainStageLight_mat 47.01 1.322 52.659 0.5894 0.7712 0.1347 0.1991 e=0.1,0.025
+G plate LockerFountainStageLight_mat 47.046 1.369 52.677 0.5894 0.7712 0.1347 0.1991 e=0.084,0.026
+G plate LockerFountainStageLight_mat 39.641 0.856 45.777 -0.6549 0.2861 0.2993 0.6322 e=0.023,0.172
+G plate LockerFountainStageLight_mat 39.631 1.178 45.77 0.6587 -0.2354 0.2608 0.6654 e=0.172,0.023
+G plate LockerFountainStageLight_mat 39.629 1.196 45.768 -0.6549 0.2861 0.2993 0.6322 e=0.023,0.17
+G plate LockerFountainStageLight_mat 39.646 0.839 45.781 0.6587 -0.2354 0.2608 0.6654 e=0.161,0.023
+G plate LockerFountainStageLight_mat 39.896 1.038 46 -0.6549 0.2861 0.2993 0.6322 e=0.023,0.16
+G plate LockerFountainStageLight_mat 39.897 1.021 46 0.6587 -0.2354 0.2608 0.6654 e=0.16,0.023
+G plate LockerFountainStageLight_mat 39.766 1.023 45.886 0.0077 -0.9101 0.0168 0.4141 e=0.023,0.161
+G plate LockerFountainStageLight_mat 39.779 0.94 45.897 -0.0168 0.4141 0.0077 0.9101 e=0.023,0.076
+G plate LockerFountainStageLight_mat 39.774 1.108 45.893 -0.0168 0.4141 0.0077 0.9101 e=0.023,0.076
+G plate LockerFountainStageLight_mat 39.651 1.187 45.756 0.6495 0.6747 0.2447 0.2513 e=0.009,0.161
+G plate LockerFountainStageLight_mat 39.62 1.187 45.791 -0.0047 -0.3507 0.0178 0.9363 e=0.161,0.009
+G plate LockerFountainStageLight_mat 39.63 0.848 45.798 -0.0047 -0.3507 0.0178 0.9363 e=0.161,0.009
+G plate LockerFountainStageLight_mat 39.661 0.848 45.763 0.6495 0.6747 0.2447 0.2513 e=0.009,0.161
+G plate LockerFountainStageLight_mat 39.881 1.03 46.018 -0.0047 -0.3507 0.0178 0.9363 e=0.16,0.008
+G plate LockerFountainStageLight_mat 39.912 1.03 45.983 0.6495 0.6747 0.2447 0.2513 e=0.008,0.16
+G plate LockerFountainStageLight_mat 39.788 0.948 45.875 0.6495 0.6747 0.2447 0.2513 e=0.084,0.007
+G plate LockerFountainStageLight_mat 40.017 1.036 46.105 -0.0168 0.4141 0.0077 0.9101 e=0.023,0.008
+G plate LockerFountainStageLight_mat 39.518 0.833 45.669 0.6587 -0.2354 0.2608 0.6654 e=0.008,0.023
+G plate LockerFountainStageLight_mat 39.762 1.199 45.883 -0.519 0.339 0.2377 0.7478 e=0.023,0.007
+G plate LockerFountainStageLight_mat 39.772 0.848 45.891 0.4922 0.3496 -0.2224 0.7656 e=0.023,0.007
+G plate LockerFountainStageLight_mat 39.779 0.857 45.897 0.161 0.4083 -0.0734 0.8955 e=0.023,0.007
+G plate LockerFountainStageLight_mat 39.769 1.19 45.89 -0.1941 0.4039 0.0881 0.8896 e=0.023,0.007
+G plate LockerFountainStageLight_mat 39.528 0.864 45.986 -0.7103 0.079 0.0984 0.6925 e=0.018,0.01
+G plate LockerFountainStageLight_mat 39.529 0.848 45.986 0.5593 -0.4201 0.4463 0.5581 e=0.01,0.018
+G plate LockerFountainStageLight_mat 39.531 0.856 45.995 -0.0125 0.1257 0.0139 0.9919 e=0.018,0.008
+G plate LockerFountainStageLight_mat 39.526 0.856 45.977 -0.6915 -0.7112 0.0977 0.08 e=0.008,0.018
+G plate LockerFountainStageLight_mat 39.653 1.02 45.949 0.0009 -0.6125 0.0184 0.7903 e=0.01,0.018
+G plate LockerFountainStageLight_mat 39.669 1.02 45.945 0.5458 0.5718 0.4338 0.4324 e=0.018,0.01
+G plate LockerFountainStageLight_mat 39.664 1.02 45.956 -0.0125 0.1257 0.0139 0.9919 e=0.008,0.018
+G plate LockerFountainStageLight_mat 39.659 1.02 45.938 -0.6915 -0.7112 0.0977 0.08 e=0.018,0.008
+G plate LockerFountainStageLight_mat 39.522 1.173 45.978 0.5593 -0.4201 0.4463 0.5581 e=0.01,0.018
+G plate LockerFountainStageLight_mat 39.522 1.189 45.978 -0.7103 0.079 0.0984 0.6925 e=0.018,0.01
+G plate LockerFountainStageLight_mat 39.525 1.181 45.988 -0.0125 0.1257 0.0139 0.9919 e=0.018,0.008
+G plate LockerFountainStageLight_mat 39.52 1.181 45.969 -0.6915 -0.7112 0.0977 0.08 e=0.008,0.018
+G plate LockerFountainStageLight_mat 39.398 1.017 46.015 0.5458 0.5718 0.4338 0.4324 e=0.018,0.01
+G plate LockerFountainStageLight_mat 39.382 1.016 46.019 0.0009 -0.6125 0.0184 0.7903 e=0.01,0.018
+G plate LockerFountainStageLight_mat 39.392 1.017 46.026 -0.0125 0.1257 0.0139 0.9919 e=0.008,0.018
+G plate LockerFountainStageLight_mat 39.387 1.016 46.008 -0.6915 -0.7112 0.0977 0.08 e=0.018,0.008
+G plate LockerFountainStageLight_mat 39.583 1.013 45.654 0.5458 0.5718 0.4338 0.4324 e=0.16,0.305
+G plate LockerFountainStageLight_mat 39.473 1.172 45.748 -0.7103 0.079 0.0984 0.6925 e=0.11,0.238
+G plate LockerFountainStageLight_mat 39.292 1.007 45.806 0.0009 -0.6125 0.0184 0.7903 e=0.186,0.133
+G plate LockerFountainStageLight_mat 39.512 0.852 45.695 0.5593 -0.4201 0.4463 0.5581 e=0.288,0.083
+G plate LockerFountainStageLight_mat 39.315 1.002 45.509 0.0092 -0.8683 0.0161 0.4957 e=0.136,0.133
+G plate LockerFountainStageLight_mat 39.413 0.85 45.746 0.5593 -0.4201 0.4463 0.5581 e=0.263,0.025
+G plate LockerFountainStageLight_mat 39.371 0.849 45.783 0.5593 -0.4201 0.4463 0.5581 e=0.238,0.025
+G plate LockerFountainStageLight_mat 39.453 1.003 45.395 -0.6915 -0.7112 0.0977 0.08 e=0.134,0.044
+G plate LockerFountainStageLight_mat 39.365 1.014 46.002 -0.0063 -0.2634 0.0173 0.9645 e=0.032,0.133
+G plate LockerFountainStageLight_mat 39.352 1.169 45.779 -0.7103 0.079 0.0984 0.6925 e=0.015,0.238
+G plate LockerFountainStageLight_mat 39.337 0.849 45.804 0.5593 -0.4201 0.4463 0.5581 e=0.2,0.013
+G plate LockerFountainStageLight_mat 39.327 1.168 45.798 -0.7103 0.079 0.0984 0.6925 e=0.013,0.2
+G plate LockerFountainStageLight_mat 39.417 1.165 45.491 -0.7103 0.079 0.0984 0.6925 e=0.1,0.025
+G plate LockerFountainStageLight_mat 39.623 1.02 45.938 0.0009 -0.6125 0.0184 0.7903 e=0.02,0.123
+G plate LockerFountainStageLight_mat 39.418 1.015 45.991 0.5458 0.5718 0.4338 0.4324 e=0.123,0.02
+G plate LockerFountainStageLight_mat 39.575 1.173 45.67 -0.7103 0.079 0.0984 0.6925 e=0.008,0.288
+G plate LockerFountainStageLight_mat 39.643 1.04 45.953 -0.0125 0.1257 0.0139 0.9919 e=0.016,0.142
+G plate LockerFountainStageLight_mat 39.549 0.877 45.982 -0.0125 0.1257 0.0139 0.9919 e=0.118,0.018
+G plate LockerFountainStageLight_mat 39.517 1.141 45.962 0.5593 -0.4201 0.4463 0.5581 e=0.02,0.106
+G plate LockerFountainStageLight_mat 39.525 0.895 45.967 -0.7103 0.079 0.0984 0.6925 e=0.106,0.02
+G plate LockerFountainStageLight_mat 39.408 1.01 46.014 -0.0125 0.1257 0.0139 0.9919 e=0.016,0.128
+G plate LockerFountainStageLight_mat 39.522 1.16 45.981 -0.0125 0.1257 0.0139 0.9919 e=0.106,0.018
+G plate LockerFountainStageLight_mat 39.291 1.15 45.8 -0.1532 -0.6044 -0.1016 0.7752 e=0.184,0.01
+G plate LockerFountainStageLight_mat 39.3 0.865 45.808 0.1548 -0.5971 0.1379 0.7749 e=0.182,0.01
+G plate LockerFountainStageLight_mat 39.304 1.164 45.798 -0.4383 -0.5196 -0.3249 0.6575 e=0.182,0.01
+G plate LockerFountainStageLight_mat 39.313 0.852 45.805 0.4397 -0.499 0.3557 0.6566 e=0.182,0.01
+G plate LockerFountainStageLight_mat 39.429 1.164 45.436 -0.7103 0.079 0.0984 0.6925 e=0.075,0.025
+G plate LockerFountainStageLight_mat 39.342 0.846 45.508 0.282 -0.7126 0.4964 0.4078 e=0.148,0.01
+G plate LockerFountainStageLight_mat 39.395 1.002 45.388 -0.6915 -0.7112 0.0977 0.08 e=0.133,0.011
+G plate LockerFountainStageLight_mat 39.524 0.936 45.97 0.0994 0.1264 -0.0006 0.987 e=0.035,0.042
+G plate LockerFountainStageLight_mat 39.519 1.1 45.966 -0.1244 0.1233 0.0276 0.9842 e=0.035,0.042
+G plate LockerFountainStageLight_mat 39.454 1.016 45.988 -0.0112 0.029 0.0152 0.9994 e=0.036,0.041
+G plate LockerFountainStageLight_mat 39.591 1.02 45.953 -0.0139 0.2212 0.0121 0.9751 e=0.036,0.041
+G plate LockerFountainStageLight_mat 39.524 1.018 45.977 -0.0125 0.1257 0.0139 0.9919 e=0.035,0.041
+G plate LockerFountainStageLight_mat 39.325 0.859 45.509 0.1058 -0.8481 0.1851 0.485 e=0.139,0.01
+G plate LockerFountainStageLight_mat 39.33 1.158 45.506 -0.2687 -0.7314 -0.4685 0.4164 e=0.135,0.01
+G plate LockerFountainStageLight_mat 39.493 1.004 45.374 0.0009 -0.6125 0.0184 0.7903 e=0.01,0.134
+G plate LockerFountainStageLight_mat 39.408 1.002 45.396 0.5458 0.5718 0.4338 0.4324 e=0.134,0.01
+G plate LockerFountainStageLight_mat 39.499 1.004 45.362 -0.6915 -0.7112 0.0977 0.08 e=0.134,0.009
+G plate LockerFountainStageLight_mat 39.46 0.844 45.394 0.5593 -0.4201 0.4463 0.5581 e=0.017,0.058
+G plate Brick_Painted_DarkGrey_Mat 43.238 1.711 55.249 0 1 0 0 e=4.42,0.925
+G plate Brick_Painted_DarkGrey_Mat 47.658 1.711 50.157 0 -0.7071 0 0.7071 e=5.092,0.925
+G plate Brick_Painted_DarkGrey_Mat 43.238 1.711 45.064 0 0 0 1 e=4.42,0.925
+G plate Brick_Painted_DarkGrey_Mat 38.818 1.711 50.157 0 0.7071 0 0.7071 e=5.092,0.925
+G plate Brick_Painted_Green_Mat 43.238 -0.45 55.249 0 1 0 0 e=4.42,1.235
+G plate Brick_Painted_Green_Mat 47.658 -0.45 50.157 0 -0.7071 0 0.7071 e=5.092,1.235
+G plate Brick_Painted_Green_Mat 43.238 -0.45 45.064 0 0 0 1 e=4.42,1.235
+G plate Brick_Painted_Green_Mat 38.818 -0.45 50.157 0 0.7071 0 0.7071 e=5.092,1.235
+G plate Banner_Mat 43.198 -1.667 47.194 -0.5775 0.4081 0.4081 0.5775 e=1.038,1.662
+G plate Banner_Mat 43.199 -1.671 47.189 0.6969 -0.1197 0.1197 0.6969 e=1.662,1.038
+G plate Wood_Floor_Wide_mat 43.238 -1.685 50.157 -0.7071 0 0 0.7071 e=4.42,5.092
+G plate Unlit_Black_mat 43.238 -1.685 50.157 0.7071 0 0 0.7071 e=4.42,5.092
+G plate Unlit_Black_mat 43.238 2.636 50.157 -0.7071 0 0 0.7071 e=4.42,5.092
+G plate Unlit_Black_mat 43.238 0.475 55.249 0 0 0 1 e=4.42,2.161
+G plate Unlit_Black_mat 47.658 0.475 50.157 0 0.7071 0 0.7071 e=5.092,2.161
+G plate Unlit_Black_mat 43.238 0.475 45.064 0 1 0 0 e=4.42,2.161
+G plate Unlit_Black_mat 38.818 0.475 50.157 0 -0.7071 0 0.7071 e=5.092,2.161
+G plate StageTop_mat 46.541 -0.67 47.134 0 0 0 1 e=0.063,1
+G plate StageTop_mat 46.478 -0.67 46.134 0 -0.7071 0 0.7071 e=1,1
+G plate StageTop_mat 46.541 -0.67 45.134 0 1 0 0 e=0.063,1
+G plate StageTop_mat 46.541 -1.67 46.134 0.7071 0 0 0.7071 e=0.063,1
+G plate StageTop_mat 46.541 0.33 46.134 -0.7071 0 0 0.7071 e=0.063,1
+G plate StageTop_mat 46.605 -1.623 46.134 0 0.7071 0 0.7071 e=1,0.048
+G plate StageTop_mat 46.605 -0.623 47.086 0 0.7071 0 0.7071 e=0.048,0.952
+G plate StageTop_mat 46.605 -0.623 45.182 0 0.7071 0 0.7071 e=0.048,0.952
+G plate StageTop_mat 46.605 0.282 46.134 0 0.7071 0 0.7071 e=0.905,0.048
+G plate StageTop_mat 46.571 0.235 46.134 0.7071 0 0 0.7071 e=0.033,0.905
+G plate StageTop_mat 46.571 -1.575 46.134 -0.7071 0 0 0.7071 e=0.033,0.905
+G plate StageTop_mat 46.538 -0.67 46.134 0 0.7071 0 0.7071 e=0.905,0.905
+G plate StageTop_mat 46.571 -0.67 47.039 0 1 0 0 e=0.033,0.905
+G plate StageTop_mat 46.571 -0.67 45.229 0 0 0 1 e=0.033,0.905
+G plate Couch_Plush_Purple_Mat 45.235 -1.509 46.982 0.0309 -0.6362 0.0255 0.7705 e=1.082,0.034
+G plate Couch_Plush_Purple_Mat 45.235 -1.446 46.982 -0.0367 -0.636 -0.0303 0.7702 e=1.082,0.029
+G plate Couch_Plush_Purple_Mat 45.387 -1.417 47.503 -0.7039 0.0672 0.0672 0.7039 e=0.048,0.541
+G plate Couch_Plush_Purple_Mat 45.182 -1.417 46.441 -0.7039 0.0672 0.0672 0.7039 e=0.048,0.541
+G plate Couch_Plush_Purple_Mat 45.512 -1.367 46.564 0.0014 0.095 -0.0001 0.9955 e=0.343,0.04
+G plate Couch_Plush_Purple_Mat 45.485 -1.213 46.422 -0.6752 0.07 0.0646 0.7314 e=0.337,0.056
+G plate Couch_Plush_Purple_Mat 45.443 -1.208 46.207 -0.7039 0.0672 0.0672 0.7039 e=0.337,0.163
+G plate Couch_Plush_Purple_Mat 45.402 -1.213 45.991 -0.7314 0.0646 0.07 0.6752 e=0.337,0.056
+G plate Couch_Plush_Purple_Mat 45.375 -1.367 45.849 0.0001 -0.9955 0.0014 0.095 e=0.343,0.04
+G plate Couch_Plush_Purple_Mat 45.134 -1.418 46.266 0.5452 -0.4503 0.4503 0.5452 e=0.349,0.04
+G plate Couch_Plush_Purple_Mat 45.648 -1.367 47.267 0.0001 -0.9955 0.0014 0.095 e=0.343,0.04
+G plate Couch_Plush_Purple_Mat 45.675 -1.213 47.408 -0.7314 0.0646 0.07 0.6752 e=0.337,0.056
+G plate Couch_Plush_Purple_Mat 45.716 -1.208 47.624 -0.7039 0.0672 0.0672 0.7039 e=0.337,0.163
+G plate Couch_Plush_Purple_Mat 45.758 -1.213 47.839 -0.6752 0.07 0.0646 0.7314 e=0.337,0.056
+G plate Couch_Plush_Purple_Mat 45.785 -1.367 47.981 0.0014 0.095 -0.0001 0.9955 e=0.343,0.04
+G plate Couch_Plush_Purple_Mat 45.407 -1.418 47.683 0.5452 -0.4503 0.4503 0.5452 e=0.349,0.04
+G plate Couch_Plush_Purple_Mat 45.649 -1.367 47.272 0.0014 0.095 -0.0001 0.9955 e=0.343,0.04
+G plate Couch_Plush_Purple_Mat 45.621 -1.213 47.131 -0.6752 0.07 0.0646 0.7314 e=0.337,0.056
+G plate Couch_Plush_Purple_Mat 45.58 -1.208 46.915 -0.7039 0.0672 0.0672 0.7039 e=0.337,0.163
+G plate Couch_Plush_Purple_Mat 45.538 -1.213 46.7 -0.7314 0.0646 0.07 0.6752 e=0.337,0.056
+G plate Couch_Plush_Purple_Mat 45.511 -1.367 46.558 0.0001 -0.9955 0.0014 0.095 e=0.343,0.04
+G plate Couch_Plush_Purple_Mat 45.27 -1.418 46.975 0.5452 -0.4503 0.4503 0.5452 e=0.349,0.04
+G plate Couch_Plush_Purple_Mat 46.037 -1.039 46.643 0.77 -0.0545 0.6344 0.0408 e=0.181,0.092
+G plate Couch_Plush_Purple_Mat 45.956 -1.019 46.221 0.0576 0.7707 -0.0229 0.6342 e=0.249,0.112
+G plate Couch_Plush_Purple_Mat 45.996 -1.333 46.587 0.7704 -0.0269 0.6361 0.0334 e=0.243,0.203
+G plate Couch_Plush_Purple_Mat 45.933 -1.266 46.225 0.7704 -0.0277 0.6361 0.0326 e=0.186,0.136
+G plate Couch_Plush_Purple_Mat 45.879 -1.402 45.995 -0.6561 0.3958 -0.5743 0.2881 e=0.179,0.132
+G plate Couch_Plush_Purple_Mat 45.445 -1.081 45.86 -0.0827 0.0474 -0.7969 0.5966 e=0.055,0.245
+G plate Couch_Plush_Purple_Mat 45.427 -1.183 45.862 -0.0521 0.0835 -0.7193 0.6877 e=0.049,0.267
+G plate Couch_Plush_Purple_Mat 45.099 -1.368 45.766 -0.993 -0.0534 0.1054 0.0057 e=0.097,0.171
+G plate Couch_Plush_Purple_Mat 45.502 -1.359 45.672 -0.7167 -0.6874 0.0842 0.082 e=0.181,0.317
+G plate Couch_Plush_Purple_Mat 45.513 -1.104 45.67 -0.7187 -0.6854 0.0838 0.0813 e=0.074,0.327
+G plate Couch_Plush_Purple_Mat 45.42 -1.361 45.854 -0.0681 0.0663 -0.713 0.6947 e=0.113,0.262
+G plate Couch_Plush_Purple_Mat 46.106 -1.039 46.998 -0.5138 0.5725 -0.4868 0.4139 e=0.092,0.181
+G plate Couch_Plush_Purple_Mat 46.187 -1.019 47.42 0.5667 0.5193 0.4211 0.4815 e=0.112,0.249
+G plate Couch_Plush_Purple_Mat 46.088 -1.333 47.065 -0.6029 0.4804 -0.5309 0.3519 e=0.212,0.232
+G plate Couch_Plush_Purple_Mat 46.164 -1.266 47.424 0.7704 -0.0268 0.6361 0.0334 e=0.186,0.136
+G plate Couch_Plush_Purple_Mat 46.199 -1.402 47.658 0.6881 0.3578 0.5356 0.3342 e=0.179,0.132
+G plate Couch_Plush_Purple_Mat 45.847 -1.081 47.945 -0.9953 -0.0149 0.0952 0.013 e=0.258,0.052
+G plate Couch_Plush_Purple_Mat 45.83 -1.183 47.95 0.9952 0.0104 -0.0948 0.0234 e=0.268,0.049
+G plate Couch_Plush_Purple_Mat 45.561 -1.368 48.16 -0.0598 0.0598 -0.7046 0.7046 e=0.172,0.097
+G plate Couch_Plush_Purple_Mat 45.969 -1.359 48.098 -0.0011 0.0725 -0.0019 0.9974 e=0.317,0.181
+G plate Couch_Plush_Purple_Mat 45.98 -1.104 48.096 -0.0007 0.0733 0.0046 0.9973 e=0.328,0.074
+G plate Couch_Plush_Purple_Mat 45.826 -1.361 47.96 -0.9941 -0.0514 0.0949 0.0049 e=0.264,0.112
+G plate Couch_Plush_Purple_Mat 45.458 -1.557 45.746 0.7081 0.094 -0.0981 0.693 e=0.353,0.051
+G plate Couch_Plush_Purple_Mat 45.586 -1.555 45.979 0.1198 0.696 -0.6977 0.1204 e=0.342,0.134
+G plate Couch_Plush_Purple_Mat 45.651 -1.554 46.33 0.2578 0.6575 -0.659 0.2588 e=0.499,0.12
+G plate Couch_Plush_Purple_Mat 45.5 -1.555 46.93 0.4494 0.5462 -0.5443 0.451 e=0.804,0.262
+G plate Couch_Plush_Purple_Mat 45.863 -1.554 47.432 0.5983 0.3785 -0.3779 0.5966 e=0.499,0.12
+G plate Couch_Plush_Purple_Mat 45.933 -1.555 47.782 0.6624 0.2499 -0.2496 0.6606 e=0.342,0.134
+G plate Couch_Plush_Purple_Mat 45.901 -1.557 48.046 0.6565 -0.2408 0.2459 0.6713 e=0.071,0.256
+C box 43.24 2.74 50.16 0.707 0 0 0.707 8.84 10.19 0.2
+C box 43.24 0.48 55.35 0 1 0 0 8.84 4.32 0.2
+C box 47.76 0.48 50.16 0 -0.707 0 0.707 10.19 4.32 0.2
+C box 43.24 0.48 44.96 0 0 0 1 8.84 4.32 0.2
+C box 38.72 0.48 50.16 0 0.707 0 0.707 10.19 4.32 0.2
+C box 43.24 -1.78 50.16 -0.707 0 0 0.707 8.84 10.19 0.2
+C box 43.24 -1.58 50.16 0.707 0 0 0.707 8.84 10.19 0.2
+C box 43.24 2.54 50.16 -0.707 0 0 0.707 8.84 10.19 0.2
+C box 43.24 0.48 55.15 0 0 0 1 8.84 4.32 0.2
+C box 47.56 0.48 50.16 0 0.707 0 0.707 10.19 4.32 0.2
+C box 43.24 0.48 45.16 0 1 0 0 8.84 4.32 0.2
+C box 38.92 0.48 50.16 0 -0.707 0 0.707 10.19 4.32 0.2
+G plate Mirror_Quest_Mat 42.927 0.526 45.085 0 0 0 1 e=1.519,1.092
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 1.627 45.128 0.6332 0 0 0.774 e=1.519,0.043
+G plate Wood_Horizontal_YellowBrown_Mat 44.458 0.528 45.128 0 -0.603 0 0.7978 e=0.044,1.09
+G plate Wood_Horizontal_YellowBrown_Mat 41.396 0.528 45.128 0 0.603 0 0.7978 e=0.044,1.09
+G plate Wood_Horizontal_YellowBrown_Mat 41.243 0.678 45.17 0 0 0 1 e=0.141,1.24
+G plate Wood_Horizontal_YellowBrown_Mat 44.611 0.678 45.17 0 0 0 1 e=0.141,1.24
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 1.777 45.17 0 0 0 1 e=1.543,0.141
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 1.918 45.128 -0.7071 0 0 0.7071 e=1.826,0.043
+G plate Wood_Horizontal_YellowBrown_Mat 44.753 0.678 45.128 0 0.7071 0 0.7071 e=0.043,1.24
+G plate Wood_Horizontal_YellowBrown_Mat 41.101 0.678 45.128 0 -0.7071 0 0.7071 e=0.043,1.24
+G plate Wood_Horizontal_YellowBrown_Mat 44.942 -0.577 45.486 -0.1379 0.6935 0.1379 0.6935 e=0.401,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 44.945 -0.639 45.486 0 0.7071 0 0.7071 e=0.401,0.053
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.577 45.909 -0.1951 0 0 0.9808 e=1.994,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.639 45.912 0 0 0 1 e=1.994,0.053
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.577 45.064 0 0.9808 0.1951 0 e=1.994,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.639 45.06 0 1 0 0 e=1.994,0.053
+G plate Wood_Horizontal_YellowBrown_Mat 40.911 -0.577 45.486 -0.138 -0.6935 -0.138 0.6935 e=0.401,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 40.908 -0.639 45.486 0 -0.7071 0 0.7071 e=0.401,0.053
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.692 45.486 0.7071 0 0 0.7071 e=1.994,0.426
+G plate Wood_Horizontal_YellowBrown_Mat 40.92 -0.692 45.486 0.7071 0 0 0.7071 e=0.012,0.401
+G plate Wood_Horizontal_YellowBrown_Mat 44.933 -0.692 45.486 0.7071 0 0 0.7071 e=0.012,0.401
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.565 45.896 -0.5556 0 0 0.8315 e=1.994,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 44.93 -0.565 45.486 -0.3928 0.5879 0.3928 0.5879 e=0.401,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.561 45.486 -0.7071 0 0 0.7071 e=1.994,0.401
+G plate Wood_Horizontal_YellowBrown_Mat 42.927 -0.565 45.076 0 0.8315 0.5556 0 e=1.994,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 40.924 -0.565 45.486 -0.3928 -0.5879 -0.3928 0.5879 e=0.401,0.009
+G plate Wood_Horizontal_YellowBrown_Mat 44.861 -1.073 45.894 0 0 0 1 e=0.031,0.404
+G plate Wood_Horizontal_YellowBrown_Mat 44.914 -1.073 45.841 0 0.7071 0 0.7071 e=0.031,0.404
+G plate Wood_Horizontal_YellowBrown_Mat 44.807 -1.073 45.83 0 -0.7071 0 0.7071 e=0.042,0.404
+G plate Wood_Horizontal_YellowBrown_Mat 44.85 -1.073 45.787 0 1 0 0 e=0.042,0.404
+G plate Wood_Horizontal_YellowBrown_Mat 40.935 -1.075 45.841 0 -0.7071 0 0.7071 e=0.031,0.402
+G plate Wood_Horizontal_YellowBrown_Mat 40.989 -1.075 45.894 0 0 0 1 e=0.031,0.402
+G plate Wood_Horizontal_YellowBrown_Mat 41 -1.075 45.787 0 1 0 0 e=0.042,0.402
+G plate Wood_Horizontal_YellowBrown_Mat 41.042 -1.075 45.83 0 0.7071 0 0.7071 e=0.042,0.402
+G plate Wood_Horizontal_YellowBrown_Mat 44.831 -0.732 45.157 0 -0.7071 0 0.7071 e=0.095,0.047
+G plate Wood_Horizontal_YellowBrown_Mat 44.831 -0.732 45.764 0 -0.7071 0 0.7071 e=0.083,0.047
+G plate Wood_Horizontal_YellowBrown_Mat 44.831 -0.724 45.466 0 -0.7071 0 0.7071 e=0.214,0.039
+G plate Wood_Horizontal_YellowBrown_Mat 44.65 -0.736 45.815 0 1 0 0 e=0.214,0.052
+G plate Wood_Horizontal_YellowBrown_Mat 41.205 -0.736 45.815 0 1 0 0 e=0.214,0.052
+G plate Wood_Horizontal_YellowBrown_Mat 44.208 -0.728 45.815 0 1 0 0 e=0.229,0.044
+G plate Wood_Horizontal_YellowBrown_Mat 41.643 -0.728 45.815 0 1 0 0 e=0.224,0.044
+G plate Wood_Horizontal_YellowBrown_Mat 43.729 -0.723 45.815 0 1 0 0 e=0.249,0.038
+G plate Wood_Horizontal_YellowBrown_Mat 42.137 -0.723 45.815 0 1 0 0 e=0.271,0.038
+G plate Wood_Horizontal_YellowBrown_Mat 42.944 -0.72 45.815 0 1 0 0 e=0.536,0.036
+G plate Wood_Horizontal_YellowBrown_Mat 41.643 -0.78 45.831 0.707 0.0122 0.0122 0.707 e=0.224,0.017
+G plate Wood_Horizontal_YellowBrown_Mat 42.137 -0.767 45.831 0.7071 0.0076 0.0076 0.7071 e=0.271,0.017
+G plate Wood_Horizontal_YellowBrown_Mat 42.944 -0.758 45.831 0.7071 0 0 0.7071 e=0.536,0.017
+G plate Wood_Horizontal_YellowBrown_Mat 43.729 -0.767 45.831 0.7071 -0.0082 -0.0082 0.7071 e=0.249,0.017
+G plate Wood_Horizontal_YellowBrown_Mat 44.208 -0.78 45.831 0.707 -0.0119 -0.0119 0.707 e=0.229,0.017
+G plate Wood_Horizontal_YellowBrown_Mat 44.65 -0.799 45.831 0.7069 -0.0175 -0.0175 0.7069 e=0.214,0.017
+G plate Wood_Horizontal_YellowBrown_Mat 41.203 -0.726 45.868 0 0 0 1 e=0.212,0.042
+G plate Wood_Horizontal_YellowBrown_Mat 43.212 -0.71 45.868 0 0 0 1 e=0.268,0.026
+G plate Wood_Horizontal_YellowBrown_Mat 41.021 -0.731 45.764 0 0.7071 0 0.7071 e=0.083,0.047
+G plate Wood_Horizontal_YellowBrown_Mat 41.021 -0.731 45.157 0 0.7071 0 0.7071 e=0.095,0.047
+G plate Wood_Horizontal_YellowBrown_Mat 41.021 -0.724 45.466 0 0.7071 0 0.7071 e=0.214,0.039
+G plate Metal_Dull_Mat 47.605 1.98 45.325 0 0.7071 0 0.7071 e=0.19,0.051
+G plate Metal_Dull_Mat 47.605 2.061 45.32 0 0.7071 0 0.7071 e=0.08,0.029
+G plate Metal_Dull_Mat 47.531 1.981 45.324 0 -0.7071 0 0.7071 e=0.184,0.052
+G plate Metal_Dull_Mat 47.531 2.062 45.321 0 -0.7071 0 0.7071 e=0.079,0.03
+G plate Metal_Dull_Mat 47.568 1.98 45.138 0 -0.9991 0 0.0424 e=0.037,0.051
+G plate Metal_Dull_Mat 47.568 1.98 45.511 0 -0.0461 0 0.9989 e=0.037,0.05
+G plate Metal_Dull_Mat 39.855 1.98 47.324 0 0.7071 0 0.7071 e=0.19,0.051
+G plate Metal_Dull_Mat 39.855 2.061 47.319 0 0.7071 0 0.7071 e=0.08,0.029
+G plate Metal_Dull_Mat 39.781 1.981 47.324 0 -0.7071 0 0.7071 e=0.184,0.052
+G plate Metal_Dull_Mat 39.781 2.062 47.32 0 -0.7071 0 0.7071 e=0.079,0.03
+G plate Metal_Dull_Mat 39.818 2.091 47.32 -0.7075 0.0093 -0.0094 0.7066 e=0.037,0.079
+G plate Metal_Dull_Mat 39.818 1.98 47.137 0 -0.9991 0 0.0424 e=0.037,0.051
+G plate Metal_Dull_Mat 39.818 1.98 47.51 0 -0.0461 0 0.9989 e=0.037,0.05
+G plate Metal_Dull_Mat 38.932 2.449 54.119 0 0.7071 0 0.7071 e=0.053,0.083
+G plate Metal_Dull_Mat 38.932 2.478 54.225 0 0.7071 0 0.7071 e=0.053,0.053
+G plate Metal_Dull_Mat 38.932 2.478 54.01 0 0.7071 0 0.7071 e=0.057,0.053
+G plate Metal_Dull_Mat 38.856 2.449 54.119 0 -0.7071 0 0.7071 e=0.051,0.083
+G plate Metal_Dull_Mat 38.856 2.478 54.013 0 -0.7071 0 0.7071 e=0.055,0.053
+G plate Metal_Dull_Mat 38.856 2.478 54.221 0 -0.7071 0 0.7071 e=0.052,0.053
+G plate Metal_Dull_Mat 38.894 2.366 54.119 0.7071 0 0 0.7071 e=0.038,0.053
+G plate Metal_Dull_Mat 38.894 2.478 54.276 0 -0.0349 0 0.9994 e=0.038,0.053
+G plate Metal_Dull_Mat 38.894 2.479 53.955 0 -0.9994 0 0.0349 e=0.038,0.053
+G plate Metal_Dull_Mat 39.855 2.449 54.119 0 0.7071 0 0.7071 e=0.053,0.083
+G plate Metal_Dull_Mat 39.855 2.478 54.225 0 0.7071 0 0.7071 e=0.053,0.053
+G plate Metal_Dull_Mat 39.855 2.478 54.01 0 0.7071 0 0.7071 e=0.057,0.053
+G plate Metal_Dull_Mat 39.779 2.449 54.119 0 -0.7071 0 0.7071 e=0.051,0.083
+G plate Metal_Dull_Mat 39.779 2.478 54.013 0 -0.7071 0 0.7071 e=0.055,0.053
+G plate Metal_Dull_Mat 39.779 2.478 54.221 0 -0.7071 0 0.7071 e=0.052,0.053
+G plate Metal_Dull_Mat 39.817 2.366 54.119 0.7071 0 0 0.7071 e=0.038,0.053
+G plate Metal_Dull_Mat 39.817 2.478 54.276 0 -0.0349 0 0.9994 e=0.038,0.053
+G plate Metal_Dull_Mat 39.817 2.479 53.955 0 -0.9994 0 0.0349 e=0.038,0.053
+G plate Metal_Dull_Mat 38.932 1.98 54.116 0 0.7071 0 0.7071 e=0.163,0.051
+G plate Metal_Dull_Mat 38.932 2.061 54.112 0 0.7071 0 0.7071 e=0.053,0.029
+G plate Metal_Dull_Mat 38.858 1.981 54.116 0 -0.7071 0 0.7071 e=0.157,0.052
+G plate Metal_Dull_Mat 38.895 2.091 54.112 -0.7077 0.0093 -0.0094 0.7064 e=0.037,0.053
+G plate Metal_Dull_Mat 38.895 1.98 53.955 0 -0.9994 0 0.0359 e=0.037,0.051
+G plate Metal_Dull_Mat 38.895 1.98 54.276 0 -0.0359 0 0.9994 e=0.037,0.05
+G plate Metal_Dull_Mat 39.855 1.98 54.116 0 0.7071 0 0.7071 e=0.163,0.051
+G plate Metal_Dull_Mat 39.855 2.061 54.112 0 0.7071 0 0.7071 e=0.053,0.029
+G plate Metal_Dull_Mat 39.781 1.981 54.116 0 -0.7071 0 0.7071 e=0.157,0.052
+G plate Metal_Dull_Mat 39.818 1.98 53.955 0 -0.9994 0 0.0359 e=0.037,0.051
+G plate Metal_Dull_Mat 39.818 1.98 54.276 0 -0.0359 0 0.9994 e=0.037,0.05
+G plate Metal_Dull_Mat 38.932 2.449 46.119 0 0.7071 0 0.7071 e=0.053,0.083
+G plate Metal_Dull_Mat 38.932 2.478 46.225 0 0.7071 0 0.7071 e=0.053,0.053
+G plate Metal_Dull_Mat 38.932 2.478 46.01 0 0.7071 0 0.7071 e=0.057,0.053
+G plate Metal_Dull_Mat 38.856 2.449 46.119 0 -0.7071 0 0.7071 e=0.051,0.083
+G plate Metal_Dull_Mat 38.856 2.478 46.013 0 -0.7071 0 0.7071 e=0.055,0.053
+G plate Metal_Dull_Mat 38.856 2.478 46.221 0 -0.7071 0 0.7071 e=0.052,0.053
+G plate Metal_Dull_Mat 38.894 2.366 46.119 0.7071 0 0 0.7071 e=0.038,0.053
+G plate Metal_Dull_Mat 38.894 2.478 46.276 0 -0.0349 0 0.9994 e=0.038,0.053
+G plate Metal_Dull_Mat 38.894 2.479 45.955 0 -0.9994 0 0.0349 e=0.038,0.053
+G plate Metal_Dull_Mat 39.855 2.449 46.119 0 0.7071 0 0.7071 e=0.053,0.083
+G plate Metal_Dull_Mat 39.855 2.478 46.225 0 0.7071 0 0.7071 e=0.053,0.053
+G plate Metal_Dull_Mat 39.855 2.478 46.01 0 0.7071 0 0.7071 e=0.057,0.053
+G plate Metal_Dull_Mat 39.779 2.449 46.119 0 -0.7071 0 0.7071 e=0.051,0.083
+G plate Metal_Dull_Mat 39.779 2.478 46.013 0 -0.7071 0 0.7071 e=0.055,0.053
+G plate Metal_Dull_Mat 39.779 2.478 46.221 0 -0.7071 0 0.7071 e=0.052,0.053
+G plate Metal_Dull_Mat 39.817 2.366 46.119 0.7071 0 0 0.7071 e=0.038,0.053
+G plate Metal_Dull_Mat 39.817 2.478 46.276 0 -0.0349 0 0.9994 e=0.038,0.053
+G plate Metal_Dull_Mat 39.817 2.479 45.955 0 -0.9994 0 0.0349 e=0.038,0.053
+G plate Metal_Dull_Mat 38.932 1.98 46.116 0 0.7071 0 0.7071 e=0.163,0.051
+G plate Metal_Dull_Mat 38.932 2.061 46.112 0 0.7071 0 0.7071 e=0.053,0.029
+G plate Metal_Dull_Mat 38.858 1.981 46.116 0 -0.7071 0 0.7071 e=0.157,0.052
+G plate Metal_Dull_Mat 38.895 1.98 45.955 0 -0.9994 0 0.0359 e=0.037,0.051
+G plate Metal_Dull_Mat 38.895 1.98 46.276 0 -0.0359 0 0.9994 e=0.037,0.05
+G plate Metal_Dull_Mat 39.855 1.98 46.116 0 0.7071 0 0.7071 e=0.163,0.051
+G plate Metal_Dull_Mat 39.855 2.061 46.112 0 0.7071 0 0.7071 e=0.053,0.029
+G plate Metal_Dull_Mat 39.781 1.981 46.116 0 -0.7071 0 0.7071 e=0.157,0.052
+G plate Metal_Dull_Mat 39.818 2.091 46.112 -0.7077 0.0093 -0.0094 0.7064 e=0.037,0.053
+G plate Metal_Dull_Mat 39.818 1.98 45.955 0 -0.9994 0 0.0359 e=0.037,0.051
+G plate Metal_Dull_Mat 39.818 1.98 46.276 0 -0.0359 0 0.9994 e=0.037,0.05
+G plate Metal_Dull_Mat 46.682 2.449 52.121 0 0.7071 0 0.7071 e=0.053,0.083
+G plate Metal_Dull_Mat 46.682 2.478 52.227 0 0.7071 0 0.7071 e=0.053,0.053
+G plate Metal_Dull_Mat 46.682 2.478 52.012 0 0.7071 0 0.7071 e=0.057,0.053
+G plate Metal_Dull_Mat 46.606 2.449 52.121 0 -0.7071 0 0.7071 e=0.051,0.083
+G plate Metal_Dull_Mat 46.606 2.478 52.015 0 -0.7071 0 0.7071 e=0.055,0.053
+G plate Metal_Dull_Mat 46.606 2.478 52.223 0 -0.7071 0 0.7071 e=0.052,0.053
+G plate Metal_Dull_Mat 46.644 2.366 52.121 0.7071 0 0 0.7071 e=0.038,0.053
+G plate Metal_Dull_Mat 46.644 2.478 52.278 0 -0.0349 0 0.9994 e=0.038,0.053
+G plate Metal_Dull_Mat 46.644 2.479 51.957 0 -0.9994 0 0.0349 e=0.038,0.053
+G plate Metal_Dull_Mat 47.605 2.449 52.121 0 0.7071 0 0.7071 e=0.053,0.083
+G plate Metal_Dull_Mat 47.605 2.478 52.227 0 0.7071 0 0.7071 e=0.053,0.053
+G plate Metal_Dull_Mat 47.605 2.478 52.012 0 0.7071 0 0.7071 e=0.057,0.053
+G plate Metal_Dull_Mat 47.529 2.449 52.121 0 -0.7071 0 0.7071 e=0.051,0.083
+G plate Metal_Dull_Mat 47.529 2.478 52.015 0 -0.7071 0 0.7071 e=0.055,0.053
+G plate Metal_Dull_Mat 47.529 2.478 52.223 0 -0.7071 0 0.7071 e=0.052,0.053
+G plate Metal_Dull_Mat 47.567 2.366 52.121 0.7071 0 0 0.7071 e=0.038,0.053
+G plate Metal_Dull_Mat 47.567 2.478 52.278 0 -0.0349 0 0.9994 e=0.038,0.053
+G plate Metal_Dull_Mat 47.567 2.479 51.957 0 -0.9994 0 0.0349 e=0.038,0.053
+G plate Metal_Dull_Mat 46.682 1.98 52.118 0 0.7071 0 0.7071 e=0.163,0.051
+G plate Metal_Dull_Mat 46.682 2.061 52.114 0 0.7071 0 0.7071 e=0.053,0.029
+G plate Metal_Dull_Mat 46.608 1.981 52.118 0 -0.7071 0 0.7071 e=0.157,0.052
+G plate Metal_Dull_Mat 46.645 2.091 52.114 -0.7077 0.0093 -0.0094 0.7064 e=0.037,0.053
+G plate Metal_Dull_Mat 46.645 1.98 51.957 0 -0.9994 0 0.0359 e=0.037,0.051
+G plate Metal_Dull_Mat 46.645 1.98 52.278 0 -0.0359 0 0.9994 e=0.037,0.05
+G plate Metal_Dull_Mat 47.605 1.98 52.118 0 0.7071 0 0.7071 e=0.163,0.051
+G plate Metal_Dull_Mat 47.605 2.061 52.114 0 0.7071 0 0.7071 e=0.053,0.029
+G plate Metal_Dull_Mat 47.531 1.981 52.118 0 -0.7071 0 0.7071 e=0.157,0.052
+G plate Metal_Dull_Mat 47.568 1.98 51.957 0 -0.9994 0 0.0359 e=0.037,0.051
+G plate Metal_Dull_Mat 47.568 1.98 52.278 0 -0.0359 0 0.9994 e=0.037,0.05
+G plate Clock_Glass_Mat 38.955 1.178 50.558 0.0092 0.6767 -0.0525 0.7343 e=0.065,0.065
+G plate Clock_Glass_Mat 38.961 1.17 50.428 0.0359 0.6975 -0.0808 0.7111 e=0.065,0.068
+G plate Clock_Glass_Mat 38.961 1.308 50.566 0.0029 0.6469 -0.0159 0.7624 e=0.069,0.065
+G plate Clock_Glass_Mat 38.975 1.305 50.431 0.0111 0.6892 -0.0249 0.724 e=0.068,0.068
+G plate Clock_Glass_Mat 38.961 1.17 50.298 -0.4683 0.5411 -0.5374 0.4462 e=0.069,0.065
+G plate Clock_Glass_Mat 38.955 1.178 50.168 -0.5153 0.5258 -0.5131 0.4414 e=0.065,0.065
+G plate Clock_Glass_Mat 38.961 1.308 50.16 0.5282 0.55 0.4361 0.4778 e=0.065,0.068
+G plate Clock_Glass_Mat 38.975 1.305 50.295 0.5198 0.5046 0.4698 0.5045 e=0.068,0.068
+G plate Clock_Glass_Mat 38.961 1.438 50.16 0.5504 0.5278 0.4775 0.4365 e=0.065,0.068
+G plate Clock_Glass_Mat 38.975 1.44 50.295 0.505 0.5195 0.5041 0.4701 e=0.068,0.068
+G plate Clock_Glass_Mat 38.955 1.567 50.168 0.5157 0.5254 0.5128 0.4417 e=0.065,0.065
+G plate Clock_Glass_Mat 38.961 1.576 50.298 0.4687 0.5408 0.5371 0.4465 e=0.069,0.065
+G plate Clock_Glass_Mat 38.975 1.44 50.431 0.4701 0.5041 0.5195 0.505 e=0.068,0.068
+G plate Clock_Glass_Mat 38.961 1.576 50.428 0.4465 0.5371 0.5408 0.4687 e=0.069,0.065
+G plate Clock_Glass_Mat 38.961 1.438 50.566 0.4365 0.4775 0.5278 0.5504 e=0.065,0.068
+G plate Clock_Glass_Mat 38.955 1.567 50.558 0.4417 0.5128 0.5254 0.5157 e=0.065,0.065
+G plate Clock_Glass_Mat 38.68 1.178 50.558 -0.4417 -0.5128 0.5254 0.5157 e=0.065,0.065
+G plate Clock_Glass_Mat 38.674 1.17 50.428 -0.4465 -0.5371 0.5408 0.4687 e=0.069,0.065
+G plate Clock_Glass_Mat 38.674 1.308 50.566 -0.4365 -0.4775 0.5278 0.5504 e=0.065,0.068
+G plate Clock_Glass_Mat 38.66 1.305 50.431 -0.4701 -0.5041 0.5195 0.505 e=0.068,0.068
+G plate Clock_Glass_Mat 38.674 1.17 50.298 0.7111 0.0803 -0.6976 0.0354 e=0.065,0.068
+G plate Clock_Glass_Mat 38.68 1.178 50.168 0.7343 0.052 -0.6767 0.0087 e=0.065,0.065
+G plate Clock_Glass_Mat 38.674 1.308 50.16 0.0154 -0.7624 0.0024 0.6469 e=0.069,0.065
+G plate Clock_Glass_Mat 38.66 1.305 50.295 0.0244 -0.724 0.0106 0.6892 e=0.068,0.068
+G plate Clock_Glass_Mat 38.674 1.438 50.16 -0.0159 -0.7624 -0.0029 0.6469 e=0.069,0.065
+G plate Clock_Glass_Mat 38.66 1.441 50.295 -0.0249 -0.724 -0.0111 0.6892 e=0.068,0.068
+G plate Clock_Glass_Mat 38.681 1.568 50.168 -0.0525 -0.7343 -0.0092 0.6767 e=0.065,0.065
+G plate Clock_Glass_Mat 38.675 1.576 50.298 -0.0808 -0.7111 -0.0359 0.6975 e=0.065,0.068
+G plate Clock_Glass_Mat 38.66 1.441 50.431 -0.0111 -0.6892 -0.0249 0.724 e=0.068,0.068
+G plate Clock_Glass_Mat 38.675 1.576 50.428 -0.0359 -0.6975 -0.0808 0.7111 e=0.065,0.068
+G plate Clock_Glass_Mat 38.674 1.438 50.566 -0.0029 -0.6469 -0.0159 0.7624 e=0.069,0.065
+G plate Clock_Glass_Mat 38.681 1.568 50.558 -0.0092 -0.6767 -0.0525 0.7343 e=0.065,0.065
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 46.454 0.96 52.558 0.0932 -0.2215 -0.4274 0.8715 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 46.508 1.137 52.344 0.5775 0.3042 -0.1912 0.7331 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 46.312 1.148 52.713 0.4341 0.4875 -0.4362 0.6194 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 46.366 1.305 52.501 0.1521 -0.1862 -0.6563 0.7152 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 39.358 1.016 46.112 -0.7099 -0.0821 -0.0593 0.697 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 39.545 1.196 46.074 0.4349 -0.4313 -0.5473 0.5703 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 39.555 0.85 46.081 0.4227 -0.4433 -0.5311 0.5854 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-10_box 39.711 1.025 46.033 0.6839 0.1466 -0.1286 0.703 e=0.01,0.097,0.119 c=1,1,1,1 m=LockerFountainStageLight_mat
+G dress Quest_Goblin2_Armory.Quest_Goblin2_Armory_root.Armory-8_box 47.329 -0.095 47.304 -0.7033 -0.7033 0.0733 0.0733 e=0.078,0.067,0.067 c=1,0.466,0.118,1 m=LanternPost_Mat
+G extra [DoorTrigger] 41.328 -1.686 50.482 0 -0.7071 0 0.7071 path=Quest_Goblin2_Armory_root/Armory/ExitDoor/[DoorTrigger]
+G extra [Quest_Door_Active] 38.849 -1.697 50.442 0 0.7071 0 0.7071 shape=box size=2.045,2.145,0.196 center=38.893 -0.625 50.442 path=Quest_Goblin2_Armory_root/Armory/ExitDoor/Exit/[Quest_Door_Active]
+# crimson markers (DevNotes/iter13/crimson_markers.pl): encounters, ladders, barrels, steam, floats, witch
+G ladder_top Exit 7.5328 -1.6491 50.532 0 1 0 0 lad=Quest_Goblin2_Armory_root/Armory/ExitDoor/Exit active=1 path=Quest_Goblin2_Armory_root/Armory/ExitDoor/Exit/TeleportDestination
+G ladder_top Exit%20old 7.4978 -1.642 50.482 0 1 0 0 lad=Quest_Goblin2_Armory_root/Armory/ExitDoor/Exit%20old active=0 path=Quest_Goblin2_Armory_root/Armory/ExitDoor/Exit%20old/TeleportDestination
+G door_trigger [DoorTrigger] 41.3278 -1.686 50.482 0 -0.7071 0 0.7071 active=1 path=Quest_Goblin2_Armory_root/Armory/ExitDoor/[DoorTrigger]
+G door [Quest_Door_Active] 38.8488 -1.697 50.442 0 0.7071 0 0.7071 active=1 path=Quest_Goblin2_Armory_root/Armory/ExitDoor/Exit/[Quest_Door_Active]

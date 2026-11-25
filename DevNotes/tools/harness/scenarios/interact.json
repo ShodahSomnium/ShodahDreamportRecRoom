@@ -1,0 +1,21 @@
+// Interact module: bottle (uncork, drink, smash), pizza (bites), basketball (throw through a hoop), button.
+// Hooks: SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest (each logs "Interact test: <step> OK|FAIL").
+{
+  "name": "interact",
+  "arrival": true,
+  "steps": [
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest.Setup"},
+    {"shot": "interact_setup", "pos": [2.2, 1.9, -3.2], "look": [0, 0.9, 0.9], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest.Drink"},
+    {"shot": "interact_drink", "pos": [1.3, 1.6, -0.9], "look": [0.3, 1.4, -1.6], "fov": 50, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest.Break"},
+    {"shot": "interact_break", "pos": [-0.7, 1.1, -2.6], "look": [0.3, 0, -1.0], "fov": 55, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest.Eat"},
+    {"shot": "interact_eat", "pos": [1.3, 1.6, -0.9], "look": [0.3, 1.4, -1.6], "fov": 50, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest.Ball"},
+    {"shot": "interact_ball", "pos": [2.6, 2.0, -1.2], "look": [0, 1.9, 1.6], "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest.Button"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Interact.RrInteractTest.Report"},
+    {"expect_log": "Interact test: 6/6 passed"}
+  ]
+}

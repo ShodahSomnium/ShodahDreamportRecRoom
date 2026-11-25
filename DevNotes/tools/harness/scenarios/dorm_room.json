@@ -1,0 +1,24 @@
+{
+  "name": "dorm_room",
+  "steps": [
+    {"goto": "Dorm", "timeout": 180},
+    {"expect_log": "Dorm: built at", "timeout": 10},
+    {"wait": 3},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Places.Dorm.RrDormTest.Report"},
+    {"shot": "dorm_spawn", "pos": [0.3, 1.6, 0.6], "look": [-0.4, 1.3, -2.9], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"shot": "dorm_loft", "pos": [3.9, 2.3, 2.3], "look": [-3.5, 2, -0.6], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "dorm_window", "pos": [-2.2, 1.7, -1.8], "look": [4.5, 2.4, 0.8], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "dorm_front", "pos": [0.8, 1.6, -2.2], "look": [1.3, 2, 2.9], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "dorm_board", "pos": [0, 1.7, 0.4], "look": [0, 2.25, 2.9], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "dorm_outside", "pos": [1, 2.2, 0.7], "look": [6, 5, 0.7], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Places.Dorm.RrDormTest.StandAtMirror"},
+    {"shot": "dorm_mirror", "pos": [-0.4, 1.55, -0.7], "look": [-0.4, 1.4, -2.9], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Places.Dorm.RrDormTest.ShootBasket"},
+    {"shot": "dorm_hoop", "pos": [1.8, 1.5, 0.6], "look": [3.9, 1.1, -1.3], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Places.Dorm.RrDormTest.ClimbLadder"},
+    {"shot": "dorm_loft_top", "pos": [-2.4, 4.4, 1.9], "look": [-4.5, 3, -1.5], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Places.Dorm.RrDormTest.RadioNext"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Places.Dorm.RrDormTest.Report"},
+    {"expect_log": "DormTest: basket: SCORED", "timeout": 2}
+  ]
+}

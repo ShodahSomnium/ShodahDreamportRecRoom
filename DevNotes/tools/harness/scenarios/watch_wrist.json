@@ -1,0 +1,79 @@
+// Watch task: the VR watch on the avatar's DRAWN wrist (DN/phase1/watch.md). Hooks: SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest
+// (logs "WatchTest: PASS|FAIL <name> (...)" and "WatchTest: MEASURE ..."). Run = numeric checks on synthetic arms (both sides, sizes
+// 0.5..1.8, IK-target fallback, gesture angles, tap region) + measurements (first build's placement, Rec Room's strap contour, RPM Men /
+// Women forearms under the strap). Then three photo stations with the wrist joint at (0, 1.3, -2.2), back of the hand (0, 0.8, -0.6):
+// a synthetic left arm, the RPM Men's and RPM Women's real left arms (sleeve fit), the right-wrist option on a 1.2x right arm; shots: face (from the eyes' side),
+// side (profile), under (palm side). Then the gestures end to end against the harness camera (the head): gaze opens the menu on the
+// wrist, the menu follows the wrist, turning the face away closes it, tapping with the other hand's fingertip opens it.
+{
+  "name": "watch_wrist",
+  "arrival": true,
+  "steps": [
+    {"expect_log": "menu built", "timeout": 120},
+    {"expect_log": "wrist watch: mesh", "timeout": 60},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.Run"},
+    {"expect_log": "WatchTest: run done", "timeout": 30},
+    {"expect_log": "WatchTest: PASS constants"},
+    {"expect_log": "WatchTest: PASS left-station-x1.0"},
+    {"expect_log": "WatchTest: PASS right-station-x1.0"},
+    {"expect_log": "WatchTest: PASS left-ik-fallback"},
+    {"expect_log": "WatchTest: PASS right-ik-fallback"},
+    {"expect_log": "WatchTest: PASS no-wrist-hidden"},
+    {"expect_log": "WatchTest: PASS gesture"},
+    {"expect_log": "WatchTest: PASS tap-region"},
+    {"expect_log": "WatchTest: MEASURE first-build"},
+    {"expect_log": "WatchTest: MEASURE ring"},
+    {"expect_log": "WatchTest: MEASURE RPM Men left"},
+    {"expect_log": "WatchTest: MEASURE RPM Women left"},
+    {"expect_log": "WatchTest: PASS contour"},
+    {"expect_log": "WatchTest: PASS fit-rpm-men-left"},
+    {"expect_log": "WatchTest: PASS fit-rpm-women-left"},
+
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.StationSynthLeft"},
+    {"expect_log": "WatchTest: PASS station-synth-left"},
+    {"shot": "watch_wrist_synth_face", "pos": [-0.068, 1.553, -2.39], "look": [-0.018, 1.313, -2.21], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_synth_side", "pos": [-0.018, 1.493, -1.97], "look": [-0.018, 1.313, -2.21], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_synth_under", "pos": [0.082, 1.105, -2.054], "look": [-0.018, 1.313, -2.21], "fov": 40, "w": 1280, "h": 800},
+
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.StationRpmMen"},
+    {"expect_log": "WatchTest: PASS station-rpm-men ("},
+    {"expect_log": "WatchTest: PASS station-rpm-men-fit"},
+    {"shot": "watch_wrist_rpm_eye", "pos": [0.25, 1.62, -2.30], "look": [-0.02, 1.335, -2.225], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_rpm_side", "pos": [-0.018, 1.493, -1.97], "look": [-0.018, 1.313, -2.21], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_rpm_under", "pos": [0.082, 1.105, -2.054], "look": [-0.018, 1.313, -2.21], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_rpm_wide", "pos": [0.35, 1.75, -1.6], "look": [-0.05, 1.25, -2.35], "fov": 50, "w": 1280, "h": 800},
+
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.StationRpmWomen"},
+    {"expect_log": "WatchTest: PASS station-rpm-women ("},
+    {"expect_log": "WatchTest: PASS station-rpm-women-fit"},
+    {"shot": "watch_wrist_women_eye", "pos": [0.25, 1.62, -2.30], "look": [-0.02, 1.315, -2.21], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_women_side", "pos": [-0.018, 1.493, -1.97], "look": [-0.018, 1.313, -2.21], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_women_under", "pos": [0.082, 1.105, -2.054], "look": [-0.018, 1.313, -2.21], "fov": 40, "w": 1280, "h": 800},
+
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.StationSynthRight"},
+    {"expect_log": "WatchTest: PASS station-synth-right"},
+    {"shot": "watch_wrist_right_face", "pos": [0.072, 1.579, -2.409], "look": [0.022, 1.315, -2.211], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_right_side", "pos": [0.022, 1.513, -1.947], "look": [0.022, 1.315, -2.211], "fov": 40, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_right_under", "pos": [-0.078, 1.091, -2.043], "look": [0.022, 1.315, -2.211], "fov": 40, "w": 1280, "h": 800},
+
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.MenuGaze"},
+    {"expect_log": "menu opened by looking at the left wrist", "timeout": 5},
+    {"expect_log": "WatchTest: PASS gaze-open"},
+    {"expect_log": "WatchTest: PASS menu-on-wrist"},
+    {"shot": "watch_wrist_menu_head", "pos": [0, 1.6, -3.0], "look": [0, 1.45, -2.6], "fov": 75, "w": 1280, "h": 800},
+    {"shot": "watch_wrist_menu_side", "pos": [0.6, 1.5, -2.5], "look": [0, 1.45, -2.62], "fov": 55, "w": 1280, "h": 800},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.MenuFollow"},
+    {"expect_log": "WatchTest: PASS menu-follows"},
+    {"shot": "watch_wrist_menu_follow", "pos": [0, 1.6, -3.0], "look": [0.05, 1.48, -2.6], "fov": 75, "w": 1280, "h": 800},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.MenuGazeAway"},
+    {"expect_log": "WatchTest: PASS gaze-close"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.MenuTap"},
+    {"expect_log": "menu opened by tapping the watch", "timeout": 3},
+    {"expect_log": "WatchTest: PASS tap-open"},
+    {"shot": "watch_wrist_tap", "pos": [0.3, 1.55, -2.9], "look": [-0.01, 1.36, -2.64], "fov": 45, "w": 1280, "h": 800},
+
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.Summary"},
+    {"expect_log": "WatchTest: ALL PASS"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Watch.RrWatchWristTest.Clear"}
+  ]
+}

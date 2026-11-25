@@ -1,0 +1,50 @@
+// Iteration 5 "fxsound": Rec Room's level effects and sounds. The Golden Trophy lobby and acts (F records: wall-torch
+// flames only where the rebuilt shell has a wall, act 4's lava, the drinking fountains; torch crackle loops), then the
+// Rec Center (the six light shafts from the cache scene's rig, the wind lines, Rec Room's two ambient sources). Poses of
+// the torch shots come from RrSceneKitTest.Effects' "wall effect" lines (run 2); goldentrophy_run / reccenter_tour PNGs
+// of iteration 4 are the "before" pictures of the same poses.
+{
+  "name": "fxsound_tour",
+  "steps": [
+    {"goto": "GoldenTrophy", "timeout": 300},
+    {"expect_log": "Quest for the Golden Trophy built", "timeout": 10},
+    {"wait": 3},
+    {"expect_log": "GoldenLobby: effects placed", "timeout": 10},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest.Effects"},
+    {"shot": "fx_gt_lobby_spawn", "pos": [0, 1.6, 0], "look": [-27, 1.4, 0], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "fx_gt_lobby_back", "pos": [3.7, 8.5, -15.8], "look": [-20, 0.5, 4], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.RrQuestTest.Start"},
+    {"wait": 2},
+    {"shot": "fx_gt_act1_arrival", "pos": [0, 1.6, 200], "look": [-18, 1.0, 199.8], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "fx_gt_act1_fountain", "pos": [-18.2, 1.5, 198.6], "look": [-20.4, 1.0, 197.4], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestAct3"},
+    {"wait": 2},
+    {"shot": "fx_gt_act3_torches", "pos": [-203.3, 2.4, 200], "look": [-199.5, 2.2, 200], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"shot": "fx_gt_act3_torch_close", "pos": [-201.69, 2.53, 197.8], "look": [-199.49, 2.23, 197.8], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"shot": "fx_gt_act3_torch_close_post", "pos": [-201.69, 2.53, 197.8], "look": [-199.49, 2.23, 197.8], "frame": "room", "fov": 60, "w": 1280, "h": 720, "post": true},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestAct4"},
+    {"wait": 3},
+    {"shot": "fx_gt_act4_over", "pos": [-10.3, 6.3, 412.3], "look": [-25.3, -3.7, 397.3], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"shot": "fx_gt_act4_lava", "pos": [-8, 1.5, 400], "look": [-20, -4.0, 402], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Quests.GoldenTrophy.RrGoldenTrophyRoom.TestAct6"},
+    {"wait": 2},
+    {"shot": "fx_gt_act6_torches", "pos": [-215.5, 1.4, 383.0], "look": [-215.5, 0.7, 379.7], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "fx_gt_act6_torch_close", "pos": [-217.94, 0.96, 381.89], "look": [-217.94, 0.66, 379.69], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest.Effects"},
+    {"expect_log": "SceneKit: GTact3: effects placed", "timeout": 5},
+    {"expect_log": "SceneKit: GTact4: effects placed", "timeout": 5},
+    {"expect_log": "SceneKit: GTact6: effects placed", "timeout": 5},
+    {"goto": "RecCenter", "timeout": 240},
+    {"wait": 3},
+    {"expect_log": "RecCenter: fx: 6 light shafts", "timeout": 10},
+    {"expect_log": "RecCenter: ambience: Rec Room's AmbianceLightCrowd", "timeout": 10},
+    {"expect_log": "RecCenterFx: effects placed", "timeout": 10},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.RrSceneKitTest.Effects"},
+    {"shot": "fx_rc_entrance", "pos": [-0.65, 1.7, -15.2], "look": [-0.4, 4.2, 6], "frame": "room", "fov": 85, "w": 1280, "h": 720},
+    {"shot": "fx_rc_entrance_post", "pos": [-0.65, 1.7, -15.2], "look": [-0.4, 4.2, 6], "frame": "room", "fov": 85, "w": 1280, "h": 720, "post": true},
+    {"shot": "fx_rc_overview", "pos": [10.5, 8.0, -14.8], "look": [-4, 1, 4], "frame": "room", "fov": 90, "w": 1280, "h": 720},
+    {"shot": "fx_rc_balcony_shaft", "pos": [-11, 4.8, -6.5], "look": [0, 6.0, -9.5], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "fx_rc_windows", "pos": [-3, 2.0, 3], "look": [7, 2.4, 14], "frame": "room", "fov": 85, "w": 1280, "h": 720},
+    {"shot": "fx_rc_gym", "pos": [-9.9, 2.6, 14.2], "look": [-9.9, 2.4, 25], "frame": "room", "fov": 95, "w": 1280, "h": 720}
+  ]
+}

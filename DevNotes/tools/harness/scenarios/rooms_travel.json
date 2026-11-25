@@ -1,0 +1,23 @@
+{
+  "name": "rooms_travel",
+  "steps": [
+    {"goto": "Dorm", "timeout": 150},
+    {"expect_log": "arrived in Dorm", "timeout": 5},
+    {"wait": 1.5},
+    {"shot": "rooms_dorm_door", "pos": [0, 1.6, 1.8], "look": [0, 1.4, -3.44], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"goto": "RecCenter", "timeout": 150},
+    {"expect_log": "RecCenter: built", "timeout": 5},
+    {"expect_log": "Portal: door template from", "timeout": 5},
+    {"wait": 1.5},
+    {"shot": "rooms_hall_north", "pos": [0, 2.2, 6], "look": [0, 1.6, 17.94], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "rooms_door_close", "pos": [-16, 1.6, 14.8], "look": [-16, 1.5, 17.94], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"shot": "rooms_hall_west", "pos": [8, 2.2, 4], "look": [-19.94, 1.6, 6], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Rooms.RrLoadingScreen.DebugPreview"},
+    {"wait": 0.5},
+    {"shot": "rooms_loading_card", "pos": [0, 1.65, -24.2], "look": [0, 1.65, -22.2], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "rooms_loading_card_b", "pos": [0, 1.6, -3], "look": [0, 1.6, -1], "fov": 70, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Rooms.RrLoadingScreen.DebugPreviewEnd"},
+    {"goto": "Dorm", "timeout": 150},
+    {"expect_log": "arrived in Dorm", "timeout": 5}
+  ]
+}

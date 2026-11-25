@@ -1,0 +1,47 @@
+
+# Dreamport: Rec Room - wave 2 (places and games)
+Rec Room played inside a Somnium Space world (Unity 6000.3 URP; desktop screen mode AND VR; Somnium avatars untouched).
+Code: D:\Dreamport\Rec Room\Rec Room\Assets\#User\SomniumRecRoom (asmdef SomniumRecRoom). The Unity project is open in the
+user's editor: add/edit files only; never run Unity on it.
+
+READ FIRST (in this order):
+1. SP\design\ARCHITECTURE.md - the contract (hard rules, module map, §11 registering a room with a partial hook).
+2. The foundation code, now implemented (read the public APIs, not every line): Core/ (RrAssets, RrSpawn/RrSpawnOptions
+   incl. Scenery()/Visual(), RrInstance.Config, RrSound, RrMusic, RrFx, RrLook, RrBuild, RrText), Player/ (RrPlayer, RrHand,
+   RrInput, RrRemotePlayers), Interact/ (RrGrabbable, RrGrab, RrTools.MakeTool, behaviours, RrPressable), Net/ (RrNet:
+   presence, instance state custom ints, events, RrNetBody props, actor blocks), Rooms/ (RrRoom base, RrRoomInfo, RrTravel,
+   RrPortal), Watch/, Games/Shared/ (RrGameRoom match flow, RrTeams, RrAnnouncer, RrScoreboard, RrGameEvents, RrHealth,
+   RrHitVolumes, RrWeapon, RrProjectile, RrMelee, RrEnemy, RrLoadout). Wave-1 notes: SP\design\wave1_results.md.
+3. The research doc(s) for your area (below) - they hold the measured Rec Room data: prefab names, container keys,
+   config values, clip names, and the rebuild plans.
+4. SP\research\somnium_conventions.md sections 11-13 and 24 (keys the client owns, layers, rendering, gotchas).
+(SP = C:\Users\derii\AppData\Local\Temp\claude\D--Dreamport-Rec-Room-Rec-Room\00e4b7e5-d1a8-4847-ac44-3e6fa88a3591\scratchpad)
+
+What "done" means for your place/game:
+- Registered through its RrRegistry partial hook (ARCHITECTURE §11) with title, subtitle, description, category, min/max
+  players, cover/icon sprite names (SP\research\rr_watch_ui.md lists the artwork per activity), music.
+- Built at its origin by Build() (coroutine, yield between chunks) from Rec Room's own prefabs where the bundles have them
+  (use RrSpawnOptions.Scenery() for furniture/architecture that must not move) plus RrBuild/RrLook geometry following the
+  research doc's rebuild plan and Rec Room's real layout; lit so it looks like Rec Room (bright, soft, colourful).
+- Plays like Rec Room: the rules, timings and numbers from the research doc (read from Rec Room's own configs where
+  measured), Rec Room's sounds, music, announcer lines and effects, match flow via RrGameRoom (or RrRoom for social rooms).
+- Works in desktop screen mode and in VR (RrHand/RrInput; client-owned keys are off limits), offline in the editor (the
+  local player is authority) and networked (instance authority = the "fake master"; state in RrNet.Instance custom ints,
+  events with type ids >= 64 via RrNet.Send/On, props with RrNetBody, AI in actor blocks) - see somnium_networking.md §5.
+- Everything drawn for other players only while they are in the same instance; never touch avatars.
+- Verified in the play-mode harness: write SP\harness\scenarios\<activity>_*.json that boots, travels to your activity
+  (step {"goto": "<RrActivity name>"}) and takes screenshots from several viewpoints (overview, spawn view, key areas), plus
+  test hooks you add (static methods callable with {"call": "Namespace.Type.Method"}) to exercise gameplay (start a match,
+  fire, score). Run with: bash SP/harness/run.sh <scenario.json> (one Unity at a time, it waits for a lock; ~20-40 s per
+  run). LOOK at every PNG with the Read tool and iterate until it looks like the Rec Room room described in the research
+  doc; fix what looks wrong. Keep runs purposeful (each costs time).
+- Compiles: bash SP/compilecheck/build.sh project --editor -> 0 errors, guard "all N ... proven". Other agents edit other
+  folders at the same time: if an error is in someone else's file, wait a minute and re-run; never edit it.
+- New files get .meta files: bash SP/tools/metas.sh
+- Ownership: edit ONLY your own folder (given below). Foundation bugs: you may fix a clear bug in Core/, Rr/, Player/,
+  Interact/, Net/, Rooms/, Watch/, Games/Shared/ minimally when it blocks you (say exactly what in your result); for missing
+  features write a local helper in your folder and list the request.
+- Log key facts once with RrLog; no per-frame logs.
+Return: files, what the player experiences (step by step), how it was verified (scenario names, PNG names, what they show),
+what is not done, requests to other modules, and a README section (markdown, in the house style: dated heading, what was
+built, measured Rec Room values used, what to look for in the log, what is untested).

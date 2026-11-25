@@ -1,0 +1,26 @@
+{
+  "note": "rcref camera poses (level coordinates = the Rec Center room frame). fov = vertical degrees, Unity-style.",
+  "poses": [
+    {"name": "rc_door_dorm", "pos": [13.96, 1.72, -2.67], "look": [17.96, 1.3, -2.67], "fov": 75, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_door_sports", "pos": [-28.82, 1.95, -9.5], "look": [-32.82, 1.5, -9.5], "fov": 75, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_door_shooters", "pos": [-20.04, 1.69, 1.41], "look": [-23.63, 1.3, 3.17], "fov": 75, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_door_quests", "pos": [-2.87, 0.9, 15.42], "look": [-2.87, 0.5, 19.42], "fov": 75, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_door_creative", "pos": [-12.83, 4.99, -11.71], "look": [-12.83, 4.6, -15.71], "fov": 75, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_door_featured", "pos": [4.7, 4.79, -22.82], "look": [4.7, 4.4, -26.82], "fov": 75, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_hall_high", "pos": [8, 7, 6], "look": [-12, 1, -8], "fov": 85, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_cafe", "pos": [-12, 1.8, -17], "look": [0, 1.2, -19.5], "fov": 85, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_gym", "pos": [1, 1.8, 2], "look": [5.9, 3.6, 7], "fov": 85, "w": 1280, "h": 720, "src": "rc_dorm.json shot (aim hoop, pose from summary.txt: rim + 0.3 up)"},
+    {"name": "rc_kiosk", "pos": [-1, 1.8, 2], "look": [-6, 1, -3], "fov": 80, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_upstairs", "pos": [10, 5.2, -6], "look": [0, 4, -22], "fov": 85, "w": 1280, "h": 720, "src": "rc_dorm.json shot frame=room"},
+    {"name": "rc_arrival_1", "pos": [15.8, 1.8, -3.4], "look": [5.8, 1, -3.4], "fov": 85, "w": 1280, "h": 720, "sheet": "rc_arrival", "tile": 1, "src": "rc_arrival.tiles.txt tile 1 (top left), yaw 270; camera rounded to 0.1 m by the run"},
+    {"name": "rc_arrival_2", "pos": [16.4, 1.8, -4.5], "look": [11.4, 1, 4.1603], "fov": 85, "w": 1280, "h": 720, "sheet": "rc_arrival", "tile": 2, "src": "rc_arrival.tiles.txt tile 2 (top right), yaw 330; camera rounded to 0.1 m by the run"},
+    {"name": "rc_arrival_3", "pos": [15.1, 1.8, -4.5], "look": [20.1, 1, 4.1603], "fov": 85, "w": 1280, "h": 720, "sheet": "rc_arrival", "tile": 3, "src": "rc_arrival.tiles.txt tile 3 (bottom left), yaw 30; camera rounded to 0.1 m by the run"},
+    {"name": "rc_arrival_4", "pos": [14, 1.8, -2.4], "look": [22.6603, 1, -7.4], "fov": 85, "w": 1280, "h": 720, "sheet": "rc_arrival", "tile": 4, "src": "rc_arrival.tiles.txt tile 4 (bottom right), yaw 120; camera rounded to 0.1 m by the run"},
+    {"name": "rc_ref_corner_ne", "pos": [7, 6, -10.3], "look": [-7, 1, -1], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner +x,-z at 6 m"},
+    {"name": "rc_ref_corner_nw", "pos": [-19.5, 6, -10.3], "look": [-5, 1, 1], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner -x,-z (gym side) at 6 m"},
+    {"name": "rc_ref_corner_se", "pos": [6.5, 6, 6], "look": [-9, 1, -4], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner +x,+z at 6 m"},
+    {"name": "rc_ref_corner_sw", "pos": [-20, 6, 5.5], "look": [-5, 1, -5], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: atrium corner -x,+z (curved window wall) at 6 m"},
+    {"name": "rc_ref_balcony_w", "pos": [-14, 5, -13.8], "look": [0, 1, 2], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: upstairs balcony, west end, eye height, over the hall"},
+    {"name": "rc_ref_balcony_e", "pos": [6, 5, -13.8], "look": [-10, 1, 3], "fov": 85, "w": 1280, "h": 720, "src": "extra overview: upstairs balcony, east end, eye height, over the hall"}
+  ]
+}

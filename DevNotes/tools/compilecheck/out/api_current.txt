@@ -1,0 +1,124 @@
+Fusion.Runtime | Fusion.HostMigrationToken (type)
+Fusion.Runtime | Fusion.INetworkPrefabSource (type)
+Fusion.Runtime | Fusion.INetworkRunnerCallbacks (type)
+Fusion.Runtime | Fusion.IPublicFacingInterface (type)
+Fusion.Runtime | Fusion.NetworkArray`1 (type)
+Fusion.Runtime | Fusion.NetworkArray`1<>::Get
+Fusion.Runtime | Fusion.NetworkArray`1<>::Set
+Fusion.Runtime | Fusion.NetworkArray`1<>::get_Length
+Fusion.Runtime | Fusion.NetworkBehaviour (type)
+Fusion.Runtime | Fusion.NetworkInput (type)
+Fusion.Runtime | Fusion.NetworkObject (type)
+Fusion.Runtime | Fusion.NetworkObject::RequestStateAuthority
+Fusion.Runtime | Fusion.NetworkObject::SortKey
+Fusion.Runtime | Fusion.NetworkObject::get_HasStateAuthority
+Fusion.Runtime | Fusion.NetworkObject::get_IsValid
+Fusion.Runtime | Fusion.NetworkObject::get_StateAuthority
+Fusion.Runtime | Fusion.NetworkObjectFlags (type)
+Fusion.Runtime | Fusion.NetworkObjectGuid (type)
+Fusion.Runtime | Fusion.NetworkObjectGuid::op_Implicit
+Fusion.Runtime | Fusion.NetworkPrefabId (type)
+Fusion.Runtime | Fusion.NetworkPrefabTable (type)
+Fusion.Runtime | Fusion.NetworkPrefabTable::AddSource
+Fusion.Runtime | Fusion.NetworkPrefabTable::Clear
+Fusion.Runtime | Fusion.NetworkPrefabTable::GetEntries
+Fusion.Runtime | Fusion.NetworkPrefabTable::TryAddSource
+Fusion.Runtime | Fusion.NetworkProjectConfig (type)
+Fusion.Runtime | Fusion.NetworkProjectConfig::PrefabTable
+Fusion.Runtime | Fusion.NetworkProjectConfig::get_Global
+Fusion.Runtime | Fusion.NetworkRunner (type)
+Fusion.Runtime | Fusion.NetworkRunner::AddCallbacks
+Fusion.Runtime | Fusion.NetworkRunner::RegisterSceneObjects
+Fusion.Runtime | Fusion.NetworkRunner::get_ActivePlayers
+Fusion.Runtime | Fusion.NetworkRunner::get_Instances
+Fusion.Runtime | Fusion.NetworkRunner::get_IsRunning
+Fusion.Runtime | Fusion.NetworkRunner::get_IsSharedModeMasterClient
+Fusion.Runtime | Fusion.NetworkRunner::get_LocalPlayer
+Fusion.Runtime | Fusion.NetworkRunnerCallbackArgs (type)
+Fusion.Runtime | Fusion.NetworkRunnerCallbackArgs+ConnectRequest (type)
+Fusion.Runtime | Fusion.NetworkSceneLoadId (type)
+Fusion.Runtime | Fusion.PlayerRef (type)
+Fusion.Runtime | Fusion.PlayerRef::get_IsNone
+Fusion.Runtime | Fusion.PlayerRef::get_IsRealPlayer
+Fusion.Runtime | Fusion.PlayerRef::get_PlayerId
+Fusion.Runtime | Fusion.PlayerRef::op_Equality
+Fusion.Runtime | Fusion.PlayerRef::op_Inequality
+Fusion.Runtime | Fusion.RpcInfo (type)
+Fusion.Runtime | Fusion.SceneRef (type)
+Fusion.Runtime | Fusion.SceneRef::FromPath
+Fusion.Runtime | Fusion.SceneRef::get_IsValid
+Fusion.Runtime | Fusion.SessionInfo (type)
+Fusion.Runtime | Fusion.ShutdownReason (type)
+Fusion.Runtime | Fusion.SimulationBehaviour (type)
+Fusion.Runtime | Fusion.SimulationBehaviour::get_Object
+Fusion.Runtime | Fusion.SimulationMessagePtr (type)
+Fusion.Sockets | Fusion.Sockets.NetAddress (type)
+Fusion.Sockets | Fusion.Sockets.NetConnectFailedReason (type)
+Fusion.Sockets | Fusion.Sockets.NetDisconnectReason (type)
+Fusion.Sockets | Fusion.Sockets.ReliableKey (type)
+Fusion.Unity | Fusion.NetworkAssetSourceStatic`1 (type)
+Fusion.Unity | Fusion.NetworkAssetSourceStatic`1<>::Object
+Fusion.Unity | Fusion.NetworkPrefabSourceStatic (type)
+Fusion.Unity | Fusion.NetworkPrefabSourceStatic::.ctor
+Fusion.Unity | Fusion.NetworkPrefabSourceStatic::AssetGuid
+SomniumSpace.Bridge | SomniumSpace.Bridge.Environment.ISomniumEnvironment (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Environment.ISomniumEnvironment::SetSkybox
+SomniumSpace.Bridge | SomniumSpace.Bridge.Environment.ISomniumEnvironment::SetSunSource
+SomniumSpace.Bridge | SomniumSpace.Bridge.Environment.ISomniumEnvironment::UpdateEnvironment
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerAnimation (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerAnimation::SetFallingAnimationDisabled
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerAvatar (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerAvatar::SetVRIKLegMovementDisabled
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerBody (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerBody::get_Head
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerBody::get_LeftHand
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerBody::get_RightHand
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerBody::get_Root
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerFeatures (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerFeatures::get_Animation
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerFeatures::get_Avatar
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerFeatures::get_Motion
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerFeatures::get_Poses
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion::DoTeleportToPoint
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion::SetCollisionDisableState
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion::SetFlyModeDisableState
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion::SetGravity
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion::SetJump
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion::SetMovementSpeed
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerMotion::SetTeleportationDisableState
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerPoses (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerPoses::SetPose
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerProperties (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerProperties::get_Id
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerProperties::get_IsLocal
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerProperties::get_NickName
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerProperties::get_PhotonId
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerReferences (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.ISomniumPlayerReferences::get_Body
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.Components.PoseType (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayer (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayer::get_Features
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayer::get_Properties
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayer::get_References
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayersContainer (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayersContainer::add_OnPlayerAdded
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayersContainer::get_AllPlayers
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayersContainer::get_LocalPlayer
+SomniumSpace.Bridge | SomniumSpace.Bridge.Player.ISomniumPlayersContainer::remove_OnPlayerAdded
+SomniumSpace.Bridge | SomniumSpace.Bridge.SomniumBridge (type)
+SomniumSpace.Bridge | SomniumSpace.Bridge.SomniumBridge::get_Environment
+SomniumSpace.Bridge | SomniumSpace.Bridge.SomniumBridge::get_PlayersContainer
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeData (type)
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeData::get_IntArray
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeData::get_IntCount
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents (type)
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::RPC_SendMessageToAll
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::RPC_SendMessageToController
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::RPC_SendMessageToPlayer
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::add_OnMessageToAll
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::add_OnMessageToController
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::add_OnMessageToPlayer
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::remove_OnMessageToAll
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::remove_OnMessageToController
+SomniumSpace.Network | SomniumSpace.Network.Bridge.NetworkBridgeEvents::remove_OnMessageToPlayer

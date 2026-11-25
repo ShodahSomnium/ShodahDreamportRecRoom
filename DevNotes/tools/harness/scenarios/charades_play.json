@@ -1,0 +1,29 @@
+// 3D Charades: build The Ink Space (built at the world origin; shots in the room frame, the old offline origin was (-1000, 0, 2000)), look around, start co-op, draw, press CORRECT.
+{
+  "name": "charades_play",
+  "steps": [
+    {"goto": "Charades", "timeout": 150},
+    {"expect_log": "The Ink Space built", "timeout": 5},
+    {"wait": 1.5},
+    {"shot": "ch_overview", "pos": [-9, 5.3, -10], "look": [2, 0.5, 4], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "ch_topdown", "pos": [0, 5.8, 3], "look": [0, 0, 3.01], "frame": "room", "fov": 110, "w": 1280, "h": 720},
+    {"shot": "ch_audience", "pos": [-6, 2.2, 4], "look": [2, 1.4, 4], "frame": "room", "fov": 75, "w": 1280, "h": 720},
+    {"shot": "ch_from_stage", "pos": [2, 2.3, 4], "look": [-8, 1, 4], "frame": "room", "fov": 80, "w": 1280, "h": 720},
+    {"shot": "ch_door", "pos": [-3.66, 3.2, -5.5], "look": [-3.66, 2.8, -11], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "ch_podium_lobby", "pos": [2, 2.1, 3.9], "look": [1.75, 1.3, 5.35], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.StartCoop"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Draw"},
+    {"wait": 0.5},
+    {"shot": "ch_drawing_audience", "pos": [-3.2, 2, 4], "look": [0.9, 1.9, 4], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "ch_drawing_side", "pos": [0.5, 2.2, 0.8], "look": [0.9, 1.9, 4], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "ch_podium_play", "pos": [2, 2.1, 3.9], "look": [1.75, 1.3, 5.35], "frame": "room", "fov": 70, "w": 1280, "h": 720},
+    {"shot": "ch_board", "pos": [-4, 2.5, 4], "look": [3.3, 3.2, 4], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Correct"},
+    {"shot": "ch_board_correct", "pos": [-4, 2.5, 4], "look": [3.3, 3.2, 4], "frame": "room", "fov": 60, "w": 1280, "h": 720},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Skip"},
+    {"call": "SomniumSpace.Worlds.SomniumRecRoom.Games.Charades.RrCharadesTest.Report"},
+    {"expect_log": "CharadesTest: drew 3 strokes"},
+    {"expect_log": "CharadesTest: decoded"},
+    {"expect_log": "solved"}
+  ]
+}

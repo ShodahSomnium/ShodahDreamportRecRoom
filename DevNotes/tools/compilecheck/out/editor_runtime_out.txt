@@ -1,0 +1,2 @@
+D:\Dreamport\Rec Room\Rec Room\Assets\#User\SomniumRecRoom\Net\SceneNetworking.cs(362,67): warning CS0618: 'SimulationMessagePtr' is obsolete: 'Not used anymore'
+D:\Dreamport\Rec Room\Rec Room\Assets\#User\SomniumRecRoom\ThirdParty\ThadMirror\Mirror.cs(347,13): warning CS0618: 'UniversalRenderPipeline.RenderSingleCamera(ScriptableRenderContext, Camera)' is obsolete: 'RenderSingleCamera is obsolete, please use RenderPipeline.SubmitRenderRequest with UniversalRenderer.SingleCameraRequest as RequestData type. #from(2023.1)'
